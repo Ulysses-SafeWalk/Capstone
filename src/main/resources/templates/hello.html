@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Hello, <span th:text="${name}">World</span>!</h1>
+
+<div th:each="language : ${languages}">
+    <p th:text="${language}" />
+</div>
+
+</body>
+</html>

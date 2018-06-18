@@ -7,7 +7,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class HomeController {
     @GetMapping("/")
-    public @ResponseBody String showHomePage() {
-        return "Welcome to my blog!";
+    public String showHomePage() {
+        return "home";
+    }
+
+    @GetMapping("/portfolio")
+    public String portfolio() {
+        return "portfolio";
     }
 }

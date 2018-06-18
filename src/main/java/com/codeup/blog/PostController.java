@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class PostController {
     @GetMapping("/posts")
     public @ResponseBody String index() {
+        // make an arraylist of post objects to send to the view.
         return "Here are all the ads!";
     }
     @GetMapping("/posts/{id}")
