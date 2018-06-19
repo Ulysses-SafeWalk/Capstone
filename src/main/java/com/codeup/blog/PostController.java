@@ -6,13 +6,21 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.Arrays;
+import java.util.List;
+
 @Controller
 public class PostController {
     @GetMapping("/posts")
     public @ResponseBody String index() {
-        // make an arraylist of post objects to send to the view.
-        return "Here are all the ads!";
+        return "Here are all the posts!";
     }
+
+    @GetMapping("/posts.json")
+    public @ResponseBody List<Post> postsJson() {
+        return makeSomePosts();
+    }
+
     @GetMapping("/posts/{id}")
     public @ResponseBody String showDetails(@PathVariable long id) {
         return "Viewing post #" + id;
@@ -28,5 +36,12 @@ public class PostController {
     @PostMapping("/posts/create")
     public @ResponseBody String savePost() {
         return "saving to the database...";
+    }
+
+    private List<Post> makeSomePosts() {
+        return Arrays.asList(
+            new Post("Recipe for stew", "lol jk, here's a story about my family"),
+            new Post("7 ways to debug spring", "You won't believe number 3")
+        );
     }
 }
