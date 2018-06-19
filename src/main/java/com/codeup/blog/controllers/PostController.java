@@ -1,5 +1,6 @@
 package com.codeup.blog.controllers;
 
+import com.codeup.blog.PostService;
 import com.codeup.blog.models.Post;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,20 +15,31 @@ import java.util.List;
 @Controller
 public class PostController {
 
+    private PostService postService;
+
+    // PostController constructor
+    // Dependency Injection
+    public PostController(PostService postService) {
+        this.postService = postService;
+    }
+
     // mappings are the url
     @GetMapping("/posts")
     public String index(Model view) {
-        List<Post> aListOfPosts = makeSomePosts();
-        view.addAttribute("posts", aListOfPosts);
+
+        List<Post> posts = postService.findAll();
+
+        view.addAttribute("posts", posts);
 
         // relative path for the .html file inside of resources/templates w/o the .html
         return "posts/index";
     }
 
+
     @GetMapping("/posts/{id}")
     public String showDetails(@PathVariable long id, Model view) {
 
-        Post post = new Post(id,"10 weird tricks to learning binary", "Don't worry, I'll stop making binary jokes.");
+        Post post = postService.findOne(id);
 
         view.addAttribute("post", post);
 
@@ -41,17 +53,14 @@ public class PostController {
 
     @GetMapping("/posts/create")
     public @ResponseBody String create() {
-        return "View the form for creating a post";
-    }
-    @PostMapping("/posts/create")
-    public @ResponseBody String savePost() {
-        return "saving to the database...";
+        return "posts/create";
     }
 
-    private List<Post> makeSomePosts() {
-        return Arrays.asList(
-            new Post("Recipe for stew", "lol jk, here's a story about my family"),
-            new Post("7 ways to debug spring", "You won't believe number 3")
-        );
+    @PostMapping("/posts/create")
+    public @ResponseBody String savePost() {
+
+        return "posts/index";
     }
+
+
 }
