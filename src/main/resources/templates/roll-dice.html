@@ -15,6 +15,7 @@
 
         <h4>Roll: <span th:text="${roll}">Roll</span></h4>
         <h4>Guess: <span th:text="${guess}">Guess</span></h4>
+
     </div>
 
     <h2>Make a guess!</h2>
@@ -24,6 +25,8 @@
     <a href="/roll-dice/4">4</a>
     <a href="/roll-dice/5">5</a>
     <a href="/roll-dice/6">6</a>
+
+    <th:block th:replace="fragments :: scripts" />
 
 </main>
 
