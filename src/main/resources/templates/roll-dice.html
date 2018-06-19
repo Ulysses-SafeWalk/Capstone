@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<head>
-    <meta charset="UTF-8" />
-    <title>Title</title>
-</head>
+<head th:replace="fragments :: head(${'Dice Rolling'})" />
 <body>
-<main>
-    <h1>Welcome to Dice Roller</h1>
+<main class="container">
+   <h1>Welcome to Dice Roller</h1>
 
     <!-- If there's a guess and a roll, show them and compare -->
     <div th:if="${guess != null and roll != null}">
@@ -28,9 +25,7 @@
     <a href="/roll-dice/5">5</a>
     <a href="/roll-dice/6">6</a>
 
-
-
-
 </main>
+
 </body>
 </html>

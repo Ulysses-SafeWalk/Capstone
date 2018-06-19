@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <title>Title</title>
-    <link rel="stylesheet" href="" />
-</head>
+<head th:replace="fragments :: head(${'Welcome!'})" />
 <body>
-<h1>Welcome Home!</h1>
-<br />
 
-<h2>This is the home page!</h2>
-<img src="https://upload.wikimedia.org/wikipedia/en/2/20/Pivotal_Java_Spring_Logo.png" alt="Spring framework logo" />
+<div class="container">
+    <h1>Welcome to My Blog!</h1>
+    <br />
+    <h2>This is the home page!</h2>
+    <p class="my-5">Brought to you by:</p>
+    <img class="d-block mx-auto" src="/img/spring-logo.png" alt="Spring framework logo" />
+</div>
+
+<th:block th:replace="fragments :: scripts" />
 
 </body>
 </html>
