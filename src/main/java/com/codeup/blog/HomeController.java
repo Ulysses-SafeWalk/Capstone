@@ -38,13 +38,6 @@ public class HomeController {
         return "roll-dice";
     }
 
-
-
-
-
-
-
-
     @GetMapping("/roll/{n}/d{sides}")
     public @ResponseBody HashMap roll(@PathVariable int n, @PathVariable int sides) {
         HashMap<String, Object> m = new HashMap<>();

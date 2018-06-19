@@ -1,0 +1,19 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments :: head(${'Post show page'})" />
+<body>
+
+<div class="container">
+
+    <h1 th:text=${post.title} />
+
+    <p th:text="${post.body}" />
+
+    <p th:text="${post.id}" />
+
+
+</div>
+
+<th:block th:replace="fragments :: scritps" />
+</body>
+</html>

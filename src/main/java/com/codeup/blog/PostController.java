@@ -12,21 +12,32 @@ import java.util.List;
 
 @Controller
 public class PostController {
+
+    // mappings are the url
     @GetMapping("/posts")
     public String index(Model view) {
         List<Post> aListOfPosts = makeSomePosts();
         view.addAttribute("posts", aListOfPosts);
+
+        // relative path for the .html file inside of resources/templates w/o the .html
         return "posts/index";
     }
 
     @GetMapping("/posts/{id}")
-    public @ResponseBody String showDetails(@PathVariable long id) {
-        return "Viewing post #" + id;
+    public String showDetails(@PathVariable long id, Model view) {
+
+        Post post = new Post(id,"10 weird tricks to learning binary", "Don't worry, I'll stop making binary jokes.");
+
+        view.addAttribute("post", post);
+
+        return "posts/show";
     }
+
     @GetMapping("/posts/{id}/edit")
     public @ResponseBody String edit(@PathVariable long id) {
         return "View the form for editing post #" + id;
     }
+
     @GetMapping("/posts/create")
     public @ResponseBody String create() {
         return "View the form for creating a post";
