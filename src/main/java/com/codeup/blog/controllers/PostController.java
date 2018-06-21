@@ -4,10 +4,7 @@ import com.codeup.blog.PostService;
 import com.codeup.blog.models.Post;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
 import java.util.List;
@@ -47,20 +44,28 @@ public class PostController {
     }
 
     @GetMapping("/posts/{id}/edit")
-    public @ResponseBody String edit(@PathVariable long id) {
-        return "View the form for editing post #" + id;
+    public String edit(@PathVariable long id, Model view) {
+//        Post existingPost = postService.findOne(id);
+//
+//        view.addAttribute("post", existingPost);
+
+        view.addAttribute("post", postService.findOne(id));
+
+        return "posts/edit";
     }
 
     @GetMapping("/posts/create")
-    public @ResponseBody String create() {
+    public String create(Model view) {
+        // pass a new post to the view
+        view.addAttribute("post", new Post());
         return "posts/create";
     }
 
     @PostMapping("/posts/create")
-    public @ResponseBody String savePost() {
+    public String savePost(@ModelAttribute Post post) {
+        postService.save(post);
 
-        return "posts/index";
+        return "redirect:/posts";
     }
-
 
 }

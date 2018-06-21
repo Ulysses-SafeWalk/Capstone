@@ -8,4 +8,5 @@ body {
     /*background: linear-gradient(to bottom right, green, white, green);*/
     background-repeat: no-repeat;
     background-size: cover;
+    text-shadow: white;
 }
