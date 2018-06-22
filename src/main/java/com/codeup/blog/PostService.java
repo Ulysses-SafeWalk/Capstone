@@ -32,4 +32,11 @@ public class PostService {
         return postRepository.findByTitle(title);
     }
 
+    public void delete(long id) {
+        postRepository.delete(id);
+    }
+
+    public List<Post> search(String searchTerm) {
+        return postRepository.search("%" + searchTerm + "%");
+    }
 }

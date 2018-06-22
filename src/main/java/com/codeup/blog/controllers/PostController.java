@@ -22,11 +22,18 @@ public class PostController {
 
     // mappings are the url
     @GetMapping("/posts")
-    public String index(Model view) {
-
-        List<Post> posts = postService.findAll();
+    public String index(Model view, @RequestParam(name = "search", required = false) String searchTerm) {
+        // if there's a search term, show results for that search
+        // else, just show all the posts
+        List<Post> posts;
+        if (searchTerm == null) {
+            posts = postService.findAll();
+        } else {
+            posts = postService.search(searchTerm);
+        }
 
         view.addAttribute("posts", posts);
+        view.addAttribute("searchTerm", searchTerm);
 
         // relative path for the .html file inside of resources/templates w/o the .html
         return "posts/index";
@@ -68,5 +75,12 @@ public class PostController {
 
         return "redirect:/posts";
     }
+
+    @PostMapping("/posts/{id}/delete")
+    public String delete(@PathVariable long id) {
+        postService.delete(id);
+        return "redirect:/posts";
+    }
+
 
 }
