@@ -7,8 +7,15 @@
     <h1>Here are all the posts!</h1>
 
     <div class="post col-6" th:each="post : ${posts}">
-        <h2 th:text="${post.title}" />
+        <h2>
+            <a th:href="@{/posts/{id}(id=${post.id})}" th:text="${post.title}" />
+        </h2>
         <p th:text="${post.body}" />
+        <div class="row">
+            <div class="col-3">
+                <a th:href="@{/posts/{id}/edit(id=${post.id})}" class="btn btn-warning btn-block">Edit</a>
+            </div>
+        </div>
     </div>
 
 </div>

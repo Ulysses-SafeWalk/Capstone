@@ -2,11 +2,11 @@ package com.codeup.blog.controllers;
 
 import com.codeup.blog.PostService;
 import com.codeup.blog.models.Post;
+import com.codeup.blog.repositories.PostRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Arrays;
 import java.util.List;
 
 @Controller
@@ -45,13 +45,14 @@ public class PostController {
 
     @GetMapping("/posts/{id}/edit")
     public String edit(@PathVariable long id, Model view) {
-//        Post existingPost = postService.findOne(id);
-//
-//        view.addAttribute("post", existingPost);
-
         view.addAttribute("post", postService.findOne(id));
-
         return "posts/edit";
+    }
+
+    @PostMapping("/posts/{id}/edit")
+    public String updatePost(@PathVariable long id, @ModelAttribute Post post) {
+        postService.save(post);
+        return "redirect:/posts/" + id;
     }
 
     @GetMapping("/posts/create")
