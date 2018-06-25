@@ -79,8 +79,6 @@ public class PostController {
     public String savePost(@ModelAttribute Post post) {
         // inside of the service the user property is set
 
-
-
         postService.save(post);
         return "redirect:/posts";
     }

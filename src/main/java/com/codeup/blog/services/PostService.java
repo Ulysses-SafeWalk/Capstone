@@ -29,7 +29,7 @@ public class PostService {
         // get the user from the session
         User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
 
-        // get the fresh user from the DB based off of the session user's id or username.
+        // make sure to get the actual, real deal user from the DB.
         User user = userRepository.findById(sessionUser.getId());
 
         post.setUser(user);
