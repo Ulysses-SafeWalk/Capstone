@@ -4,7 +4,7 @@
 <body>
 
 <div class="container">
-    <form action="/posts/create" method="post" th:object="${post}">
+    <form th:action="@{/posts/create}" method="post" th:object="${post}">
 
         <h1 class="my-4 text-center">Create A Post</h1>
 
