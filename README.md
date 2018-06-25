@@ -20,10 +20,10 @@
 
 1. Replace the values in example.properties w/ your specific environment values
 
-[1]: https://coderanch.com/t/685335/certification/JPA-Spring-JPA-Spring-Data
-
 ## Relationships
 
-Example code from the relationships lesson is on [a separate branch named "relationships"][1].
+Example code from the relationships lesson is on [a separate branch named "relationships"][2].
 
-[1]: https://github.com/CodeupClassroom/ulysses-spring-blog/tree/relationships
+[1]: https://coderanch.com/t/685335/certification/JPA-Spring-JPA-Spring-Data
+[2]: https://github.com/CodeupClassroom/ulysses-spring-blog/tree/relationships
+
