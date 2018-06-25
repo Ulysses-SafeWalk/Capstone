@@ -2,7 +2,9 @@ package com.codeup.blog.controllers;
 
 import com.codeup.blog.PostService;
 import com.codeup.blog.models.Post;
+import com.codeup.blog.models.User;
 import com.codeup.blog.repositories.PostRepository;
+import com.codeup.blog.repositories.UserRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -13,10 +15,12 @@ import java.util.List;
 public class PostController {
 
     private PostService postService;
+    private UserRepository userRepository;
 
     // PostController constructor
     // Dependency Injection
-    public PostController(PostService postService) {
+    public PostController(PostService postService, UserRepository userRepository) {
+        this.userRepository = userRepository;
         this.postService = postService;
     }
 
@@ -25,6 +29,7 @@ public class PostController {
     public String index(Model view, @RequestParam(name = "search", required = false) String searchTerm) {
         // if there's a search term, show results for that search
         // else, just show all the posts
+        System.out.println("PostController#index");
         List<Post> posts;
         if (searchTerm == null) {
             posts = postService.findAll();
@@ -43,6 +48,7 @@ public class PostController {
     @GetMapping("/posts/{id}")
     public String showDetails(@PathVariable long id, Model view) {
 
+        System.out.println("PostController#showDetails");
         Post post = postService.findOne(id);
 
         view.addAttribute("post", post);
@@ -71,8 +77,8 @@ public class PostController {
 
     @PostMapping("/posts/create")
     public String savePost(@ModelAttribute Post post) {
+        // inside of the service the user property is set
         postService.save(post);
-
         return "redirect:/posts";
     }
 

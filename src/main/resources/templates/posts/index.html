@@ -21,6 +21,7 @@
         <h2>
             <a th:href="@{/posts/{id}(id=${post.id})}" th:text="${post.title}" />
         </h2>
+        <p>Posted By: <span th:text="${post.user.email}" /></p>
         <p th:text="${post.body}" />
         <div class="row">
             <div class="col-3">

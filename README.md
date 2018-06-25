@@ -21,3 +21,7 @@
 1. Replace the values in example.properties w/ your specific environment values
 
 [1]: https://coderanch.com/t/685335/certification/JPA-Spring-JPA-Spring-Data
+
+## Relationships
+
+Example code from the relationships lesson is on a separate branch named "relationships".

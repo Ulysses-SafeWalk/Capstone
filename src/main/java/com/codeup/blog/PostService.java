@@ -1,7 +1,9 @@
 package com.codeup.blog;
 
 import com.codeup.blog.models.Post;
+import com.codeup.blog.models.User;
 import com.codeup.blog.repositories.PostRepository;
+import com.codeup.blog.repositories.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -10,9 +12,11 @@ import java.util.List;
 public class PostService {
 
     private final PostRepository postRepository;
+    private final UserRepository userRepository;
 
-    public PostService(PostRepository postRepository) {
+    public PostService(PostRepository postRepository, UserRepository userRepository) {
         this.postRepository = postRepository;
+        this.userRepository = userRepository;
     }
 
     public List<Post> findAll() {
@@ -20,6 +24,8 @@ public class PostService {
     }
 
     public Post save(Post post) {
+        User user = userRepository.first();
+        post.setUser(user);
         postRepository.save(post);
         return post;
     }
