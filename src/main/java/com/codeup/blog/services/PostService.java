@@ -1,4 +1,4 @@
-package com.codeup.blog;
+package com.codeup.blog.services;
 
 import com.codeup.blog.models.Post;
 import com.codeup.blog.models.User;
