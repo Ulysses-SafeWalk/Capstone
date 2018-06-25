@@ -24,4 +24,6 @@
 
 ## Relationships
 
-Example code from the relationships lesson is on a separate branch named "relationships".
+Example code from the relationships lesson is on [a separate branch named "relationships"][1].
+
+[1]: https://github.com/CodeupClassroom/ulysses-spring-blog/tree/relationships
