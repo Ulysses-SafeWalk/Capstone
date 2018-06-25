@@ -4,6 +4,7 @@ import com.codeup.blog.models.Post;
 import com.codeup.blog.models.User;
 import com.codeup.blog.repositories.PostRepository;
 import com.codeup.blog.repositories.UserRepository;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -24,7 +25,13 @@ public class PostService {
     }
 
     public Post save(Post post) {
-        User user = userRepository.first();
+
+        // get the user from the session
+        User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+
+        // get the fresh user from the DB based off of the session user's id or username.
+        User user = userRepository.findById(sessionUser.getId());
+
         post.setUser(user);
         postRepository.save(post);
         return post;
