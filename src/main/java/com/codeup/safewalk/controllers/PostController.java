@@ -1,10 +1,8 @@
-package com.codeup.blog.controllers;
+package com.codeup.safewalk.controllers;
 
-import com.codeup.blog.models.User;
-import com.codeup.blog.services.PostService;
-import com.codeup.blog.models.Post;
-import com.codeup.blog.repositories.UserRepository;
-import org.springframework.security.core.context.SecurityContextHolder;
+import com.codeup.safewalk.services.PostService;
+import com.codeup.safewalk.models.Post;
+import com.codeup.safewalk.repositories.UserRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

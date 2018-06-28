@@ -1,7 +1,7 @@
-package com.codeup.blog.controllers;
+package com.codeup.safewalk.controllers;
 
-import com.codeup.blog.models.User;
-import com.codeup.blog.repositories.UserRepository;
+import com.codeup.safewalk.models.User;
+import com.codeup.safewalk.repositories.UserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

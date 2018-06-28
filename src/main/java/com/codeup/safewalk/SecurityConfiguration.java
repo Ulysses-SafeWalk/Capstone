@@ -1,6 +1,6 @@
-package com.codeup.blog;
+package com.codeup.safewalk;
 
-import com.codeup.blog.services.UserDetailsLoader;
+import com.codeup.safewalk.services.UserDetailsLoader;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

@@ -1,6 +1,6 @@
-package com.codeup.blog.repositories;
+package com.codeup.safewalk.repositories;
 
-import com.codeup.blog.models.User;
+import com.codeup.safewalk.models.User;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 

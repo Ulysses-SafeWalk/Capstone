@@ -1,14 +1,13 @@
-package com.codeup.blog;
+package com.codeup.safewalk;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import static org.springframework.boot.SpringApplication.*;
 
 @SpringBootApplication
-public class BlogApplication {
+public class SafeWalkApplication {
 
 	public static void main(String[] args) {
-		run(BlogApplication.class, args);
+		run(SafeWalkApplication.class, args);
 	}
 }

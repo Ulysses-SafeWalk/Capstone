@@ -1,9 +1,9 @@
-package com.codeup.blog.services;
+package com.codeup.safewalk.services;
 
-import com.codeup.blog.models.Post;
-import com.codeup.blog.models.User;
-import com.codeup.blog.repositories.PostRepository;
-import com.codeup.blog.repositories.UserRepository;
+import com.codeup.safewalk.models.Post;
+import com.codeup.safewalk.models.User;
+import com.codeup.safewalk.repositories.PostRepository;
+import com.codeup.safewalk.repositories.UserRepository;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 

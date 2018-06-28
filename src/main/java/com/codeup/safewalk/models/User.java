@@ -1,4 +1,4 @@
-package com.codeup.blog.models;
+package com.codeup.safewalk.models;
 
 import javax.persistence.*;
 import java.util.List;
