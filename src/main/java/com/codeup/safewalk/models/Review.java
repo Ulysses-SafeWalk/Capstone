@@ -1,35 +1,53 @@
 package com.codeup.safewalk.models;
 
+import org.hibernate.validator.constraints.NotBlank;
+
 import javax.persistence.*;
 
 @Entity
-@Table(name = "posts")
-public class Post {
+@Table(name = "reviews")
+public class Review {
     @Id
     @GeneratedValue
     private long id;
 
     @Column(nullable = false)
+    @NotBlank(message = "Your review must have a title")
     private String title;
 
     @Column(nullable = false, columnDefinition = "TEXT")
+    @NotBlank(message = "Your review must have at least one sentence")
     private String body;
+
+    @Column
+    private int rating;
+
+    @ManyToOne
+    @JoinColumn(name = "location_id")
+    private Location location;
 
     @ManyToOne
     @JoinColumn(name = "user_id")
     private User user;
 
-    public Post() {}
+    public Review() {}
 
-    public Post(String title, String body) {
+    public Review(String title, String body) {
         this.title = title;
         this.body = body;
     }
 
-    public Post(long id, String title, String body) {
+    public Review(String title, String body, int rating) {
+        this.title = title;
+        this.body = body;
+        this.rating = rating;
+    }
+
+    public Review(long id, String title, String body, int rating){
         this.id = id;
         this.title = title;
         this.body = body;
+        this.rating = rating;
     }
 
     public long getId() {
@@ -63,4 +81,12 @@ public class Post {
     public void setUser(User user) {
         this.user = user;
     }
+
+    public void setLocation() { this.location = location; }
+
+    public Location getLocation() { return location; }
+
+    public void setRating() { this.rating = rating; }
+
+    public int getRating() { return rating; }
 }

@@ -17,7 +17,7 @@ public class User {
     private String password;
 
     @OneToMany(mappedBy = "user")
-    private List<Post> posts;
+    private List<Review> reviews;
 
     public User() {}
 
@@ -61,11 +61,11 @@ public class User {
         this.password = password;
     }
 
-    public List<Post> getPosts() {
-        return posts;
+    public List<Review> getReviews() {
+        return reviews;
     }
 
-    public void setPosts(List<Post> posts) {
-        this.posts = posts;
+    public void setReviews(List<Review> reviews) {
+        this.reviews = reviews;
     }
 }
