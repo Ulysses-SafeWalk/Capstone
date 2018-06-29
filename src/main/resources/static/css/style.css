@@ -8,3 +8,37 @@ body {
     background-size: cover;
     text-shadow: white;
 }
+
+.container {
+    width: 410px;
+    height: 410px;
+    padding: 0;
+}
+
+.layout {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    background-color: #81E4DA;
+}
+
+#top-left {
+    border-top-left-radius: 100%;
+}
+
+#top-right {
+    border-top-right-radius: 100%;
+}
+
+#bottom-left {
+    border-bottom-right-radius: 100%;
+}
+
+#bottom-right {
+    border-bottom-left-radius: 100%;
+}
