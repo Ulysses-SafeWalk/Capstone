@@ -2,7 +2,7 @@ package com.codeup.safewalk.services;
 
 import com.codeup.safewalk.models.Review;
 import com.codeup.safewalk.models.User;
-import com.codeup.safewalk.repositories.PostRepository;
+import com.codeup.safewalk.repositories.ReviewRepository;
 import com.codeup.safewalk.repositories.UserRepository;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
@@ -10,18 +10,18 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class PostService {
+public class ReviewService {
 
-    private final PostRepository postRepository;
+    private final ReviewRepository reviewRepository;
     private final UserRepository userRepository;
 
-    public PostService(PostRepository postRepository, UserRepository userRepository) {
-        this.postRepository = postRepository;
+    public ReviewService(ReviewRepository reviewRepository, UserRepository userRepository) {
+        this.reviewRepository = reviewRepository;
         this.userRepository = userRepository;
     }
 
     public List<Review> findAll() {
-        return postRepository.findAll();
+        return reviewRepository.findAll();
     }
 
     public Review save(Review review) {
@@ -33,23 +33,25 @@ public class PostService {
         User user = userRepository.findById(sessionUser.getId());
 
         review.setUser(user);
-        postRepository.save(review);
+        reviewRepository.save(review);
         return review;
     }
 
     public Review findOne(long id) {
-        return postRepository.findOne(id);
+        return reviewRepository.findOne(id);
     }
 
     public List<Review> searchByTitle(String title) {
-        return postRepository.findByTitle(title);
+        return reviewRepository.findByTitle(title);
     }
 
     public void delete(long id) {
-        postRepository.delete(id);
+        reviewRepository.delete(id);
     }
 
-    public List<Review> search(String searchTerm) {
-        return postRepository.search("%" + searchTerm + "%");
+    public List<Review> findByLocationId(long id) { return reviewRepository.findByLocationId(id);}
+
+    public List<Review> search(String searchTerm){
+        return reviewRepository.search("%" + searchTerm + "%");
     }
 }
