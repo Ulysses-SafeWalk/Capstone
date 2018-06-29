@@ -1,14 +1,18 @@
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
-<head th:replace="fragments :: head(${'Create a Review'})" />
+
+<head th:replace="fragments :: head(${'Leave a review'})" />
+
 <body>
 
 <div th:include="fragments:: logo"></div>
 
 <div class="container">
-    <form th:action="@{/reviews/create}" method="review" th:object="${review}">
+    <form th:action="@{/reviews/create}" method="POST" th:object="${review}">
 
-        <h1 class="my-4 text-center">Create A Review</h1>
+
+        <h1 class="my-4 text-center">Leave a Review</h1>
+
 
         <div class="form-group">
             <label for="title">Title</label>
@@ -17,8 +21,14 @@
 
         <div class="form-group">
             <label for="body">Body</label>
-            <input class="form-control" type="text" id="body" th:field="*{body}" />
+            <textarea class="form-control" type="text" id="body" th:field="*{body}" />
         </div>
+
+        <div class="form-group">
+            <label for="rating">Rating</label>
+            <input class="form-control" id="rating" th:field="*{rating}" />
+        </div>
+
 
         <input class="btn btn-block btn-primary" type="submit" />
 

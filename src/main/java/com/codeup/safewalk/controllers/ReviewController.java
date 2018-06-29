@@ -30,7 +30,7 @@ public class ReviewController {
         System.out.println("ReviewController#index");
         List<Review> reviews;
         if (searchTerm == null) {
-            reviews = reviewService.findAll();
+            reviews = reviewService.findAllFromUser();
         } else {
             reviews = reviewService.search(searchTerm);
         }
@@ -68,7 +68,7 @@ public class ReviewController {
     @GetMapping("/reviews/create")
     public String getCreatePage(Model view) {
         // pass a new post to the view
-        view.addAttribute("post", new Review());
+        view.addAttribute("review", new Review());
         return "reviews/create";
     }
 
@@ -80,7 +80,7 @@ public class ReviewController {
     }
 
     // Delete a review
-    @PostMapping("/reviews/{id}/delete") // Review ID
+    @GetMapping("/reviews/{id}/delete") // Review ID
     public String delete(@PathVariable long id) {
         reviewService.delete(id);
         return "redirect:/reviews";

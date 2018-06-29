@@ -82,11 +82,11 @@ public class Review {
         this.user = user;
     }
 
-    public void setLocation() { this.location = location; }
+    public void setLocation(Location location) { this.location = location; }
 
     public Location getLocation() { return location; }
 
-    public void setRating() { this.rating = rating; }
+    public void setRating(int rating) { this.rating = rating; }
 
     public int getRating() { return rating; }
 }
