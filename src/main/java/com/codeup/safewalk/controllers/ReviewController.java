@@ -30,7 +30,7 @@ public class ReviewController {
         System.out.println("ReviewController#index");
         List<Review> reviews;
         if (searchTerm == null) {
-            reviews = reviewService.findAll();
+            reviews = reviewService.findAllFromUser();
         } else {
             reviews = reviewService.search(searchTerm);
         }
