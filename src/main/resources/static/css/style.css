@@ -38,3 +38,45 @@ body, html {
 .rating:not(:checked) > label:hover, .rate:not(:checked) > label:hover ~ label { color: #00b07b; }
 
 .rating > input:checked + label:hover, .rate > input:checked + label:hover ~ label, .rate > input:checked ~ label:hover, .rate > input:checked ~ label:hover ~ label, .rate > label:hover ~ input:checked ~ label { color: #00b07b; }
+
+body {
+    background-color: papayawhip;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: white;
+}
+
+.container {
+    width: 410px;
+    height: 410px;
+    padding: 0;
+}
+
+.layout {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    background-color: #81E4DA;
+}
+
+#top-left {
+    border-top-left-radius: 100%;
+}
+
+#top-right {
+    border-top-right-radius: 100%;
+}
+
+#bottom-left {
+    border-bottom-right-radius: 100%;
+}
+
+#bottom-right {
+    border-bottom-left-radius: 100%;
+}
+

@@ -72,7 +72,7 @@ public class ReviewController {
         return "reviews/create";
     }
 
-    // Create review and return to loation review page
+    // Create review and return to location review page
     @PostMapping("/reviews/create")
     public String createReview(@ModelAttribute Review review) {
         reviewService.save(review);
@@ -85,6 +85,5 @@ public class ReviewController {
         reviewService.delete(id);
         return "redirect:/reviews";
     }
-
 
 }
