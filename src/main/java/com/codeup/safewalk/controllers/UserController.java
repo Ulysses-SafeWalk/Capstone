@@ -33,6 +33,11 @@ public class UserController {
         return "redirect:/login";
     }
 
+    @GetMapping("/profile")
+    public String getProfilePage(){
+        return "profile";
+    }
+
     //add get/post for user to edit their profile
 
 }
