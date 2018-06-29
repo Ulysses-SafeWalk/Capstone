@@ -35,7 +35,7 @@ public class User {
             joinColumns = {@JoinColumn(name = "user_id")},
             inverseJoinColumns = {@JoinColumn(name = "location_id")}
     )
-    private List<UserLocation> favorites;
+    private List<Location> favorites;
 
 
     public User() {};
@@ -131,11 +131,11 @@ public class User {
         this.contacts = contacts;
     }
 
-    public List<UserLocation> getFavorites() {
+    public List<Location> getFavorites() {
         return favorites;
     }
 
-    public void setFavorites(List<UserLocation> favorites) {
+    public void setFavorites(List<Location> favorites) {
         this.favorites = favorites;
     }
 }
