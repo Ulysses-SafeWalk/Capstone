@@ -5,7 +5,7 @@
 <nav th:replace="fragments :: navbar" />
 <div class="container">
 
-    <h1 th:if="${! reviews.isEmpty()}">Here are all the reviews!</h1>
+    <h1 th:if="${! reviews.isEmpty()}">Here are all your reviews!</h1>
     <h1 th:if="${reviews.isEmpty()}">Sorry, no results found!</h1>
 
     <div class="row">

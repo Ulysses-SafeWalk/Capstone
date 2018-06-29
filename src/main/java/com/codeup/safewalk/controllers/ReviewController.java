@@ -80,7 +80,7 @@ public class ReviewController {
     }
 
     // Delete a review
-    @PostMapping("/reviews/{id}/delete") // Review ID
+    @GetMapping("/reviews/{id}/delete") // Review ID
     public String delete(@PathVariable long id) {
         reviewService.delete(id);
         return "redirect:/reviews";
