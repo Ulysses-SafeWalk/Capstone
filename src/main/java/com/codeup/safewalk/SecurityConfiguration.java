@@ -44,27 +44,18 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .logoutSuccessUrl("/login?logout")
                 .and()
                 .authorizeRequests()
-<<<<<<< HEAD
                 .antMatchers("/") // anyone can see the home page
-=======
-                .antMatchers("/", "/reviews") // anyone can see the home and the ads pages
->>>>>>> jenw-fragments
                 .permitAll()
                 /* Pages that require authentication */
                 .and()
                 .authorizeRequests()
                 .antMatchers(
-<<<<<<< HEAD
                         "/profile", // only authenticated users can view profile and interact with reviews
                         "/reviews" ,
                         "/reviews/{id}",
                         "reviews/{id}/edit",
                         "reviews/create",
                         "reviews/{id}/delete"
-=======
-                        "/reviews/create", // only authenticated users can create ads
-                        "/reviews/{id}/edit" // only authenticated users can edit ads
->>>>>>> jenw-fragments
                 )
                 .authenticated()
         ;
