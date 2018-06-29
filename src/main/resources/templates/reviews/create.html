@@ -1,12 +1,18 @@
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
 <head th:replace="fragments :: head(${'Leave a review'})" />
+
 <body>
+
+<div th:include="fragments:: logo"></div>
 
 <div class="container">
     <form th:action="@{/reviews/create}" method="POST" th:object="${review}">
 
+
         <h1 class="my-4 text-center">Leave a Review</h1>
+
 
         <div class="form-group">
             <label for="title">Title</label>
