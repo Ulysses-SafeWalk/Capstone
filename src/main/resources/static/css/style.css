@@ -3,9 +3,7 @@ body, html {
 }
 
 body {
-    /* background: lightskyblue; */
-    background: linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet);
-    /*background: linear-gradient(to bottom right, green, white, green);*/
+    background-color: papayawhip;
     background-repeat: no-repeat;
     background-size: cover;
     text-shadow: white;
