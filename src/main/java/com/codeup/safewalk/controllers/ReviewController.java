@@ -68,7 +68,7 @@ public class ReviewController {
     @GetMapping("/reviews/create")
     public String getCreatePage(Model view) {
         // pass a new post to the view
-        view.addAttribute("post", new Review());
+        view.addAttribute("review", new Review());
         return "reviews/create";
     }
 

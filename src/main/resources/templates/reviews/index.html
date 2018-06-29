@@ -17,19 +17,16 @@
         </form>
     </div>
 
-    <div class="review col-6" th:each="review : ${reviews}">
-        <h2>
-            <a th:href="@{/reviews/{id}(id=${review.id})}" th:text="${review.title}" />
-        </h2>
-        <p>Posted By: <span th:text="${review.user.email}" /></p>
-        <p th:text="${review.body}" />
-        <div class="row">
-            <div class="col-3">
-                <a th:href="@{/reviews/{id}/edit(id=${review.id})}" class="btn btn-warning btn-block">Edit</a>
+    <div th:each="review : ${reviews}">
+        <div class="container">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title"><a th:href="@{/reviews/{id}(id=${review.id})}"><span th:text="${review.title}"></span></a></h3>
+                    <p class="card-text"><span th:text="${review.body}"></span></p>
+                    <a th:href="@{/reviews/{id}/edit(id=${review.id})}" class="card-link">Edit Post</a>
+                    <a th:href="@{/reviews/{id}/delete(id=${review.id})}" class="card-link">Delete Post</a>
+                </div>
             </div>
-            <form class="col-3" method="review" th:action="@{/reviews/{id}/delete(id=${review.id})}">
-                <input type="submit" class="btn btn-danger btn-block" value="Delete" />
-            </form>
         </div>
     </div>
 
