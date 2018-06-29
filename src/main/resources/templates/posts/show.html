@@ -5,13 +5,13 @@
 
 <div class="container">
 
-    <h1 th:text="${post.title}" />
+    <h1 th:text="${review.title}" />
 
-    <h2>Posted By: <span th:text="${post.user.email}" /></h2>
+    <h2>Posted By: <span th:text="${review.user.email}" /></h2>
 
-    <p th:text="${post.body}" />
+    <p th:text="${review.body}" />
 
-    <p th:text="${post.id}" />
+    <p th:text="${review.id}" />
 
 </div>
 

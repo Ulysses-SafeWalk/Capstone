@@ -1,22 +1,22 @@
 package com.codeup.safewalk.repositories;
 
-import com.codeup.safewalk.models.Post;
+import com.codeup.safewalk.models.Review;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
 
-public interface PostRepository extends CrudRepository<Post, Long> {
-    List<Post> findAll();
+public interface PostRepository extends CrudRepository<Review, Long> {
+    List<Review> findAll();
 
-    List<Post> findByTitle(String title);
+    List<Review> findByTitle(String title);
 
     // SELECT * FROM posts WHERE title LIKE '%...%' OR body like '%..%';
 
-    List<Post> findByTitleLike(String searchTerm);
+    List<Review> findByTitleLike(String searchTerm);
 
-    List<Post> findByTitleLikeOrBodyLike(String titleSearch, String bodySearch);
+    List<Review> findByTitleLikeOrBodyLike(String titleSearch, String bodySearch);
 
     @Query(nativeQuery = true, value = "SELECT * FROM posts WHERE title LIKE ?1 OR body LIKE ?1")
-    List<Post> search(String searchTerm);
+    List<Review> search(String searchTerm);
 }

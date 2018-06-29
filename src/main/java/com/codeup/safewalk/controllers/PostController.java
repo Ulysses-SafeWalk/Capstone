@@ -1,7 +1,7 @@
 package com.codeup.safewalk.controllers;
 
+import com.codeup.safewalk.models.Review;
 import com.codeup.safewalk.services.PostService;
-import com.codeup.safewalk.models.Post;
 import com.codeup.safewalk.repositories.UserRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -26,16 +26,16 @@ public class PostController {
     @GetMapping("/posts")
     public String index(Model view, @RequestParam(name = "search", required = false) String searchTerm) {
         // if there's a search term, show results for that search
-        // else, just show all the posts
+        // else, just show all the reviews
         System.out.println("PostController#index");
-        List<Post> posts;
+        List<Review> reviews;
         if (searchTerm == null) {
-            posts = postService.findAll();
+            reviews = postService.findAll();
         } else {
-            posts = postService.search(searchTerm);
+            reviews = postService.search(searchTerm);
         }
 
-        view.addAttribute("posts", posts);
+        view.addAttribute("posts", reviews);
         view.addAttribute("searchTerm", searchTerm);
 
         // relative path for the .html file inside of resources/templates w/o the .html
@@ -47,9 +47,9 @@ public class PostController {
     public String showDetails(@PathVariable long id, Model view) {
 
         System.out.println("PostController#showDetails");
-        Post post = postService.findOne(id);
+        Review review = postService.findOne(id);
 
-        view.addAttribute("post", post);
+        view.addAttribute("post", review);
 
         return "posts/show";
     }
@@ -61,23 +61,23 @@ public class PostController {
     }
 
     @PostMapping("/posts/{id}/edit")
-    public String updatePost(@PathVariable long id, @ModelAttribute Post post) {
-        postService.save(post);
+    public String updatePost(@PathVariable long id, @ModelAttribute Review review) {
+        postService.save(review);
         return "redirect:/posts/" + id;
     }
 
     @GetMapping("/posts/create")
     public String create(Model view) {
         // pass a new post to the view
-        view.addAttribute("post", new Post());
+        view.addAttribute("post", new Review());
         return "posts/create";
     }
 
     @PostMapping("/posts/create")
-    public String savePost(@ModelAttribute Post post) {
+    public String savePost(@ModelAttribute Review review) {
         // inside of the service the user property is set
 
-        postService.save(post);
+        postService.save(review);
         return "redirect:/posts";
     }
 

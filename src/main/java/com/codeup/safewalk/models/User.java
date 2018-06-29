@@ -91,6 +91,9 @@ public class User {
         this.password = password;
     }
 
+    public List<Review> getReviews() {
+        return reviews;
+
     public String getPhone_number() {
         return phone_number;
     }
@@ -115,12 +118,8 @@ public class User {
         this.last_name = last_name;
     }
 
-    public List<Post> getPosts() {
-        return posts;
-    }
-
-    public void setPosts(List<Post> posts) {
-        this.posts = posts;
+    public void setReviews(List<Review> reviews) {
+        this.reviews = reviews;
     }
 
     public List<Contact> getContacts() {
