@@ -3,7 +3,7 @@ body, html {
 }
 
 body {
-    background-color: #1DE9B6;
+    /*background-color: #c8d3d7;*/
     background-repeat: no-repeat;
     background-size: cover;
     text-shadow: white;
@@ -23,5 +23,37 @@ body {
     padding: 0;
 }
 
+.logo {
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 100px;
+    width: 250px;
+    height: 100px;
+}
 
+.forms {
+    margin-top: 100px;
+}
+
+.buttons {
+    background-color: #00b07b;
+}
+
+.shadows {   /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.shadows:hover {  /* On mouse-over, add a deeper shadow */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/*dark red: #950007*/
+/*dark green: #00b07b*/
+/*dark grey: #939da0*/
+
+/*light red: #d60007*/
+/*light green: #00e9ad*/
+/*light grey: #c8d3d7*/
 
