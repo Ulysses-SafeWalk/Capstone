@@ -1,0 +1,19 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments :: head(${'Post show page'})" />
+<body>
+
+<div th:each="review : ${reviews}">
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title"><a th:href="@{/reviews/{id}(id=${review.id})}"><span th:text="${review.title}"></span></a></h3>
+                <p class="card-text"><span th:text="${review.body}"></span></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<th:block th:replace="fragments :: scritps" />
+</body>
+</html>
