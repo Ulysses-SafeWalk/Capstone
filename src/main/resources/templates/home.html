@@ -11,6 +11,13 @@
 
     <h3>Leave a <a th:href="@{/reviews/create}">review</a></h3>
 
+    <h4>Locations:</h4>
+
+
+    <div th:each="location : ${locations}">
+        <a th:href="@{/reviews/{id}(id=${location.id})}"><span th:text="${location.name}"></span></a>
+    </div>
+
 </div>
 
 <th:block th:replace="fragments :: scripts" />
