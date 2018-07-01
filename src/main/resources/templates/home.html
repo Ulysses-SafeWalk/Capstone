@@ -4,23 +4,29 @@
 <body>
 <nav th:replace="fragments :: navbar" />
 
-<div class="container">
+<div class="home-main">
     <h1>SafeWalk!</h1>
     <br />
     <h2>This is the home page!</h2>
 
     <h3>Leave a <a th:href="@{/reviews/create}">review</a></h3>
 
-    <h4>Locations:</h4>
 
+    <div id="map-canvas"></div>
+
+    <h4>Locations:</h4>
 
     <div th:each="location : ${locations}">
         <a th:href="@{/reviews/{id}(id=${location.id})}"><span th:text="${location.name}"></span></a>
     </div>
-
 </div>
 
+
+
 <th:block th:replace="fragments :: scripts" />
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5523VMyf7HwSUCog4fCxZsze1lDaMP-I"></script>
+<script type="text/javascript" th:src="@{/js/map.js}"></script>
 
 </body>
 </html>

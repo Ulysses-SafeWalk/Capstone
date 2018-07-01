@@ -46,11 +46,11 @@ body {
     text-shadow: white;
 }
 
-.container {
-    width: 410px;
-    height: 410px;
-    padding: 0;
-}
+/*.container {*/
+    /*width: 410px;*/
+    /*height: 410px;*/
+    /*padding: 0;*/
+/*}*/
 
 .layout {
     float: left;
@@ -78,5 +78,18 @@ body {
 
 #bottom-right {
     border-bottom-left-radius: 100%;
+}
+
+.home-main{
+    text-align: center;
+    margin:auto;
+    width: 90%;
+}
+
+#map-canvas{
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    border: 2px solid black;
 }
 
