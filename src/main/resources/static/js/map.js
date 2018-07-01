@@ -37,6 +37,8 @@ function initialize() {
             })
         });
     }
+
+     map.data.loadGeoJson('/json/publicSafetyFacilities.json');
 }
 
 initialize();
