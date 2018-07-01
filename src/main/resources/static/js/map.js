@@ -21,7 +21,7 @@ function initialize() {
 
     var codeupMarker = new google.maps.Marker({
         position: myLatlng,
-        icon: "/img/blue-marker.png",
+        icon: "/img/codeup_map_icon.png",
         map: map
     });
 
