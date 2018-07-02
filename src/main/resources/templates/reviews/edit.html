@@ -3,6 +3,7 @@
 <head th:replace="fragments :: head(${'Edit a Review'})" />
 <body>
 
+<nav th:replace="fragments :: navbar" />
 
 <div class="container">
 
@@ -31,6 +32,7 @@
     </div>
 </div>
 
+<th:block th:replace="fragments :: scripts" />
 
 </body>
 </html>

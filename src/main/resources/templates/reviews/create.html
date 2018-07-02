@@ -5,6 +5,7 @@
 
 <body>
 
+<nav th:include="fragments :: navbar" />
 
 <div class="container">
 
@@ -26,7 +27,6 @@
                     <textarea class="form-control" type="text" id="body" th:field="*{body}" />
                 </div>
 
-
         <p style="margin-bottom: 0px">Overall Rating:</p>
         <div class="rating">
             <input type="radio" id="star5" name="rate" value="5" th:field="*{rating}"/>
@@ -40,8 +40,6 @@
             <input type="radio" id="star1" name="rate" value="1" th:field="*{rating}"/>
             <label for="star1" title="text">1 star</label>
         </div>
-
-
                 <input class="btn btn-block buttons text-white" type="submit" />
 
             </form>
@@ -49,6 +47,7 @@
     </div>
 </div>
 
+<th:block th:replace="fragments :: scripts" />
 
 </body>
 </html>
