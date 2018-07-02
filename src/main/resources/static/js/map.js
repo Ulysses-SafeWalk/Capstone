@@ -10,7 +10,6 @@
 function initialize() {
     var myLatlng = new google.maps.LatLng(29.426709, -98.489604);
 
-
     var mapOptions = {
         zoom: 18,
         center: myLatlng,
@@ -43,23 +42,23 @@ function initialize() {
             icon: "/img/police.png"
         },
         FIRE: {
-            icon: "/img/fireman.png"
+            icon: "/img/firemen.png"
         }
     };
 
-    // map.data.loadGeoJson('/json/publicSafetyFacilities.json');
-    var request = jQuery.get("/json/publicSafetyFacilities.json");
+    var request = $.get("/json/publicSafetyFacilities.json");
     request.done(function(response) {
-        response.forEach(function(feature){
-            var marker = new google.maps.Marker({
-                position: feature.address,
-                icon: facilityIcons[feature.AgencyType].icon,
-                map: map
-            });
+        var locations = response.features;
+            locations.forEach(function(location){
+                var lat = location.properties.LAT;
+                var lng = location.properties.LON;
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(lat,lng),
+                    icon: facilityIcons[location.properties.AgencyType].icon,
+                    map: map
+                });
+            })
         });
-    })
-
-
 }
 
 initialize();
