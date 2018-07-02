@@ -10,9 +10,8 @@
 function initialize() {
     var myLatlng = new google.maps.LatLng(29.426709, -98.489604);
 
-
     var mapOptions = {
-        zoom: 18,
+        zoom: 14,
         center: myLatlng,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
@@ -38,7 +37,28 @@ function initialize() {
         });
     }
 
-     map.data.loadGeoJson('/json/publicSafetyFacilities.json');
+    var facilityIcons = {
+        POLICE: {
+            icon: "/img/police.png"
+        },
+        FIRE: {
+            icon: "/img/firemen.png"
+        }
+    };
+
+    var request = $.get("/json/publicSafetyFacilities.json");
+    request.done(function(response) {
+        var locations = response.features;
+            locations.forEach(function(location){
+                var lat = location.properties.LAT;
+                var lng = location.properties.LON;
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(lat,lng),
+                    icon: facilityIcons[location.properties.AgencyType].icon,
+                    map: map
+                });
+            })
+        });
 }
 
 initialize();
