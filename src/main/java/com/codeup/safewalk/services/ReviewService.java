@@ -38,6 +38,7 @@ public class ReviewService {
         Location location = locationRepository.findById(1);
         review.setLocation(location);
         review.setUser(user);
+        System.out.println(review.getRating());
         reviewRepository.save(review);
         return review;
     }
