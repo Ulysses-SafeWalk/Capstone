@@ -38,7 +38,28 @@ function initialize() {
         });
     }
 
-     map.data.loadGeoJson('/json/publicSafetyFacilities.json');
+    var facilityIcons = {
+        POLICE: {
+            icon: "/img/police.png"
+        },
+        FIRE: {
+            icon: "/img/fireman.png"
+        }
+    };
+
+    // map.data.loadGeoJson('/json/publicSafetyFacilities.json');
+    var request = jQuery.get("/json/publicSafetyFacilities.json");
+    request.done(function(response) {
+        response.forEach(function(feature){
+            var marker = new google.maps.Marker({
+                position: feature.address,
+                icon: facilityIcons[feature.AgencyType].icon,
+                map: map
+            });
+        });
+    })
+
+
 }
 
 initialize();
