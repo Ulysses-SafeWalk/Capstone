@@ -4,22 +4,49 @@
 <body>
 <nav th:replace="fragments :: navbar" />
 
-<div class="home-main">
-    <h1>SafeWalk!</h1>
-    <br />
-    <h2>This is the home page!</h2>
 
-    <h3>Leave a <a th:href="@{/reviews/create}">review</a></h3>
+<div class="row d-flex mb-auto align-self-stretch">
+    <div class="mb-6 flex-column">
+        <div th:include="fragments :: logo"></div>
 
 
-    <div id="map-canvas"></div>
+            <div class="card shadows">
+                <div class="card-body">
+                    <h3>Welcome User</h3>
+                    <p>San Antonio, Texas</p>
+                </div>
+            </div>
 
-    <h4>Locations:</h4>
+            <div class="card shadows">
+                <div class="card-body">
+                    <a href="#">Reviews</a>
+                    <ul>
+                        <li>Review 1</li>
+                        <li>Review 2</li>
+                        <li>Review 3</li>
+                    </ul>
+                    <a href="#">Favorites</a>
+                    <ul>
+                        <li>Favorite 1</li>
+                        <li>Favorite 2</li>
+                        <li>Favorite 3</li>
+                    </ul>
+                </div>
+            </div>
 
-    <div th:each="location : ${locations}">
-        <a th:href="@{/reviews/{id}(id=${location.id})}"><span th:text="${location.name}"></span></a>
+
+            <div class="card shadows">
+                <div class="card-body">
+                    <a href="#" class="btn buttons text-white">Moovit</a>
+                    <a href="#" class="btn buttons text-white">Logout</a>
+                </div>
+            </div>
+
     </div>
-</div>
+
+    <div id="map-canvas" class="mb-9 d-flex mb-auto shadows"></div>
+
+    </div>
 
 
 
