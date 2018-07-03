@@ -46,29 +46,27 @@ function initialize() {
         }
     };
 
+    //Emergencyfacilities layer
     let facilitiesLayer = new google.maps.Data();
     facilitiesLayer.loadGeoJson('/json/publicSafetyFacilities.json');
 
-
-    facilitiesLayer.setStyle(function(feature) {
-        console.log(feature.getProperty('AgencyType'));
-        let icon = null;
-        if (feature.getProperty('AgencyType')){
-            icon = facilityIcons[feature.getProperty('AgencyType')].icon;
-        }
-        return /** @type {google.maps.Data.StyleOptions} */({
-            icon: icon
-        });
-    });
-
+    var facilitiesStyling = function(feature) {
+        var StyleOptions = {
+            icon : facilityIcons[feature.getProperty('AgencyType')].icon
+        };
+        return StyleOptions;
+    };
+    facilitiesLayer.setStyle(facilitiesStyling);
     facilitiesLayer.setMap(map);
 
-    $('#facilities').on('click', function(){
-        facilitiesLayer.setStyle({visible: false})
-    })
+    $('#facilitiesLayer').change(function(){
+        if($(this).is(':checked')){
+            facilitiesLayer.setStyle(facilitiesStyling)
+        } else {
+            facilitiesLayer.setStyle({visible: false})
+        }
+    });
 
-    //to hide layer:
-    //facilitiesLayer.setStyle({visible: false});
 
 }
 
