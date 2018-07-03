@@ -29,16 +29,6 @@ function createGeoJson() {
         console.log(restaurantgeojson);
     });
 
-    var jsonfile = require('jsonfile');
-    var file = '/json/restaurantsGeo.json';
-    var obj = restaurantgeojson;
-
-    jsonfile.writeFile(file, obj, function(err){
-        console.log(err);
-    });
-
-    console.log("finished");
-
 }
 
 createGeoJson();

@@ -126,8 +126,42 @@ function initialize() {
     //     method: "GET",
     //     dataType: "json",
     // });
+let restaurantgeojson;
 
+    function createGeoJson() {
+        console.log("Starting up");
 
+        restaurantgeojson = {
+            type: "FeatureCollection",
+            features: [],
+        };
+
+        var jsonRequest = $.get('/json/restaurants.json');
+
+        jsonRequest.done(function (response) {
+            // console.log(response);
+            for (var i = 0; i < response.businesses.length; i++) {
+                // console.log(response.businesses[i].name);
+                // console.log(response.businesses[i].coordinates.latitude);
+                // console.log(response.businesses[i].coordinates.longitude);
+
+                restaurantgeojson.features.push({
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [response.businesses[i].coordinates.latitude, response.businesses[i].coordinates.longitude]
+                    },
+                    "properties": {
+                        "name": response.businesses[i].name
+                    }
+                });
+            }
+        });
+
+    }
+
+    createGeoJson();
+    console.log(restaurantgeojson);
 
 }
 
