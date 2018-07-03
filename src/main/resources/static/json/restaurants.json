@@ -1,0 +1,885 @@
+{"businesses": [
+    {
+      "id": "8u5RclLkBsXDb2LJrptG8Q",
+      "alias": "bella-on-the-river-san-antonio",
+      "name": "Bella On the River",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/C2V1vMvEs9cdtSSfyj9Eyg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/bella-on-the-river-san-antonio?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 671,
+      "categories": [
+        {
+          "alias": "mediterranean",
+          "title": "Mediterranean"
+        },
+        {
+          "alias": "modern_european",
+          "title": "Modern European"
+        },
+        {
+          "alias": "wine_bars",
+          "title": "Wine Bars"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 29.4248664037026,
+        "longitude": -98.4921584050323
+      },
+      "transactions": [],
+      "price": "$$$",
+      "location": {
+        "address1": "106 River Walk St",
+        "address2": "",
+        "address3": "",
+        "city": "San Antonio",
+        "zip_code": "78205",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "106 River Walk St",
+          "San Antonio, TX 78205"
+        ]
+      },
+      "phone": "+12104042355",
+      "display_phone": "(210) 404-2355",
+      "distance": 8030.258275152705
+    },
+    {
+      "id": "AsL7ifh6n0r9eGkhij6-Ng",
+      "alias": "the-esquire-tavern-san-antonio",
+      "name": "The Esquire Tavern",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/tIrzyaUuXJmHwIfbnY3PVw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-esquire-tavern-san-antonio?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 1929,
+      "categories": [
+        {
+          "alias": "lounges",
+          "title": "Lounges"
+        },
+        {
+          "alias": "burgers",
+          "title": "Burgers"
+        },
+        {
+          "alias": "tradamerican",
+          "title": "American (Traditional)"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 29.42485,
+        "longitude": -98.49174
+      },
+      "transactions": [
+        "restaurant_reservation"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "155 E Commerce St",
+        "address2": "",
+        "address3": "",
+        "city": "San Antonio",
+        "zip_code": "78205",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "155 E Commerce St",
+          "San Antonio, TX 78205"
+        ]
+      },
+      "phone": "+12102222521",
+      "display_phone": "(210) 222-2521",
+      "distance": 8044.9444517923675
+    },
+    {
+      "id": "A-2-cH0dGVDY7tEs_0BTEA",
+      "alias": "boudros-on-the-river-walk-san-antonio",
+      "name": "Boudro's On the River Walk",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/SmnaTzY_9QXxAeh9Kq4VJQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/boudros-on-the-river-walk-san-antonio?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 1834,
+      "categories": [
+        {
+          "alias": "newamerican",
+          "title": "American (New)"
+        },
+        {
+          "alias": "seafood",
+          "title": "Seafood"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 29.42412,
+        "longitude": -98.48839
+      },
+      "transactions": [],
+      "price": "$$$",
+      "location": {
+        "address1": "421 E Commerce St",
+        "address2": "",
+        "address3": "",
+        "city": "San Antonio",
+        "zip_code": "78205",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "421 E Commerce St",
+          "San Antonio, TX 78205"
+        ]
+      },
+      "phone": "+12102248484",
+      "display_phone": "(210) 224-8484",
+      "distance": 8220.553657627619
+    },
+    {
+      "id": "NKyKURyCgz5zSIRQJjCgNQ",
+      "alias": "sangria-on-the-burg-san-antonio-2",
+      "name": "Sangria On the Burg",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/9H7LYONSoW77_-nLqHr1cA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/sangria-on-the-burg-san-antonio-2?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 501,
+      "categories": [
+        {
+          "alias": "newamerican",
+          "title": "American (New)"
+        },
+        {
+          "alias": "bbq",
+          "title": "Barbeque"
+        },
+        {
+          "alias": "tacos",
+          "title": "Tacos"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 29.5014782,
+        "longitude": -98.5593836
+      },
+      "transactions": [
+        "restaurant_reservation"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "5115 Fredericksburg Rd",
+        "address2": "",
+        "address3": null,
+        "city": "San Antonio",
+        "zip_code": "78229",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "5115 Fredericksburg Rd",
+          "San Antonio, TX 78229"
+        ]
+      },
+      "phone": "+12102653763",
+      "display_phone": "(210) 265-3763",
+      "distance": 4486.283457974526
+    },
+    {
+      "id": "CPpcFOhRHZwRxU6LbeJNrQ",
+      "alias": "cured-san-antonio-2",
+      "name": "Cured",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/cNUUoWWm5bgmGiFR3L98Qg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/cured-san-antonio-2?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 783,
+      "categories": [
+        {
+          "alias": "cocktailbars",
+          "title": "Cocktail Bars"
+        },
+        {
+          "alias": "newamerican",
+          "title": "American (New)"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 29.4421979226431,
+        "longitude": -98.4798518006118
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "306 Pearl Pkwy",
+        "address2": "Ste 101",
+        "address3": "",
+        "city": "San Antonio",
+        "zip_code": "78215",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "306 Pearl Pkwy",
+          "Ste 101",
+          "San Antonio, TX 78215"
+        ]
+      },
+      "phone": "+12103143929",
+      "display_phone": "(210) 314-3929",
+      "distance": 6703.12525336061
+    },
+    {
+      "id": "mlrX_eT46F_WjEcNNDqg-g",
+      "alias": "southerleigh-fine-food-and-brewery-san-antonio",
+      "name": "Southerleigh Fine Food and Brewery",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/XzitR4PPkGh0Wwqbg7EAXQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/southerleigh-fine-food-and-brewery-san-antonio?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 740,
+      "categories": [
+        {
+          "alias": "breweries",
+          "title": "Breweries"
+        },
+        {
+          "alias": "newamerican",
+          "title": "American (New)"
+        },
+        {
+          "alias": "bars",
+          "title": "Bars"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 29.4425389496087,
+        "longitude": -98.480661821962
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "136 E Grayson St",
+        "address2": "Ste 120",
+        "address3": "",
+        "city": "San Antonio",
+        "zip_code": "78215",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "136 E Grayson St",
+          "Ste 120",
+          "San Antonio, TX 78215"
+        ]
+      },
+      "phone": "+12104555701",
+      "display_phone": "(210) 455-5701",
+      "distance": 6631.310328751167
+    },
+    {
+      "id": "pRp4lpOqcvDTWkCY1ShQDg",
+      "alias": "bliss-san-antonio",
+      "name": "Bliss",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/4IcftQAoTOUhSefJOnRDxg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/bliss-san-antonio?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 452,
+      "categories": [
+        {
+          "alias": "newamerican",
+          "title": "American (New)"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 29.41118,
+        "longitude": -98.48703
+      },
+      "transactions": [],
+      "price": "$$$",
+      "location": {
+        "address1": "926 S Presa St",
+        "address2": "",
+        "address3": "",
+        "city": "San Antonio",
+        "zip_code": "78210",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "926 S Presa St",
+          "San Antonio, TX 78210"
+        ]
+      },
+      "phone": "+12102252547",
+      "display_phone": "(210) 225-2547",
+      "distance": 9624.83385920238
+    },
+    {
+      "id": "IXF7ceaOgU5juDkMdQ2N6g",
+      "alias": "zinc-bistro-and-wine-bar-san-antonio",
+      "name": "Zinc Bistro & Wine Bar",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/wIWwiIy8eTx4LgH3in4A6g/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/zinc-bistro-and-wine-bar-san-antonio?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 1216,
+      "categories": [
+        {
+          "alias": "wine_bars",
+          "title": "Wine Bars"
+        },
+        {
+          "alias": "newamerican",
+          "title": "American (New)"
+        },
+        {
+          "alias": "burgers",
+          "title": "Burgers"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 29.42365,
+        "longitude": -98.48927
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "207 N Presa St",
+        "address2": "",
+        "address3": "",
+        "city": "San Antonio",
+        "zip_code": "78205",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "207 N Presa St",
+          "San Antonio, TX 78205"
+        ]
+      },
+      "phone": "+12102242900",
+      "display_phone": "(210) 224-2900",
+      "distance": 8231.78293115204
+    },
+    {
+      "id": "uw5b_6gdZ6hYsCz75lwBXg",
+      "alias": "outlaw-kitchens-san-antonio",
+      "name": "Outlaw Kitchens",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/DUnV2jwEYgy_BDemLjwOEQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/outlaw-kitchens-san-antonio?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 38,
+      "categories": [
+        {
+          "alias": "newamerican",
+          "title": "American (New)"
+        },
+        {
+          "alias": "cafes",
+          "title": "Cafes"
+        }
+      ],
+      "rating": 5,
+      "coordinates": {
+        "latitude": 29.4546217,
+        "longitude": -98.5029868
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "2919 N Flores St",
+        "address2": null,
+        "address3": "",
+        "city": "San Antonio",
+        "zip_code": "78212",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "2919 N Flores St",
+          "San Antonio, TX 78212"
+        ]
+      },
+      "phone": "+12103004728",
+      "display_phone": "(210) 300-4728",
+      "distance": 4563.272003575844
+    },
+    {
+      "id": "i6UX_C4YDX6816PQGzY5Rw",
+      "alias": "grayze-san-antonio-3",
+      "name": "Grayze",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/oTcJcyqicz4tlDJ02CCcig/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/grayze-san-antonio-3?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 251,
+      "categories": [
+        {
+          "alias": "tradamerican",
+          "title": "American (Traditional)"
+        },
+        {
+          "alias": "venues",
+          "title": "Venues & Event Spaces"
+        },
+        {
+          "alias": "bars",
+          "title": "Bars"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 29.44345,
+        "longitude": -98.47463
+      },
+      "transactions": [
+        "pickup",
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "521 E Grayson St",
+        "address2": null,
+        "address3": "",
+        "city": "San Antonio",
+        "zip_code": "78215",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "521 E Grayson St",
+          "San Antonio, TX 78215"
+        ]
+      },
+      "phone": "+12104818776",
+      "display_phone": "(210) 481-8776",
+      "distance": 6857.003017071508
+    },
+    {
+      "id": "S-qBgWmhXapfVzubJgOY2w",
+      "alias": "cookhouse-san-antonio-2",
+      "name": "Cookhouse",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/reh5Gy4ALz6HUWSMgoTA6g/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/cookhouse-san-antonio-2?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 325,
+      "categories": [
+        {
+          "alias": "cajun",
+          "title": "Cajun/Creole"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 29.4531054116895,
+        "longitude": -98.4850838498921
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "720 E Mistletoe Ave",
+        "address2": "",
+        "address3": "",
+        "city": "San Antonio",
+        "zip_code": "78212",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "720 E Mistletoe Ave",
+          "San Antonio, TX 78212"
+        ]
+      },
+      "phone": "+12103208211",
+      "display_phone": "(210) 320-8211",
+      "distance": 5401.797240336233
+    },
+    {
+      "id": "uitnSU8Wv8LRT50y2w-Pmg",
+      "alias": "embers-wood-fire-grill-and-bar-san-antonio-5",
+      "name": "Embers Wood Fire Grill & Bar",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/pc1UziFfj_XC9eLMvnzQ8w/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/embers-wood-fire-grill-and-bar-san-antonio-5?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 440,
+      "categories": [
+        {
+          "alias": "pizza",
+          "title": "Pizza"
+        },
+        {
+          "alias": "tradamerican",
+          "title": "American (Traditional)"
+        },
+        {
+          "alias": "bars",
+          "title": "Bars"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 29.5313678598065,
+        "longitude": -98.5638796538115
+      },
+      "transactions": [
+        "restaurant_reservation",
+        "pickup",
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "9818 W Interstate 10",
+        "address2": null,
+        "address3": "",
+        "city": "San Antonio",
+        "zip_code": "78230",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "9818 W Interstate 10",
+          "San Antonio, TX 78230"
+        ]
+      },
+      "phone": "+12105623075",
+      "display_phone": "(210) 562-3075",
+      "distance": 6307.384930460427
+    },
+    {
+      "id": "k1Uo88N6MjsTzW2IGRBcpQ",
+      "alias": "lulas-mexican-cafe-san-antonio-3",
+      "name": "Lula's Mexican Cafe",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/zrfR4pTdCxTLlAF9FWDkqA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/lulas-mexican-cafe-san-antonio-3?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 131,
+      "categories": [
+        {
+          "alias": "mexican",
+          "title": "Mexican"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 29.4276724885156,
+        "longitude": -98.4930953065848
+      },
+      "transactions": [],
+      "price": "$",
+      "location": {
+        "address1": "115 E Travis St",
+        "address2": "",
+        "address3": "",
+        "city": "San Antonio",
+        "zip_code": "78205",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "115 E Travis St",
+          "San Antonio, TX 78205"
+        ]
+      },
+      "phone": "+12104723300",
+      "display_phone": "(210) 472-3300",
+      "distance": 7705.332889678539
+    },
+    {
+      "id": "CLbzZGsLKcUf4G269KEu_Q",
+      "alias": "rosarios-mexican-cafe-y-cantina-san-antonio",
+      "name": "Rosario's Mexican Cafe Y Cantina",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/PO3u1A5xV0UEdXM2ujs3Jw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/rosarios-mexican-cafe-y-cantina-san-antonio?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 2127,
+      "categories": [
+        {
+          "alias": "mexican",
+          "title": "Mexican"
+        },
+        {
+          "alias": "tex-mex",
+          "title": "Tex-Mex"
+        },
+        {
+          "alias": "bars",
+          "title": "Bars"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 29.4151248931885,
+        "longitude": -98.4896087646484
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "910 S Alamo St",
+        "address2": "",
+        "address3": "",
+        "city": "San Antonio",
+        "zip_code": "78205",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "910 S Alamo St",
+          "San Antonio, TX 78205"
+        ]
+      },
+      "phone": "+12102231806",
+      "display_phone": "(210) 223-1806",
+      "distance": 9110.688376666403
+    },
+    {
+      "id": "jpkIekRcJwkheofnq4tyvw",
+      "alias": "picnikins-patio-cafe-san-antonio",
+      "name": "Picnikins Patio Cafe",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/5mK1i5a-wWi66-iGO0Sl4g/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/picnikins-patio-cafe-san-antonio?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 371,
+      "categories": [
+        {
+          "alias": "newamerican",
+          "title": "American (New)"
+        },
+        {
+          "alias": "sandwiches",
+          "title": "Sandwiches"
+        },
+        {
+          "alias": "wine_bars",
+          "title": "Wine Bars"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 29.51892,
+        "longitude": -98.50789
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "6901 Blanco Rd",
+        "address2": "",
+        "address3": "",
+        "city": "San Antonio",
+        "zip_code": "78216",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "6901 Blanco Rd",
+          "San Antonio, TX 78216"
+        ]
+      },
+      "phone": "+12106160954",
+      "display_phone": "(210) 616-0954",
+      "distance": 2758.8237756116373
+    },
+    {
+      "id": "qAUBsHNG1xIxPEGalV2Brg",
+      "alias": "cullums-attagirl-san-antonio-2",
+      "name": "Cullum's Attagirl",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/D41_DB7s-fgCb9h0Vb538Q/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/cullums-attagirl-san-antonio-2?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 199,
+      "categories": [
+        {
+          "alias": "tradamerican",
+          "title": "American (Traditional)"
+        },
+        {
+          "alias": "beerbar",
+          "title": "Beer Bar"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 29.453132,
+        "longitude": -98.485025
+      },
+      "transactions": [],
+      "price": "$",
+      "location": {
+        "address1": "726 E Mistletoe",
+        "address2": "",
+        "address3": "",
+        "city": "San Antonio",
+        "zip_code": "78212",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "726 E Mistletoe",
+          "San Antonio, TX 78212"
+        ]
+      },
+      "phone": "+12104374263",
+      "display_phone": "(210) 437-4263",
+      "distance": 5402.27878035177
+    },
+    {
+      "id": "XHhvawwnTVszMrRi0q1sAg",
+      "alias": "pancake-joes-san-antonio-2",
+      "name": "Pancake Joe's",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/BTnXFNrgCOXhXnmqit54jA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/pancake-joes-san-antonio-2?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 793,
+      "categories": [
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 29.4646091,
+        "longitude": -98.5436325
+      },
+      "transactions": [],
+      "price": "$",
+      "location": {
+        "address1": "1011 Donaldson Ave",
+        "address2": "",
+        "address3": "",
+        "city": "San Antonio",
+        "zip_code": "78228",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "1011 Donaldson Ave",
+          "San Antonio, TX 78228"
+        ]
+      },
+      "phone": "+12107859007",
+      "display_phone": "(210) 785-9007",
+      "distance": 4364.859637625657
+    },
+    {
+      "id": "B_-sdSVBpWsgKhF8T1wilQ",
+      "alias": "leon-valley-cafe-san-antonio-4",
+      "name": "Leon Valley Cafe",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/aiQnIpAvwFECo2tRHtLXjQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/leon-valley-cafe-san-antonio-4?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 251,
+      "categories": [
+        {
+          "alias": "newamerican",
+          "title": "American (New)"
+        },
+        {
+          "alias": "cafes",
+          "title": "Cafes"
+        }
+      ],
+      "rating": 5,
+      "coordinates": {
+        "latitude": 29.50152,
+        "longitude": -98.61236
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "6417 Evers Rd",
+        "address2": "",
+        "address3": "",
+        "city": "San Antonio",
+        "zip_code": "78238",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "6417 Evers Rd",
+          "San Antonio, TX 78238"
+        ]
+      },
+      "phone": "+12105200706",
+      "display_phone": "(210) 520-0706",
+      "distance": 9492.266369196148
+    },
+    {
+      "id": "fjQyLm3ktC8hqRm97cuYMA",
+      "alias": "the-dogfather-san-antonio",
+      "name": "The Dogfather",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/mI5ORxsWpdcebabRjOWICg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-dogfather-san-antonio?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 193,
+      "categories": [
+        {
+          "alias": "hotdog",
+          "title": "Hot Dogs"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 29.4934696674458,
+        "longitude": -98.4996186196804
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "6211 San Pedro Ave",
+        "address2": "",
+        "address3": null,
+        "city": "San Antonio",
+        "zip_code": "78216",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "6211 San Pedro Ave",
+          "San Antonio, TX 78216"
+        ]
+      },
+      "phone": "+12104814272",
+      "display_phone": "(210) 481-4272",
+      "distance": 1435.0765620473044
+    },
+    {
+      "id": "K3r3GA4SqeVUGXJVck0wAg",
+      "alias": "the-station-cafe-san-antonio",
+      "name": "The Station Cafe",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/hQM0WN2KsYQUmU42HHL_0w/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-station-cafe-san-antonio?adjust_creative=gAeEJx1Ii3uplcnNazrR0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=gAeEJx1Ii3uplcnNazrR0Q",
+      "review_count": 471,
+      "categories": [
+        {
+          "alias": "salad",
+          "title": "Salad"
+        },
+        {
+          "alias": "sandwiches",
+          "title": "Sandwiches"
+        },
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 29.4174560439005,
+        "longitude": -98.4904902
+      },
+      "transactions": [
+        "pickup"
+      ],
+      "price": "$",
+      "location": {
+        "address1": "108 King William",
+        "address2": "",
+        "address3": "",
+        "city": "San Antonio",
+        "zip_code": "78204",
+        "country": "US",
+        "state": "TX",
+        "display_address": [
+          "108 King William",
+          "San Antonio, TX 78204"
+        ]
+      },
+      "phone": "+12104442200",
+      "display_phone": "(210) 444-2200",
+      "distance": 8867.64337431718
+    }
+  ],
+  "total": 2300,
+  "region": {
+    "center": {
+      "longitude": -98.514404296875,
+      "latitude": 29.494438307483204
+    }
+  }
+}

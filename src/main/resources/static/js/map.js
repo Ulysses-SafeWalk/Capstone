@@ -117,15 +117,15 @@ function initialize() {
     // }
     // generateLocationMarkers();
 
-    $.ajax({
-        url: "https://api.yelp.com/v3/businesses/search?term=restaurants&location=San+Antonio",
-        headers: {
-            "Authorization": "Bearer bc_irZxNZ-Ep0rZHDClW6t_Zts0IKH5_ZYf5_3UWs7pt9VXo6H0Sx8iX96AgtcYoOYPjCvYBDhVTiiMMjRPMw1rHq2kxrpGH5SxXpXJA4aoEAxtnd6QOIZLSKrU7W3Yx",
-            "Content-Type":"application/json"
-        },
-        method: "GET",
-        dataType: "json",
-    });
+    // $.ajax({
+    //     url: "https://api.yelp.com/v3/businesses/search?term=restaurants&location=San+Antonio",
+    //     headers: {
+    //         "Authorization": "Bearer bc_irZxNZ-Ep0rZHDClW6t_Zts0IKH5_ZYf5_3UWs7pt9VXo6H0Sx8iX96AgtcYoOYPjCvYBDhVTiiMMjRPMw1rHq2kxrpGH5SxXpXJA4aoEAxtnd6QOIZLSKrU7W3Yx",
+    //         "Content-Type":"application/json"
+    //     },
+    //     method: "GET",
+    //     dataType: "json",
+    // });
 
 
 
