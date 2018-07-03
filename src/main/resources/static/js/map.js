@@ -46,19 +46,47 @@ function initialize() {
         }
     };
 
-    var request = $.get("/json/publicSafetyFacilities.json");
-    request.done(function(response) {
-        var locations = response.features;
-            locations.forEach(function(location){
-                var lat = location.properties.LAT;
-                var lng = location.properties.LON;
-                var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(lat,lng),
-                    icon: facilityIcons[location.properties.AgencyType].icon,
-                    map: map
-                });
-            })
+    var facilitiesLayer = new google.maps.Data();
+    facilitiesLayer.loadGeoJson('/json/publicSafetyFacilities.json');
+
+
+    facilitiesLayer.setStyle(function(feature) {
+        console.log(feature.getProperty('AgencyType'));
+        var icon = null;
+        if (feature.getProperty('AgencyType')){
+            icon = facilityIcons[feature.getProperty('AgencyType')].icon;
+        }
+        return /** @type {google.maps.Data.StyleOptions} */({
+            icon: icon
         });
+    });
+
+    facilitiesLayer.setMap(map);
+
+    //to hide layer:
+    //facilitiesLayer.setStyle({visible: false});
+
+
+
+
+    // var request = $.get("/json/publicSafetyFacilities.json");
+    // request.done(function(response) {
+    //     var locations = response.features;
+    //     facilitiesLayer = locations.forEach(function(location){
+    //             var lat = location.properties.LAT;
+    //             var lng = location.properties.LON;
+    //             var marker = new google.maps.Marker({
+    //                 position: new google.maps.LatLng(lat,lng),
+    //                 icon: facilityIcons[location.properties.AgencyType].icon,
+    //                 map: map
+    //             });
+    //         })
+    //     });
+    //
+
+    // $('input[name="facilities"].change(function(){'}))
+
 }
 
 initialize();
+
