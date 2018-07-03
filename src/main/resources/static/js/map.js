@@ -1,13 +1,7 @@
 "use strict";
 
-// function test(){
-//     console.log("this is working!");
-// }
-//
-// test();
-
-
 function initialize() {
+
     let codeup = new google.maps.LatLng(29.426709, -98.489604);
 
     let mapOptions = {
@@ -26,6 +20,10 @@ function initialize() {
 
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function (position) {
+            window.SafeWalkGeo = {
+                haveDate: true, position: position.coords
+            };
+
             let myLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
             map.setCenter(myLocation);
 
@@ -34,7 +32,11 @@ function initialize() {
                 map: map,
                 animation: google.maps.Animation.DROP,
             })
+        }, function(error){
+            alert("Something went wrong");
+            console.log(error);
         });
+
     }
 
     //Emergencyfacilities layer

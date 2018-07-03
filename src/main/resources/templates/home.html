@@ -37,13 +37,13 @@
 
             <div class="card shadows">
                 <div class="card-body">
-                    <a href="#" class="btn buttons text-white">Moovit</a>
-                    <a href="#" class="btn buttons text-white">Logout</a>
+                    <a href="#" class="btn buttons text-white mb-3" id="moovit">Transit with Moovit</a><br />
+                    <a href="#" class="btn logout text-white">Logout</a>
                 </div>
             </div>
     </div>
 
-    <div id="map-canvas" class="mb-9 d-flex mb-auto shadows"></div>
+    <div id="map-canvas" class="mb-9 d-flex mb-auto shadows align-self-stretch"></div>
 
 
     <main class="container">
@@ -92,6 +92,7 @@
 
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5523VMyf7HwSUCog4fCxZsze1lDaMP-I&amp;libraries=places"></script>
 <script type="text/javascript" th:src="@{/js/map.js}"></script>
+<script type="text/javascript" th:src="@{/js/moovit.js}"></script>
 
 </body>
 </html>
