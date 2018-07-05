@@ -6,11 +6,9 @@
 
 
 <div class="row d-flex ml-auto align-self-stretch">
-    <div class="flex-column d-none d-lg-block">
+    <div class="col flex-column d-none d-lg-block">
 
         <div th:include="fragments :: logo2"></div>
-
-
 
             <div class="card shadows">
                 <div class="card-body">
@@ -49,82 +47,85 @@
         <!--<div class="d-lg-none d-xl-none">-->
             <!--<div th:include="fragments :: logo2"></div>-->
         <!--</div>-->
-
-        <div class="d-lg-none d-xl-none form-group vertical-btns btns-div">
-            <div class="float-left">
-                <button class="btn btn-lg buttons mb-3 rd-buttons">
-                    <a href="#" class="text-white" id="profile">
+    <div class="d-flex d-lg-none d-xl-none align-self-stretch btn-container">
+        <div class="form-group vertical-btns btns-div align-self-stretch btn-container">
+            <div class="d-flex">
+                <button class="d-block btn-lg mb-4 rd-buttons shadows" id="profile">
+                    <a href="#">
                     Profile
                     </a>
                 </button>
             </div>
 
-            <div class="float-left">
-                <button class="btn btn-lg buttons mb-3 rd-buttons">
-                    <a href="#" class="text-white" id="uber">
+            <div class="d-flex">
+                <button class="d-block btn-lg mb-4 rd-buttons shadows" id="uber">
+                    <a href="#">
                     Uber
                     </a>
                 </button>
             </div>
 
-            <div class="float-left">
-                <button class="btn btn-lg buttons mb-3 rd-buttons">
-                    <a href="#" class="text-white" id="lyft">
+            <div class="d-flex">
+                <button class="d-block btn-lg mb-4 rd-buttons shadows" id="lyft">
+                    <a href="#">
                     Lyft
                     </a>
                 </button>
             </div>
 
-            <div class="float-left">
-                <button class="btn btn-lg buttons mb-3 rd-buttons">
-                    <a href="#" class="text-white" id="moovit">
+            <div class="d-flex">
+                <button class="d-block btn-lg mb-4 rd-buttons shadows" id="moovit">
+                    <a href="#">
                     Moovit
                     </a>
                 </button>
             </div>
         </div>
-
-        <div id="map-canvas" class="container-flex col shadows align-self-stretch mr-auto"></div>
-
-    <div class="d-flex card shadows mr-auto align-self-stretch">
-        <ul class="nav nav-tabs" id="mapTab" role="tablist">
-            <li class="nav-item">
-                <a class="nav-link active" id="legend-tab" data-toggle="tab" href="#legend" role="tab" aria-controls="legend" aria-selected="true">
-                    Legend
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="layers-tab" data-toggle="tab" href="#layers" role="tab" aria-controls="layers" aria-selected="true">
-                    Layer Selection
-                </a>
-            </li>
-        </ul>
-
-        <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="legend" role="tabpanel" aria-labelledby="legend-tab">
-                <div class="card bg-light">
-                    <div class="card-header">
-                        <h3>Here is the legend</h3>
-                        <div class="card-body"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tab-pane fade" id="layers" role="tabpanel" aria-labelledby="layers-tab">
-                <div class="card bg-light">
-                    <div class="card-header">
-                        <h3>Here are the layers</h3>
-                            <div class="card-body">
-                                <ul class="list-group">
-                                    <li class="list-group-item"><label for="facilitiesLayer"><input name="facilities" type="checkbox" id="facilitiesLayer" checked="checked"/>Police and Fire Stations</label></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
     </div>
+
+        <div id="map-canvas" class="container-flex float-left col shadows align-self-stretch mr-auto"></div>
 </div>
+
+<!--<div class="row">-->
+    <!--<div class="d-flex card shadows align-self-stretch">-->
+        <!--<ul class="nav nav-tabs" id="mapTab" role="tablist">-->
+            <!--<li class="nav-item">-->
+                <!--<a class="nav-link active" id="legend-tab" data-toggle="tab" href="#legend" role="tab" aria-controls="legend" aria-selected="true">-->
+                    <!--Legend-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--<li class="nav-item">-->
+                <!--<a class="nav-link" id="layers-tab" data-toggle="tab" href="#layers" role="tab" aria-controls="layers" aria-selected="true">-->
+                    <!--Layer Selection-->
+                <!--</a>-->
+            <!--</li>-->
+        <!--</ul>-->
+
+        <!--<div class="tab-content" id="myTabContent">-->
+            <!--<div class="tab-pane fade show active" id="legend" role="tabpanel" aria-labelledby="legend-tab">-->
+                <!--<div class="card bg-light">-->
+                    <!--<div class="card-header">-->
+                        <!--<h3>Here is the legend</h3>-->
+                        <!--<div class="card-body"></div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+
+            <!--<div class="tab-pane fade" id="layers" role="tabpanel" aria-labelledby="layers-tab">-->
+                <!--<div class="card bg-light">-->
+                    <!--<div class="card-header">-->
+                        <!--<h3>Here are the layers</h3>-->
+                            <!--<div class="card-body">-->
+                                <!--<ul class="list-group">-->
+                                    <!--<li class="list-group-item"><label for="facilitiesLayer"><input name="facilities" type="checkbox" id="facilitiesLayer" checked="checked"/>Police and Fire Stations</label></li>-->
+                                <!--</ul>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
 
 
 <th:block th:replace="fragments :: scripts" />

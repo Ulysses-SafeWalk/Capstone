@@ -31,10 +31,15 @@ body, html {
 
 .rating > input:checked + label:hover, .rate > input:checked + label:hover ~ label, .rate > input:checked ~ label:hover, .rate > input:checked ~ label:hover ~ label, .rate > label:hover ~ input:checked ~ label { color: #00b07b; }
 
-.container {
+/*.container {
     width: 410px;
     height: 410px;
     padding: 0;
+}*/
+
+.btn-container{
+    width: 150px;
+    height: 600px;
 }
 
 .layout {
@@ -72,52 +77,45 @@ body, html {
 
 .rd-buttons {
     border: none;
-    color: white;
-    padding: 20px;
+    padding: none;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 1em;
+    margin: 35px 0px;
     border-radius: 50%;
 }
 
-.vertical-btns {
-    width: 50px;
-    height: 100px;
-}
-
 #btns-div{
-    width: 75vw;
-    height: 75vh;
+    width: 125px;
+    height: 100vh;
 }
 
 #profile {
     position:absolute;
     z-index:auto;
-    left:125px;
-    top:125px;
+    left:25px;
+    top:75px;
 }
 
 #uber {
-    position:absolute;
+    position:relative;
     z-index:-10;
-    left:125px;
-    top:125px;
+    left:25px;
+    top:75px;
 }
 
 #lyft {
-    position:absolute;
+    position:relative;
     z-index:-20;
-    left:125px;
-    top:125px;
+    left:25px;
+    top:75px;
 }
 
 #moovit {
-    position:absolute;
+    position:relative;
     z-index:-30;
-    left:125px;
-    top:125px;
+    left:25px;
+    top:75px;
 }
 
 .logout {
@@ -149,10 +147,12 @@ body, html {
 }
 
 #map-canvas{
+    position: relative;
     margin: auto;
     width: 80%;
-    height: 500px;
+    height: 75vh;
 }
+
 
 
 
