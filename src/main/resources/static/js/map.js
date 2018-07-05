@@ -18,6 +18,8 @@ function initialize() {
         map: map
     });
 
+
+
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function (position) {
             window.SafeWalkGeo = {
