@@ -1,5 +1,4 @@
-{
-  "businesses": [
+  {"businesses": [
     {
       "id": "eBBAOyjKSLzjaOD2CNgKAA",
       "alias": "the-modernist-san-antonio",
@@ -15869,12 +15868,5 @@
       "display_phone": "(512) 704-7464",
       "distance": 141797.88795130505
     }
-  ],
-  "total": 374,
-  "region": {
-    "center": {
-      "longitude": -98.47223,
-      "latitude": 29.452541
-    }
-  }
+  ]
 }

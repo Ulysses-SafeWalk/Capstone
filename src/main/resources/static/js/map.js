@@ -76,59 +76,9 @@ function initialize() {
         }
     });
 
-    // function generateLocationMarkers() {
-    //     //Restaurant layer
-    //     let restaurantRequest = {
-    //         location: myLocation,
-    //         radius: '10000',
-    //         type: ['restaurant']
-    //     };
-    //
-    //     let barRequest = {
-    //         location: myLocation,
-    //         radius: '10000',
-    //         type: ['bar']
-    //     };
-    //
-    //
-    //     let service = new google.maps.places.PlacesService(map);
-    //     service.nearbySearch(restaurantRequest, function (results, status) {
-    //         callback(results, status, restaurantRequest.type)
-    //     });
-    //     service.nearbySearch(barRequest, function (results, status) {
-    //         callback(results, status, barRequest.type)
-    //     });
-    //
-    //     function callback(results, status, category) {
-    //         if (status == google.maps.places.PlacesServiceStatus.OK) {
-    //             for (var i = 0; i < results.length; i++) {
-    //                 var place = results[i];
-    //                 createMarker(place, category);
-    //             }
-    //             ;
-    //         }
-    //     }
-    //
-    //     function createMarker(place, category) {
-    //         new google.maps.Marker({
-    //             position: place.geometry.location,
-    //             map: map,
-    //             icon: Icons[category].icon
-    //         });
-    //     }
-    // }
-    // generateLocationMarkers();
 
-    // $.ajax({
-    //     url: "https://api.yelp.com/v3/businesses/search?term=restaurants&location=San+Antonio",
-    //     headers: {
-    //         "Authorization": "Bearer bc_irZxNZ-Ep0rZHDClW6t_Zts0IKH5_ZYf5_3UWs7pt9VXo6H0Sx8iX96AgtcYoOYPjCvYBDhVTiiMMjRPMw1rHq2kxrpGH5SxXpXJA4aoEAxtnd6QOIZLSKrU7W3Yx",
-    //         "Content-Type":"application/json"
-    //     },
-    //     method: "GET",
-    //     dataType: "json",
-    // });
-let restaurantgeojson;
+
+let restaurantgeojson = "";
 
     function createGeoJson() {
         console.log("Starting up");
@@ -151,7 +101,7 @@ let restaurantgeojson;
                     "type": "Feature",
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [response.businesses[i].coordinates.latitude, response.businesses[i].coordinates.longitude]
+                        "coordinates": [response.businesses[i].coordinates.longitude, response.businesses[i].coordinates.latitude]
                     },
                     "properties": {
                         "name": response.businesses[i].name
@@ -159,11 +109,22 @@ let restaurantgeojson;
                 });
             }
         });
-
     }
+
 
     createGeoJson();
     console.log(restaurantgeojson);
+
+    // let parsedRestaurantJson = JSON.parse(restaurantgeojson);
+
+    let restaurantsLayer = new google.maps.Data();
+    // restaurantsLayer.addGeoJson(restaurantgeojson.toString());
+
+    // restaurantsLayer.setStyle({
+    //     icon: "/img/restaurant.png"
+    // });
+    restaurantsLayer.setMap(map);
+
 
 }
 
