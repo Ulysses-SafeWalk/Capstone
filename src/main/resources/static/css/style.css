@@ -70,6 +70,56 @@ body, html {
     background-color: #00b07b;
 }
 
+.rd-buttons {
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
+
+.vertical-btns {
+    width: 50px;
+    height: 100px;
+}
+
+#btns-div{
+    width: 75vw;
+    height: 75vh;
+}
+
+#profile {
+    position:absolute;
+    z-index:auto;
+    left:125px;
+    top:125px;
+}
+
+#uber {
+    position:absolute;
+    z-index:-10;
+    left:125px;
+    top:125px;
+}
+
+#lyft {
+    position:absolute;
+    z-index:-20;
+    left:125px;
+    top:125px;
+}
+
+#moovit {
+    position:absolute;
+    z-index:-30;
+    left:125px;
+    top:125px;
+}
+
 .logout {
     background-color: #939da0;
 }

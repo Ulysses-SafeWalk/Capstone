@@ -6,9 +6,10 @@
 
 
 <div class="row d-flex ml-auto align-self-stretch">
-    <div class="mb-6 flex-column d-none d-lg-block">
+    <div class="flex-column d-none d-lg-block">
 
         <div th:include="fragments :: logo2"></div>
+
 
 
             <div class="card shadows">
@@ -44,7 +45,46 @@
             </div>
     </div>
 
-        <div id="map-canvas" class="d-flex shadows align-self-stretch mr-auto"></div>
+        <!--Mobile View elements that appear w lg and xl screens-->
+        <!--<div class="d-lg-none d-xl-none">-->
+            <!--<div th:include="fragments :: logo2"></div>-->
+        <!--</div>-->
+
+        <div class="d-lg-none d-xl-none form-group vertical-btns btns-div">
+            <div class="float-left">
+                <button class="btn btn-lg buttons mb-3 rd-buttons">
+                    <a href="#" class="text-white" id="profile">
+                    Profile
+                    </a>
+                </button>
+            </div>
+
+            <div class="float-left">
+                <button class="btn btn-lg buttons mb-3 rd-buttons">
+                    <a href="#" class="text-white" id="uber">
+                    Uber
+                    </a>
+                </button>
+            </div>
+
+            <div class="float-left">
+                <button class="btn btn-lg buttons mb-3 rd-buttons">
+                    <a href="#" class="text-white" id="lyft">
+                    Lyft
+                    </a>
+                </button>
+            </div>
+
+            <div class="float-left">
+                <button class="btn btn-lg buttons mb-3 rd-buttons">
+                    <a href="#" class="text-white" id="moovit">
+                    Moovit
+                    </a>
+                </button>
+            </div>
+        </div>
+
+        <div id="map-canvas" class="container-flex col shadows align-self-stretch mr-auto"></div>
 
     <div class="d-flex card shadows mr-auto align-self-stretch">
         <ul class="nav nav-tabs" id="mapTab" role="tablist">
