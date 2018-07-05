@@ -1,15 +1,6 @@
 "use strict";
 
 (function () {
-    // let options = {
-    //     enableHighAccuracy: true,
-    //     timeout: 5000,
-    //     maximumAge: 0
-    // };
-
-    // function error(err) {
-    //     alert(`ERROR(${err.code}): ${err.message}`);
-    // }
 
     $('#moovit').click(function(event) {
         let crd = window.SafeWalkGeo.position;

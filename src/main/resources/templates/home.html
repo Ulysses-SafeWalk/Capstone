@@ -5,9 +5,10 @@
 <nav th:replace="fragments :: navbar" />
 
 
-<div class="row d-flex mb-auto align-self-stretch">
-    <div class="mb-6 flex-column">
-        <div th:include="fragments :: logo"></div>
+<div class="row d-flex ml-auto align-self-stretch">
+    <div class="mb-6 flex-column d-none d-lg-block">
+
+        <div th:include="fragments :: logo2"></div>
 
 
             <div class="card shadows">
@@ -43,10 +44,9 @@
             </div>
     </div>
 
-    <div id="map-canvas" class="mb-9 d-flex mb-auto shadows align-self-stretch"></div>
+        <div id="map-canvas" class="d-flex shadows align-self-stretch mr-auto"></div>
 
-
-    <main class="container">
+    <div class="d-flex card shadows mr-auto align-self-stretch">
         <ul class="nav nav-tabs" id="mapTab" role="tablist">
             <li class="nav-item">
                 <a class="nav-link active" id="legend-tab" data-toggle="tab" href="#legend" role="tab" aria-controls="legend" aria-selected="true">
@@ -59,6 +59,7 @@
                 </a>
             </li>
         </ul>
+
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="legend" role="tabpanel" aria-labelledby="legend-tab">
                 <div class="card bg-light">
@@ -68,24 +69,22 @@
                     </div>
                 </div>
             </div>
+
             <div class="tab-pane fade" id="layers" role="tabpanel" aria-labelledby="layers-tab">
                 <div class="card bg-light">
                     <div class="card-header">
                         <h3>Here are the layers</h3>
-                        <div class="card-body">
-                            <ul class="list-group">
-                                <li class="list-group-item"><label for="facilitiesLayer"><input name="facilities" type="checkbox" id="facilitiesLayer" checked="checked"/>Police and Fire Stations</label></li>
-                            </ul>
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><label for="facilitiesLayer"><input name="facilities" type="checkbox" id="facilitiesLayer" checked="checked"/>Police and Fire Stations</label></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </main>
-
-
     </div>
-
+</div>
 
 
 <th:block th:replace="fragments :: scripts" />

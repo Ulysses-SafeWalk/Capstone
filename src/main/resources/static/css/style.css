@@ -31,11 +31,11 @@ body, html {
 
 .rating > input:checked + label:hover, .rate > input:checked + label:hover ~ label, .rate > input:checked ~ label:hover, .rate > input:checked ~ label:hover ~ label, .rate > label:hover ~ input:checked ~ label { color: #00b07b; }
 
-/*.container {*/
-    /*width: 410px;*/
-    /*height: 410px;*/
-    /*padding: 0;*/
-/*}*/
+.container {
+    width: 410px;
+    height: 410px;
+    padding: 0;
+}
 
 .layout {
     float: left;
@@ -50,6 +50,14 @@ body, html {
     background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-top: 100px;
+    width: 250px;
+    height: 100px;
+}
+
+.logo-main {
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 250px;
     height: 100px;
 }
