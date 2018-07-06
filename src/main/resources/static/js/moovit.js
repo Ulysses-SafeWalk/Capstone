@@ -21,7 +21,7 @@
             if (status === 'OK') {
                 if (results[0]) {
                     let formatted_address = results[0].formatted_address;
-                    window.location = `https://m.uber.com/?action=setPickup&pickup[latitude]=${latitude}&pickup[longitude]=${longitude}&pickup[formatted_address]=${formatted_address}`;
+                    window.location = `https://m.uber.com/?action=setPickup&client_id=oQg4FB9S9bs-0xxQ7VcrlCp0raIrWxTd&pickup[latitude]=${latitude}&pickup[longitude]=${longitude}&pickup[formatted_address]=${formatted_address}&dropoff[formatted_address]=Codeup%2C%20Navarro%20Street%2C%20San%20Antonio%2C%20TX%2C%20USA&dropoff[latitude]=29.426786&dropoff[longitude]=-98.489576`;
                 } else {
                     window.alert('Could not access your current location');
                 }
