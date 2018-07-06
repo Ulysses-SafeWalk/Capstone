@@ -5763,19 +5763,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates":  { }
-      },
-      "properties": {
-        "yelpID":"9QL55WA1sMGY0j1CpS2dug",
-        "name":"MARS' Mobile Kitchen",
-        "category":"restaurant",
-        "yelpCategory":"Street Vendors"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates":  [ -98.492,29.47348 ]
       },
       "properties": {

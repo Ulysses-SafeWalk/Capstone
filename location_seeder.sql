@@ -648,7 +648,6 @@ INSERT INTO locations (yelp_id,name,category,yelp_category,latitude,longitude) V
   ('WDt0Y8EudPxPFZkRZrSBvw','Mariscos El Paisa','restaurant','Seafood','29.39251','-98.53198'),
   ('iTm3wK_HmnnjcSd4fuN0vw','Mark\'s Outing','restaurant','Burgers','29.4198356','-98.4708068'),
   ('HocbcLmnvHvc642fvUET8A','Market on Houston','restaurant','American (New)','29.4266100081512','-98.4910097799047'),
-  ('9QL55WA1sMGY0j1CpS2dug','MARS\' Mobile Kitchen','restaurant','Street Vendors','null','null'),
   ('UPuKlGZ-vw0KfKlrrVZhzQ','Martinez Barbacoa Y Tamales','both','Mexican','29.4497032','-98.5114197'),
   ('17WgiqE7LL0-cuWkFG1xiA','Martini Ranch','bar','Dive Bars','29.511497','-98.525527'),
   ('NfsjtVRMxhg8a-lii4UC_w','Marty\'s Cocktails','bar','Sports Bars','29.5290203094482','-98.4929428100586'),

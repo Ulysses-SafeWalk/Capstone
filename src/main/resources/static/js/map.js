@@ -101,8 +101,8 @@ function initialize() {
     }
 
     setLocationLayers(bothLayer, '/json/bothGeo.json', "both");
-    setLocationLayers(barLayer, '/json/bothGeo.json', "both");
-    setLocationLayers(bothLayer, '/json/bothGeo.json', "both");
+    setLocationLayers(barLayer, '/json/barsGeo.json', "bar");
+    setLocationLayers(restaurantLayer, '/json/restaurantsGeo.json', "restaurant");
 
 
     //create layer toggle
@@ -118,6 +118,20 @@ function initialize() {
             bothLayer.setStyle({icon: Icons["both"].icon})
         } else {
             bothLayer.setStyle({visible: false})
+        }
+    });
+    $('#barLayer').change(function(){
+        if($(this).is(':checked')){
+            barLayer.setStyle({icon: Icons["bar"].icon})
+        } else {
+            barLayer.setStyle({visible: false})
+        }
+    });
+    $('#restaurantLayer').change(function(){
+        if($(this).is(':checked')){
+            restaurantLayer.setStyle({icon: Icons["restaurant"].icon})
+        } else {
+            restaurantLayer.setStyle({visible: false})
         }
     });
 
