@@ -150,9 +150,9 @@ function initialize() {
     // let restaurantsLayer = new google.maps.Data();
     // restaurantsLayer.addGeoJson(JSON.stringify(restaurantgeojson));
 
-    let barLayer = new google.maps.Data();
-    barLayer.addGeoJson(bargeojson);
-    barLayer.setMap(map);
+    // let barLayer = new google.maps.Data();
+    // barLayer.addGeoJson(JSON.parse(bargeojson));
+    // barLayer.setMap(map);
 
     // restaurantsLayer.setStyle({
     //     icon: "/img/restaurant.png"
