@@ -19,7 +19,7 @@ function initialize() {
     });
 
 
-
+    //get users current position
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function (position) {
             window.SafeWalkGeo = {
@@ -41,7 +41,7 @@ function initialize() {
 
     }
 
-    //Emergencyfacilities layer
+    //establish icon library
     let Icons = {
         POLICE: {
             icon: "/img/police.png"
@@ -54,12 +54,29 @@ function initialize() {
         },
         bar: {
             icon: "/img/bar_cocktail.png"
+        },
+        both: {
+            icon: "/img/terrace.png"
         }
     };
 
+    var infowindow = new google.maps.InfoWindow();
+
+    function createInfoWindows(layerName) {
+        layerName.addListener('click', function (event) {
+            // document.getElementById('info-box').textContent =
+            //     event.feature.getProperty('Name');
+            let name = event.feature.getProperty('name');
+            infowindow.setContent(name);
+            infowindow.setPosition(event.feature.getGeometry().get());
+            infowindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
+            infowindow.open(map);
+        });
+    }
+
+    //facilities layer
     let facilitiesLayer = new google.maps.Data();
     facilitiesLayer.loadGeoJson('/json/publicSafetyFacilities.json');
-
     let facilitiesStyling = function(feature) {
         let StyleOptions = {
             icon : Icons[feature.getProperty('AgencyType')].icon
@@ -69,6 +86,26 @@ function initialize() {
     facilitiesLayer.setStyle(facilitiesStyling);
     facilitiesLayer.setMap(map);
 
+
+    //location layers
+    let bothLayer = new google.maps.Data();
+    let barLayer = new google.maps.Data();
+    let restaurantLayer = new google.maps.Data();
+
+    function setLocationLayers(layerName, filepath, iconName) {
+        layerName.loadGeoJson(filepath);
+        layerName.setStyle({icon: Icons[iconName].icon});
+        layerName.setMap(map);
+
+        createInfoWindows(layerName);
+    }
+
+    setLocationLayers(bothLayer, '/json/bothGeo.json', "both");
+    setLocationLayers(barLayer, '/json/bothGeo.json', "both");
+    setLocationLayers(bothLayer, '/json/bothGeo.json', "both");
+
+
+    //create layer toggle
     $('#facilitiesLayer').change(function(){
         if($(this).is(':checked')){
             facilitiesLayer.setStyle(facilitiesStyling)
@@ -76,22 +113,13 @@ function initialize() {
             facilitiesLayer.setStyle({visible: false})
         }
     });
-
-    var infowindow = new google.maps.InfoWindow();
-
-    facilitiesLayer.addListener('click', function(event) {
-        // document.getElementById('info-box').textContent =
-        //     event.feature.getProperty('Name');
-        let name = event.feature.getProperty('Name');
-        infowindow.setContent(name);
-        infowindow.setPosition(event.feature.getGeometry().get());
-        infowindow.setOptions({pixelOffset: new google.maps.Size(0,-30)});
-        infowindow.open(map);
+    $('#bothLayer').change(function(){
+        if($(this).is(':checked')){
+            bothLayer.setStyle({icon: Icons["both"].icon})
+        } else {
+            bothLayer.setStyle({visible: false})
+        }
     });
-
-    let bothLayer = new google.maps.Data();
-    bothLayer.loadGeoJson('/json/bothGeo.json');
-    bothLayer.setMap(map);
 
 //function to convert json to geojson
 //     function createGeoJson(filepath, featureListName) {
