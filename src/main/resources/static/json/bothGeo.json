@@ -1,0 +1,2123 @@
+{"type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48697591,29.42667763 ]
+      },
+      "properties": {
+        "yelpID":"dn4Ybx86e1PikqqbEu77sA",
+        "name":"1909 Bar & Bistro",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48159091,29.49714777 ]
+      },
+      "properties": {
+        "yelpID":"Oj-hyvRy4C6Uhm2D6CLC1A",
+        "name":"20nine Restaurant & Wine Bar",
+        "category":"both",
+        "yelpCategory":"Wine Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4789176,29.5169344 ]
+      },
+      "properties": {
+        "yelpID":"nMxfFIK0rIeCcrzLJaBy8A",
+        "name":"54th Street Restaurant & Drafthouse",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4920043,29.42625587 ]
+      },
+      "properties": {
+        "yelpID":"UREqjKSXyJUqh4wNuigrRA",
+        "name":"Acenar Mexican Restaurant",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.484795,29.521054 ]
+      },
+      "properties": {
+        "yelpID":"1muWry_IbUIxl3TO14c_TQ",
+        "name":"Applebee's Grill + Bar",
+        "category":"both",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49208,29.44264 ]
+      },
+      "properties": {
+        "yelpID":"GmJtc0CnXWO2inzvcHtrdQ",
+        "name":"Armadillos Texas Style Burgers",
+        "category":"both",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5475235,29.50613022 ]
+      },
+      "properties": {
+        "yelpID":"-fh9rAYxKJkpPVS0fLx5Vg",
+        "name":"Asado Urban Grill",
+        "category":"both",
+        "yelpCategory":"American (New)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48868,29.41716 ]
+      },
+      "properties": {
+        "yelpID":"n4GGozaRnFHJMiOVYhH4bA",
+        "name":"Azuca Nuevo Latina",
+        "category":"both",
+        "yelpCategory":"Latin American"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4906311,29.4139709 ]
+      },
+      "properties": {
+        "yelpID":"M66ztVxHfHLZwvW16xlsMA",
+        "name":"B&D Ice House",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49171199,29.45571687 ]
+      },
+      "properties": {
+        "yelpID":"K4rjSZ8Jn66Blqw6HSW90Q",
+        "name":"Barbaro",
+        "category":"both",
+        "yelpCategory":"Pizza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48940894,29.42510572 ]
+      },
+      "properties": {
+        "yelpID":"CLPqntzBG_p3wRUCzDAesA",
+        "name":"Barriba Cantina",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49215841,29.4248664 ]
+      },
+      "properties": {
+        "yelpID":"8u5RclLkBsXDb2LJrptG8Q",
+        "name":"Bella On the River",
+        "category":"both",
+        "yelpCategory":"Mediterranean"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46683,29.51063 ]
+      },
+      "properties": {
+        "yelpID":"V5PTeBt2G8li-gHNX1xKrQ",
+        "name":"Bentley's Bar",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48017,29.42938 ]
+      },
+      "properties": {
+        "yelpID":"6DMm-DFa_BI8wzeWSNqPjQ",
+        "name":"Bexar Pub",
+        "category":"both",
+        "yelpCategory":"American (Traditional)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48780244,29.4256965 ]
+      },
+      "properties": {
+        "yelpID":"HQduIL6jGzNCEFydVJMHHA",
+        "name":"Bier Garten Riverwalk",
+        "category":"both",
+        "yelpCategory":"German"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4038,29.39539 ]
+      },
+      "properties": {
+        "yelpID":"f1NJni8uJZ7osyNGGok6qA",
+        "name":"Big Lou's Burgers & BBQ",
+        "category":"both",
+        "yelpCategory":"Burgers"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48681852,29.41034261 ]
+      },
+      "properties": {
+        "yelpID":"T3oCtbanG90JrCnVS6eLbg",
+        "name":"Bite",
+        "category":"both",
+        "yelpCategory":"French"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4953643,29.40959897 ]
+      },
+      "properties": {
+        "yelpID":"SZPMn8vSlb2WurCULgK2Sg",
+        "name":"Blue Star Brewing",
+        "category":"both",
+        "yelpCategory":"Breweries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49051,29.42678 ]
+      },
+      "properties": {
+        "yelpID":"Mfj3_ZzuQqCgJNeyleEsWQ",
+        "name":"Bohanan's Prime Steak and Seafood",
+        "category":"both",
+        "yelpCategory":"Steakhouses"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4805486,29.44280418 ]
+      },
+      "properties": {
+        "yelpID":"i8iLLTjW-_RzvXxlRVpsGg",
+        "name":"Boiler House Texas Grill & Wine Garden",
+        "category":"both",
+        "yelpCategory":"American (New)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.478578,29.457093 ]
+      },
+      "properties": {
+        "yelpID":"BiNmstOGccF4-8Isfvgpuw",
+        "name":"Bombay Bicycle Club",
+        "category":"both",
+        "yelpCategory":"American (New)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.480575,29.442789 ]
+      },
+      "properties": {
+        "yelpID":"Vo57vpv_AwNa-M9CsvgXQQ",
+        "name":"Bottling Department",
+        "category":"both",
+        "yelpCategory":"Food Court"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48437,29.4347 ]
+      },
+      "properties": {
+        "yelpID":"7hM1bH8AjvFSi_GhRizIGw",
+        "name":"Bourbon Street Seafood Kitchen",
+        "category":"both",
+        "yelpCategory":"Seafood"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48996282,29.52086725 ]
+      },
+      "properties": {
+        "yelpID":"FtQ8oCpNtGNwBVy93M_5ag",
+        "name":"Bravo Bar & Grill",
+        "category":"both",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46243,29.47291 ]
+      },
+      "properties": {
+        "yelpID":"LAE_CaIR65OVyN1Nb54r_Q",
+        "name":"Broadway 5050",
+        "category":"both",
+        "yelpCategory":"American (Traditional)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47839564,29.43252052 ]
+      },
+      "properties": {
+        "yelpID":"jeJU6D_Dan4hUT6Zvsqy9Q",
+        "name":"Burleson Yard Beer Garden",
+        "category":"both",
+        "yelpCategory":"American (New)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.487977,29.424567 ]
+      },
+      "properties": {
+        "yelpID":"GKoIbad8nOK1XO731pg3TQ",
+        "name":"Cafe Ole",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.484652,29.452985 ]
+      },
+      "properties": {
+        "yelpID":"mNS0Y-w1y1dZfgEZDL4-6w",
+        "name":"Candlelight Coffeehouse",
+        "category":"both",
+        "yelpCategory":"Coffee & Tea"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4633888,29.4726367 ]
+      },
+      "properties": {
+        "yelpID":"eglk84L_IwvD4KwPk0Rq3w",
+        "name":"Cappy's Restaurant",
+        "category":"both",
+        "yelpCategory":"American (New)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49454624,29.42754012 ]
+      },
+      "properties": {
+        "yelpID":"67ITHx4-cHVylpfCJ2sIZw",
+        "name":"Carmens De La Calle",
+        "category":"both",
+        "yelpCategory":"Music Venues"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.41283278,29.51639205 ]
+      },
+      "properties": {
+        "yelpID":"oZyiAzRwu9Tza6LdciM3tg",
+        "name":"Casa Guadalajara Bar & Grill Mexican Restaurant",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.40972137,29.51806831 ]
+      },
+      "properties": {
+        "yelpID":"AYOi72_30RpoUuE840tkbA",
+        "name":"Chacho's",
+        "category":"both",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4587174,29.5158409 ]
+      },
+      "properties": {
+        "yelpID":"kB8Jhx-UJI7-F6k7nujFeg",
+        "name":"Chester's Hamburgers",
+        "category":"both",
+        "yelpCategory":"Burgers"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.482048,29.495521 ]
+      },
+      "properties": {
+        "yelpID":"PFJBKcJXtRU2LTxiYJufoQ",
+        "name":"Chili's",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48804,29.44825 ]
+      },
+      "properties": {
+        "yelpID":"exu_F5L_7JxAn06_tmBzrw",
+        "name":"Chisme",
+        "category":"both",
+        "yelpCategory":"Tex-Mex"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49872,29.43088 ]
+      },
+      "properties": {
+        "yelpID":"CpVaPqfARJnfyF57Z9O2pw",
+        "name":"Christopher Columbus Italian Society",
+        "category":"both",
+        "yelpCategory":"Venues & Event Spaces"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4872665,29.4205529 ]
+      },
+      "properties": {
+        "yelpID":"j45o0oaH7aMIvOknGECnFg",
+        "name":"Con Safos - Cocina Y Cantina",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5490356,29.4920535 ]
+      },
+      "properties": {
+        "yelpID":"tvb93IQIyLlenULxGkOrFg",
+        "name":"Crossroads BBQ",
+        "category":"both",
+        "yelpCategory":"Barbeque"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.485025,29.453132 ]
+      },
+      "properties": {
+        "yelpID":"qAUBsHNG1xIxPEGalV2Brg",
+        "name":"Cullum's Attagirl",
+        "category":"both",
+        "yelpCategory":"American (Traditional)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4798518,29.44219792 ]
+      },
+      "properties": {
+        "yelpID":"CPpcFOhRHZwRxU6LbeJNrQ",
+        "name":"Cured",
+        "category":"both",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4880772,29.4246387 ]
+      },
+      "properties": {
+        "yelpID":"OCpjEJOSo--ciS1OGlDwKg",
+        "name":"Dick's Last Resort",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4917399,29.42623 ]
+      },
+      "properties": {
+        "yelpID":"VnIuCqHc4fqN05Tvhq2ENQ",
+        "name":"Dorrego's",
+        "category":"both",
+        "yelpCategory":"Argentine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47824477,29.44399301 ]
+      },
+      "properties": {
+        "yelpID":"oVASyewXkfUUXb2k2nOaKw",
+        "name":"Down on Grayson",
+        "category":"both",
+        "yelpCategory":"American (New)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48778235,29.42249554 ]
+      },
+      "properties": {
+        "yelpID":"gHiyjLK8ugcxPeM3J8KvJw",
+        "name":"Durty Nelly's Irish Pub",
+        "category":"both",
+        "yelpCategory":"Pubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.467384,29.459604 ]
+      },
+      "properties": {
+        "yelpID":"O-T5r9_L5S8MDwUZpddBYg",
+        "name":"El Bandera Jalisco",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49214,29.44663 ]
+      },
+      "properties": {
+        "yelpID":"OPlj-Ml7D6seanRxGH0RLw",
+        "name":"El Marinero",
+        "category":"both",
+        "yelpCategory":"Seafood"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48968506,29.41730118 ]
+      },
+      "properties": {
+        "yelpID":"h7nTUwSS8vCxWkH49dnYcg",
+        "name":"El Mirador",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48526881,29.4526193 ]
+      },
+      "properties": {
+        "yelpID":"vf2N5GgZRUn2uj2sOSzyXg",
+        "name":"Faust Tavern",
+        "category":"both",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49039459,29.4174366 ]
+      },
+      "properties": {
+        "yelpID":"GPflwPSQm5ZdtuCb-D8UQQ",
+        "name":"Filling Station Tap Room",
+        "category":"both",
+        "yelpCategory":"Pizza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47975894,29.4952177 ]
+      },
+      "properties": {
+        "yelpID":"NNUzRGFEgDv5pQrlXI8OPA",
+        "name":"Fleming's Prime Steakhouse & Wine Bar",
+        "category":"both",
+        "yelpCategory":"Steakhouses"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4898936,29.41636471 ]
+      },
+      "properties": {
+        "yelpID":"t2LRzFqmnOi8e1Z-byAMlA",
+        "name":"Francis Bogside",
+        "category":"both",
+        "yelpCategory":"Gastropubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47463,29.44345 ]
+      },
+      "properties": {
+        "yelpID":"i6UX_C4YDX6816PQGzY5Rw",
+        "name":"Grayze",
+        "category":"both",
+        "yelpCategory":"American (Traditional)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46154,29.42252 ]
+      },
+      "properties": {
+        "yelpID":"lwviMgio2yuC13DLAQh9qA",
+        "name":"Greenwood's Bar & Grill",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4627517,29.4759298 ]
+      },
+      "properties": {
+        "yelpID":"L61lOnTxiHWzHNyc8EMVxA",
+        "name":"Habibi Cafe",
+        "category":"both",
+        "yelpCategory":"Hookah Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48909,29.42524 ]
+      },
+      "properties": {
+        "yelpID":"r2fYmxLsjGPIehjX4bqY9Q",
+        "name":"Hard Rock Cafe",
+        "category":"both",
+        "yelpCategory":"American (New)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5353916,29.4975307 ]
+      },
+      "properties": {
+        "yelpID":"ugsrkwfL9PoE0-4JoOxDkg",
+        "name":"Hawx Burger Bar & Electro Lounge",
+        "category":"both",
+        "yelpCategory":"Burgers"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.484969,29.423715 ]
+      },
+      "properties": {
+        "yelpID":"o6uGVu7eEgt-RceMmiP80A",
+        "name":"Hooters",
+        "category":"both",
+        "yelpCategory":"Chicken Wings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49107,29.426349 ]
+      },
+      "properties": {
+        "yelpID":"uidVpSG9Uv3D-BUng36n4Q",
+        "name":"Houston Street Bistro",
+        "category":"both",
+        "yelpCategory":"American (New)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.467397,29.4599229 ]
+      },
+      "properties": {
+        "yelpID":"2os594rxTKws4uYJ0d7TkA",
+        "name":"Hung Fong Chinese Restaurant",
+        "category":"both",
+        "yelpCategory":"Chinese"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4991051,29.5031301 ]
+      },
+      "properties": {
+        "yelpID":"pFFlRFdzCH0DHFJGzNZjMA",
+        "name":"Huqqa Lounge Mediterranean Cuisine & Pizzeria",
+        "category":"both",
+        "yelpCategory":"Hookah Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.491085,29.425072 ]
+      },
+      "properties": {
+        "yelpID":"Ri8ny-KWMtWl5yokiKE56w",
+        "name":"Iron Cactus",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.525938,29.468189 ]
+      },
+      "properties": {
+        "yelpID":"f2gZ_OjTLsxJ9gM_T3Lxpw",
+        "name":"Jacala Mexican Restaurant",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.41647115,29.50248734 ]
+      },
+      "properties": {
+        "yelpID":"s5NDZKT4dI9_KS5LK9UhTA",
+        "name":"Jamaica Jamaica Cuisine",
+        "category":"both",
+        "yelpCategory":"Caribbean"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48042271,29.44210649 ]
+      },
+      "properties": {
+        "yelpID":"4PpnYh85HIn-De0zFykohA",
+        "name":"Jazz TX",
+        "category":"both",
+        "yelpCategory":"Southern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47638379,29.46042242 ]
+      },
+      "properties": {
+        "yelpID":"R3Vxez2gdSm86_766ZzVtA",
+        "name":"Jingu House At the Japanese Tea Garden",
+        "category":"both",
+        "yelpCategory":"Venues & Event Spaces"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48864134,29.41703964 ]
+      },
+      "properties": {
+        "yelpID":"9s-81E6hfzEDQ6tBuFbz9A",
+        "name":"Jokesters 22 Pub N Grub",
+        "category":"both",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49146187,29.42846908 ]
+      },
+      "properties": {
+        "yelpID":"mBcmNWS1k9p2q0G-NDSR0A",
+        "name":"Kimura Ramen Restaurant",
+        "category":"both",
+        "yelpCategory":"Ramen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49978,29.43556 ]
+      },
+      "properties": {
+        "yelpID":"nfq0Np3B7D9b2xUbB1sMmg",
+        "name":"King's Hwy Brew n Q",
+        "category":"both",
+        "yelpCategory":"Barbeque"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4691,29.457061 ]
+      },
+      "properties": {
+        "yelpID":"qMW63i8O9tsekNAkb_oH9A",
+        "name":"King's Palace",
+        "category":"both",
+        "yelpCategory":"Chinese"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.493878,29.4425214 ]
+      },
+      "properties": {
+        "yelpID":"s25GdDDfsAJxYlsi68KOlA",
+        "name":"Knockout",
+        "category":"both",
+        "yelpCategory":"Pizza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48510426,29.45230289 ]
+      },
+      "properties": {
+        "yelpID":"tPqRpbo10yQIEroBDa5Img",
+        "name":"La Botanica",
+        "category":"both",
+        "yelpCategory":"Vegan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46108943,29.51448217 ]
+      },
+      "properties": {
+        "yelpID":"s_if3emtHTw_a7T2FZNgJg",
+        "name":"La Fonda Alamo Heights",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46285,29.47103 ]
+      },
+      "properties": {
+        "yelpID":"SQi_fSq0epITr3LFSTWZZA",
+        "name":"La Madeleine",
+        "category":"both",
+        "yelpCategory":"French"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.489783,29.423367 ]
+      },
+      "properties": {
+        "yelpID":"vR7zr2Lq--B1g-wl8uSAvQ",
+        "name":"Las Ramblas",
+        "category":"both",
+        "yelpCategory":"American (New)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49906,29.45357 ]
+      },
+      "properties": {
+        "yelpID":"fvKw9qA-jJr_KD2og0bWGw",
+        "name":"Las Salsas",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4727474,29.46394006 ]
+      },
+      "properties": {
+        "yelpID":"0vgCfrGeUmD4FcA9xaXvbA",
+        "name":"Longnecks Bar & Grill",
+        "category":"both",
+        "yelpCategory":"American (Traditional)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.484492,29.423915 ]
+      },
+      "properties": {
+        "yelpID":"krbrk92Zxd1xuL4t6VLcDw",
+        "name":"Luciano Express- Rivercenter Mall",
+        "category":"both",
+        "yelpCategory":"Italian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4844838,29.423922 ]
+      },
+      "properties": {
+        "yelpID":"hsV6l0MTNfJ5M64RQEE1mg",
+        "name":"Luciano Ristorante Italiano-On the River",
+        "category":"both",
+        "yelpCategory":"Italian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49457144,29.44299054 ]
+      },
+      "properties": {
+        "yelpID":"cze9uW0Y_liVM5PQINMftA",
+        "name":"Luther's Cafe",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4884961,29.42561197 ]
+      },
+      "properties": {
+        "yelpID":"6UgphDqrNIS64AhtKZEy_g",
+        "name":"Mad Dogs British Pub",
+        "category":"both",
+        "yelpCategory":"Pubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50007847,29.42113019 ]
+      },
+      "properties": {
+        "yelpID":"tYTw09omzF8gnuBM7-lFVQ",
+        "name":"Madera's",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46094471,29.51577834 ]
+      },
+      "properties": {
+        "yelpID":"Y976IAZCMQHmiTTedtEBeg",
+        "name":"Magic Time Machine",
+        "category":"both",
+        "yelpCategory":"American (Traditional)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48466143,29.42323842 ]
+      },
+      "properties": {
+        "yelpID":"5_Xa4gg8vzRIsVQf_3t-qw",
+        "name":"Margaritaville - San Antonio",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4846412,29.42323603 ]
+      },
+      "properties": {
+        "yelpID":"Jivdpu_sROPjdeFvU1QB_w",
+        "name":"Maria Mia Mexican Bistro",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5114197,29.4497032 ]
+      },
+      "properties": {
+        "yelpID":"UPuKlGZ-vw0KfKlrrVZhzQ",
+        "name":"Martinez Barbacoa Y Tamales",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47846047,29.49646104 ]
+      },
+      "properties": {
+        "yelpID":"npasNPLckc0XHKnScB4wmQ",
+        "name":"MAX's Wine Dive",
+        "category":"both",
+        "yelpCategory":"Wine Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46381,29.47195 ]
+      },
+      "properties": {
+        "yelpID":"IX1Nd51gQ04ozr9H59XC9Q",
+        "name":"Mon Thai Bistro and Sushi Bar",
+        "category":"both",
+        "yelpCategory":"Thai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4849397,29.42468422 ]
+      },
+      "properties": {
+        "yelpID":"GhoJT8yRUlUUgUDOS-dGNw",
+        "name":"Morton's The Steakhouse",
+        "category":"both",
+        "yelpCategory":"Steakhouses"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48732326,29.42643741 ]
+      },
+      "properties": {
+        "yelpID":"DZLbeQa-AdApEjsuNnB3nQ",
+        "name":"Moses Rose's Hideout",
+        "category":"both",
+        "yelpCategory":"Music Venues"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.44782388,29.45072463 ]
+      },
+      "properties": {
+        "yelpID":"83TgPA5tnshWLAxIsiB52g",
+        "name":"Mr Gyros",
+        "category":"both",
+        "yelpCategory":"Greek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47284,29.42561 ]
+      },
+      "properties": {
+        "yelpID":"6XLZ7SFZckbkQwag6fOjkg",
+        "name":"Nairobi Bar & Grill",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4898539,29.430796 ]
+      },
+      "properties": {
+        "yelpID":"7ITTtWqq0DQFOT4xiZZeJQ",
+        "name":"Ocho",
+        "category":"both",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48829,29.4256 ]
+      },
+      "properties": {
+        "yelpID":"8xXK5SH9_kqE2Qf6yeyjBw",
+        "name":"On The Bend Oyster Bar & lounge",
+        "category":"both",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.54671016,29.45160851 ]
+      },
+      "properties": {
+        "yelpID":"3k0W7jti6LpBrm4KCgbZgA",
+        "name":"Orient Spice",
+        "category":"both",
+        "yelpCategory":"Asian Fusion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48577,29.42657 ]
+      },
+      "properties": {
+        "yelpID":"TNP0wPaxZhfWn3duQqmK5Q",
+        "name":"Oro Restaurant & Bar",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47518,29.49892 ]
+      },
+      "properties": {
+        "yelpID":"zbe1ZvUlxf_vhS6ZWGxZxg",
+        "name":"Paesanos Lincoln Heights",
+        "category":"both",
+        "yelpCategory":"Italian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.489094,29.425241 ]
+      },
+      "properties": {
+        "yelpID":"m8Bz52LH-6FMBP8v-EYJAw",
+        "name":"Paesanos Riverwalk",
+        "category":"both",
+        "yelpCategory":"Italian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48746,29.42439 ]
+      },
+      "properties": {
+        "yelpID":"A7zyhNZnYc5ZR7n9ONjDOg",
+        "name":"Pat O'Brien's San Antonio",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50789,29.51892 ]
+      },
+      "properties": {
+        "yelpID":"jpkIekRcJwkheofnq4tyvw",
+        "name":"Picnikins Patio Cafe",
+        "category":"both",
+        "yelpCategory":"American (New)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50309,29.4254 ]
+      },
+      "properties": {
+        "yelpID":"IzIBDhjS3BnPq7zX4Y7D7w",
+        "name":"Pico De Gallo",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.51076508,29.41176033 ]
+      },
+      "properties": {
+        "yelpID":"KyN-_pTAJS7v1HbkAWtgbA",
+        "name":"Piedras Negras Cafe",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49368837,29.42567936 ]
+      },
+      "properties": {
+        "yelpID":"3CCTx3Y_bbh99hvGNZPvJg",
+        "name":"Pinch Boil House and Bia Bar",
+        "category":"both",
+        "yelpCategory":"Pan Asian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47939409,29.49444272 ]
+      },
+      "properties": {
+        "yelpID":"lhjWOpBQYO7lkxbJbYmZCQ",
+        "name":"Piranha Killer Sushi",
+        "category":"both",
+        "yelpCategory":"Sushi Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48825684,29.42558577 ]
+      },
+      "properties": {
+        "yelpID":"FWMDULPC-Fu2OzBxGdHFGw",
+        "name":"Q Kitchen Bar",
+        "category":"both",
+        "yelpCategory":"Barbeque"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48886,29.41656 ]
+      },
+      "properties": {
+        "yelpID":"HGH3b9eazPoL95XlgKjrbg",
+        "name":"QPV Queso Pan Y Vino",
+        "category":"both",
+        "yelpCategory":"Wine Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47954199,29.49755677 ]
+      },
+      "properties": {
+        "yelpID":"y-5I6U_tX0Q2ouI_hinEHA",
+        "name":"Quarry Hofbrau & Beer Garden",
+        "category":"both",
+        "yelpCategory":"American (Traditional)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4881123,29.4239986 ]
+      },
+      "properties": {
+        "yelpID":"5E9Q1d9MzC-GWlh4QhPUfA",
+        "name":"Republic of Texas Restaurant on the Riverwalk",
+        "category":"both",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48877,29.42421 ]
+      },
+      "properties": {
+        "yelpID":"tyLcEIZtFW6aHrSOGRwkwQ",
+        "name":"Rio Rio Cantina",
+        "category":"both",
+        "yelpCategory":"Tex-Mex"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49009222,29.42482331 ]
+      },
+      "properties": {
+        "yelpID":"uJ0Q4GphHWVkJy9SenyLGA",
+        "name":"Rita's on the River",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.456733,29.523841 ]
+      },
+      "properties": {
+        "yelpID":"TtmqkXT7s93IJbhQgp_M3g",
+        "name":"Rookies Too Bar & Grill",
+        "category":"both",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4983673,29.5291004 ]
+      },
+      "properties": {
+        "yelpID":"eO0_oJY57xDJPVTvr3tOww",
+        "name":"Rosario's",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48960876,29.41512489 ]
+      },
+      "properties": {
+        "yelpID":"CLbzZGsLKcUf4G269KEu_Q",
+        "name":"Rosario's Mexican Cafe Y Cantina",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.45900556,29.45888004 ]
+      },
+      "properties": {
+        "yelpID":"d14maYKyIDfr-M9rEGi-7g",
+        "name":"Rosella at the Garden",
+        "category":"both",
+        "yelpCategory":"Cafes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4933437,29.4263051 ]
+      },
+      "properties": {
+        "yelpID":"r2z0y3lJF69UGFt50M_M1A",
+        "name":"Rosella At The Rand",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48960582,29.51963157 ]
+      },
+      "properties": {
+        "yelpID":"PdjGAlf8QnLtzlr3Lg5W_Q",
+        "name":"Saltgrass Steak House San Antonio 410",
+        "category":"both",
+        "yelpCategory":"Steakhouses"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4772406,29.4435078 ]
+      },
+      "properties": {
+        "yelpID":"6u8LUWrHzkS2aMdwaEhNgw",
+        "name":"Sam's Burger Joint",
+        "category":"both",
+        "yelpCategory":"Music Venues"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4993,29.43943 ]
+      },
+      "properties": {
+        "yelpID":"cMGoyT5C4u-g9X-0kT4seg",
+        "name":"Sanchos",
+        "category":"both",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.42960982,29.48533333 ]
+      },
+      "properties": {
+        "yelpID":"oHcZo0k_-N10DlBXCFM2Hw",
+        "name":"Seoul Asian Food Market & Cafe",
+        "category":"both",
+        "yelpCategory":"Grocery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4745636,29.44299889 ]
+      },
+      "properties": {
+        "yelpID":"h_w_AtxaPf5JPB1PGqFuFA",
+        "name":"Shuck Shack",
+        "category":"both",
+        "yelpCategory":"Seafood"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.44808,29.48757 ]
+      },
+      "properties": {
+        "yelpID":"jXeeiKvlk7JP_vJSbRyknw",
+        "name":"SILO Alamo Heights",
+        "category":"both",
+        "yelpCategory":"American (New)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4885,29.42047 ]
+      },
+      "properties": {
+        "yelpID":"zm6NPMd3d4inOaNPzkqYHw",
+        "name":"Silo Prime",
+        "category":"both",
+        "yelpCategory":"Steakhouses"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47850294,29.42163539 ]
+      },
+      "properties": {
+        "yelpID":"03KkgZQDZoQ-1jsoVPiYoQ",
+        "name":"SMOKE BBQ Brew Venue",
+        "category":"both",
+        "yelpCategory":"Barbeque"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47673806,29.44374494 ]
+      },
+      "properties": {
+        "yelpID":"bV9waXHUXrGmukLj1Kt6KA",
+        "name":"SoBro Pizza",
+        "category":"both",
+        "yelpCategory":"Pizza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48066182,29.44253895 ]
+      },
+      "properties": {
+        "yelpID":"mlrX_eT46F_WjEcNNDqg-g",
+        "name":"Southerleigh Fine Food and Brewery",
+        "category":"both",
+        "yelpCategory":"Breweries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46721003,29.49744492 ]
+      },
+      "properties": {
+        "yelpID":"E5tdvAio8CPvFsFAzsj0Bw",
+        "name":"Stone Werks Big Rock Grille - Lincoln Heights",
+        "category":"both",
+        "yelpCategory":"American (New)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47030797,29.44182297 ]
+      },
+      "properties": {
+        "yelpID":"HcqYHq1bF7fKDZVnuvNGEA",
+        "name":"Taco La Gardenia",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4922799,29.46674 ]
+      },
+      "properties": {
+        "yelpID":"JKmshMNWfcwdQ9KnlxQnPg",
+        "name":"Taco Taco Cafe",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50816906,29.48100639 ]
+      },
+      "properties": {
+        "yelpID":"R2MWFVl7Wk9RHaYirm2n9g",
+        "name":"Taqueria Atotonilcos",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.43943787,29.42702866 ]
+      },
+      "properties": {
+        "yelpID":"X-WgsBj9_qiWIZHvavSrwA",
+        "name":"Taste Of San Antonio",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4862222,29.4513414 ]
+      },
+      "properties": {
+        "yelpID":"66HZwfSsojHP80bxJQBQfg",
+        "name":"TBA",
+        "category":"both",
+        "yelpCategory":"Sandwiches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49038297,29.425427 ]
+      },
+      "properties": {
+        "yelpID":"ptUy5XvQdYI_ePCbq-1zcg",
+        "name":"Tex's Sports Bar",
+        "category":"both",
+        "yelpCategory":"American (Traditional)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49206965,29.42558748 ]
+      },
+      "properties": {
+        "yelpID":"WX8_Nv1yCHunGINtdPVCBw",
+        "name":"The Bistro At Courtyard By Marriot",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.473422,29.416188 ]
+      },
+      "properties": {
+        "yelpID":"VBdSVcfZCnjzyG3R-MA0GA",
+        "name":"THE DAKOTA",
+        "category":"both",
+        "yelpCategory":"Pizza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49174,29.42485 ]
+      },
+      "properties": {
+        "yelpID":"AsL7ifh6n0r9eGkhij6-Ng",
+        "name":"The Esquire Tavern",
+        "category":"both",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.490599,29.414498 ]
+      },
+      "properties": {
+        "yelpID":"-azLu4PCWhMW-rGu3RCzyQ",
+        "name":"The Friendly Spot Ice House",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50183,29.41007 ]
+      },
+      "properties": {
+        "yelpID":"VdQn_A6tH3n5SiPqNvD1Ug",
+        "name":"The Fruteria Botanero By Chef Johnny Hernandez",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47918698,29.44146841 ]
+      },
+      "properties": {
+        "yelpID":"toQNumdhZ0hRCj71mXWNcA",
+        "name":"The Granary Cue & Brew",
+        "category":"both",
+        "yelpCategory":"Barbeque"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.466695,29.511558 ]
+      },
+      "properties": {
+        "yelpID":"7jtwhwnEKEA9XJKV3ivsFA",
+        "name":"The Hangar",
+        "category":"both",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48058914,29.43614606 ]
+      },
+      "properties": {
+        "yelpID":"okQfuB_oD7qXwnnNKx3MtA",
+        "name":"The Luxury",
+        "category":"both",
+        "yelpCategory":"American (New)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48841274,29.42438575 ]
+      },
+      "properties": {
+        "yelpID":"zRUxDFFAk6tMYKxVQTFcfA",
+        "name":"The Original Mexican Restaurant & Bar",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46595,29.46095 ]
+      },
+      "properties": {
+        "yelpID":"I2-CXOFGdJPbtsyuROn97g",
+        "name":"The Pigpen",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49398665,29.4380734 ]
+      },
+      "properties": {
+        "yelpID":"TDy3W-6fVLNGqCGRvKWQmw",
+        "name":"The Point on N Main",
+        "category":"both",
+        "yelpCategory":"American (New)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4877999,29.42234 ]
+      },
+      "properties": {
+        "yelpID":"WVci8VJE2GnURs5sMEmFDQ",
+        "name":"The River's Edge Cafe + Patio Bar",
+        "category":"both",
+        "yelpCategory":"Breakfast & Brunch"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48806,29.42629242 ]
+      },
+      "properties": {
+        "yelpID":"R7jCMYjGMxc2s38ajeAuDQ",
+        "name":"The Ticket Sports Pub",
+        "category":"both",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48728716,29.42781389 ]
+      },
+      "properties": {
+        "yelpID":"FP1LoiGLdm3POFuQllS_5A",
+        "name":"The Trophy Room",
+        "category":"both",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.473539,29.40985 ]
+      },
+      "properties": {
+        "yelpID":"ooj_bLqxoVCXzH-PwQd2CQ",
+        "name":"Tony G's Soul Food",
+        "category":"both",
+        "yelpCategory":"Soul Food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46607433,29.46356768 ]
+      },
+      "properties": {
+        "yelpID":"ZuryfrCbz7ycK5ZNzPibQg",
+        "name":"Tre Trattoria",
+        "category":"both",
+        "yelpCategory":"Italian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.476485,29.424855 ]
+      },
+      "properties": {
+        "yelpID":"zMchziNfV4dL2PsENaVONA",
+        "name":"Tucker's Kozy Korner",
+        "category":"both",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50378,29.5198 ]
+      },
+      "properties": {
+        "yelpID":"lcLRd7I5iJdIqvAbIdktlQ",
+        "name":"Twin Peaks",
+        "category":"both",
+        "yelpCategory":"American (New)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48491,29.45228 ]
+      },
+      "properties": {
+        "yelpID":"y0G19V0kCxK3XDE4PuEjKw",
+        "name":"Tycoon Flats",
+        "category":"both",
+        "yelpCategory":"Burgers"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4696,29.45639 ]
+      },
+      "properties": {
+        "yelpID":"uhnzgsujjljOSDvtH2PE6Q",
+        "name":"Van's Chinese Seafood Restaurant",
+        "category":"both",
+        "yelpCategory":"Chinese"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50378,29.42215 ]
+      },
+      "properties": {
+        "yelpID":"PMyJFoeaOOFSRjXHYgpt4Q",
+        "name":"Ventanas Bistro & Bar- DoubleTree San Antonio",
+        "category":"both",
+        "yelpCategory":"Spanish"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49339908,29.40604891 ]
+      },
+      "properties": {
+        "yelpID":"qbWfYzahN4zHty-9rTRM2Q",
+        "name":"Villa Rica - Mexican Seafood",
+        "category":"both",
+        "yelpCategory":"Seafood"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47241163,29.52876978 ]
+      },
+      "properties": {
+        "yelpID":"4jsEJINIPPnFZQxOGII5Bg",
+        "name":"Vino Volo",
+        "category":"both",
+        "yelpCategory":"Wine Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48167239,29.44470454 ]
+      },
+      "properties": {
+        "yelpID":"A1psvYpZynMHD0jaj0UBiw",
+        "name":"Viva TacoLand",
+        "category":"both",
+        "yelpCategory":"Latin American"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49942516,29.42466013 ]
+      },
+      "properties": {
+        "yelpID":"WWk2ugwbZ3Cq_ADFh8jMcg",
+        "name":"Viva Villa",
+        "category":"both",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4908553,29.4248873 ]
+      },
+      "properties": {
+        "yelpID":"f5sxBtsGQJPMAmEWCMKTkg",
+        "name":"Waxy O'Connor's",
+        "category":"both",
+        "yelpCategory":"Gluten-Free"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5075607,29.44874 ]
+      },
+      "properties": {
+        "yelpID":"TnMuQJN0jOJxqiCzletldg",
+        "name":"Web House Cafe & Bar",
+        "category":"both",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.484321,29.423801 ]
+      },
+      "properties": {
+        "yelpID":"yc4YfD48AGRtB3JFgp6cGw",
+        "name":"Which Wich",
+        "category":"both",
+        "yelpCategory":"Sandwiches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49176,29.42587 ]
+      },
+      "properties": {
+        "yelpID":"ZaOzNdgGNeC1RWfwenND3A",
+        "name":"Windows On the River",
+        "category":"both",
+        "yelpCategory":"American (Traditional)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48432159,29.42380142 ]
+      },
+      "properties": {
+        "yelpID":"q4cLyDHBsJJKC4TF4nytDw",
+        "name":"Yard House",
+        "category":"both",
+        "yelpCategory":"American (New)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48927,29.42365 ]
+      },
+      "properties": {
+        "yelpID":"IXF7ceaOgU5juDkMdQ2N6g",
+        "name":"Zinc Bistro & Wine Bar",
+        "category":"both",
+        "yelpCategory":"Wine Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46710774,29.49869009 ]
+      },
+      "properties": {
+        "yelpID":"ckZzY5OHamZ1-VX1z5IcUw",
+        "name":"Zoes Kitchen",
+        "category":"both",
+        "yelpCategory":"Mediterranean"
+      }
+    }
+  ]
+}

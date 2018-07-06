@@ -89,48 +89,52 @@ function initialize() {
         infowindow.open(map);
     });
 
+    let bothLayer = new google.maps.Data();
+    bothLayer.loadGeoJson('/json/bothGeo.json');
+    bothLayer.setMap(map);
 
-    function createGeoJson(filepath, featureListName) {
-        console.log("Starting up");
-
-        let geojson = {
-            type: "FeatureCollection",
-            name: featureListName,
-            crs: {
-                type: "name",
-                properties: {
-                    name: "urn:ogc:def:crs:EPSG::4269"
-                }
-            },
-            features: []
-
-        };
-
-        var jsonRequest = $.get(filepath);
-
-        jsonRequest.done(function (response) {
-            for (var i = 0; i < response.businesses.length; i++) {
-                geojson.features.push({
-                    "type": "Feature",
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [response.businesses[i].coordinates.longitude, response.businesses[i].coordinates.latitude]
-                    },
-                    "properties": {
-                        "name": response.businesses[i].name,
-                        "id": response.businesses[i].id
-                    }
-                });
-            }
-        });
-        return geojson;
-    }
-
-    let bargeojson = createGeoJson('/json/bars.json', "Bars");
-    $.get('/json/publicSafetyFacilities.json').done(function(response){
-        console.log(response);
-    });
-    console.log(bargeojson);
+//function to convert json to geojson
+//     function createGeoJson(filepath, featureListName) {
+//         console.log("Starting up");
+//
+//         let geojson = {
+//             type: "FeatureCollection",
+//             name: featureListName,
+//             crs: {
+//                 type: "name",
+//                 properties: {
+//                     name: "urn:ogc:def:crs:EPSG::4269"
+//                 }
+//             },
+//             features: []
+//
+//         };
+//
+//         var jsonRequest = $.get(filepath);
+//
+//         jsonRequest.done(function (response) {
+//             for (var i = 0; i < response.businesses.length; i++) {
+//                 geojson.features.push({
+//                     "type": "Feature",
+//                     "geometry": {
+//                         "type": "Point",
+//                         "coordinates": [response.businesses[i].coordinates.longitude, response.businesses[i].coordinates.latitude]
+//                     },
+//                     "properties": {
+//                         "name": response.businesses[i].name,
+//                         "id": response.businesses[i].id
+//                     }
+//                 });
+//             }
+//         });
+//         return geojson;
+//     }
+//
+//     let bargeojson = createGeoJson('/json/bars.json', "Bars");
+//     $.get('/json/publicSafetyFacilities.json').done(function(response){
+//         console.log(response);
+//     });
+//     console.log(bargeojson);
 
 
 
