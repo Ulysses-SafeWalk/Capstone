@@ -92,17 +92,6 @@ function initialize() {
     let barLayer = new google.maps.Data();
     let restaurantLayer = new google.maps.Data();
 
-    function setLocationLayers(layerName, filepath, iconName) {
-        layerName.loadGeoJson(filepath);
-        layerName.setStyle({icon: Icons[iconName].icon});
-        layerName.setMap(map);
-
-        createInfoWindows(layerName);
-    }
-
-    setLocationLayers(bothLayer, '/json/bothGeo.json', "both");
-    setLocationLayers(barLayer, '/json/barsGeo.json', "bar");
-    setLocationLayers(restaurantLayer, '/json/restaurantsGeo.json', "restaurant");
 
 
     //create layer toggle
@@ -135,6 +124,17 @@ function initialize() {
         }
     });
 
+    function setLocationLayers(layerName, filepath) {
+        layerName.loadGeoJson(filepath);
+        layerName.setStyle({visible: false});
+        layerName.setMap(map);
+
+        createInfoWindows(layerName);
+    }
+
+    setLocationLayers(bothLayer, '/json/bothGeo.json');
+    setLocationLayers(barLayer, '/json/barsGeo.json');
+    setLocationLayers(restaurantLayer, '/json/restaurantsGeo.json');
 //function to convert json to geojson
 //     function createGeoJson(filepath, featureListName) {
 //         console.log("Starting up");
