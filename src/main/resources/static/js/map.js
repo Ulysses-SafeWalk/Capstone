@@ -56,6 +56,7 @@ function initialize() {
             icon: "/img/bar_cocktail.png"
         }
     };
+
     let facilitiesLayer = new google.maps.Data();
     facilitiesLayer.loadGeoJson('/json/publicSafetyFacilities.json');
 
@@ -76,54 +77,87 @@ function initialize() {
         }
     });
 
+    var infowindow = new google.maps.InfoWindow();
+
+    facilitiesLayer.addListener('click', function(event) {
+        // document.getElementById('info-box').textContent =
+        //     event.feature.getProperty('Name');
+        let name = event.feature.getProperty('Name');
+        infowindow.setContent(name);
+        infowindow.setPosition(event.feature.getGeometry().get());
+        infowindow.setOptions({pixelOffset: new google.maps.Size(0,-30)});
+        infowindow.open(map);
+    });
 
 
-let restaurantgeojson = "";
-
-    function createGeoJson() {
+    function createGeoJson(filepath, featureListName) {
         console.log("Starting up");
 
-        restaurantgeojson = {
+        let geojson = {
             type: "FeatureCollection",
-            features: [],
+            name: featureListName,
+            crs: {
+                type: "name",
+                properties: {
+                    name: "urn:ogc:def:crs:EPSG::4269"
+                }
+            },
+            features: []
+
         };
 
-        var jsonRequest = $.get('/json/restaurants.json');
+        var jsonRequest = $.get(filepath);
 
         jsonRequest.done(function (response) {
-            // console.log(response);
             for (var i = 0; i < response.businesses.length; i++) {
-                // console.log(response.businesses[i].name);
-                // console.log(response.businesses[i].coordinates.latitude);
-                // console.log(response.businesses[i].coordinates.longitude);
-
-                restaurantgeojson.features.push({
+                geojson.features.push({
                     "type": "Feature",
                     "geometry": {
                         "type": "Point",
                         "coordinates": [response.businesses[i].coordinates.longitude, response.businesses[i].coordinates.latitude]
                     },
                     "properties": {
-                        "name": response.businesses[i].name
+                        "name": response.businesses[i].name,
+                        "id": response.businesses[i].id
                     }
                 });
             }
         });
+        return geojson;
     }
 
+    let bargeojson = createGeoJson('/json/bars.json', "Bars");
+    $.get('/json/publicSafetyFacilities.json').done(function(response){
+        console.log(response);
+    });
+    console.log(bargeojson);
 
-    createGeoJson();
-    console.log(restaurantgeojson);
+
+
+
+    // let featurelist = bargeojson.features;
+    //
+    //
+    // for (var i=0; i<featurelist.length(); i++){
+    // $('#one').append(featurelist[i]);
+    // }
+    // $('#info-box').append("Here is the json: " + features.forEach(function(feature) {
+    //    "<p>" + feature + "</p>"
+    // }));
 
     // let parsedRestaurantJson = JSON.parse(restaurantgeojson);
 
-    let restaurantsLayer = new google.maps.Data();
-    // restaurantsLayer.addGeoJson(restaurantgeojson.toString());
+    // let restaurantsLayer = new google.maps.Data();
+    // restaurantsLayer.addGeoJson(JSON.stringify(restaurantgeojson));
+
+    let barLayer = new google.maps.Data();
+    barLayer.addGeoJson(bargeojson);
+    barLayer.setMap(map);
 
     // restaurantsLayer.setStyle({
     //     icon: "/img/restaurant.png"
     // });
-    restaurantsLayer.setMap(map);
+    // restaurantsLayer.setMap(map);
 
 
 }
