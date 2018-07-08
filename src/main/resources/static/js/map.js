@@ -67,8 +67,10 @@ function initialize() {
             // document.getElementById('info-box').textContent =
             //     event.feature.getProperty('Name');
             let name = event.feature.getProperty('name');
+            let locationID = event.feature.getProperty('yelpID');
             let htmlContent = "<p>" + name + "</p>" +
-                "<a href='/reviews/" + name + "'>See Reviews</a>";
+                "<a href='/reviews/" + name + "'>See User Safety Reviews</a>" + "<br/>" +
+                "<a target='_blank' href='https://yelp.com/biz/" + locationID + "'>View location on Yelp</a>";
             infowindow.setContent(htmlContent);
             infowindow.setPosition(event.feature.getGeometry().get());
             infowindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
