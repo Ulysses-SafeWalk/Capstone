@@ -27,18 +27,96 @@
                     <textarea class="form-control" type="text" id="body" th:field="*{body}" />
                 </div>
 
-        <p style="margin-bottom: 0px">Overall Rating:</p>
+        <p style="margin-bottom: 0px">How would you rate parking availablity for this location?:</p>
         <div class="rating">
-            <input type="radio" id="star5" name="rate" value="5" th:field="*{rating}"/>
-            <label for="star5" title="text">5 stars</label>
-            <input type="radio" id="star4" name="rate" value="4" th:field="*{rating}"/>
-            <label for="star4" title="text">4 stars</label>
-            <input type="radio" id="star3" name="rate" value="3" th:field="*{rating}"/>
-            <label for="star3" title="text">3 stars</label>
-            <input type="radio" id="star2" name="rate" value="2" th:field="*{rating}"/>
-            <label for="star2" title="text">2 stars</label>
-            <input type="radio" id="star1" name="rate" value="1" th:field="*{rating}"/>
-            <label for="star1" title="text">1 star</label>
+            <input type="radio" id="park5" name="rate" value="5" th:field="*{parking_rating}"/>
+            <label for="park5" title="text">5 stars</label>
+            <input type="radio" id="park4" name="rate" value="4" th:field="*{parking_rating}"/>
+            <label for="park4" title="text">4 stars</label>
+            <input type="radio" id="park3" name="rate" value="3" th:field="*{parking_rating}"/>
+            <label for="park3" title="text">3 stars</label>
+            <input type="radio" id="park2" name="rate" value="2" th:field="*{parking_rating}"/>
+            <label for="park2" title="text">2 stars</label>
+            <input type="radio" id="park1" name="rate" value="1" th:field="*{parking_rating}"/>
+            <label for="park1" title="text">1 star</label>
+        </div>
+        <p style="margin-bottom: 0px">How would you rate the usability of the sidewalks for this location?:</p>
+        <div class="rating">
+            <input type="radio" id="sw5" name="rate" value="5" th:field="*{sidewalk_rating}"/>
+            <label for="sw5" title="text">5 stars</label>
+            <input type="radio" id="sw4" name="rate" value="4" th:field="*{sidewalk_rating}"/>
+            <label for="sw4" title="text">4 stars</label>
+            <input type="radio" id="sw3" name="rate" value="3" th:field="*{sidewalk_rating}"/>
+            <label for="sw3" title="text">3 stars</label>
+            <input type="radio" id="sw2" name="rate" value="2" th:field="*{sidewalk_rating}"/>
+            <label for="sw2" title="text">2 stars</label>
+            <input type="radio" id="sw1" name="rate" value="1" th:field="*{sidewalk_rating}"/>
+            <label for="sw1" title="text">1 star</label>
+        </div>
+        <p style="margin-bottom: 0px">How would you rate the "family friendliness" of this location?:</p>
+        <div class="rating">
+            <input type="radio" id="fam5" name="rate" value="5" th:field="*{family_rating}"/>
+            <label for="fam5" title="text">5 stars</label>
+            <input type="radio" id="fam4" name="rate" value="4" th:field="*{family_rating}"/>
+            <label for="fam4" title="text">4 stars</label>
+            <input type="radio" id="fam3" name="rate" value="3" th:field="*{family_rating}"/>
+            <label for="fam3" title="text">3 stars</label>
+            <input type="radio" id="fam2" name="rate" value="2" th:field="*{family_rating}"/>
+            <label for="fam2" title="text">2 stars</label>
+            <input type="radio" id="fam1" name="rate" value="1" th:field="*{family_rating}"/>
+            <label for="fam1" title="text">1 star</label>
+        </div>
+        <p style="margin-bottom: 0px">How would you rate the crowd density of the area?:</p>
+        <div class="rating">
+            <input type="radio" id="crowd5" name="rate" value="5" th:field="*{crowd_rating}"/>
+            <label for="crowd5" title="text">5 stars</label>
+            <input type="radio" id="crowd4" name="rate" value="4" th:field="*{crowd_rating}"/>
+            <label for="crowd4" title="text">4 stars</label>
+            <input type="radio" id="crowd3" name="rate" value="3" th:field="*{crowd_rating}"/>
+            <label for="crowd3" title="text">3 stars</label>
+            <input type="radio" id="crowd2" name="rate" value="2" th:field="*{crowd_rating}"/>
+            <label for="crowd2" title="text">2 stars</label>
+            <input type="radio" id="crowd1" name="rate" value="1" th:field="*{crowd_rating}"/>
+            <label for="crowd1" title="text">1 star</label>
+        </div>
+        <p style="margin-bottom: 0px">To the best of your knowledge, how accessible is public transportation from this location?:</p>
+        <div class="rating">
+            <input type="radio" id="transport5" name="rate" value="5" th:field="*{transport_rating}"/>
+            <label for="transport5" title="text">5 stars</label>
+            <input type="radio" id="transport4" name="rate" value="4" th:field="*{transport_rating}"/>
+            <label for="transport4" title="text">4 stars</label>
+            <input type="radio" id="transport3" name="rate" value="3" th:field="*{transport_rating}"/>
+            <label for="transport3" title="text">3 stars</label>
+            <input type="radio" id="transport2" name="rate" value="2" th:field="*{transport_rating}"/>
+            <label for="transport2" title="text">2 stars</label>
+            <input type="radio" id="transport1" name="rate" value="1" th:field="*{transport_rating}"/>
+            <label for="transport1" title="text">1 star</label>
+        </div>
+        <p style="margin-bottom: 0px">How would you rate the lighting around this location?:</p>
+        <div class="rating">
+            <input type="radio" id="light5" name="rate" value="5" th:field="*{lighting_rating}"/>
+            <label for="light5" title="text">5 stars</label>
+            <input type="radio" id="light4" name="rate" value="4" th:field="*{lighting_rating}"/>
+            <label for="light4" title="text">4 stars</label>
+            <input type="radio" id="light3" name="rate" value="3" th:field="*{lighting_rating}"/>
+            <label for="light3" title="text">3 stars</label>
+            <input type="radio" id="light2" name="rate" value="2" th:field="*{lighting_rating}"/>
+            <label for="light2" title="text">2 stars</label>
+            <input type="radio" id="light1" name="rate" value="1" th:field="*{lighting_rating}"/>
+            <label for="light1" title="text">1 star</label>
+        </div>
+        <p style="margin-bottom: 0px">How would you rate your overall "gut-feeling" when walking near this location?:</p>
+        <div class="rating">
+            <input type="radio" id="feel5" name="rate" value="5" th:field="*{feeling_rating}"/>
+            <label for="feel5" title="text">5 stars</label>
+            <input type="radio" id="feel4" name="rate" value="4" th:field="*{feeling_rating}"/>
+            <label for="feel4" title="text">4 stars</label>
+            <input type="radio" id="feel3" name="rate" value="3" th:field="*{feeling_rating}"/>
+            <label for="feel3" title="text">3 stars</label>
+            <input type="radio" id="feel2" name="rate" value="2" th:field="*{feeling_rating}"/>
+            <label for="feel2" title="text">2 stars</label>
+            <input type="radio" id="feel1" name="rate" value="1" th:field="*{feeling_rating}"/>
+            <label for="feel1" title="text">1 star</label>
         </div>
                 <input class="btn btn-block buttons text-white" type="submit" />
 

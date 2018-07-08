@@ -31,7 +31,7 @@ public class Review {
     @Column(nullable = false)
     private int crowd_rating;
 
-    @Column(nullable = false)
+    @Column
     private int transport_rating;
 
     @Column(nullable = false)
@@ -42,8 +42,6 @@ public class Review {
 
     @Column(nullable = false)
     private int overall_rating;
-
-
 
     @ManyToOne
     @JoinColumn(name = "location_id")
