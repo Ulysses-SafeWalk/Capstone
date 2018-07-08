@@ -2,7 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org" lang="en">
 <head th:replace="fragments :: head(${'Welcome!'})" />
 <body>
-<nav th:replace="fragments :: navbar" />
+<!--<nav th:replace="fragments :: navbar" />-->
 
 
 <div class="row d-flex ml-auto">
@@ -43,78 +43,78 @@
             </div>
     </div>
 
-        <!--Mobile View elements that appear w lg and xl screens-->
-    <div class="d-flex d-lg-none d-xl-none align-self-stretch btn-container">
-        <div class="form-group vertical-btns btns-div align-self-stretch btn-container">
-            <div class="d-flex">
-                <button class="d-block btn-lg mb-4 rd-buttons shadows" id="profile">
+        <!--Mobile View elements that don't appear w lg and xl screens-->
+        <div class="form-group d-flex d-lg-none d-xl-none btn-div">
+            <div class="ml-auto">
+                <a class="d-block btn-lg mb-4 form-control shadows" href="/profile" role="button" id="profile">
                     Profile
-                </button>
+                </a>
             </div>
 
-            <div class="d-flex">
-                <button class="d-block btn-lg mb-4 rd-buttons shadows" id="uber">
+            <div class="btns-div ml-auto">
+                <a class="d-block btn-lg mb-4 form-control shadows" href="#" role="button" id="uber">
                     Uber
-                </button>
+                </a>
             </div>
 
-            <div class="d-flex">
-                <button class="d-block btn-lg mb-4 rd-buttons shadows" id="lyft">
+            <div class="btns-div ml-auto">
+                <a class="d-block btn-lg mb-4 form-control shadows" href="#" role="button" id="lyft">
                     Lyft
-                </button>
+                </a>
             </div>
 
-            <div class="d-flex">
-                <button class="d-block btn-lg mb-4 rd-buttons shadows" id="moovit">
+            <div class="btns-div ml-auto">
+                <a class="d-block btn-lg mb-4 form-control shadows" href="#" role="button" id="moovit2">
                     Moovit
-                </button>
+                </a>
             </div>
         </div>
-    </div>
 
     <div id="map-canvas" class="container-flex float-left col shadows align-self-stretch mr-auto"></div>
-</div>
 
-<div class="row">
-    <div class="d-flex card shadows align-self-stretch">
-        <ul class="nav nav-tabs" id="mapTab" role="tablist">
-            <li class="nav-item">
-                <a class="nav-link active" id="legend-tab" data-toggle="tab" href="#legend" role="tab" aria-controls="legend" aria-selected="true">
-                    Legend
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="layers-tab" data-toggle="tab" href="#layers" role="tab" aria-controls="layers" aria-selected="true">
-                    Layer Selection
-                </a>
-            </li>
-        </ul>
 
-        <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="legend" role="tabpanel" aria-labelledby="legend-tab">
-                <div class="card bg-light">
-                    <div class="card-header">
-                        <h3>Here is the legend</h3>
-                        <div class="card-body"></div>
+    <div class="mr-auto col-8 nav-legend">
+        <div class="d-flex card shadows align-self-stretch">
+            <ul class="nav nav-tabs" id="mapTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="legend-tab" data-toggle="tab" href="#legend" role="tab" aria-controls="legend" aria-selected="true">
+                        Legend
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="layers-tab" data-toggle="tab" href="#layers" role="tab" aria-controls="layers" aria-selected="true">
+                        Layer Selection
+                    </a>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="legend" role="tabpanel" aria-labelledby="legend-tab">
+                    <div class="card bg-light">
+                        <div class="card-header">
+                            <h3>Here is the legend</h3>
+                            <div class="card-body"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="tab-pane fade" id="layers" role="tabpanel" aria-labelledby="layers-tab">
-                <div class="card bg-light">
-                    <div class="card-header">
-                        <h3>Here are the layers</h3>
-                            <div class="card-body">
-                                <ul class="list-group">
-                                    <li class="list-group-item"><label for="facilitiesLayer"><input name="facilities" type="checkbox" id="facilitiesLayer" checked="checked"/>Police and Fire Stations</label></li>
-                                </ul>
+                <div class="tab-pane fade" id="layers" role="tabpanel" aria-labelledby="layers-tab">
+                    <div class="card bg-light">
+                        <div class="card-header">
+                            <h3>Here are the layers</h3>
+                                <div class="card-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><label for="facilitiesLayer"><input name="facilities" type="checkbox" id="facilitiesLayer" checked="checked"/>Police and Fire Stations</label></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+        </div>
     </div>
 </div>
+
 
 
 <th:block th:replace="fragments :: scripts" />

@@ -38,10 +38,6 @@ body, html {
     margin: auto;
 }
 
-.btn-container{
-    width: 150px;
-    height: 600px;
-}
 
 .layout {
     float: left;
@@ -76,47 +72,39 @@ body, html {
     background-color: #00b07b;
 }
 
-.rd-buttons {
-    border: none;
-    padding: none;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1em;
-    margin: 35px 0px;
-    border-radius: 50%;
+#btns-div{
+    width: 75px;
+    height: 150px;
+    margin-right: 10px;
 }
 
-#btns-div{
-    width: 125px;
-    height: 100vh;
-}
 
 #profile {
-    position:absolute;
-    z-index:auto;
-    left:25px;
-    top:75px;
+   position: absolute;
+        z-index: 0;
+       margin-left: 2%;
+       margin-top: 10%;
 }
 
 #uber {
-    position:relative;
-    z-index:-10;
-    left:25px;
-    top:75px;
+    position: absolute;
+        z-index: -10
+        margin-left: 1%;
+        margin-top: 20%;
 }
 
 #lyft {
-    position:relative;
-    z-index:-20;
-    left:25px;
-    top:75px;
+    position: absolute;
+        z-index: -20
+        margin-left: 2%;
+        margin-top: 30%;
 }
 
 #moovit {
-    position:relative;
-    z-index:-30;
-    left:25px;
-    top:75px;
+    position: relative;
+        z-index: -60
+        margin-left: 1%;
+        margin-top: 70%;
 }
 
 .logout {
@@ -149,12 +137,16 @@ body, html {
 
 #map-canvas{
     position: relative;
-    margin: auto;
+    margin-right: 20px;
     width: 80%;
-    height: 80vh;
+    height: 100vh;
 }
 
-
+.nav-legend {
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 70%;
+}
 
 
 
