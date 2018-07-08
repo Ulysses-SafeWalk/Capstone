@@ -88,6 +88,16 @@ public class ReviewController {
     public String createReview(@PathVariable long id, @ModelAttribute Review review) {
         Location location = locationRepository.findById(id);
         System.out.println(location.getName());
+        int parkingRate = review.getParking_rating();
+        int sidewalkRate = review.getSidewalk_rating();
+        int familyRate = review.getFamily_rating();
+        int crowdRate = review.getCrowd_rating();
+        int transportRate = review.getTransport_rating();
+        int lightRate = review.getLighting_rating();
+        int feelRate = review.getFeeling_rating();
+//        if (transportRate == 0){
+//            int averageRating =
+//        }
         reviewService.save(review, location);
         return "redirect:/reviews";
     }
