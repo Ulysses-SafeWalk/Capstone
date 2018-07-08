@@ -4,9 +4,8 @@
 <body>
 <nav th:replace="fragments :: navbar" />
 <div class="container">
-
     <h1 th:if="${! reviews.isEmpty()}">Here are all your reviews!</h1>
-    <h1 th:if="${reviews.isEmpty()}">Sorry, no results found!</h1>
+    <h1 th:if="${reviews.isEmpty()}">You have not written any reviews yet.</h1>
 
     <div class="row">
         <form class="col-12">

@@ -67,7 +67,10 @@ function initialize() {
             // document.getElementById('info-box').textContent =
             //     event.feature.getProperty('Name');
             let name = event.feature.getProperty('name');
-            infowindow.setContent(name);
+            let htmlContent = "<p>" + name + "</p>" +
+                // "<a th:href=\"@{/reviews/{name}(name=${" + name + "})}\">See Reviews</a>";
+                "<a href='/reviews/" + name + "'>See Reviews</a>";
+            infowindow.setContent(htmlContent);
             infowindow.setPosition(event.feature.getGeometry().get());
             infowindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
             infowindow.open(map);

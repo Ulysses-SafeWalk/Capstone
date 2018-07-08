@@ -1,6 +1,8 @@
 package com.codeup.safewalk.controllers;
 
+import com.codeup.safewalk.models.Location;
 import com.codeup.safewalk.models.Review;
+import com.codeup.safewalk.repositories.LocationRepository;
 import com.codeup.safewalk.services.ReviewService;
 import com.codeup.safewalk.repositories.UserRepository;
 import org.springframework.stereotype.Controller;
@@ -14,12 +16,14 @@ public class ReviewController {
 
     private ReviewService reviewService;
     private UserRepository userRepository;
+    private LocationRepository locationRepository;
 
     // PostController constructor
     // Dependency Injection
-    public ReviewController(ReviewService reviewService, UserRepository userRepository) {
+    public ReviewController(ReviewService reviewService, UserRepository userRepository, LocationRepository locationRepository) {
         this.userRepository = userRepository;
         this.reviewService = reviewService;
+        this.locationRepository = locationRepository;
     }
 
     // Brings up individual reviews
@@ -43,9 +47,12 @@ public class ReviewController {
     }
 
     // This method returns all reviews for an individual location
-    @GetMapping("/reviews/{id}")
-    public String showDetails(@PathVariable long id, Model view) {
-        List<Review> locationReviews = reviewService.findByLocationId(id);
+    @GetMapping("/reviews/{name}")
+    public String showDetails(@PathVariable String name, Model view) {
+        Location location = locationRepository.findByName(name);
+        System.out.println(location.getId());
+        List<Review> locationReviews = reviewService.findByLocationId(location.getId());
+        view.addAttribute("location", location);
         view.addAttribute("reviews", locationReviews);
         return "reviews/location";
     }
@@ -60,7 +67,8 @@ public class ReviewController {
     // Updating an individual review
     @PostMapping("/reviews/{id}/edit")
     public String updateReview(@PathVariable long id, @ModelAttribute Review review) {
-        reviewService.save(review);
+        Location location = locationRepository.findById(id);
+        reviewService.save(review, location);
         return "redirect:/reviews";
     }
 
@@ -73,9 +81,10 @@ public class ReviewController {
     }
 
     // Create review and return to location review page
-    @PostMapping("/reviews/create")
-    public String createReview(@ModelAttribute Review review) {
-        reviewService.save(review);
+    @PostMapping("/reviews/create/{id}")
+    public String createReview(@PathVariable long id, @ModelAttribute Review review) {
+        Location location = locationRepository.findById(id);
+        reviewService.save(review, location);
         return "redirect:/reviews";
     }
 
