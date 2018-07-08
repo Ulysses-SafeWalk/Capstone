@@ -4,8 +4,8 @@
 <body>
 <nav th:replace="fragments :: navbar" />
 <div class="container">
-    <h1 th:if="${! reviews.isEmpty()}">Here are the reviews for <span th:text="${location.name}"/></h1>
-    <h1 th:if="${reviews.isEmpty()}">Sorry, no results found for <span th:text="${location.name}"/>. Add the first <a th:href="@{/reviews/create/{id}(id=${location.id})}">Review</a></h1>
+    <h1 th:if="${! reviews.isEmpty()}">Here are the reviews for <span th:text="${location.name}"/>. <br/>Add a new <a th:href="@{/reviews/create/{id}(id=${location.id})}">Review</a></h1>
+    <h1 th:if="${reviews.isEmpty()}">Sorry, no results found for <span th:text="${location.name}"/>. <br/>Add the first <a th:href="@{/reviews/create/{id}(id=${location.id})}">Review</a></h1>
 
     <div class="row">
         <form class="col-12">
@@ -20,10 +20,8 @@
         <div class="container">
             <div class="card">
                 <div class="card-body">
-                    <h3 class="card-title"><a th:href="@{/reviews/{id}(id=${review.id})}"><span th:text="${review.title}"></span></a></h3>
+                    <h3 class="card-title"><span th:text="${review.title}"></span></h3>
                     <p class="card-text"><span th:text="${review.body}"></span></p>
-                    <a th:href="@{/reviews/{id}/edit(id=${review.id})}" class="card-link">Edit Post</a>
-                    <a th:href="@{/reviews/{id}/delete(id=${review.id})}" class="card-link">Delete Post</a>
                 </div>
             </div>
         </div>

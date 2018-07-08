@@ -60,15 +60,18 @@ public class ReviewController {
     // Getting review edit page for 1 review
     @GetMapping("/reviews/{id}/edit") // Review id
     public String edit(@PathVariable long id, Model view) {
-        view.addAttribute("review", reviewService.findOne(id));
+        Review review = reviewService.findOne(id);
+        System.out.println("review id is: " + id);
+        view.addAttribute("review", review);
         return "reviews/edit";
     }
 
     // Updating an individual review
     @PostMapping("/reviews/{id}/edit")
     public String updateReview(@PathVariable long id, @ModelAttribute Review review) {
-        Location location = locationRepository.findById(id);
-        reviewService.save(review, location);
+        Review editedReview = reviewService.findOne(id);
+        Location location = editedReview.getLocation();
+        reviewService.save(editedReview, location);
         return "redirect:/reviews";
     }
 
@@ -84,6 +87,7 @@ public class ReviewController {
     @PostMapping("/reviews/create/{id}")
     public String createReview(@PathVariable long id, @ModelAttribute Review review) {
         Location location = locationRepository.findById(id);
+        System.out.println(location.getName());
         reviewService.save(review, location);
         return "redirect:/reviews";
     }

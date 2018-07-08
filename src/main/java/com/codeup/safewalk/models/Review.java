@@ -86,6 +86,8 @@ public class Review {
 
     public Location getLocation() { return location; }
 
+    public String getLocationName() { return location.getName(); }
+
     public void setRating(int rating) { this.rating = rating; }
 
     public int getRating() { return rating; }
