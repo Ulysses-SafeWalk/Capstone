@@ -13,9 +13,9 @@
 
     <div class="card shadows">
         <div class="card-body">
-            <form th:action="@{/reviews/create}" method="POST" th:object="${review}">
+            <form th:action="@{/reviews/create/{id}(id=${location.id})}" method="POST" th:object="${review}">
 
-                <h1 class="my-4 text-center">Leave a Review</h1>
+                <h1 class="my-4 text-center">Leave a Review for <span th:text="${location.name}"/></h1>
 
                 <div class="form-group">
                     <label for="title">Title</label>

@@ -73,9 +73,9 @@ public class ReviewController {
     }
 
     // Go to create an individual review
-    @GetMapping("/reviews/create")
-    public String getCreatePage(Model view) {
-        // pass a new post to the view
+    @GetMapping("/reviews/create/{id}")
+    public String getCreatePage(@PathVariable long id, Model view) {
+        view.addAttribute("location", locationRepository.findById(id));
         view.addAttribute("review", new Review());
         return "reviews/create";
     }
