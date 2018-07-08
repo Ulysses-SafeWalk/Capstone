@@ -68,7 +68,6 @@ function initialize() {
             //     event.feature.getProperty('Name');
             let name = event.feature.getProperty('name');
             let htmlContent = "<p>" + name + "</p>" +
-                // "<a th:href=\"@{/reviews/{name}(name=${" + name + "})}\">See Reviews</a>";
                 "<a href='/reviews/" + name + "'>See Reviews</a>";
             infowindow.setContent(htmlContent);
             infowindow.setPosition(event.feature.getGeometry().get());

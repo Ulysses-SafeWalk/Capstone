@@ -71,7 +71,7 @@ public class ReviewController {
     public String updateReview(@PathVariable long id, @ModelAttribute Review review) {
         Review editedReview = reviewService.findOne(id);
         Location location = editedReview.getLocation();
-        reviewService.save(editedReview, location);
+        reviewService.save(review, location);
         return "redirect:/reviews";
     }
 
