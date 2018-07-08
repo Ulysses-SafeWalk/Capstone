@@ -20,10 +20,11 @@
         <div class="container">
             <div class="card">
                 <div class="card-body">
-                    <h3 class="card-title"><a th:href="@{/reviews/{id}(id=${review.id})}"><span th:text="${review.title}"></span></a></h3>
-                    <p class="card-text"><span th:text="${review.body}"></span></p>
+                    <h3 class="card-title"><span th:text="${review.title}"/></h3>
+                    <p class="card-text"><span th:text="${review.body}"/></p>
                     <a th:href="@{/reviews/{id}/edit(id=${review.id})}" class="card-link">Edit Post</a>
                     <a th:href="@{/reviews/{id}/delete(id=${review.id})}" class="card-link">Delete Post</a>
+                    <p>View all reviews for: <a th:href="@{/reviews/{name}(name=${review.getLocation().getName()})}"><span th:text="${review.getLocation().getName()}"/></a></p>
                 </div>
             </div>
         </div>

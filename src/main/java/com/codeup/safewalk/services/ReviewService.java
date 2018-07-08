@@ -50,7 +50,6 @@ public class ReviewService {
         return reviewRepository.findByUser(user);
     }
 
-
     public Review findOne(long id) {
         return reviewRepository.findOne(id);
     }
