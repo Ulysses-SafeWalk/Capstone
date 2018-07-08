@@ -21,7 +21,10 @@
             <div class="card">
                 <div class="card-body">
                     <h3 class="card-title"><span th:text="${review.title}"/></h3>
-                    <p class="card-text"><span th:text="${review.body}"/></p>
+                    <div class="card-text">
+                        <p><span th:text="${review.body}"/></p>
+                        <p>Overall rating: <span th:text="${review.overall_rating}"/></p>
+                    </div>
                     <p>View all reviews for: <a th:href="@{/reviews/{name}(name=${review.location})}"><span th:text="${review.location}"/></a></p>
                     <a th:href="@{/reviews/{id}/edit(id=${review.id})}" class="card-link">Edit Post</a>
                     <a th:href="@{/reviews/{id}/delete(id=${review.id})}" class="card-link">Delete Post</a>

@@ -71,6 +71,8 @@ public class ReviewController {
     public String updateReview(@PathVariable long id, @ModelAttribute Review review) {
         Review editedReview = reviewService.findOne(id);
         Location location = editedReview.getLocation();
+        int averageRating = reviewService.getOverallReview(review);
+        review.setOverall_rating(averageRating);
         reviewService.save(review, location);
         return "redirect:/reviews";
     }
@@ -88,20 +90,7 @@ public class ReviewController {
     public String createReview(@PathVariable long id, @ModelAttribute Review review) {
         Location location = locationRepository.findById(id);
         System.out.println(location.getName());
-        int parkingRate = review.getParking_rating();
-        int sidewalkRate = review.getSidewalk_rating();
-        int familyRate = review.getFamily_rating();
-        int crowdRate = review.getCrowd_rating();
-        int transportRate = review.getTransport_rating();
-        int lightRate = review.getLighting_rating();
-        int feelRate = review.getFeeling_rating();
-        int averageRating;
-        if (transportRate == 0){
-            averageRating = ((parkingRate + sidewalkRate + familyRate + crowdRate + lightRate + feelRate)/6);
-        } else {
-            averageRating = ((parkingRate + sidewalkRate + familyRate + crowdRate + transportRate + lightRate + feelRate)/7);
-        }
-        System.out.println(averageRating);
+        int averageRating = reviewService.getOverallReview(review);
         review.setOverall_rating(averageRating);
         reviewService.save(review, location);
         return "redirect:/reviews";
