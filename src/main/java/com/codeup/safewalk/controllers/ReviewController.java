@@ -95,9 +95,14 @@ public class ReviewController {
         int transportRate = review.getTransport_rating();
         int lightRate = review.getLighting_rating();
         int feelRate = review.getFeeling_rating();
-//        if (transportRate == 0){
-//            int averageRating =
-//        }
+        int averageRating;
+        if (transportRate == 0){
+            averageRating = ((parkingRate + sidewalkRate + familyRate + crowdRate + lightRate + feelRate)/6);
+        } else {
+            averageRating = ((parkingRate + sidewalkRate + familyRate + crowdRate + transportRate + lightRate + feelRate)/7);
+        }
+        System.out.println(averageRating);
+        review.setOverall_rating(averageRating);
         reviewService.save(review, location);
         return "redirect:/reviews";
     }
