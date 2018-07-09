@@ -41,6 +41,6 @@ public class LocationController {
         user.setFavorites(favoriteList);
         userRepository.save(user);
 
-        return "added to favor";
+        return "added to favorites";
     }
 }

@@ -70,43 +70,44 @@ function initialize() {
         layerName.addListener('click', function (event) {
             let name = event.feature.getProperty('name');
             let locationID = event.feature.getProperty('yelpID');
+            console.log(locationID);
             let htmlContent = "<p>" + name + "</p>" +
                 "<form name='reviews' action='/reviews/" + name + "' method='get'>" +
                 "<button>User Safety Reviews</button>" + "</form>" +
                 "<button id='"+ locationID +"'>Add to Favorites</button>" +
+                // "<form name='favorites' action='/favorites/" + locationID + "' method='get'>" +
+                // "<button>Add to Favorites</button>" +
                 "<form name='yelp' target='_blank' action='https://yelp.com/biz/" + locationID + "' method='get'>" +
-                "<button>Yelp Reviews</button>" + "</form>"
+                "<button>Yelp Reviews</button>" + "</form>";
             infowindow.setContent(htmlContent);
+            console.log(infowindow);
 
-            google.maps.event.addListener(infowindow, 'domready', function(){
-                document.getElementById(locationID).addEventListener("click", function(e){
-                    e.preventDefault();
-                    console.log("clicked!");
-                    console.log(name);
-                    $.get("/favorites/" + name)
-                        .done(function(data){
-                            console.log(data)
-                        })
-                        .fail(function(){
-                            console.log("Fail!")
-                        })
-                })
-            });
+            setTimeout(function(){
+                enableFavoritesButton(locationID, name)
+            }, 100);
             infowindow.setPosition(event.feature.getGeometry().get());
             infowindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
             infowindow.open(map);
         });
-        // enableFavoritesButton();
-    }
 
-
-    function enableFavoritesButton(){
-        $('.addToFavorites').on('click', function(event) {
-            event.preventDefault();
-            let favoriteLocationID = event.feature.getProperty('yelpID');
-            console.log(favoriteLocationID);
-        })
     }
+        function enableFavoritesButton(locationID, name) {
+            // google.maps.event.addListener(infowindow, 'domready', function () {
+                document.getElementById(locationID).addEventListener("click", function (e) {
+                    e.preventDefault();
+                    console.log("clicked!");
+                    console.log(name);
+                    $.get("/favorites/" + name)
+                        .done(function (data) {
+                            console.log(data)
+                        })
+                        .fail(function () {
+                            console.log("Fail!")
+                        })
+                })
+            // });
+        }
+
 
     //facilities layer
     let facilitiesLayer = new google.maps.Data();
