@@ -5,7 +5,7 @@
 <nav th:replace="fragments :: navbar" />
 
 <div class="form-container">
-    <h1>Welcome, ${user.username}!</h1>
+    <>Welcome, <span th:text="${user.username}"!/> </h1>
 
         <div th:include="fragments :: logo"></div>
 
@@ -13,33 +13,35 @@
             <div class="card-body">
                 <h1 class="text-center">Profile Information</h1>
 
-                <form th:action="@{/register}" method="POST" th:object="${user}">
+                <form th:action="@{/editProfile}" method="POST" th:object="${user}">
                     <div class="form-group">
                         <label for="firstName">First Name</label>
-                        <input class="form-control" id="firstName" th:field="*{first_name}" />
+                        <span th:text="${user.first_name}" class="form-control" id="firstName" />
                     </div>
                     <div class="form-group">
                         <label for="lastName">Last Name</label>
-                        <input class="form-control" id="lastName" th:field="*{last_name}" />
+                        <span th:text="${user.last_name}" class="form-control" id="lastName" />
                     </div>
                     <div class="form-group">
-                        <label for="phoneNumber">Phone Number <br/><span style="color: darkgrey; font-style:italic">(Only required if you would like to set up automatic alert texting)</span></label>
-                        <input class="form-control" id="phoneNumber" th:field="*{phone_number}" placeholder="(555) 555-5555"/>
+                        <label for="phoneNumber">Phone Number <br/></label>
+                        <span th:text="${user.phone_number}" class="form-control" id="phoneNumber"/>
                     </div>
                     <div class="form-group">
                         <label for="username">Username</label>
-                        <input class="form-control" id="username" th:field="*{username}" />
+                        <span th:text="${user.username}" class="form-control" id="username" />
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input class="form-control" id="email" th:field="*{email}" />
+                        <span th:text="${user.email}" class="form-control" id="email" />
                     </div>
                     <div class="form-group">
                         <label for="password">Password</label>
-                        <input class="form-control" id="password" type="password" th:field="*{password}" />
+                        <span th:text="${user.password}" class="form-control" id="password" type="password" />
                     </div>
                     <div>
-                        <input value="Create Account" type="submit" class="btn btn-block buttons text-white"/>
+                        <a th:href="@{/editProfile/{id}/edit(id=${user.id})}" class="card-link btn btn-block buttons text-white">
+                            Edit
+                        </a>
                     </div>
                 </form>
             </div>
@@ -48,7 +50,7 @@
 
     <th:block th:replace="fragments :: scripts"/>
 
-    <h3>Manage your <a th:href="@{/reviews}">reviews</a></h3>
+    <h3>Manage your <a th:href="@{/templates/reviews}">reviews</a></h3>
 
 </div>
 
