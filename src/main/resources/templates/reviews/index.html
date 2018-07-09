@@ -3,7 +3,7 @@
 <head th:replace="fragments :: head(${'Posts index page'})" />
 <body>
 <nav th:replace="fragments :: navbar" />
-<div class="container">
+<div class="form-container">
 
     <h1 th:if="${! reviews.isEmpty()}">Here are all your reviews!</h1>
     <h1 th:if="${reviews.isEmpty()}">Sorry, no results found!</h1>

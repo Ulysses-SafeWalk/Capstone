@@ -17,8 +17,16 @@
     </div>
 </div>
 
+<div th:fragment="logo2" class="card">
+    <div class="d-flex align-content-center">
+        <div class="card-body logo-main shadows rounded">
+            <h1 class="text-center text-white">SafeWalk</h1>
+        </div>
+    </div>
+</div>
+
 <nav th:fragment="navbar">
-    <div class="navbar form-inline">
+    <div class="navbar form-inline shadows">
             <div>
                 <form th:action="@{/}" th:method="GET">
                     <button class="btn-link btn" style="margin-top: 8px">Home</button>
