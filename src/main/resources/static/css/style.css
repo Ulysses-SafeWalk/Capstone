@@ -88,21 +88,21 @@ body, html {
 
 #uber {
     position: absolute;
-        z-index: -10
+        z-index: -10;
         margin-left: 1%;
         margin-top: 20%;
 }
 
 #lyft {
     position: absolute;
-        z-index: -20
+        z-index: -20;
         margin-left: 2%;
         margin-top: 30%;
 }
 
 #moovit {
     position: relative;
-        z-index: -60
+        z-index: -60;
         margin-left: 1%;
         margin-top: 70%;
 }
