@@ -2,6 +2,10 @@ body, html {
     height: 100%;
 }
 
+#home {
+ background-color: #939da0;
+}
+
 .rating {
     float: left;
     height: 46px;

@@ -2,6 +2,7 @@ package com.codeup.safewalk.controllers;
 
 import com.codeup.safewalk.models.User;
 import com.codeup.safewalk.repositories.UserRepository;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -34,10 +35,19 @@ public class UserController {
     }
 
     @GetMapping("/profile")
-    public String getProfilePage(){
+    public String getProfilePage(@ModelAttribute User user, Model view){
+        User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        user = users.findById(sessionUser.getId());
+        view.addAttribute("user", user);
         return "profile";
     }
 
     //add get/post for user to edit their profile
+
+    @PostMapping("/profile")
+    public String editProfile() {
+        return "profile";
+    }
+
 
 }
