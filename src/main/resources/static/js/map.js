@@ -1,5 +1,9 @@
 "use strict";
 
+function addToFavorites(event){
+    console.log(event);
+}
+
 function initialize() {
 
     let codeup = new google.maps.LatLng(29.426709, -98.489604);
@@ -64,24 +68,44 @@ function initialize() {
 
     function createInfoWindows(layerName) {
         layerName.addListener('click', function (event) {
-            // document.getElementById('info-box').textContent =
-            //     event.feature.getProperty('Name');
             let name = event.feature.getProperty('name');
             let locationID = event.feature.getProperty('yelpID');
             let htmlContent = "<p>" + name + "</p>" +
-                // "<a href='/reviews/" + name + "'>See User Safety Reviews</a>" + "<br/>" +
                 "<form name='reviews' action='/reviews/" + name + "' method='get'>" +
                 "<button>User Safety Reviews</button>" + "</form>" +
-                "<form name='favorites' action='/favorites/" + name + "' method='post'>" +
-                "<button>Add to Favorites</button>" + "</form>"  +
+                "<button id='"+ locationID +"'>Add to Favorites</button>" +
                 "<form name='yelp' target='_blank' action='https://yelp.com/biz/" + locationID + "' method='get'>" +
                 "<button>Yelp Reviews</button>" + "</form>"
-                // "<a target='_blank' href='https://yelp.com/biz/" + locationID + "'>View location on Yelp</a>";
             infowindow.setContent(htmlContent);
+
+            google.maps.event.addListener(infowindow, 'domready', function(){
+                document.getElementById(locationID).addEventListener("click", function(e){
+                    e.preventDefault();
+                    console.log("clicked!");
+                    console.log(name);
+                    $.get("/favorites/" + name)
+                        .done(function(data){
+                            console.log(data)
+                        })
+                        .fail(function(){
+                            console.log("Fail!")
+                        })
+                })
+            });
             infowindow.setPosition(event.feature.getGeometry().get());
             infowindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
             infowindow.open(map);
         });
+        // enableFavoritesButton();
+    }
+
+
+    function enableFavoritesButton(){
+        $('.addToFavorites').on('click', function(event) {
+            event.preventDefault();
+            let favoriteLocationID = event.feature.getProperty('yelpID');
+            console.log(favoriteLocationID);
+        })
     }
 
     //facilities layer

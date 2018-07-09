@@ -119,4 +119,6 @@ public class Location {
     public void setUserFavorites(List<User> userFavorites) {
         this.userFavorites = userFavorites;
     }
+
+
 }
