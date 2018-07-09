@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" lang="en">
 <head th:replace="fragments :: head(${'Welcome!'})" />
-<body>
+<body id="home">
 <!--<nav th:replace="fragments :: navbar" />-->
 
 
@@ -32,11 +32,11 @@
                         <li>Favorite 3</li>
                     </ul>
                 </div>
-            <!--</div>-->
+            </div>
 
 
             <div class="card shadows">
-                <div class="card-body">
+                <div class="card-body m-auto">
                     <a href="#" class="btn buttons text-white mb-3" id="moovit">Transit with Moovit</a><br />
                     <a href="#" class="btn logout text-white mb-3">Logout</a>
                 </div>

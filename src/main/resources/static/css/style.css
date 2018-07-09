@@ -2,6 +2,10 @@ body, html {
     height: 100%;
 }
 
+#home {
+ background-color: #939da0;
+}
+
 .rating {
     float: left;
     height: 46px;
@@ -137,14 +141,14 @@ body, html {
 #map-canvas{
     position: relative;
     margin-right: 20px;
-    width: 100%;
+    width: 90vw;
     height: 100vh;
 }
 
 .nav-legend {
     position: absolute;
     margin-left: 35%;
-    margin-top: 70%;
+    margin-top: 58%;
 }
 
 
