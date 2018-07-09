@@ -69,8 +69,14 @@ function initialize() {
             let name = event.feature.getProperty('name');
             let locationID = event.feature.getProperty('yelpID');
             let htmlContent = "<p>" + name + "</p>" +
-                "<a href='/reviews/" + name + "'>See User Safety Reviews</a>" + "<br/>" +
-                "<a target='_blank' href='https://yelp.com/biz/" + locationID + "'>View location on Yelp</a>";
+                // "<a href='/reviews/" + name + "'>See User Safety Reviews</a>" + "<br/>" +
+                "<form name='reviews' action='/reviews/" + name + "' method='get'>" +
+                "<button>User Safety Reviews</button>" + "</form>" +
+                "<form name='favorites' action='/favorites/" + name + "' method='post'>" +
+                "<button>Add to Favorites</button>" + "</form>"  +
+                "<form name='yelp' target='_blank' action='https://yelp.com/biz/" + locationID + "' method='get'>" +
+                "<button>Yelp Reviews</button>" + "</form>"
+                // "<a target='_blank' href='https://yelp.com/biz/" + locationID + "'>View location on Yelp</a>";
             infowindow.setContent(htmlContent);
             infowindow.setPosition(event.feature.getGeometry().get());
             infowindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
@@ -95,8 +101,6 @@ function initialize() {
     let bothLayer = new google.maps.Data();
     let barLayer = new google.maps.Data();
     let restaurantLayer = new google.maps.Data();
-
-
 
     //create layer toggle
     $('#facilitiesLayer').change(function(){
