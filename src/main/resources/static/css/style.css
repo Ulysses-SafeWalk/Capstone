@@ -10,7 +10,7 @@ body, html {
 
 .rating:not(:checked) > input {
     position: absolute;
-    top: -9999px;
+    left: -9999px;
 }
 
 .rating:not(:checked) > label {

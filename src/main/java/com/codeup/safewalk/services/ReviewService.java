@@ -28,17 +28,15 @@ public class ReviewService {
         return reviewRepository.findAll();
     }
 
-    public Review save(Review review) {
+    public Review save(Review review, Location location) {
 
         // get the user from the session
         User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
 
         // make sure to get the actual, real deal user from the DB.
         User user = userRepository.findById(sessionUser.getId());
-        Location location = locationRepository.findById(1);
         review.setLocation(location);
         review.setUser(user);
-        System.out.println(review.getRating());
         reviewRepository.save(review);
         return review;
     }
@@ -51,6 +49,22 @@ public class ReviewService {
         return reviewRepository.findByUser(user);
     }
 
+    public int getOverallReview(Review review){
+        int parkingRate = review.getParking_rating();
+        int sidewalkRate = review.getSidewalk_rating();
+        int familyRate = review.getFamily_rating();
+        int crowdRate = review.getCrowd_rating();
+        int transportRate = review.getTransport_rating();
+        int lightRate = review.getLighting_rating();
+        int feelRate = review.getFeeling_rating();
+        int averageRating;
+        if (transportRate == 0){
+            averageRating = ((parkingRate + sidewalkRate + familyRate + crowdRate + lightRate + feelRate)/6);
+        } else {
+            averageRating = ((parkingRate + sidewalkRate + familyRate + crowdRate + transportRate + lightRate + feelRate)/7);
+        }
+        return averageRating;
+    }
 
     public Review findOne(long id) {
         return reviewRepository.findOne(id);

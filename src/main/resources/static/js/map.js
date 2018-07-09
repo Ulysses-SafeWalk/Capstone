@@ -18,6 +18,8 @@ function initialize() {
         map: map
     });
 
+
+    //get users current position
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function (position) {
             window.SafeWalkGeo = {
@@ -39,7 +41,7 @@ function initialize() {
 
     }
 
-    //Emergencyfacilities layer
+    //establish icon library
     let Icons = {
         POLICE: {
             icon: "/img/police.png"
@@ -52,11 +54,33 @@ function initialize() {
         },
         bar: {
             icon: "/img/bar_cocktail.png"
+        },
+        both: {
+            icon: "/img/terrace.png"
         }
     };
+
+    var infowindow = new google.maps.InfoWindow();
+
+    function createInfoWindows(layerName) {
+        layerName.addListener('click', function (event) {
+            // document.getElementById('info-box').textContent =
+            //     event.feature.getProperty('Name');
+            let name = event.feature.getProperty('name');
+            let locationID = event.feature.getProperty('yelpID');
+            let htmlContent = "<p>" + name + "</p>" +
+                "<a href='/reviews/" + name + "'>See User Safety Reviews</a>" + "<br/>" +
+                "<a target='_blank' href='https://yelp.com/biz/" + locationID + "'>View location on Yelp</a>";
+            infowindow.setContent(htmlContent);
+            infowindow.setPosition(event.feature.getGeometry().get());
+            infowindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
+            infowindow.open(map);
+        });
+    }
+
+    //facilities layer
     let facilitiesLayer = new google.maps.Data();
     facilitiesLayer.loadGeoJson('/json/publicSafetyFacilities.json');
-
     let facilitiesStyling = function(feature) {
         let StyleOptions = {
             icon : Icons[feature.getProperty('AgencyType')].icon
@@ -66,6 +90,15 @@ function initialize() {
     facilitiesLayer.setStyle(facilitiesStyling);
     facilitiesLayer.setMap(map);
 
+
+    //location layers
+    let bothLayer = new google.maps.Data();
+    let barLayer = new google.maps.Data();
+    let restaurantLayer = new google.maps.Data();
+
+
+
+    //create layer toggle
     $('#facilitiesLayer').change(function(){
         if($(this).is(':checked')){
             facilitiesLayer.setStyle(facilitiesStyling)
@@ -73,60 +106,108 @@ function initialize() {
             facilitiesLayer.setStyle({visible: false})
         }
     });
-
-    // function generateLocationMarkers() {
-    //     //Restaurant layer
-    //     let restaurantRequest = {
-    //         location: myLocation,
-    //         radius: '10000',
-    //         type: ['restaurant']
-    //     };
-    //
-    //     let barRequest = {
-    //         location: myLocation,
-    //         radius: '10000',
-    //         type: ['bar']
-    //     };
-    //
-    //
-    //     let service = new google.maps.places.PlacesService(map);
-    //     service.nearbySearch(restaurantRequest, function (results, status) {
-    //         callback(results, status, restaurantRequest.type)
-    //     });
-    //     service.nearbySearch(barRequest, function (results, status) {
-    //         callback(results, status, barRequest.type)
-    //     });
-    //
-    //     function callback(results, status, category) {
-    //         if (status == google.maps.places.PlacesServiceStatus.OK) {
-    //             for (var i = 0; i < results.length; i++) {
-    //                 var place = results[i];
-    //                 createMarker(place, category);
-    //             }
-    //             ;
-    //         }
-    //     }
-    //
-    //     function createMarker(place, category) {
-    //         new google.maps.Marker({
-    //             position: place.geometry.location,
-    //             map: map,
-    //             icon: Icons[category].icon
-    //         });
-    //     }
-    // }
-    // generateLocationMarkers();
-
-    $.ajax({
-        url: "https://api.yelp.com/v3/businesses/search?term=restaurants&location=San+Antonio",
-        headers: {
-            "Authorization": "Bearer bc_irZxNZ-Ep0rZHDClW6t_Zts0IKH5_ZYf5_3UWs7pt9VXo6H0Sx8iX96AgtcYoOYPjCvYBDhVTiiMMjRPMw1rHq2kxrpGH5SxXpXJA4aoEAxtnd6QOIZLSKrU7W3Yx",
-            "Content-Type":"application/json"
-        },
-        method: "GET",
-        dataType: "json",
+    $('#bothLayer').change(function(){
+        if($(this).is(':checked')){
+            bothLayer.setStyle({icon: Icons["both"].icon})
+        } else {
+            bothLayer.setStyle({visible: false})
+        }
+    });
+    $('#barLayer').change(function(){
+        if($(this).is(':checked')){
+            barLayer.setStyle({icon: Icons["bar"].icon})
+        } else {
+            barLayer.setStyle({visible: false})
+        }
+    });
+    $('#restaurantLayer').change(function(){
+        if($(this).is(':checked')){
+            restaurantLayer.setStyle({icon: Icons["restaurant"].icon})
+        } else {
+            restaurantLayer.setStyle({visible: false})
+        }
     });
 
+    function setLocationLayers(layerName, filepath) {
+        layerName.loadGeoJson(filepath);
+        layerName.setStyle({visible: false});
+        layerName.setMap(map);
+
+        createInfoWindows(layerName);
+    }
+
+    setLocationLayers(bothLayer, '/json/bothGeo.json');
+    setLocationLayers(barLayer, '/json/barsGeo.json');
+    setLocationLayers(restaurantLayer, '/json/restaurantsGeo.json');
+//function to convert json to geojson
+//     function createGeoJson(filepath, featureListName) {
+//         console.log("Starting up");
+//
+//         let geojson = {
+//             type: "FeatureCollection",
+//             name: featureListName,
+//             crs: {
+//                 type: "name",
+//                 properties: {
+//                     name: "urn:ogc:def:crs:EPSG::4269"
+//                 }
+//             },
+//             features: []
+//
+//         };
+//
+//         var jsonRequest = $.get(filepath);
+//
+//         jsonRequest.done(function (response) {
+//             for (var i = 0; i < response.businesses.length; i++) {
+//                 geojson.features.push({
+//                     "type": "Feature",
+//                     "geometry": {
+//                         "type": "Point",
+//                         "coordinates": [response.businesses[i].coordinates.longitude, response.businesses[i].coordinates.latitude]
+//                     },
+//                     "properties": {
+//                         "name": response.businesses[i].name,
+//                         "id": response.businesses[i].id
+//                     }
+//                 });
+//             }
+//         });
+//         return geojson;
+//     }
+//
+//     let bargeojson = createGeoJson('/json/bars.json', "Bars");
+//     $.get('/json/publicSafetyFacilities.json').done(function(response){
+//         console.log(response);
+//     });
+//     console.log(bargeojson);
+
+
+
+
+    // let featurelist = bargeojson.features;
+    //
+    //
+    // for (var i=0; i<featurelist.length(); i++){
+    // $('#one').append(featurelist[i]);
+    // }
+    // $('#info-box').append("Here is the json: " + features.forEach(function(feature) {
+    //    "<p>" + feature + "</p>"
+    // }));
+
+    // let parsedRestaurantJson = JSON.parse(restaurantgeojson);
+
+    // let restaurantsLayer = new google.maps.Data();
+    // restaurantsLayer.addGeoJson(JSON.stringify(restaurantgeojson));
+
+    // let barLayer = new google.maps.Data();
+    // barLayer.addGeoJson(JSON.parse(bargeojson));
+    // barLayer.setMap(map);
+
+    // restaurantsLayer.setStyle({
+    //     icon: "/img/restaurant.png"
+    // });
+    // restaurantsLayer.setMap(map);
 
 
 }

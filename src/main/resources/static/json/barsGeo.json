@@ -1,0 +1,3020 @@
+{"type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49527543,29.40900257 ]
+      },
+      "properties": {
+        "yelpID":"a7hui2j4vzjNJzImf5711w",
+        "name":"1919",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48694,29.4268 ]
+      },
+      "properties": {
+        "yelpID":"W4JCvNafR8a9nC82lc38cQ",
+        "name":"1909 Taproom",
+        "category":"bar",
+        "yelpCategory":"Pubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49959,29.45344 ]
+      },
+      "properties": {
+        "yelpID":"TzeK-3m8vG-a18iAtsJI9A",
+        "name":"2015 Place",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4880699,29.42445 ]
+      },
+      "properties": {
+        "yelpID":"l9XVCoCILM1TdrICm-sVEA",
+        "name":"Agave Bar",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47722356,29.42941599 ]
+      },
+      "properties": {
+        "yelpID":"7Q0ifncjejmUdtdsBEH6Gw",
+        "name":"Alamo Beer",
+        "category":"bar",
+        "yelpCategory":"Breweries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47655182,29.42546169 ]
+      },
+      "properties": {
+        "yelpID":"lioO1K8AG0ydAvZG6xwCGA",
+        "name":"Alamo City Music Hall",
+        "category":"bar",
+        "yelpCategory":"Music Venues"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47866821,29.4218998 ]
+      },
+      "properties": {
+        "yelpID":"Xu13mHCxk6BX9opzrCzESQ",
+        "name":"Alamo Depot Sports Bar",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47900391,29.42197418 ]
+      },
+      "properties": {
+        "yelpID":"gK58WYtvreKFgqHtAoCJaQ",
+        "name":"Alibis' Sports & Spirits",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.39753,29.506827 ]
+      },
+      "properties": {
+        "yelpID":"NMuxD2AYw96sIly0rFdHdA",
+        "name":"Applebee's Grill + Bar",
+        "category":"bar",
+        "yelpCategory":"American (Traditional)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.45492,29.51883 ]
+      },
+      "properties": {
+        "yelpID":"z15hPIgoLl9B3XlffYgH-A",
+        "name":"Arjon's International Club",
+        "category":"bar",
+        "yelpCategory":"Dance Clubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4825533,29.4324933 ]
+      },
+      "properties": {
+        "yelpID":"zVSRW1FS0EfgJXiGQBPaqA",
+        "name":"Artisan on Alamo",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47849086,29.42148481 ]
+      },
+      "properties": {
+        "yelpID":"2g5jPDCvCaeJuGIhe2sdTQ",
+        "name":"Ash at Sunset Station",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.40685241,29.51026976 ]
+      },
+      "properties": {
+        "yelpID":"WRKRK-dIGR_K6MyyiZALRA",
+        "name":"Asiana/Big Bang Karaoke",
+        "category":"bar",
+        "yelpCategory":"Karaoke"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.43561,29.4944 ]
+      },
+      "properties": {
+        "yelpID":"mAswF_sDDbJO44LyxlHzeg",
+        "name":"Astro SuperBowl",
+        "category":"bar",
+        "yelpCategory":"Bowling"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.43736344,29.42686994 ]
+      },
+      "properties": {
+        "yelpID":"dHzkAS8_5bsAtTtTflYvTg",
+        "name":"AT&T Center",
+        "category":"bar",
+        "yelpCategory":"Stadiums & Arenas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47289505,29.37030614 ]
+      },
+      "properties": {
+        "yelpID":"kX2F4QAx7YgqbPtYYBgeBg",
+        "name":"Azabache Sports Bar",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50258636,29.46668625 ]
+      },
+      "properties": {
+        "yelpID":"nYNLYIG2R5n7WAk4PmncOA",
+        "name":"Babios Night Club",
+        "category":"bar",
+        "yelpCategory":"Dance Clubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.476974,29.425672 ]
+      },
+      "properties": {
+        "yelpID":"3241fa9jfCx5AT29GGcfbA",
+        "name":"Backstage Live",
+        "category":"bar",
+        "yelpCategory":"Music Venues"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.505907,29.5200751 ]
+      },
+      "properties": {
+        "yelpID":"yRe_Om3BpCN9D90_QRs9Kw",
+        "name":"Backstage Lounge",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4997,29.45318 ]
+      },
+      "properties": {
+        "yelpID":"WBNyCNsH91qfWyq04fqudg",
+        "name":"Bananas Billiards",
+        "category":"bar",
+        "yelpCategory":"Pool Halls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4911958,29.42682931 ]
+      },
+      "properties": {
+        "yelpID":"z5mayJZIOh9b_w8Prv_6dg",
+        "name":"Bar 414",
+        "category":"bar",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48355579,29.41898569 ]
+      },
+      "properties": {
+        "yelpID":"ZCuKfYzP5tn6NwfCYGBLbw",
+        "name":"Bar 601",
+        "category":"bar",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48881527,29.4167748 ]
+      },
+      "properties": {
+        "yelpID":"V0THMfacZasfgEIasTFYcA",
+        "name":"Bar America",
+        "category":"bar",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46382141,29.47195053 ]
+      },
+      "properties": {
+        "yelpID":"VZrOkLwHmz3g3WBmYuQ3xg",
+        "name":"Bar du Mon Ami",
+        "category":"bar",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48387,29.42189 ]
+      },
+      "properties": {
+        "yelpID":"dz_DYpbUTZsOJ_UM692eSw",
+        "name":"Bar Rojo",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46444407,29.5183248 ]
+      },
+      "properties": {
+        "yelpID":"GlRaCZoeMhz0U6b1IpvKqg",
+        "name":"Barflys",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4876717,29.4245558 ]
+      },
+      "properties": {
+        "yelpID":"Qt3xBWrStipIb4RUqSliAQ",
+        "name":"Basement Bar & Lounge",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49941,29.44144 ]
+      },
+      "properties": {
+        "yelpID":"d_Slh_j9jqVxUOMnCZOTqg",
+        "name":"Beer N All",
+        "category":"bar",
+        "yelpCategory":"Beer, Wine & Spirits"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.52568,29.51455 ]
+      },
+      "properties": {
+        "yelpID":"hIrkQm1ps10U8iDvNt-4Zg",
+        "name":"Beer n All",
+        "category":"bar",
+        "yelpCategory":"Beer, Wine & Spirits"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46132,29.44307 ]
+      },
+      "properties": {
+        "yelpID":"NzEHyfVQlK_n7dY_miM8yA",
+        "name":"Betty's Battalion",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47991176,29.43067655 ]
+      },
+      "properties": {
+        "yelpID":"z37VXmAUEX0QvfPxOulbCw",
+        "name":"Big Hops - The Bridge",
+        "category":"bar",
+        "yelpCategory":"Pubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.39222717,29.48371124 ]
+      },
+      "properties": {
+        "yelpID":"pxSX38vdVJ30CXJYdBog1w",
+        "name":"Bikinis Sports Bar",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48059909,29.44338251 ]
+      },
+      "properties": {
+        "yelpID":"Oin2K3pNws_NKJ9EWTxpFw",
+        "name":"Blue Box",
+        "category":"bar",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4931299,29.42974 ]
+      },
+      "properties": {
+        "yelpID":"7Ds3J_k9uwN2FatNyX_McA",
+        "name":"Bond's 007 Rock Bar",
+        "category":"bar",
+        "yelpCategory":"Music Venues"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4844506,29.4267187 ]
+      },
+      "properties": {
+        "yelpID":"Sa7LUj2n0vLPiixVsEwncA",
+        "name":"Bonham Exchange",
+        "category":"bar",
+        "yelpCategory":"Dance Clubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.41101909,29.51719759 ]
+      },
+      "properties": {
+        "yelpID":"hWv5QA175khN6sw04pGorQ",
+        "name":"Boozehounds",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.53378,29.37396 ]
+      },
+      "properties": {
+        "yelpID":"nItL47gXHBQ10HxJPXkDVA",
+        "name":"Bosmans",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50934766,29.44265196 ]
+      },
+      "properties": {
+        "yelpID":"hJUM6PlMi_u7UpXb2MaLDQ",
+        "name":"Bottom Bracket Social Club",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48716445,29.450197 ]
+      },
+      "properties": {
+        "yelpID":"jyq6-lUPXRkuLaIKdnmZ2Q",
+        "name":"Brass Monkey",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5321,29.37665 ]
+      },
+      "properties": {
+        "yelpID":"auFs-SbqaiVIe5lvfWYPpw",
+        "name":"Brass Rail Bar",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46052839,29.52060171 ]
+      },
+      "properties": {
+        "yelpID":"xxAS4DRfu3SutcPI1KcKnQ",
+        "name":"Breathe Lounge",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46013,29.52023 ]
+      },
+      "properties": {
+        "yelpID":"wv83U24ihUbw01UTDYn6iQ",
+        "name":"Broadway Bar",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46650273,29.5100495 ]
+      },
+      "properties": {
+        "yelpID":"RIIo0C5RqlrB10ze4uruhQ",
+        "name":"Broadway Icehouse",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48460039,29.43301185 ]
+      },
+      "properties": {
+        "yelpID":"JgZs5Xv_GP27mSY7UyyIZw",
+        "name":"Brooklynite",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4888109,29.4264009 ]
+      },
+      "properties": {
+        "yelpID":"KJdhcdNkkN3DYllCmLPtVQ",
+        "name":"Buckhorn Saloon & Museum",
+        "category":"bar",
+        "yelpCategory":"Museums"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.51217,29.54539 ]
+      },
+      "properties": {
+        "yelpID":"03BEKq_k_ys_Kgaj9TJDlQ",
+        "name":"Bud Lounge",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.396045,29.514102 ]
+      },
+      "properties": {
+        "yelpID":"07gk8XNBKM81L5Huc8V9nw",
+        "name":"Buffalo Wild Wings",
+        "category":"bar",
+        "yelpCategory":"American (Traditional)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46077064,29.52051931 ]
+      },
+      "properties": {
+        "yelpID":"XGbsH1_BleOnt4udB35Ebg",
+        "name":"Caribbean Mix",
+        "category":"bar",
+        "yelpCategory":"Caribbean"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4911951,29.4259935 ]
+      },
+      "properties": {
+        "yelpID":"BjgELdM6SMa3WRG3umua8g",
+        "name":"Charline Mccombs Empire Theatre",
+        "category":"bar",
+        "yelpCategory":"Music Venues"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48432,29.4238 ]
+      },
+      "properties": {
+        "yelpID":"n1cdrb1XRkooSchPCDv__Q",
+        "name":"Chili's",
+        "category":"bar",
+        "yelpCategory":"Tex-Mex"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46323563,29.51742304 ]
+      },
+      "properties": {
+        "yelpID":"nY-QLG0NmwOa61f8MiiTiA",
+        "name":"Chili's",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46323563,29.51742304 ]
+      },
+      "properties": {
+        "yelpID":"xITrpCDBufraptKAhdaBXw",
+        "name":"Chili's Restaurant",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49138893,29.430122 ]
+      },
+      "properties": {
+        "yelpID":"fPs8nj-lS1GNyIs92O20sQ",
+        "name":"Club Giraud",
+        "category":"bar",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48768,29.42461 ]
+      },
+      "properties": {
+        "yelpID":"h6XeMsVahOZss9yVMnZAmw",
+        "name":"Club Sirius",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49156952,29.44884682 ]
+      },
+      "properties": {
+        "yelpID":"9VjF2PJ3COrWyUwldkdoXA",
+        "name":"Cobalt Club",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48155,29.5138 ]
+      },
+      "properties": {
+        "yelpID":"ZHKgQ-fNjr9r4vaXom6OcA",
+        "name":"Cootey's Tavern & Kitchen",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48981,29.42308 ]
+      },
+      "properties": {
+        "yelpID":"cvXPN-iSDGpU1G9nZVGWYA",
+        "name":"Cork Bar",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.41059016,29.50828264 ]
+      },
+      "properties": {
+        "yelpID":"Ppm407wLMgminT6HlPAexQ",
+        "name":"Corner Pocket",
+        "category":"bar",
+        "yelpCategory":"Pool Halls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48832703,29.42753601 ]
+      },
+      "properties": {
+        "yelpID":"IEwDjSytUdtjED7Y8MFQSg",
+        "name":"Cowabungas",
+        "category":"bar",
+        "yelpCategory":"Gay Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.43293,29.435 ]
+      },
+      "properties": {
+        "yelpID":"wH21R_CQxpQkXMYYcM_ugA",
+        "name":"Crazy J'S Sports Bar",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50391,29.37299 ]
+      },
+      "properties": {
+        "yelpID":"mKUJilHewsVEx3h_7rUgUw",
+        "name":"Cuatro Aces",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5353939,29.5130546 ]
+      },
+      "properties": {
+        "yelpID":"FVtgaTAvAqy3g4B14_jzsA",
+        "name":"Dads Karaoke",
+        "category":"bar",
+        "yelpCategory":"Karaoke"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48928206,29.42348287 ]
+      },
+      "properties": {
+        "yelpID":"UT_lt1Ae3EyVkqSp4vvduA",
+        "name":"Davenport Lounge",
+        "category":"bar",
+        "yelpCategory":"Dance Clubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.45691681,29.39712143 ]
+      },
+      "properties": {
+        "yelpID":"lUcceIMLoif99pwlULkbgQ",
+        "name":"Destiny's Grill & Bar",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48768882,29.4245266 ]
+      },
+      "properties": {
+        "yelpID":"m4Ebwn8uOX6v13SgwO97ew",
+        "name":"Dillo Video Sports Bar",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5024071,29.4058326 ]
+      },
+      "properties": {
+        "yelpID":"XFoJUCUscDalUdTR4N8LHQ",
+        "name":"Dorćol Distilling Company",
+        "category":"bar",
+        "yelpCategory":"Breweries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50750146,29.51933128 ]
+      },
+      "properties": {
+        "yelpID":"mE8oeT-264q0MRKhVo7j8A",
+        "name":"Dough Pizzeria Napoletana",
+        "category":"bar",
+        "yelpCategory":"Pizza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49177353,29.424755 ]
+      },
+      "properties": {
+        "yelpID":"wSeuApOcEFg5SswkbheTqA",
+        "name":"Downstairs at the Esquire Tavern",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48989832,29.42356689 ]
+      },
+      "properties": {
+        "yelpID":"X00wGs1_iPY7t90a_sxoGQ",
+        "name":"Drink Texas",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48769,29.42479 ]
+      },
+      "properties": {
+        "yelpID":"L-pCXVMDcAV8U9XrMvCfBA",
+        "name":"Eagle Gulch Saloon",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.43170844,29.48194697 ]
+      },
+      "properties": {
+        "yelpID":"3mE5GBcLYVgokti_hj1K7g",
+        "name":"Ebb Tide Lounge",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.41167234,29.5421428 ]
+      },
+      "properties": {
+        "yelpID":"azMgMbemT_Dhn0fK3TyhtA",
+        "name":"Eddy's Tavern - Perrin Beitel",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49075089,29.42589938 ]
+      },
+      "properties": {
+        "yelpID":"3QjB5OnpVTmSOgz6ZbtXDg",
+        "name":"El Colegio",
+        "category":"bar",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48585621,29.39699585 ]
+      },
+      "properties": {
+        "yelpID":"A3mPJRHFR7sm-wH3ZgwJAA",
+        "name":"El Luchador Bar",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.52748108,29.39976692 ]
+      },
+      "properties": {
+        "yelpID":"KrKpACAY082jJcymB7drWQ",
+        "name":"El Patio Club",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4396849,29.4911052 ]
+      },
+      "properties": {
+        "yelpID":"l2D2eNRloyhpbeJpJkJAnQ",
+        "name":"Epic Hookah Lounge",
+        "category":"bar",
+        "yelpCategory":"Hookah Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4851913,29.4251938 ]
+      },
+      "properties": {
+        "yelpID":"1641gYaCfNfXueKGeFkjXQ",
+        "name":"Ernie's Bar",
+        "category":"bar",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49394,29.43784 ]
+      },
+      "properties": {
+        "yelpID":"EZ6OwzKL62Vj2KAMuj3MJQ",
+        "name":"Essence",
+        "category":"bar",
+        "yelpCategory":"Gay Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48928201,29.42348255 ]
+      },
+      "properties": {
+        "yelpID":"JvoS6mMPajG7URDdTkplOg",
+        "name":"Estilo",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4989249,29.5288216 ]
+      },
+      "properties": {
+        "yelpID":"YJ9XEemh8s0qFe2Bdar81A",
+        "name":"Fitzgerald's Bar & Live Music",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4865799,29.39134026 ]
+      },
+      "properties": {
+        "yelpID":"nVxWVqr9hsFvcAVgpitJew",
+        "name":"Franky Diablos",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4822,29.40156 ]
+      },
+      "properties": {
+        "yelpID":"_DeijYeNenZT4moeeSxk5Q",
+        "name":"Freetail Brewing",
+        "category":"bar",
+        "yelpCategory":"Breweries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4706779,29.52693577 ]
+      },
+      "properties": {
+        "yelpID":"0WkaKP76NPA2u-VVYEkTGg",
+        "name":"Gervin's Sports Bar",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47787261,29.44203101 ]
+      },
+      "properties": {
+        "yelpID":"gBExdcHjpM7dBGyD9b1xXQ",
+        "name":"Golden Glove Social House",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48065,29.42447 ]
+      },
+      "properties": {
+        "yelpID":"moIf3b19wpO5P9A7TBeVrA",
+        "name":"Groove Lounge",
+        "category":"bar",
+        "yelpCategory":"Dance Clubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49535294,29.40989756 ]
+      },
+      "properties": {
+        "yelpID":"s5GWhg6g7aKSFxGsHnFc9A",
+        "name":"Halcyon",
+        "category":"bar",
+        "yelpCategory":"Coffee & Tea"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.525764,29.478717 ]
+      },
+      "properties": {
+        "yelpID":"8bJP-c4zhcOB-MrBsjG4FQ",
+        "name":"Happy Hut",
+        "category":"bar",
+        "yelpCategory":"Beer Bar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4895797,29.4274151 ]
+      },
+      "properties": {
+        "yelpID":"r1u4TbCX3reA-6Aa-KCxWw",
+        "name":"Haunt",
+        "category":"bar",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.489754,29.430817 ]
+      },
+      "properties": {
+        "yelpID":"yGUN-JntYW_I5EYMtCuMeQ",
+        "name":"Havana Bar",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.489225,29.4257081 ]
+      },
+      "properties": {
+        "yelpID":"xc766-ACNLrbqhz7fQvhEg",
+        "name":"Havana Ultra Lounge",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49399,29.44293 ]
+      },
+      "properties": {
+        "yelpID":"T892AvI08vN-ZYQm8GWHhg",
+        "name":"Heat",
+        "category":"bar",
+        "yelpCategory":"Dance Clubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48689,29.44716 ]
+      },
+      "properties": {
+        "yelpID":"bnrbTcOENdmIEaALSg5Owg",
+        "name":"Hi-Tones",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.511764,29.5437785 ]
+      },
+      "properties": {
+        "yelpID":"8yvdvCXdRyQafI59GrB0xA",
+        "name":"Hidden Tavern",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.479757,29.4421626 ]
+      },
+      "properties": {
+        "yelpID":"cjRAR6EWjQfeeCU3jeXSQQ",
+        "name":"High Street Wine Company",
+        "category":"bar",
+        "yelpCategory":"Wine Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4987298,29.44104755 ]
+      },
+      "properties": {
+        "yelpID":"1dtrnGBGnyeNzHOPfzqNow",
+        "name":"Hot Dogz",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48909,29.42524 ]
+      },
+      "properties": {
+        "yelpID":"miwdldxFgOkkz-BGoPFh3g",
+        "name":"Howl at the Moon",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4869527,29.410604 ]
+      },
+      "properties": {
+        "yelpID":"xLqYItIQdBkxp79H5TUJFw",
+        "name":"J&O's Cantina",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49869,29.49523 ]
+      },
+      "properties": {
+        "yelpID":"n4Ps1UrHXiteo8S44YkzNw",
+        "name":"Jack Rabbit",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49534157,29.40911555 ]
+      },
+      "properties": {
+        "yelpID":"J7Kh6G1RbziLqwazXR7PUg",
+        "name":"Joe Blue's",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.526458,29.497207 ]
+      },
+      "properties": {
+        "yelpID":"wL3g1aWwqtaHVWSF6nxDOQ",
+        "name":"Joe's Ice House",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48806,29.44847298 ]
+      },
+      "properties": {
+        "yelpID":"7jWWzco_rUN2wnuTe48-Ag",
+        "name":"Joey's",
+        "category":"bar",
+        "yelpCategory":"Pubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49588,29.42629 ]
+      },
+      "properties": {
+        "yelpID":"PsRuxZBmvTlw6OLlpRS3Kg",
+        "name":"Juniper Tar",
+        "category":"bar",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.51217,29.54539 ]
+      },
+      "properties": {
+        "yelpID":"-UvoWatouGTxJV7tgKFSqA",
+        "name":"KoolHaus Bar & Kitchen",
+        "category":"bar",
+        "yelpCategory":"Chicken Wings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5001041,29.4048751 ]
+      },
+      "properties": {
+        "yelpID":"GXafcxcFD7u3zhVgOS_EGQ",
+        "name":"Künstler Brewing",
+        "category":"bar",
+        "yelpCategory":"Brewpubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4809401,29.43142296 ]
+      },
+      "properties": {
+        "yelpID":"Bi3-aLSy4_1VUH4W3VFQsg",
+        "name":"La Roca Cantina",
+        "category":"bar",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50249132,29.5184637 ]
+      },
+      "properties": {
+        "yelpID":"gLGY4b7g5_StpVlmrrlZog",
+        "name":"Laugh Out Loud Comedy Club",
+        "category":"bar",
+        "yelpCategory":"Comedy Clubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48962402,29.42385292 ]
+      },
+      "properties": {
+        "yelpID":"vtzoHjYV12CUiuhjdXzfSA",
+        "name":"Leapin' Lizard Pub",
+        "category":"bar",
+        "yelpCategory":"Pubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.486419,29.4506598 ]
+      },
+      "properties": {
+        "yelpID":"DWABzMnPRVilqinA4Ej9NQ",
+        "name":"Limelight",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4876234,29.4241176 ]
+      },
+      "properties": {
+        "yelpID":"Qsp4E2URq6FLVOa2S27Hyw",
+        "name":"Liquid Monkey Lounge",
+        "category":"bar",
+        "yelpCategory":"Pubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4396849,29.4911052 ]
+      },
+      "properties": {
+        "yelpID":"aoUug2_Y--UcOoWqGtVVWg",
+        "name":"Locoe's Sports Bar",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.39443881,29.46562834 ]
+      },
+      "properties": {
+        "yelpID":"p7wOM9NMm4IvSFho4F7c5w",
+        "name":"LoJax Lounge",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.40496826,29.38487434 ]
+      },
+      "properties": {
+        "yelpID":"Q7Aj1Sm9_WNlN-0-ZqheNA",
+        "name":"Loop 13 Sports Grill",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48875427,29.41790771 ]
+      },
+      "properties": {
+        "yelpID":"1PEs8r1DS3-Krqpx8XPNRA",
+        "name":"Lowcountry",
+        "category":"bar",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4978867,29.5183792 ]
+      },
+      "properties": {
+        "yelpID":"ljfzbFYzk1gEakXx5rK4fA",
+        "name":"Luciano Express- North Star Mall",
+        "category":"bar",
+        "yelpCategory":"Pizza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49869,29.50184 ]
+      },
+      "properties": {
+        "yelpID":"LYUGWWxGNu8YezUwHaJfGQ",
+        "name":"Luna",
+        "category":"bar",
+        "yelpCategory":"Jazz & Blues"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49974,29.42492 ]
+      },
+      "properties": {
+        "yelpID":"-4bYfdVkJEqeJmD7PVXdFQ",
+        "name":"Mariachi Bar",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.525527,29.511497 ]
+      },
+      "properties": {
+        "yelpID":"17WgiqE7LL0-cuWkFG1xiA",
+        "name":"Martini Ranch",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49294281,29.52902031 ]
+      },
+      "properties": {
+        "yelpID":"NfsjtVRMxhg8a-lii4UC_w",
+        "name":"Marty's Cocktails",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50483082,29.52386051 ]
+      },
+      "properties": {
+        "yelpID":"q66MYeqkWCWUTyvB0G3hLQ",
+        "name":"Mc Finnigan's Pub",
+        "category":"bar",
+        "yelpCategory":"Pubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.485945,29.424646 ]
+      },
+      "properties": {
+        "yelpID":"ZWtmQ20SM0LqfHKf8j-WnA",
+        "name":"Menger Bar",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.502792,29.519608 ]
+      },
+      "properties": {
+        "yelpID":"Dc9b8A94fdBgwARN9_c10Q",
+        "name":"Miami Bar",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.52362061,29.53810692 ]
+      },
+      "properties": {
+        "yelpID":"K1iBocBXulPCHJOduQBoTw",
+        "name":"Mitchell's Sports Bar",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49487745,29.41518101 ]
+      },
+      "properties": {
+        "yelpID":"mzO2I0CXcrP0ZVauDquQvA",
+        "name":"Mustang Lounge",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50123096,29.46623843 ]
+      },
+      "properties": {
+        "yelpID":"qrIq4I2YEd-h8xr1JbM16g",
+        "name":"My Friend's Backyard",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.51400543,29.43956831 ]
+      },
+      "properties": {
+        "yelpID":"zGF_cvxMaezYOphZQ12bmg",
+        "name":"N L Casino Bar",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48839,29.42412 ]
+      },
+      "properties": {
+        "yelpID":"BEXwHIkCjpK0BgwA80uUYg",
+        "name":"Naked Iguana Tequila Bar",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.491735,29.426226 ]
+      },
+      "properties": {
+        "yelpID":"zp8ao1BR3GHjSy67CrMqWw",
+        "name":"Naranja",
+        "category":"bar",
+        "yelpCategory":"Hotels"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47326219,29.37257175 ]
+      },
+      "properties": {
+        "yelpID":"V6GlEFaSgztIyZEob1PNyA",
+        "name":"Neals Ice Station",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.41357422,29.48433495 ]
+      },
+      "properties": {
+        "yelpID":"fO6psJOOA4RDJhjgfE0K5A",
+        "name":"Nellie's Tavern 13",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5020804,29.408507 ]
+      },
+      "properties": {
+        "yelpID":"Xhv2x3oaiMo2q4nXiafkgQ",
+        "name":"Nesta Dive Bar",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50958252,29.44097519 ]
+      },
+      "properties": {
+        "yelpID":"P35T2h2-KdOkU1ayoag6gg",
+        "name":"Old Tin Barn Saloon",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48763,29.42389 ]
+      },
+      "properties": {
+        "yelpID":"9kFwZXAD3VlyGpsdMD1nwQ",
+        "name":"On The Rocks Pub",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48742,29.44853 ]
+      },
+      "properties": {
+        "yelpID":"MyfcNWnm1raA9xrP-McquA",
+        "name":"Paper Tiger",
+        "category":"bar",
+        "yelpCategory":"Music Venues"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4836333,29.43524219 ]
+      },
+      "properties": {
+        "yelpID":"LvFgDtgaGf7QnjOZXv52pg",
+        "name":"Paramour",
+        "category":"bar",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49394,29.44202 ]
+      },
+      "properties": {
+        "yelpID":"e6ZUfAbc45vUc6SLF_QEDQ",
+        "name":"Pegasus",
+        "category":"bar",
+        "yelpCategory":"Gay Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49369049,29.4257164 ]
+      },
+      "properties": {
+        "yelpID":"bhVBsUYrrXHqp7nTZLYJtQ",
+        "name":"Pete's Pub",
+        "category":"bar",
+        "yelpCategory":"Pubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48595,29.44586 ]
+      },
+      "properties": {
+        "yelpID":"q2LYcbpHalWBDVLs7JEH4A",
+        "name":"Phantom Room",
+        "category":"bar",
+        "yelpCategory":"Music Venues"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -97.683,30.52913 ]
+      },
+      "properties": {
+        "yelpID":"2U6Ze8ZjdPeDL5Vo-PCIEQ",
+        "name":"Pintos Party",
+        "category":"bar",
+        "yelpCategory":"Karaoke"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.52730572,29.44973834 ]
+      },
+      "properties": {
+        "yelpID":"UUn8mSIykNqo169IgAEwmw",
+        "name":"Pretty Nice Saloon",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4393453,29.3676937 ]
+      },
+      "properties": {
+        "yelpID":"XVqEE1kak6b20KvXbq2W2A",
+        "name":"Purple Joker Social Club",
+        "category":"bar",
+        "yelpCategory":"Social Clubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47157038,29.52881812 ]
+      },
+      "properties": {
+        "yelpID":"WSh32EeTWnRRUBWdQxPgag",
+        "name":"R Sala Bebida Botana Bar",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49908,29.37693 ]
+      },
+      "properties": {
+        "yelpID":"29R8jyHeZpALr4onuwuPuQ",
+        "name":"R&j Saloon",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.3969518,29.5295495 ]
+      },
+      "properties": {
+        "yelpID":"aZeaCs7JozhuvRVtsOmgZw",
+        "name":"Ranger Creek Brewing & Distilling",
+        "category":"bar",
+        "yelpCategory":"Breweries"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49162,29.42013 ]
+      },
+      "properties": {
+        "yelpID":"ZI9QllT7xYUhhHLtU33lbg",
+        "name":"Rathskeller Bar",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.465919,29.511041 ]
+      },
+      "properties": {
+        "yelpID":"U4rfnS0GIdwsPRFo2cRwWg",
+        "name":"Rebar",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.43875,29.47039 ]
+      },
+      "properties": {
+        "yelpID":"EERrXTgqggqtEq4Jr7mohA",
+        "name":"Red Baron Lounge",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46013,29.52023 ]
+      },
+      "properties": {
+        "yelpID":"f6u8iQICc6xKvsK_wndU7g",
+        "name":"Red Eye Bar",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4109151,29.5377338 ]
+      },
+      "properties": {
+        "yelpID":"j3atFsgiEbbZ44xGxbULPg",
+        "name":"Reina's Cafe & Bar",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5144412,29.5456666 ]
+      },
+      "properties": {
+        "yelpID":"JfH5kEIxlfb2vBXF7qJhQw",
+        "name":"RETOX Bar",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.52754,29.54276 ]
+      },
+      "properties": {
+        "yelpID":"6JCkHvwYFcSEFfpgWuYnvQ",
+        "name":"Ricky Bobby's Sports Bar",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47851,29.42186 ]
+      },
+      "properties": {
+        "yelpID":"ARCaL8-cdVvemUGOiYJLSg",
+        "name":"Ringside Sports Bar",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.448971,29.5175615 ]
+      },
+      "properties": {
+        "yelpID":"ENXf1eUMq1tZaRRX6e39MQ",
+        "name":"Rod Dog's Saloon",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49466841,29.42324309 ]
+      },
+      "properties": {
+        "yelpID":"dECeFF-XvXTtr1b9avMR5A",
+        "name":"Roosevelt Buffett",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4875042,29.4486445 ]
+      },
+      "properties": {
+        "yelpID":"8UQILGy72I6GWzISIfhOtA",
+        "name":"Rumble",
+        "category":"bar",
+        "yelpCategory":"Wine Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46698761,29.50640678 ]
+      },
+      "properties": {
+        "yelpID":"g5bLUJK_ukfzv5p_R4QzhQ",
+        "name":"Rush",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49356842,29.53362846 ]
+      },
+      "properties": {
+        "yelpID":"eRY8JX0wc_HIgsgbLKv5JA",
+        "name":"SA Country Saloon",
+        "category":"bar",
+        "yelpCategory":"Gay Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4666074,29.5104665 ]
+      },
+      "properties": {
+        "yelpID":"Qt6xHcceLW4CVnKWSlX9Zw",
+        "name":"Salud",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50182,29.41775 ]
+      },
+      "properties": {
+        "yelpID":"0X-aJ5mkHWzLWHjNIzHzyA",
+        "name":"Sanchez Ice House 1",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.438563,29.4168421 ]
+      },
+      "properties": {
+        "yelpID":"SPB4-8vLOxqzd9JXJLj4LQ",
+        "name":"Santa's Place",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4471751,29.51678051 ]
+      },
+      "properties": {
+        "yelpID":"bmoWZ7fdFmneStnSlRVUKg",
+        "name":"Schooners Sports Bar",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.498642,29.4248791 ]
+      },
+      "properties": {
+        "yelpID":"0CHjyIH0gcKLwfZZdSd0yA",
+        "name":"Senor Tequilla Restaurant Bar",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4046386,29.36286414 ]
+      },
+      "properties": {
+        "yelpID":"mI0XLj8p9x53IkxOLp3WSw",
+        "name":"Shady Lady Saloon",
+        "category":"bar",
+        "yelpCategory":"Steakhouses"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.53485346,29.51054201 ]
+      },
+      "properties": {
+        "yelpID":"wbRG-C3SW62gouRL8xfeqg",
+        "name":"Shenanigans Cocktails",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.423149,29.539653 ]
+      },
+      "properties": {
+        "yelpID":"5FRO6K5_DT-HXOqCMUMkAQ",
+        "name":"Silver Bullet Ice House",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.494041,29.446455 ]
+      },
+      "properties": {
+        "yelpID":"0pxjU-hgQsqo7ZoBCMQWbw",
+        "name":"Silver Dollar Saloon",
+        "category":"bar",
+        "yelpCategory":"Gay Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50428835,29.39551749 ]
+      },
+      "properties": {
+        "yelpID":"SQQkYxJ83jEQTSQcs9AY4g",
+        "name":"Silverado Sports bar",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.44899179,29.51833941 ]
+      },
+      "properties": {
+        "yelpID":"qSm7cljbGiHna7cdjkAyLQ",
+        "name":"Sir Winston's",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48609702,29.45152318 ]
+      },
+      "properties": {
+        "yelpID":"Gc_sILQ0HV8t6RRdE25mig",
+        "name":"Slackers Bar",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49532693,29.51612573 ]
+      },
+      "properties": {
+        "yelpID":"tBvHMolLj-9bSAXzlqPl0g",
+        "name":"Slackers Bars",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48049269,29.43394279 ]
+      },
+      "properties": {
+        "yelpID":"H4Wv4-0A5o4AaqidATYYdw",
+        "name":"Social Spot",
+        "category":"bar",
+        "yelpCategory":"Beer Gardens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.490373,29.424623 ]
+      },
+      "properties": {
+        "yelpID":"Ceu9ykOw1ZuYtDwF0xhePA",
+        "name":"SoHo Wine & Martini Bar",
+        "category":"bar",
+        "yelpCategory":"Jazz & Blues"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49518585,29.39298058 ]
+      },
+      "properties": {
+        "yelpID":"M3phDtyyya3DDT3pu22QaQ",
+        "name":"Southend Bar",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48824203,29.41309136 ]
+      },
+      "properties": {
+        "yelpID":"s9DsVEykSDIKdGAIyV6F6w",
+        "name":"Southtown 101",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.39966208,29.50928003 ]
+      },
+      "properties": {
+        "yelpID":"-U1EwOuSVW6rwSX8rQ3cKw",
+        "name":"Sparks Club",
+        "category":"bar",
+        "yelpCategory":"Gay Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4939,29.44229 ]
+      },
+      "properties": {
+        "yelpID":"Q_sfdeaarwc6MIxptR89RA",
+        "name":"Sparky's Pub",
+        "category":"bar",
+        "yelpCategory":"Pubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50944,29.4044 ]
+      },
+      "properties": {
+        "yelpID":"peLSQHTXS_0hdD4DYB2iZg",
+        "name":"Splach Bar",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4929,29.41132 ]
+      },
+      "properties": {
+        "yelpID":"hrkXMVuizGJ4p0Sd1NjNYA",
+        "name":"St Francis",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50789189,29.48166735 ]
+      },
+      "properties": {
+        "yelpID":"ZN-HRGHl9magI9DPUoWtBQ",
+        "name":"Stacy's Sports Bar",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.480904,29.442563 ]
+      },
+      "properties": {
+        "yelpID":"ZLReGx2EIPvhWcVHoQXdJg",
+        "name":"Sternewirth Bar",
+        "category":"bar",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47616538,29.4436216 ]
+      },
+      "properties": {
+        "yelpID":"yt2Wo24et-XyEpqeBmpMxw",
+        "name":"Still Golden",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.44951,29.37513 ]
+      },
+      "properties": {
+        "yelpID":"GtfBrkJdvi9bLjU0cAg2Eg",
+        "name":"Sugartimes Lounge",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.529853,29.38005 ]
+      },
+      "properties": {
+        "yelpID":"D8D91fsHIKDlS0KSJSmu0Q",
+        "name":"Sunset Bar",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48545,29.38519 ]
+      },
+      "properties": {
+        "yelpID":"vluycA94bhBSzrj6oYfejA",
+        "name":"Tea Time Sports Bar",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48545074,29.38518906 ]
+      },
+      "properties": {
+        "yelpID":"UFiBmAzk1UsqfkjrFByAcw",
+        "name":"Tee Time Sports Bar",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48591336,29.39694723 ]
+      },
+      "properties": {
+        "yelpID":"aWIZfn_VcX23WITO0oaDew",
+        "name":"Tequila Island",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.507507,29.484394 ]
+      },
+      "properties": {
+        "yelpID":"6r9mcQ09myE2dWFW2SqzLA",
+        "name":"Texas Ice Service",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.487836,29.427236 ]
+      },
+      "properties": {
+        "yelpID":"NeDeYDyblzV67Ze8izuZvw",
+        "name":"Texas T Pub",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4879034,29.44835767 ]
+      },
+      "properties": {
+        "yelpID":"AQqoC8mAl7XewDop1B7LMw",
+        "name":"The Amp Room",
+        "category":"bar",
+        "yelpCategory":"Music Venues"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49639,29.43678 ]
+      },
+      "properties": {
+        "yelpID":"hMUpFheObQEo15aUvlucqg",
+        "name":"The Annex",
+        "category":"bar",
+        "yelpCategory":"Gay Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.491004,29.424714 ]
+      },
+      "properties": {
+        "yelpID":"d9nHuNDxyBawEYoz4in73g",
+        "name":"The Aztec Theatre",
+        "category":"bar",
+        "yelpCategory":"Performing Arts"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49988583,29.49374107 ]
+      },
+      "properties": {
+        "yelpID":"cZZlVk4bC1PTpgMMjybsFA",
+        "name":"The Bang Bang Bar",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4903905,29.4265872 ]
+      },
+      "properties": {
+        "yelpID":"j011b3S2vXgRpJonroC6Ig",
+        "name":"The Bar at Bohanan's",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48471447,29.42268932 ]
+      },
+      "properties": {
+        "yelpID":"idB-aDtdb5YEijF3ZzwruQ",
+        "name":"The Bar At Marriott River Center",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4847042,29.42303225 ]
+      },
+      "properties": {
+        "yelpID":"x3fBsUn3EIJBHHR_TLyLVg",
+        "name":"The Bar At the Marriott Riverwalk",
+        "category":"bar",
+        "yelpCategory":"American (Traditional)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4836243,29.4218586 ]
+      },
+      "properties": {
+        "yelpID":"5PjXcFrdx2MMqC4TPMuWKw",
+        "name":"The Bar- Born and Raised",
+        "category":"bar",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4383969,29.4696687 ]
+      },
+      "properties": {
+        "yelpID":"N7QpGXAi1oHBYgKwS1sYvA",
+        "name":"The Base Line",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50569,29.41241 ]
+      },
+      "properties": {
+        "yelpID":"HQG2hJ77Shia_aoOYgLNwg",
+        "name":"The Beer Depot",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47606,29.41828 ]
+      },
+      "properties": {
+        "yelpID":"CqWr3IfC8R26QmZbHmEOQA",
+        "name":"The Cherrity Bar",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4756165,29.4487205 ]
+      },
+      "properties": {
+        "yelpID":"CZ26mbxz9Eyj6RxcUmyG-g",
+        "name":"The Clubhouse",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49513652,29.52986655 ]
+      },
+      "properties": {
+        "yelpID":"0FX_a2QNBZINti-yhZYzhA",
+        "name":"The Crazy Ape",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.46596092,29.51388873 ]
+      },
+      "properties": {
+        "yelpID":"IuV_EPpZ0bNf24aGWl61ww",
+        "name":"The Growler Exchange",
+        "category":"bar",
+        "yelpCategory":"Beer Bar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.45656136,29.52519346 ]
+      },
+      "properties": {
+        "yelpID":"dx6uldIep56TezuKpeS0Fg",
+        "name":"The Heights Ultra-Lounge & Patio Bar",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48864794,29.41634657 ]
+      },
+      "properties": {
+        "yelpID":"jQFwUZyvra-qqs-JhAfM2Q",
+        "name":"The House Boozy Ice Cream & Brews",
+        "category":"bar",
+        "yelpCategory":"Ice Cream & Frozen Yogurt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48861821,29.42612752 ]
+      },
+      "properties": {
+        "yelpID":"wt0LdPR1DdfYEkgRjVKVKw",
+        "name":"The Local Bar",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49291267,29.51591186 ]
+      },
+      "properties": {
+        "yelpID":"bDx2feUIjwwFDkKTpCquwA",
+        "name":"The Martini Club",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4881134,29.44882011 ]
+      },
+      "properties": {
+        "yelpID":"o5QQnu7BeshdB82_q727LQ",
+        "name":"The Mix",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47481,29.44303 ]
+      },
+      "properties": {
+        "yelpID":"eBBAOyjKSLzjaOD2CNgKAA",
+        "name":"The Modernist",
+        "category":"bar",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.483772,29.422426 ]
+      },
+      "properties": {
+        "yelpID":"_5_5_qRF-6tMYT-UDnBJ6g",
+        "name":"The Perfect Lounge",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48881106,29.41660609 ]
+      },
+      "properties": {
+        "yelpID":"AqZbR1C7iv9vK0jeYzP3yA",
+        "name":"The Pipe Corner",
+        "category":"bar",
+        "yelpCategory":"Wine Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.498859,29.4414772 ]
+      },
+      "properties": {
+        "yelpID":"A8phKfgjAy0M_NQiI6zlkA",
+        "name":"The Reggae Bar",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47851646,29.42524649 ]
+      },
+      "properties": {
+        "yelpID":"QXtmPqnsKGJtUHX8sMjCfA",
+        "name":"The Rock Box",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47899082,29.43770051 ]
+      },
+      "properties": {
+        "yelpID":"4AHjQPfjcknDg2JoXH4eyA",
+        "name":"The Roost",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48574129,29.4515178 ]
+      },
+      "properties": {
+        "yelpID":"eUJQioX0Op6zqe3WTDJL5g",
+        "name":"The Squeezebox",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.52555458,29.50657386 ]
+      },
+      "properties": {
+        "yelpID":"VfVzjFyhmIDpX_l0uRkuXA",
+        "name":"The Texan Icehouse",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48838,29.42718 ]
+      },
+      "properties": {
+        "yelpID":"sLnypGb-NjvGM30k_n4hQw",
+        "name":"The Texan II",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.527,29.54141 ]
+      },
+      "properties": {
+        "yelpID":"K_m0LW4Y-CNZLmGUb5d_9A",
+        "name":"The Three Legged Monkey",
+        "category":"bar",
+        "yelpCategory":"Pubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.491103,29.424845 ]
+      },
+      "properties": {
+        "yelpID":"xCuF1BBgXd2Cvz7yey1etw",
+        "name":"Thirsty Aztec",
+        "category":"bar",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49237294,29.47941227 ]
+      },
+      "properties": {
+        "yelpID":"Eltx0t_n0u6NDEORT6QjxA",
+        "name":"Thirsty Camel Bar & Lounge",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.52754,29.54276 ]
+      },
+      "properties": {
+        "yelpID":"mYWb6Tyy5D3_DnNuq5b8fg",
+        "name":"Thirsty Horse Saloon",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.43885141,29.51459822 ]
+      },
+      "properties": {
+        "yelpID":"oz7XnGn5tjPVDP-TLUkRhA",
+        "name":"Thursty Turtle",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5003891,29.50887299 ]
+      },
+      "properties": {
+        "yelpID":"feec9L6jr9eFswtQ5xVBUw",
+        "name":"Tiffany Billiards",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.53934,29.47691 ]
+      },
+      "properties": {
+        "yelpID":"5Zaq7ioHv9fKD86CsZuSLQ",
+        "name":"Tink-A-Tako - Fredericksburg Rd.",
+        "category":"bar",
+        "yelpCategory":"Mexican"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48187,29.4308 ]
+      },
+      "properties": {
+        "yelpID":"sg_xmEvtd1N3MM4L8KtyFg",
+        "name":"Tony's Bar",
+        "category":"bar",
+        "yelpCategory":"Sports Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.54927063,29.39404869 ]
+      },
+      "properties": {
+        "yelpID":"ErV659qMWX31C-PGF1BeGQ",
+        "name":"Tubby's Tavern",
+        "category":"bar",
+        "yelpCategory":"Pool Halls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47089175,29.52676835 ]
+      },
+      "properties": {
+        "yelpID":"-Lrnl8bn6hKjtUXqWjEOKg",
+        "name":"United Club",
+        "category":"bar",
+        "yelpCategory":"Lounges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48132,29.4355 ]
+      },
+      "properties": {
+        "yelpID":"ExXMGcwvwfO5fyC4YIUI-Q",
+        "name":"Ventura",
+        "category":"bar",
+        "yelpCategory":"Venues & Event Spaces"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.467823,29.459273 ]
+      },
+      "properties": {
+        "yelpID":"Q49Gu6zDcjXTusDzS2SmYg",
+        "name":"VFW 1533",
+        "category":"bar",
+        "yelpCategory":"Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4562055,29.4567193 ]
+      },
+      "properties": {
+        "yelpID":"9x5mYOVl1IvI6EaKVNbHWg",
+        "name":"VFW at the Wooden Nickel",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48221,29.435544 ]
+      },
+      "properties": {
+        "yelpID":"eM_gQ69lDyH_SqrH4FajXA",
+        "name":"VFW Post 76",
+        "category":"bar",
+        "yelpCategory":"Dive Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.50595903,29.51862944 ]
+      },
+      "properties": {
+        "yelpID":"TUcnmoNI0CNGMQbpGJ4BPg",
+        "name":"W XYZ Bar",
+        "category":"bar",
+        "yelpCategory":"Cocktail Bars"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.49952,29.4554 ]
+      },
+      "properties": {
+        "yelpID":"QSvZiOzoiCl93sXV2W1v7A",
+        "name":"Wax Club Lounge",
+        "category":"bar",
+        "yelpCategory":"Dance Clubs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.52035522,29.38999557 ]
+      },
+      "properties": {
+        "yelpID":"qV7cQ67irLxxLuMUb0nBRA",
+        "name":"Zip 2 Five",
+        "category":"bar",
+        "yelpCategory":"Music Venues"
+      }
+    }
+  ]
+}
