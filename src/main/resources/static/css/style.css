@@ -2,6 +2,10 @@ body, html {
     height: 100%;
 }
 
+#home {
+ background-color: #939da0;
+}
+
 .rating {
     float: left;
     height: 46px;
@@ -78,33 +82,32 @@ body, html {
     margin-right: 10px;
 }
 
+.btns-fixed{
+    position: fixed;
+}
 
 #profile {
-   position: absolute;
-        z-index: 0;
-       margin-left: 2%;
-       margin-top: 10%;
+   position: fixed;
+       left: 10px;
+       top: 100px;
 }
 
 #uber {
-    position: absolute;
-        z-index: -10;
-        margin-left: 1%;
-        margin-top: 20%;
+    position: fixed;
+        left: 10px;
+        top: 200px;
 }
 
 #lyft {
-    position: absolute;
-        z-index: -20;
-        margin-left: 2%;
-        margin-top: 30%;
+    position: fixed;
+        left: 10px;
+        top: 300px;
 }
 
 #moovit {
-    position: relative;
-        z-index: -60;
-        margin-left: 1%;
-        margin-top: 70%;
+    position: fixed;
+        left: 10px;
+        top: 400px;
 }
 
 .logout {
@@ -138,14 +141,14 @@ body, html {
 #map-canvas{
     position: relative;
     margin-right: 20px;
-    width: 80%;
+    width: 90vw;
     height: 100vh;
 }
 
 .nav-legend {
     position: absolute;
     margin-left: 35%;
-    margin-top: 70%;
+    margin-top: 58%;
 }
 
 

@@ -5,6 +5,7 @@
 <nav th:replace="fragments :: navbar" />
 
 
+
 <div class="row d-flex ml-auto">
     <div class="col-3 d-none d-lg-block">
 
@@ -36,7 +37,7 @@
 
 
             <div class="card shadows">
-                <div class="card-body">
+                <div class="card-body m-auto">
                     <a href="#" class="btn buttons text-white mb-3" id="moovit">Transit with Moovit</a><br />
                     <a href="#" class="btn logout text-white mb-3">Logout</a>
                 </div>
@@ -44,8 +45,8 @@
     </div>
 
         <!--Mobile View elements that don't appear w lg and xl screens-->
-        <div class="form-group d-flex d-lg-none d-xl-none btn-div">
-            <div class="ml-auto">
+        <div class="form-group d-flex d-lg-none d-xl-none btn-fixed">
+            <div class="btns-div ml-auto">
                 <a class="d-block btn-lg mb-4 form-control shadows" href="/profile" role="button" id="profile">
                     Profile
                 </a>
