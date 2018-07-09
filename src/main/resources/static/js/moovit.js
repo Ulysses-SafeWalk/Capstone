@@ -38,7 +38,7 @@
         let crd = window.SafeWalkGeo.position;
         let latitude = parseFloat(crd.latitude);
         let longitude = parseFloat(crd.longitude);
-        window.location = "https://lyft.com/ride?id=lyft&pickup[latitude]=${latitude}&pickup[longitude]=${longitude}&partner=qCSej-crZHV3";
+        window.location = `https://lyft.com/ride?id=lyft&pickup[latitude]=${latitude}&pickup[longitude]=${longitude}&partner=qCSej-crZHV3`;
     });
 
     // https://lyft.com/ride?id=lyft&pickup[latitude]=37.764728&pickup[longitude]=-122.422999&partner=YOUR_CLIENT_ID
