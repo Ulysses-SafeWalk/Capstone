@@ -1,23 +1,33 @@
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
-<head th:replace="fragments :: head(${'Post show page'})" />
+<head th:replace="fragments :: head(${'Posts index page'})" />
 <body>
-
 <nav th:replace="fragments :: navbar" />
+<div class="container">
+    <h1 th:if="${! reviews.isEmpty()}">Here are the reviews for <span th:text="${location.name}"/>. <br/>Add a new <a th:href="@{/reviews/create/{id}(id=${location.id})}">Review</a></h1>
+    <h1 th:if="${reviews.isEmpty()}">Sorry, no results found for <span th:text="${location.name}"/>. <br/>Add the first <a th:href="@{/reviews/create/{id}(id=${location.id})}">Review</a></h1>
 
-<div class="row">
-    <div class="col-sm-6">
-        <div th:each="review : ${reviews}">
-            <div class="container">
-                <div class="card">
-                    <div class="card-body">
-                        <h3 class="card-title"><a th:href="@{/reviews/{id}(id=${review.id})}"><span th:text="${review.title}"></span></a></h3>
-                        <p class="card-text"><span th:text="${review.body}"></span></p>
-                    </div>
+    <div class="row">
+        <form class="col-12">
+            <div class="form-group">
+                <label for="search">Search</label>
+                <input class="form-control" id="search" type="text" name="search" th:value="${searchTerm}" />
+            </div>
+        </form>
+    </div>
+
+    <div th:each="review : ${reviews}">
+        <div class="container">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title"><span th:text="${review.title}"></span></h3>
+                    <p class="card-text"><span th:text="${review.body}"></span></p>
+                    <p>Overall rating: <span th:text="${review.overall_rating}"/>/5</p>
                 </div>
             </div>
         </div>
     </div>
+
 </div>
 
 <th:block th:replace="fragments :: scripts" />

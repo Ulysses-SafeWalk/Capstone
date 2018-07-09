@@ -10,4 +10,5 @@ import java.util.List;
 public interface LocationRepository extends CrudRepository<Location, Long> {
     List<Location> findAll();
     Location findById(long id);
+    Location findByName(String name);
 }

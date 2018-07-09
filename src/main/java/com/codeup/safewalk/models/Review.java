@@ -19,8 +19,29 @@ public class Review {
     @NotBlank(message = "Your review must have at least one sentence")
     private String body;
 
+    @Column(nullable = false)
+    private int parking_rating;
+
+    @Column(nullable = false)
+    private int sidewalk_rating;
+
+    @Column(nullable = false)
+    private int family_rating;
+
+    @Column(nullable = false)
+    private int crowd_rating;
+
     @Column
-    private int rating;
+    private int transport_rating;
+
+    @Column(nullable = false)
+    private int lighting_rating;
+
+    @Column(nullable = false)
+    private int feeling_rating;
+
+    @Column(nullable = false)
+    private int overall_rating;
 
     @ManyToOne
     @JoinColumn(name = "location_id")
@@ -32,22 +53,18 @@ public class Review {
 
     public Review() {}
 
-    public Review(String title, String body) {
-        this.title = title;
-        this.body = body;
-    }
 
-    public Review(String title, String body, int rating) {
+    public Review(String title, String body, int parking_rating, int sidewalk_rating, int family_rating, int crowd_rating, int transport_rating, int lighting_rating, int feeling_rating, int overall_rating) {
         this.title = title;
         this.body = body;
-        this.rating = rating;
-    }
-
-    public Review(long id, String title, String body, int rating){
-        this.id = id;
-        this.title = title;
-        this.body = body;
-        this.rating = rating;
+        this.parking_rating = parking_rating;
+        this.sidewalk_rating = sidewalk_rating;
+        this.family_rating = family_rating;
+        this.crowd_rating = crowd_rating;
+        this.transport_rating = transport_rating;
+        this.lighting_rating = lighting_rating;
+        this.feeling_rating = feeling_rating;
+        this.overall_rating = overall_rating;
     }
 
     public long getId() {
@@ -86,7 +103,69 @@ public class Review {
 
     public Location getLocation() { return location; }
 
-    public void setRating(int rating) { this.rating = rating; }
+    public String getLocationName() { return location.getName(); }
 
-    public int getRating() { return rating; }
+    public int getParking_rating() {
+        return parking_rating;
+    }
+
+    public void setParking_rating(int parking_rating) {
+        this.parking_rating = parking_rating;
+    }
+
+    public int getSidewalk_rating() {
+        return sidewalk_rating;
+    }
+
+    public void setSidewalk_rating(int sidewalk_rating) {
+        this.sidewalk_rating = sidewalk_rating;
+    }
+
+    public int getFamily_rating() {
+        return family_rating;
+    }
+
+    public void setFamily_rating(int family_rating) {
+        this.family_rating = family_rating;
+    }
+
+    public int getCrowd_rating() {
+        return crowd_rating;
+    }
+
+    public void setCrowd_rating(int crowd_rating) {
+        this.crowd_rating = crowd_rating;
+    }
+
+    public int getTransport_rating() {
+        return transport_rating;
+    }
+
+    public void setTransport_rating(int transport_rating) {
+        this.transport_rating = transport_rating;
+    }
+
+    public int getLighting_rating() {
+        return lighting_rating;
+    }
+
+    public void setLighting_rating(int lighting_rating) {
+        this.lighting_rating = lighting_rating;
+    }
+
+    public int getFeeling_rating() {
+        return feeling_rating;
+    }
+
+    public void setFeeling_rating(int feeling_rating) {
+        this.feeling_rating = feeling_rating;
+    }
+
+    public int getOverall_rating() {
+        return overall_rating;
+    }
+
+    public void setOverall_rating(int overall_rating) {
+        this.overall_rating = overall_rating;
+    }
 }
