@@ -4,7 +4,7 @@ SET FOREIGN_KEY_CHECKS = 0;
 TRUNCATE locations;
 SET FOREIGN_KEY_CHECKS =1;
 
-INSERT INTO locations (yelp_id,name,category,yelp_category,latitude,longitude) VALUES
+INSERT INTO locations (yelpid,name,category,yelpcategory,latitude,longitude) VALUES
   ('a7hui2j4vzjNJzImf5711w','1919','bar','Lounges','29.4090025678406','-98.4952754253376'),
   ('l1IfNyGpJPWuI_eG1HjNWw','111 Grill','restaurant','American (Traditional)','29.4288403','-98.492656'),
   ('OnoeZ2OojtBTbtsAqYjWLQ','1718 Steak House','restaurant','Steakhouses','29.426006','-98.487182'),

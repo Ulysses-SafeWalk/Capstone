@@ -47,9 +47,9 @@ public class ReviewController {
     }
 
     // This method returns all reviews for an individual location
-    @GetMapping("/reviews/{name}")
-    public String showDetails(@PathVariable String name, Model view) {
-        Location location = locationRepository.findByName(name);
+    @GetMapping("/reviews/{id}")
+    public String showDetails(@PathVariable String id, Model view) {
+        Location location = locationRepository.findByYelpid(id);
         System.out.println(location.getId());
         List<Review> locationReviews = reviewService.findByLocationId(location.getId());
         view.addAttribute("location", location);

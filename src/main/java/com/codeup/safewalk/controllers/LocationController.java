@@ -21,14 +21,14 @@ public class LocationController {
         this.userService = userService;
     }
 
-    @GetMapping("/favorites/{name}")
+    @GetMapping("/favorites/{id}")
     @ResponseBody
-    public String addToFavorites(@PathVariable String name){
+    public String addToFavorites(@PathVariable String id){
         User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
 
         // make sure to get the actual, real deal user from the DB.
         User user = userService.findById(sessionUser.getId());
-        Location location = locationRepository.findByName(name);
+        Location location = locationRepository.findByYelpid(id);
         System.out.println(user);
         System.out.println(location);
 
