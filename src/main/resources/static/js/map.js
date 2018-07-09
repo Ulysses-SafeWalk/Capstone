@@ -1,5 +1,9 @@
 "use strict";
 
+function addToFavorites(event){
+    console.log(event);
+}
+
 function initialize() {
 
     let codeup = new google.maps.LatLng(29.426709, -98.489604);
@@ -64,19 +68,44 @@ function initialize() {
 
     function createInfoWindows(layerName) {
         layerName.addListener('click', function (event) {
-            // document.getElementById('info-box').textContent =
-            //     event.feature.getProperty('Name');
             let name = event.feature.getProperty('name');
             let locationID = event.feature.getProperty('yelpID');
+            console.log(locationID);
             let htmlContent = "<p>" + name + "</p>" +
-                "<a href='/reviews/" + name + "'>See User Safety Reviews</a>" + "<br/>" +
-                "<a target='_blank' href='https://yelp.com/biz/" + locationID + "'>View location on Yelp</a>";
+                "<form name='reviews' action='/reviews/" + name + "' method='get'>" +
+                "<button>User Safety Reviews</button>" + "</form>" +
+                "<button id='"+ locationID +"'>Add to Favorites</button>" +
+                "<form name='yelp' target='_blank' action='https://yelp.com/biz/" + locationID + "' method='get'>" +
+                "<button>Yelp Reviews</button>" + "</form>";
             infowindow.setContent(htmlContent);
+            console.log(infowindow);
+
+            setTimeout(function(){
+                enableFavoritesButton(locationID, name);
+            }, 100);
             infowindow.setPosition(event.feature.getGeometry().get());
             infowindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
             infowindow.open(map);
         });
+
     }
+        function enableFavoritesButton(locationID, name) {
+            // google.maps.event.addListener(infowindow, 'domready', function () {
+                document.getElementById(locationID).addEventListener("click", function (e) {
+                    e.preventDefault();
+                    console.log("clicked!");
+                    console.log(name);
+                    $.get("/favorites/" + name)
+                        .done(function (data) {
+                            console.log(data)
+                        })
+                        .fail(function () {
+                            console.log("Fail!")
+                        })
+                })
+            // });
+        }
+
 
     //facilities layer
     let facilitiesLayer = new google.maps.Data();
@@ -95,8 +124,6 @@ function initialize() {
     let bothLayer = new google.maps.Data();
     let barLayer = new google.maps.Data();
     let restaurantLayer = new google.maps.Data();
-
-
 
     //create layer toggle
     $('#facilitiesLayer').change(function(){

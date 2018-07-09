@@ -78,7 +78,7 @@ public class ReviewController {
     }
 
     // Go to create an individual review
-    @GetMapping("/reviews/create/{id}")
+    @GetMapping("/reviews/{id}/create")
     public String getCreatePage(@PathVariable long id, Model view) {
         view.addAttribute("location", locationRepository.findById(id));
         view.addAttribute("review", new Review());
@@ -86,7 +86,7 @@ public class ReviewController {
     }
 
     // Create review and return to location review page
-    @PostMapping("/reviews/create/{id}")
+    @PostMapping("/reviews/{id}/create")
     public String createReview(@PathVariable long id, @ModelAttribute Review review) {
         Location location = locationRepository.findById(id);
         System.out.println(location.getName());

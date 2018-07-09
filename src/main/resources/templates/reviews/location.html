@@ -4,9 +4,8 @@
 <body>
 <nav th:replace="fragments :: navbar" />
 <div class="container">
-    <h1 th:if="${! reviews.isEmpty()}">Here are the reviews for <span th:text="${location.name}"/>. <br/>Add a new <a th:href="@{/reviews/create/{id}(id=${location.id})}">Review</a></h1>
-    <h1 th:if="${reviews.isEmpty()}">Sorry, no results found for <span th:text="${location.name}"/>. <br/>Add the first <a th:href="@{/reviews/create/{id}(id=${location.id})}">Review</a></h1>
-
+    <h1 th:if="${! reviews.isEmpty()}">Here are the reviews for <span th:text="${location.name}"/>. <br/>Add a new <a th:href="@{/reviews/{id}/create(id=${location.id})}">Review</a></h1>
+    <h1 th:if="${reviews.isEmpty()}">Sorry, no results found for <span th:text="${location.name}"/>. <br/>Add the first <a th:href="@{/reviews/{id}/create(id=${location.id})}">Review</a></h1>
     <div class="row">
         <form class="col-12">
             <div class="form-group">
