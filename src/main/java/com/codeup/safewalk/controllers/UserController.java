@@ -39,22 +39,28 @@ public class UserController {
         return "redirect:/login";
     }
 
+    // Get individual profile based on session user
     @GetMapping("/profile")
-    public String getProfilePage(@ModelAttribute User user, Model view){
+    public String getProfilePage( Model view){
         User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        user = users.findById(sessionUser.getId());
+        User user = users.findById(sessionUser.getId());
         view.addAttribute("user", user);
-        return "/profile";
+        return "profiles/profile";
     }
 
     //add get/post for user to edit their profile
 
-    @PostMapping("/editProfile/{id}")
-    public String editProfile(@ModelAttribute User user, @ModelAttribute Model view) {
-        User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        user = users.findById(sessionUser.getId());
-        userService.save(user);
+    @GetMapping("/profiles/{id}/edit/")
+    public String getEditProfilePage(@PathVariable long id, Model view) {
+        User user = userService.findById(id);
         view.addAttribute("user", user);
+        return "profiles/editProfile";
+    }
+
+
+    @PostMapping("/editProfile/{id}")
+    public String editProfile(@ModelAttribute User user) {
+        userService.save(user);
         return "redirect:/profile";
     }
 

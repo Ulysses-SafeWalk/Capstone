@@ -5,7 +5,7 @@
 <nav th:replace="fragments :: navbar" />
 
 <div class="form-container">
-    <>Welcome, <span th:text="${user.username}"!/> </h1>
+    <h1>Welcome, </h1>
 
         <div th:include="fragments :: logo"></div>
 
@@ -13,7 +13,7 @@
             <div class="card-body">
                 <h1 class="text-center">Profile Information</h1>
 
-                <form th:action="@{/editProfile}" method="POST" th:object="${user}">
+                <form th:action="@{/editProfile/{id}}" method="POST" th:object="${user}">
                     <div class="form-group">
                         <label for="firstName">First Name</label>
                         <span th:text="${user.first_name}" class="form-control" id="firstName" />
@@ -34,10 +34,10 @@
                         <label for="email">Email</label>
                         <span th:text="${user.email}" class="form-control" id="email" />
                     </div>
-                    <div class="form-group">
-                        <label for="password">Password</label>
-                        <span th:text="${user.password}" class="form-control" id="password" type="password" />
-                    </div>
+                    <!--<div class="form-group">-->
+                        <!--<label for="password">Password</label>-->
+                        <!--<span th:text="${user.password}" class="form-control" id="password" type="password" />-->
+                    <!--</div>-->
                     <div>
                         <a th:href="@{/editProfile/{id}/edit(id=${user.id})}" class="card-link btn btn-block buttons text-white">
                             Edit

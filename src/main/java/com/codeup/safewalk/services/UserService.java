@@ -14,9 +14,9 @@ public class UserService {
         this.userRepository = users;
     }
 
+    public User findById(long id) { return userRepository.findById(id); }
+
     public User save(User user) {
-        User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        user = userRepository.findById(sessionUser.getId());
         userRepository.save(user);
         return user;
     }
