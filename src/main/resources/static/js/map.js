@@ -75,15 +75,13 @@ function initialize() {
                 "<form name='reviews' action='/reviews/" + name + "' method='get'>" +
                 "<button>User Safety Reviews</button>" + "</form>" +
                 "<button id='"+ locationID +"'>Add to Favorites</button>" +
-                // "<form name='favorites' action='/favorites/" + locationID + "' method='get'>" +
-                // "<button>Add to Favorites</button>" +
                 "<form name='yelp' target='_blank' action='https://yelp.com/biz/" + locationID + "' method='get'>" +
                 "<button>Yelp Reviews</button>" + "</form>";
             infowindow.setContent(htmlContent);
             console.log(infowindow);
 
             setTimeout(function(){
-                enableFavoritesButton(locationID, name)
+                enableFavoritesButton(locationID, name);
             }, 100);
             infowindow.setPosition(event.feature.getGeometry().get());
             infowindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
