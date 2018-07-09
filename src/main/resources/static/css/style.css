@@ -31,11 +31,13 @@ body, html {
 
 .rating > input:checked + label:hover, .rate > input:checked + label:hover ~ label, .rate > input:checked ~ label:hover, .rate > input:checked ~ label:hover ~ label, .rate > label:hover ~ input:checked ~ label { color: #00b07b; }
 
-/*.container {*/
-    /*width: 410px;*/
-    /*height: 410px;*/
-    /*padding: 0;*/
-/*}*/
+.form-container {
+    width: 410px;
+    height: 410px;
+    padding: 0;
+    margin: auto;
+}
+
 
 .layout {
     float: left;
@@ -54,12 +56,55 @@ body, html {
     height: 100px;
 }
 
+.logo-main {
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 250px;
+    height: 100px;
+}
+
 .forms {
     margin-top: 100px;
 }
 
 .buttons {
     background-color: #00b07b;
+}
+
+#btns-div{
+    width: 75px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+
+#profile {
+   position: absolute;
+        z-index: 0;
+       margin-left: 2%;
+       margin-top: 10%;
+}
+
+#uber {
+    position: absolute;
+        z-index: -10
+        margin-left: 1%;
+        margin-top: 20%;
+}
+
+#lyft {
+    position: absolute;
+        z-index: -20
+        margin-left: 2%;
+        margin-top: 30%;
+}
+
+#moovit {
+    position: relative;
+        z-index: -60
+        margin-left: 1%;
+        margin-top: 70%;
 }
 
 .logout {
@@ -91,11 +136,17 @@ body, html {
 }
 
 #map-canvas{
-    margin: auto;
+    position: relative;
+    margin-right: 20px;
     width: 80%;
-    height: 500px;
+    height: 100vh;
 }
 
+.nav-legend {
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 70%;
+}
 
 
 
