@@ -89,13 +89,13 @@ function initialize() {
         });
 
     }
-        function enableFavoritesButton(locationID, name) {
+        function enableFavoritesButton(locationID) {
             // google.maps.event.addListener(infowindow, 'domready', function () {
                 document.getElementById(locationID).addEventListener("click", function (e) {
                     e.preventDefault();
                     console.log("clicked!");
-                    console.log(name);
-                    $.get("/favorites/" + name)
+                    console.log(locationID);
+                    $.get("/favorites/" + locationID)
                         .done(function (data) {
                             console.log(data)
                         })
