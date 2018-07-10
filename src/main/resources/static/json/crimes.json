@@ -1,0 +1,1689 @@
+  {
+  "crimes":[
+      {
+        "addresses": "100 E CROCKETT ST San Antonio TX",
+        "crime": "0",
+        "weight": "1"
+      },
+      {
+        "addresses": "1000 S FRIO ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "200 DWYER AVE San Antonio TX",
+        "crime": "2",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 S ST MARYS ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "500 E LAUREL ST San Antonio TX",
+        "crime": "4",
+        "weight": "9"
+      },
+      {
+        "addresses": "600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "200 E MARKET ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 E PECAN ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "1300 S LAREDO ST San Antonio TX",
+        "crime": "6",
+        "weight": "1"
+      },
+      {
+        "addresses": "200 N ALAMO ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 BLUM San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "1000 N FRIO ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "1800 W TRAVIS ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "1800 W MARTIN ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "2200 W COMMERCE ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "2100 SANTIAGO ST San Antonio TX",
+        "crime": "7",
+        "weight": "10"
+      },
+      {
+        "addresses": "400 GULF ST San Antonio TX",
+        "crime": "8",
+        "weight": "8"
+      },
+      {
+        "addresses": "400 GULF ST San Antonio TX",
+        "crime": "8",
+        "weight": "8"
+      },
+      {
+        "addresses": "1600 DROUGHT WAY San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "400 BLUEBONNET ST San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "500 BLK RIVER WALK San Antonio TX",
+        "crime": "6",
+        "weight": "1"
+      },
+      {
+        "addresses": "700 N ZARZAMORA ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "3200 W COMMERCE ST San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "100 DILWORTH ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "700 MARTIN LUTHER KING DR San Antonio TX",
+        "crime": "2",
+        "weight": "1"
+      },
+      {
+        "addresses": "800 S ZARZAMORA ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "600 CENTER ST San Antonio TX",
+        "crime": "0",
+        "weight": "1"
+      },
+      {
+        "addresses": "700 N COLORADO ST San Antonio TX",
+        "crime": "10",
+        "weight": "2"
+      },
+      {
+        "addresses": "800 SAN PEDRO AVE San Antonio TX",
+        "crime": "11",
+        "weight": "8"
+      },
+      {
+        "addresses": "700 E HOUSTON ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "500 W ELMIRA ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "800 E GRAYSON ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "1100 E CROCKETT ST San Antonio TX",
+        "crime": "10",
+        "weight": "2"
+      },
+      {
+        "addresses": "3RD ST \u0026 N ALAMO ST San Antonio TX",
+        "crime": "11",
+        "weight": "8"
+      },
+      {
+        "addresses": "1700 DAWSON ST San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "300 E HOUSTON ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "700 MCCULLOUGH AVE San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "200 E HOUSTON ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 SPRUCE ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "200 W COMMERCE ST San Antonio TX",
+        "crime": "12",
+        "weight": "6"
+      },
+      {
+        "addresses": "100 W NUEVA San Antonio TX",
+        "crime": "13",
+        "weight": "1"
+      },
+      {
+        "addresses": "900 W COMMERCE ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "600 N ST MARYS ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "800 E COMMERCE ST San Antonio TX",
+        "crime": "14",
+        "weight": "3"
+      },
+      {
+        "addresses": "400 BLUE San Antonio TX",
+        "crime": "11",
+        "weight": "8"
+      },
+      {
+        "addresses": "600 S SANTA San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 N ROSILLO San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 MAIN PLAZA San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "900 S CIBOLO ST San Antonio TX",
+        "crime": "2",
+        "weight": "1"
+      },
+      {
+        "addresses": "1000 N ZARZAMORA ST San Antonio TX",
+        "crime": "14",
+        "weight": "3"
+      },
+      {
+        "addresses": "300 S FLORES ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 TULIPAN WALK San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "500 W CEVALLOS ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 PASO HONDO ST San Antonio TX",
+        "crime": "14",
+        "weight": "3"
+      },
+      {
+        "addresses": "100 PASO HONDO ST San Antonio TX",
+        "crime": "14",
+        "weight": "3"
+      },
+      {
+        "addresses": "200 RIVER WALK San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 LOSOYA San Antonio TX",
+        "crime": "15",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 E HOUSTON ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 N ROSILLO San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "1400 RIVAS ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "700 N ST MARYS ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 PIERCE San Antonio TX",
+        "crime": "16",
+        "weight": "3"
+      },
+      {
+        "addresses": "100 E HOUSTON ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "600 CERALVO ST San Antonio TX",
+        "crime": "2",
+        "weight": "1"
+      },
+      {
+        "addresses": "IOWA ST \u0026 S PINE ST San Antonio TX",
+        "crime": "7",
+        "weight": "10"
+      },
+      {
+        "addresses": "100 LUDWIG San Antonio TX",
+        "crime": "17",
+        "weight": "1"
+      },
+      {
+        "addresses": "1900 NOLAN ST San Antonio TX",
+        "crime": "11",
+        "weight": "8"
+      },
+      {
+        "addresses": "400 W LAUREL ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 SAN PEDRO AVE San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 SAN PEDRO AVE San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "800 E COMMERCE ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 E HOUSTON ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 S ST MARYS ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "1200 S ST MARYS ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "800 E COMMERCE ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "500 S FLORES ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "1500 MONTANA ST San Antonio TX",
+        "crime": "18",
+        "weight": "z"
+      },
+      {
+        "addresses": "100 N ROSILLO San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "1200 CENTER ST San Antonio TX",
+        "crime": "19",
+        "weight": "9"
+      },
+      {
+        "addresses": "600 E MARKET ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "1300 W MARTIN ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "200 W COMMERCE ST San Antonio TX",
+        "crime": "4",
+        "weight": "9"
+      },
+      {
+        "addresses": "1400 N MAIN AVE San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "1200 W CESAR CHAVEZ BLVD San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 9TH ST San Antonio TX",
+        "crime": "20",
+        "weight": "10"
+      },
+      {
+        "addresses": "600 CERALVO ST San Antonio TX",
+        "crime": "4",
+        "weight": "9"
+      },
+      {
+        "addresses": "900 NOLAN ST San Antonio TX",
+        "crime": "2",
+        "weight": "1"
+      },
+      {
+        "addresses": "900 N PINE ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "600 S SAN San Antonio TX",
+        "crime": "18",
+        "weight": "z"
+      },
+      {
+        "addresses": "100 E EVERGREEN ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "700 N ZARZAMORA ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 PEARL PKWY San Antonio TX",
+        "crime": "11",
+        "weight": "8"
+      },
+      {
+        "addresses": "100 E COMMERCE ST San Antonio TX",
+        "crime": "4",
+        "weight": "9"
+      },
+      {
+        "addresses": "400 N NEW BRAUNFELS AVE San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 N SAN JACINTO ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "400 E COMMERCE ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "800 PASO HONDO ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "1300 RIVAS ST San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "200 BROADWAY San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "400 SANTOS ST San Antonio TX",
+        "crime": "11",
+        "weight": "8"
+      },
+      {
+        "addresses": "100 9TH ST San Antonio TX",
+        "crime": "21",
+        "weight": "1"
+      },
+      {
+        "addresses": "500 S PINE ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "900 E COMMERCE ST San Antonio TX",
+        "crime": "6",
+        "weight": "1"
+      },
+      {
+        "addresses": "1600 GUADALUPE ST San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "100 COLLEGE ST San Antonio TX",
+        "crime": "22",
+        "weight": "8"
+      },
+      {
+        "addresses": "2300 E COMMERCE ST San Antonio TX",
+        "crime": "11",
+        "weight": "8"
+      },
+      {
+        "addresses": "900 W HOUSTON ST San Antonio TX",
+        "crime": "20",
+        "weight": "10"
+      },
+      {
+        "addresses": "400 W MARKET ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "800 E COMMERCE ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 N ST MARYS ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "1000 DAWSON ST San Antonio TX",
+        "crime": "11",
+        "weight": "8"
+      },
+      {
+        "addresses": "100 BUFORD ALLEY San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 W CROCKETT ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 PRODUCE ROW San Antonio TX",
+        "crime": "6",
+        "weight": "1"
+      },
+      {
+        "addresses": "500 S NUECES San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "400 SOLEDAD ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 S TRINITY ST San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "300 BLK W MARKET ST San Antonio TX",
+        "crime": "20",
+        "weight": "10"
+      },
+      {
+        "addresses": "700 N ZARZAMORA ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "200 E HOUSTON ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "1800 ARBOR PLACE San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 E COMMERCE ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "1000 S PINTO ST San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "500 W EUCLID AVE San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 ALAMO PLAZA San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "2400 CHIHUAHUA ST San Antonio TX",
+        "crime": "23",
+        "weight": "8"
+      },
+      {
+        "addresses": "500 SAN PEDRO AVE San Antonio TX",
+        "crime": "10",
+        "weight": "2"
+      },
+      {
+        "addresses": "700 S ALAMO ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 BARGAS San Antonio TX",
+        "crime": "6",
+        "weight": "1"
+      },
+      {
+        "addresses": "500 CENTER ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "1800 S ZARZAMORA ST San Antonio TX",
+        "crime": "24",
+        "weight": "1"
+      },
+      {
+        "addresses": "200 ALBERT ST San Antonio TX",
+        "crime": "18",
+        "weight": "z"
+      },
+      {
+        "addresses": "700 MERIDA ST San Antonio TX",
+        "crime": "12",
+        "weight": "6"
+      },
+      {
+        "addresses": "1000 RIVAS ST San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "500 W EUCLID AVE San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "600 E GUENTHER ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "2100 E HOUSTON ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "400 BONHAM San Antonio TX",
+        "crime": "17",
+        "weight": "1"
+      },
+      {
+        "addresses": "500 HAYS ST San Antonio TX",
+        "crime": "10",
+        "weight": "2"
+      },
+      {
+        "addresses": "1800 BROADWAY San Antonio TX",
+        "crime": "25",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 BARGAS San Antonio TX",
+        "crime": "20",
+        "weight": "10"
+      },
+      {
+        "addresses": "1300 S LAREDO ST San Antonio TX",
+        "crime": "6",
+        "weight": "1"
+      },
+      {
+        "addresses": "700 N SAN San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "500 RIVER WALK San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "1500 S ZARZAMORA ST San Antonio TX",
+        "crime": "14",
+        "weight": "3"
+      },
+      {
+        "addresses": "1400 RIVAS ST San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "600 N PRESA ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 RIVER WALK San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "2100 S LAREDO ST San Antonio TX",
+        "crime": "14",
+        "weight": "3"
+      },
+      {
+        "addresses": "300 AVENUE E San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "1800 S ZARZAMORA ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "500 W CEVALLOS ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "600 BURNET ST San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "3400 W MARTIN ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "1500 NOLAN ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "400 SANTOS ST San Antonio TX",
+        "crime": "11",
+        "weight": "8"
+      },
+      {
+        "addresses": "700 PORTER ST San Antonio TX",
+        "crime": "2",
+        "weight": "1"
+      },
+      {
+        "addresses": "200 RIVER WALK San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "1200 N FRIO ST San Antonio TX",
+        "crime": "4",
+        "weight": "9"
+      },
+      {
+        "addresses": "800 SAN PEDRO AVE San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 SAN PEDRO AVE San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "500 S PINE ST San Antonio TX",
+        "crime": "11",
+        "weight": "8"
+      },
+      {
+        "addresses": "3100 W MARTIN ST San Antonio TX",
+        "crime": "12",
+        "weight": "6"
+      },
+      {
+        "addresses": "1300 MCCULLOUGH AVE San Antonio TX",
+        "crime": "20",
+        "weight": "10"
+      },
+      {
+        "addresses": "800 N ZARZAMORA ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "900 S CIBOLO ST San Antonio TX",
+        "crime": "18",
+        "weight": "z"
+      },
+      {
+        "addresses": "CROCKETT/NAVARRO San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "1000 E HOUSTON ST San Antonio TX",
+        "crime": "10",
+        "weight": "2"
+      },
+      {
+        "addresses": "200 COLLEGE ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "800 E CARSON ST San Antonio TX",
+        "crime": "11",
+        "weight": "8"
+      },
+      {
+        "addresses": "1400 S HAMILTON AVE San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "2000 S ZARZAMORA ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "800 E COMMERCE ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 BOWIE ST San Antonio TX",
+        "crime": "10",
+        "weight": "2"
+      },
+      {
+        "addresses": "E HOUSTON ST \u0026 N ALAMO ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "900 S ALAMO ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "400 N NEW BRAUNFELS AVE San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "1800 BROADWAY San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 E COMMERCE ST San Antonio TX",
+        "crime": "0",
+        "weight": "1"
+      },
+      {
+        "addresses": "900 E COMMERCE ST San Antonio TX",
+        "crime": "6",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 E TRAVIS ST San Antonio TX",
+        "crime": "11",
+        "weight": "8"
+      },
+      {
+        "addresses": "500 W CESAR CHAVEZ BLVD San Antonio TX",
+        "crime": "7",
+        "weight": "10"
+      },
+      {
+        "addresses": "1600 N ZARZAMORA ST San Antonio TX",
+        "crime": "26",
+        "weight": "9"
+      },
+      {
+        "addresses": "800 N FRIO ST San Antonio TX",
+        "crime": "27",
+        "weight": "1"
+      },
+      {
+        "addresses": "500 LAMAR ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "700 N ZARZAMORA ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 PEARL PKWY San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 N MESQUITE ST San Antonio TX",
+        "crime": "4",
+        "weight": "9"
+      },
+      {
+        "addresses": "2200 IH San Antonio TX",
+        "crime": "10",
+        "weight": "2"
+      },
+      {
+        "addresses": "100 N ZARZAMORA ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 E HOUSTON ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "600 VIRGINIA BLVD San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "100 PAUL ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 E HOUSTON ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "1100 SAN FERNANDO ST San Antonio TX",
+        "crime": "2",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 LOSOYA San Antonio TX",
+        "crime": "7",
+        "weight": "10"
+      },
+      {
+        "addresses": "500 E COMMERCE ST San Antonio TX",
+        "crime": "24",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 SPRUCE ST San Antonio TX",
+        "crime": "11",
+        "weight": "8"
+      },
+      {
+        "addresses": "300 MARSHALL ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 N SANTA San Antonio TX",
+        "crime": "20",
+        "weight": "10"
+      },
+      {
+        "addresses": "600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "500 S FRIO ST San Antonio TX",
+        "crime": "28",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 N ALAMO ST San Antonio TX",
+        "crime": "11",
+        "weight": "8"
+      },
+      {
+        "addresses": "100 N ZARZAMORA ST San Antonio TX",
+        "crime": "4",
+        "weight": "9"
+      },
+      {
+        "addresses": "1000 S PRESA ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "500 RIVERWALK San Antonio TX",
+        "crime": "6",
+        "weight": "1"
+      },
+      {
+        "addresses": "500 N SANTA San Antonio TX",
+        "crime": "11",
+        "weight": "8"
+      },
+      {
+        "addresses": "500 W CEVALLOS ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "1600 S NAVIDAD San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "200 E HOUSTON ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 SAN PEDRO AVE San Antonio TX",
+        "crime": "11",
+        "weight": "8"
+      },
+      {
+        "addresses": "500 S ALAMO ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 S ST MARYS ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "200 N PECOS LA San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "900 LAMAR ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "1000 N FRIO ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 E HOUSTON ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "3000 SAN LUIS ST San Antonio TX",
+        "crime": "29",
+        "weight": "5"
+      },
+      {
+        "addresses": "600 S COLORADO ST San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "200 E MARKET ST San Antonio TX",
+        "crime": "22",
+        "weight": "8"
+      },
+      {
+        "addresses": "1500 SALTILLO ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "700 N SAN San Antonio TX",
+        "crime": "18",
+        "weight": "z"
+      },
+      {
+        "addresses": "800 W COMMERCE ST San Antonio TX",
+        "crime": "6",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 E COMMERCE ST San Antonio TX",
+        "crime": "22",
+        "weight": "8"
+      },
+      {
+        "addresses": "1900 W HOUSTON ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "200 S ALAMO ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "200 N ALAMO ST San Antonio TX",
+        "crime": "30",
+        "weight": "8"
+      },
+      {
+        "addresses": "100 S BOWIE ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "800 E PARK AVE San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "400 3RD ST San Antonio TX",
+        "crime": "11",
+        "weight": "8"
+      },
+      {
+        "addresses": "200 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "1300 MCCULLOUGH AVE San Antonio TX",
+        "crime": "10",
+        "weight": "2"
+      },
+      {
+        "addresses": "1500 BLK TAMPICO ST San Antonio TX",
+        "crime": "7",
+        "weight": "10"
+      },
+      {
+        "addresses": "200 S HACKBERRY ST San Antonio TX",
+        "crime": "14",
+        "weight": "3"
+      },
+      {
+        "addresses": "400 SAN San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "1200 BROADWAY San Antonio TX",
+        "crime": "11",
+        "weight": "8"
+      },
+      {
+        "addresses": "1300 LAMAR ST San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "300 LABOR ST San Antonio TX",
+        "crime": "10",
+        "weight": "2"
+      },
+      {
+        "addresses": "E HOUSTON AVE \u0026 N NEW BRAUNFELS ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 MONTANA ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "900 N MAIN AVE San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "900 N NAVIDAD San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 BOWIE ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "1200 E HOUSTON ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "6100 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime": "31",
+        "weight": "1"
+      },
+      {
+        "addresses": "500 N PALMETTO ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 MAIN PLAZA San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "700 N BRAZOS ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "400 MERCEDES ST San Antonio TX",
+        "crime": "23",
+        "weight": "8"
+      },
+      {
+        "addresses": "1400 N MAIN AVE San Antonio TX",
+        "crime": "6",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 N ST MARYS ST San Antonio TX",
+        "crime": "4",
+        "weight": "9"
+      },
+      {
+        "addresses": "600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "800 S MITTMAN ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "900 N HACKBERRY ST San Antonio TX",
+        "crime": "32",
+        "weight": "7"
+      },
+      {
+        "addresses": "1800 S ZARZAMORA ST San Antonio TX",
+        "crime": "24",
+        "weight": "1"
+      },
+      {
+        "addresses": "1100 LAMAR ST San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "500 RUIZ ST San Antonio TX",
+        "crime": "6",
+        "weight": "1"
+      },
+      {
+        "addresses": "800 N ZARZAMORA ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "500 S FLORES ST San Antonio TX",
+        "crime": "24",
+        "weight": "1"
+      },
+      {
+        "addresses": "1600 N ZARZAMORA ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "200 DWYER AVE San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 HOEFGEN AVE San Antonio TX",
+        "crime": "30",
+        "weight": "8"
+      },
+      {
+        "addresses": "S ZARZAMORA ST \u0026 CERALVO ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "600 SOLEDAD ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "200 W COMMERCE ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "900 N MAIN AVE San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "1800 N ST MARYS ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "1600 EL PASO ST San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "200 E HOUSTON ST San Antonio TX",
+        "crime": "4",
+        "weight": "9"
+      },
+      {
+        "addresses": "700 MENCHACA ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "900 E COMMERCE ST San Antonio TX",
+        "crime": "6",
+        "weight": "1"
+      },
+      {
+        "addresses": "900 E COMMERCE ST San Antonio TX",
+        "crime": "6",
+        "weight": "1"
+      },
+      {
+        "addresses": "400 SANTOS ST San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "1600 N ST MARYS ST San Antonio TX",
+        "crime": "6",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 LOSOYA San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "400 N SAN San Antonio TX",
+        "crime": "10",
+        "weight": "2"
+      },
+      {
+        "addresses": "1500 SALTILLO ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "1700 E CROCKETT ST San Antonio TX",
+        "crime": "16",
+        "weight": "3"
+      },
+      {
+        "addresses": "300 BLK JACKSON ST San Antonio TX",
+        "crime": "33",
+        "weight": "10"
+      },
+      {
+        "addresses": "500 S FRIO ST San Antonio TX",
+        "crime": "20",
+        "weight": "10"
+      },
+      {
+        "addresses": "200 BLK ALAMO PLAZA San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 ALAMO PLAZA San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "600 LEIGH ST San Antonio TX",
+        "crime": "10",
+        "weight": "2"
+      },
+      {
+        "addresses": "400 N NEW BRAUNFELS AVE San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 DREISS San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 BROOKLYN AVE San Antonio TX",
+        "crime": "14",
+        "weight": "3"
+      },
+      {
+        "addresses": "300 PEACOCK ALLEY San Antonio TX",
+        "crime": "22",
+        "weight": "8"
+      },
+      {
+        "addresses": "100 LE0INGTON AVE San Antonio TX",
+        "crime": "18",
+        "weight": "z"
+      },
+      {
+        "addresses": "100 ALAMO PLAZA San Antonio TX",
+        "crime": "4",
+        "weight": "9"
+      },
+      {
+        "addresses": "700 W HOUSTON ST San Antonio TX",
+        "crime": "4",
+        "weight": "9"
+      },
+      {
+        "addresses": "200 W COMMERCE ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "600 ST San Antonio TX",
+        "crime": "10",
+        "weight": "2"
+      },
+      {
+        "addresses": "400 MICKLEJOHN WALK San Antonio TX",
+        "crime": "2",
+        "weight": "1"
+      },
+      {
+        "addresses": "800 E COMMERCE ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "400 N NEW BRAUNFELS AVE San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 N FLORES ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 ROUNDS ST San Antonio TX",
+        "crime": "14",
+        "weight": "3"
+      },
+      {
+        "addresses": "100 MONTANA ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "800 E COMMERCE ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "1100 S ST MARYS ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "E COMMERCE ST \u0026 NAVARRO ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "HAYS AVE \u0026 N NEW BRAUNFELS ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "800 E COMMERCE ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "400 EL PASO ST San Antonio TX",
+        "crime": "34",
+        "weight": "3"
+      },
+      {
+        "addresses": "800 E GRAYSON ST San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "1200 S ALAMO ST San Antonio TX",
+        "crime": "12",
+        "weight": "6"
+      },
+      {
+        "addresses": "300 SAN PEDRO AVE San Antonio TX",
+        "crime": "6",
+        "weight": "1"
+      },
+      {
+        "addresses": "400 BONHAM San Antonio TX",
+        "crime": "0",
+        "weight": "1"
+      },
+      {
+        "addresses": "400 BLUE San Antonio TX",
+        "crime": "10",
+        "weight": "2"
+      },
+      {
+        "addresses": "300 SAN PEDRO AVE San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 PEARL PKWY San Antonio TX",
+        "crime": "5",
+        "weight": "1"
+      },
+      {
+        "addresses": "1900 S SAN San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 W POPLAR ST San Antonio TX",
+        "crime": "35",
+        "weight": "7"
+      },
+      {
+        "addresses": "300 ALAMO PLAZA San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 BOWIE ST San Antonio TX",
+        "crime": "10",
+        "weight": "2"
+      },
+      {
+        "addresses": "1600 S LAREDO ST San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "900 E COMMERCE ST San Antonio TX",
+        "crime": "6",
+        "weight": "1"
+      },
+      {
+        "addresses": "2100 LEAL ST San Antonio TX",
+        "crime": "9",
+        "weight": "0"
+      },
+      {
+        "addresses": "800 N NEW BRAUNFELS AVE San Antonio TX",
+        "crime": "7",
+        "weight": "10"
+      },
+      {
+        "addresses": "200 N PECOS LA San Antonio TX",
+        "crime": "20",
+        "weight": "10"
+      },
+      {
+        "addresses": "100 LE0INGTON AVE San Antonio TX",
+        "crime": "3",
+        "weight": "1"
+      },
+      {
+        "addresses": "100 FAIRFA0 San Antonio TX",
+        "crime": "7",
+        "weight": "10"
+      },
+      {
+        "addresses": "3100 COLIMA ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "300 E CEVALLOS ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "700 E CESAR CHAVEZ BLVD San Antonio TX",
+        "crime": "6",
+        "weight": "1"
+      },
+      {
+        "addresses": "800 E COMMERCE ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "1100 S ST MARYS ST San Antonio TX",
+        "crime": "14",
+        "weight": "3"
+      },
+      {
+        "addresses": "1000 GUADALUPE YBARRA ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      },
+      {
+        "addresses": "800 E COMMERCE ST San Antonio TX",
+        "crime": "1",
+        "weight": "1"
+      }
+    ]
+ } 

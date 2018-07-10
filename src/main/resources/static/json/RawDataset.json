@@ -1,0 +1,2189 @@
+
+{
+	"crime":[
+		{
+		"reportNumber":"SAPD18138460",
+		"charge":"THEFT OF SERVICE $100 TO < $750",
+		"DTG":"Jul 02, 2018 12:08 AM",
+		"address":"1XX E CROCKETT ST"
+		},
+		{
+		"reportNumber":"SAPD18138341",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jul 01, 2018 6:45 PM",
+		"address":"10XX S FRIO ST"
+		},
+		{
+		"reportNumber":"SAPD18137551",
+		"charge":"BURG BLDG W-INTENT COMMIT THEFT",
+		"DTG":"Jun 30, 2018 4:23 PM",
+		"address":"2XX DWYER AVE"
+		},
+		{
+		"reportNumber":"SAPD18137388",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 30, 2018 2:00 AM",
+		"address":"1XX S ST MARYS ST"
+		},
+		{
+		"reportNumber":"SAPD18138720",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 30, 2018 12:50 AM",
+		"address":"6XX ENRIQUE M BARRERA PKWY"
+		},
+		{
+		"reportNumber":"SAPD18137046",
+		"charge":"ROBBERY INDIVIDUAL",
+		"DTG":"Jun 29, 2018 10:45 PM",
+		"address":"5XX E LAUREL ST"
+		},
+		{
+		"reportNumber":"SAPD18136968",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 29, 2018 4:18 PM",
+		"address":"6XX ENRIQUE M BARRERA PKWY"
+		},
+		{
+		"reportNumber":"SAPD18136852",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 29, 2018 3:50 PM",
+		"address":"2XX E MARKET ST"
+		},
+		{
+		"reportNumber":"SAPD18136705",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 29, 2018 3:45 PM",
+		"address":"1XX E PECAN ST"
+		},
+		{
+		"reportNumber":"SAPD18136518",
+		"charge":"THEFT OF SERVICE UNDER $100",
+		"DTG":"Jun 29, 2018 11:00 AM",
+		"address":"13XX S LAREDO ST"
+		},
+		{
+		"reportNumber":"SAPD18136426",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 29, 2018 8:00 AM",
+		"address":"2XX N ALAMO ST"
+		},
+		{
+		"reportNumber":"SAPD18136234",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 28, 2018 11:43 PM",
+		"address":"3XX BLUM"
+		},
+		{
+		"reportNumber":"SAPD18136344",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 28, 2018 9:00 PM",
+		"address":"10XX N FRIO ST"
+		},
+		{
+		"reportNumber":"SAPD18136110",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 28, 2018 8:45 PM",
+		"address":"6XX ENRIQUE M BARRERA PKWY"
+		},
+		{
+		"reportNumber":"SAPD18136095",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 28, 2018 8:05 PM",
+		"address":"18XX W TRAVIS ST"
+		},
+		{
+		"reportNumber":"SAPD18135795",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 28, 2018 2:54 PM",
+		"address":"18XX W MARTIN ST"
+		},
+		{
+		"reportNumber":"SAPD18135770",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 28, 2018 2:30 PM",
+		"address":"22XX W COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18135715",
+		"charge":"AGG ROBBERY INDIVIDUAL",
+		"DTG":"Jun 28, 2018 1:30 PM",
+		"address":"21XX SANTIAGO ST"
+		},
+		{
+		"reportNumber":"SAPD18135627",
+		"charge":"IDENTITY THEFT BY ELECTRONIC DEVICE",
+		"DTG":"Jun 28, 2018 11:00 AM",
+		"address":"4XX GULF ST"
+		},
+		{
+		"reportNumber":"SAPD18135627",
+		"charge":"IDENTITY THEFT BY ELECTRONIC DEVICE",
+		"DTG":"Jun 28, 2018 11:00 AM",
+		"address":"4XX GULF ST"
+		},
+		{
+		"reportNumber":"SAPD18136047",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 28, 2018 9:00 AM",
+		"address":"16XX DROUGHT WAY"
+		},
+		{
+		"reportNumber":"SAPD18135769",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 28, 2018 8:00 AM",
+		"address":"4XX BLUEBONNET ST"
+		},
+		{
+		"reportNumber":"SAPD18135386",
+		"charge":"THEFT OF SERVICE UNDER $100",
+		"DTG":"Jun 27, 2018 11:20 PM",
+		"address":"5XX BLK RIVER WALK"
+		},
+		{
+		"reportNumber":"SAPD18135209",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 27, 2018 7:24 PM",
+		"address":"7XX N ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18135727",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 27, 2018 3:30 PM",
+		"address":"32XX W COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18135290",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 27, 2018 3:00 PM",
+		"address":"1XX DILWORTH ST"
+		},
+		{
+		"reportNumber":"SAPD18134958",
+		"charge":"BURG BLDG W-INTENT COMMIT THEFT",
+		"DTG":"Jun 27, 2018 12:10 PM",
+		"address":"7XX MARTIN LUTHER KING DR"
+		},
+		{
+		"reportNumber":"SAPD18134850",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 27, 2018 11:10 AM",
+		"address":"8XX S ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18136835",
+		"charge":"THEFT OF SERVICE $100 TO < $750",
+		"DTG":"Jun 27, 2018 8:00 AM",
+		"address":"6XX CENTER ST"
+		},
+		{
+		"reportNumber":"SAPD18134826",
+		"charge":"THEFT $2,500 TO < $30,000",
+		"DTG":"Jun 27, 2018 7:00 AM",
+		"address":"7XX N COLORADO ST"
+		},
+		{
+		"reportNumber":"SAPD18134698",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 27, 2018 5:46 AM",
+		"address":"8XX SAN PEDRO AVE"
+		},
+		{
+		"reportNumber":"SAPD18134579",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 26, 2018 10:31 PM",
+		"address":"7XX E HOUSTON ST"
+		},
+		{
+		"reportNumber":"SAPD18134954",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 26, 2018 9:15 PM",
+		"address":"5XX W ELMIRA ST"
+		},
+		{
+		"reportNumber":"SAPD18134799",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 26, 2018 9:00 PM",
+		"address":"8XX E GRAYSON ST"
+		},
+		{
+		"reportNumber":"SAPD18134740",
+		"charge":"THEFT $2,500 TO < $30,000",
+		"DTG":"Jun 26, 2018 7:00 PM",
+		"address":"11XX E CROCKETT ST"
+		},
+		{
+		"reportNumber":"SAPD18134597",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 26, 2018 4:00 PM",
+		"address":"3RD ST & N ALAMO ST"
+		},
+		{
+		"reportNumber":"SAPD18134416",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 26, 2018 1:00 PM",
+		"address":"17XX DAWSON ST"
+		},
+		{
+		"reportNumber":"SAPD18134254",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 26, 2018 1:00 PM",
+		"address":"3XX E HOUSTON ST"
+		},
+		{
+		"reportNumber":"SAPD18134164",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 26, 2018 12:50 PM",
+		"address":"7XX MCCULLOUGH AVE"
+		},
+		{
+		"reportNumber":"SAPD18134015",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 26, 2018 9:02 AM",
+		"address":"2XX E HOUSTON ST"
+		},
+		{
+		"reportNumber":"SAPD18134097",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 26, 2018 8:00 AM",
+		"address":"3XX SPRUCE ST"
+		},
+		{
+		"reportNumber":"SAPD18133934",
+		"charge":"ROBBERY BUSINESS",
+		"DTG":"Jun 26, 2018 5:48 AM",
+		"address":"2XX W COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18133932",
+		"charge":"ATT BURG COIN-OP MACHINE",
+		"DTG":"Jun 26, 2018 5:38 AM",
+		"address":"1XX W NUEVA"
+		},
+		{
+		"reportNumber":"SAPD18134207",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 26, 2018 2:49 AM",
+		"address":"9XX W COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18133871",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 25, 2018 11:47 PM",
+		"address":"6XX N ST MARYS ST"
+		},
+		{
+		"reportNumber":"SAPD18134053",
+		"charge":"BURGLARY BUILDING-INTENT THEFT/FELONY",
+		"DTG":"Jun 25, 2018 10:00 PM",
+		"address":"8XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18134147",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 25, 2018 9:30 PM",
+		"address":"4XX BLUE"
+		},
+		{
+		"reportNumber":"SAPD18133977",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 25, 2018 9:30 PM",
+		"address":"6XX S SANTA"
+		},
+		{
+		"reportNumber":"SAPD18133798",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 25, 2018 9:00 PM",
+		"address":"1XX N ROSILLO"
+		},
+		{
+		"reportNumber":"SAPD18134118",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 25, 2018 8:00 PM",
+		"address":"1XX MAIN PLAZA"
+		},
+		{
+		"reportNumber":"SAPD18133280",
+		"charge":"BURG BLDG W-INTENT COMMIT THEFT",
+		"DTG":"Jun 25, 2018 9:35 AM",
+		"address":"9XX S CIBOLO ST"
+		},
+		{
+		"reportNumber":"SAPD18133260",
+		"charge":"BURGLARY BUILDING-INTENT THEFT/FELONY",
+		"DTG":"Jun 25, 2018 9:18 AM",
+		"address":"10XX N ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18133262",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 25, 2018 9:00 AM",
+		"address":"3XX S FLORES ST"
+		},
+		{
+		"reportNumber":"SAPD18133407",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 25, 2018 7:00 AM",
+		"address":"3XX TULIPAN WALK"
+		},
+		{
+		"reportNumber":"SAPD18133008",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 24, 2018 10:53 PM",
+		"address":"5XX W CEVALLOS ST"
+		},
+		{
+		"reportNumber":"SAPD18133308",
+		"charge":"BURGLARY BUILDING-INTENT THEFT/FELONY",
+		"DTG":"Jun 24, 2018 10:00 PM",
+		"address":"1XX PASO HONDO ST"
+		},
+		{
+		"reportNumber":"SAPD18133308",
+		"charge":"BURGLARY BUILDING-INTENT THEFT/FELONY",
+		"DTG":"Jun 24, 2018 10:00 PM",
+		"address":"1XX PASO HONDO ST"
+		},
+		{
+		"reportNumber":"SAPD18132967",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 24, 2018 9:03 PM",
+		"address":"2XX RIVER WALK"
+		},
+		{
+		"reportNumber":"SAPD18132904",
+		"charge":"THEFT OF SERVICE $2,500 TO < $30,000",
+		"DTG":"Jun 24, 2018 7:00 PM",
+		"address":"1XX LOSOYA"
+		},
+		{
+		"reportNumber":"SAPD18132867",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 24, 2018 6:50 PM",
+		"address":"3XX E HOUSTON ST"
+		},
+		{
+		"reportNumber":"SAPD18132858",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 24, 2018 6:08 PM",
+		"address":"1XX N ROSILLO"
+		},
+		{
+		"reportNumber":"SAPD18134099",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 24, 2018 5:00 PM",
+		"address":"14XX RIVAS ST"
+		},
+		{
+		"reportNumber":"SAPD18134062",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 24, 2018 5:00 PM",
+		"address":"7XX N ST MARYS ST"
+		},
+		{
+		"reportNumber":"SAPD18133326",
+		"charge":"BURGLARY BUILDING-NO FORCE",
+		"DTG":"Jun 24, 2018 2:00 PM",
+		"address":"3XX PIERCE"
+		},
+		{
+		"reportNumber":"SAPD18132720",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 24, 2018 1:00 PM",
+		"address":"1XX E HOUSTON ST"
+		},
+		{
+		"reportNumber":"SAPD18132558",
+		"charge":"BURG BLDG W-INTENT COMMIT THEFT",
+		"DTG":"Jun 24, 2018 6:45 AM",
+		"address":"6XX CERALVO ST"
+		},
+		{
+		"reportNumber":"SAPD18132536",
+		"charge":"AGG ROBBERY INDIVIDUAL",
+		"DTG":"Jun 24, 2018 5:55 AM",
+		"address":"IOWA ST & S PINE ST"
+		},
+		{
+		"reportNumber":"SAPD18132496",
+		"charge":"THEFT FIREARM",
+		"DTG":"Jun 24, 2018 2:30 AM",
+		"address":"1XX LUDWIG"
+		},
+		{
+		"reportNumber":"SAPD18132458",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 24, 2018 1:00 AM",
+		"address":"19XX NOLAN ST"
+		},
+		{
+		"reportNumber":"SAPD18132486",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 23, 2018 11:00 PM",
+		"address":"4XX W LAUREL ST"
+		},
+		{
+		"reportNumber":"SAPD18132263",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 23, 2018 8:10 PM",
+		"address":"3XX SAN PEDRO AVE"
+		},
+		{
+		"reportNumber":"SAPD18132260",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 23, 2018 8:03 PM",
+		"address":"1XX SAN PEDRO AVE"
+		},
+		{
+		"reportNumber":"SAPD18132058",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 23, 2018 3:30 PM",
+		"address":"8XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18131977",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 23, 2018 1:25 PM",
+		"address":"3XX E HOUSTON ST"
+		},
+		{
+		"reportNumber":"SAPD18132275",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 23, 2018 1:00 PM",
+		"address":"1XX S ST MARYS ST"
+		},
+		{
+		"reportNumber":"SAPD18134891",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 23, 2018 12:00 PM",
+		"address":"12XX S ST MARYS ST"
+		},
+		{
+		"reportNumber":"SAPD18131879",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 23, 2018 10:15 AM",
+		"address":"8XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18132664",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 23, 2018 9:38 AM",
+		"address":"5XX S FLORES ST"
+		},
+		{
+		"reportNumber":"SAPD18135725",
+		"charge":"BURGLARY HABITATION-NO FORCE",
+		"DTG":"Jun 23, 2018 8:00 AM",
+		"address":"15XX MONTANA ST"
+		},
+		{
+		"reportNumber":"SAPD18131784",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 23, 2018 6:55 AM",
+		"address":"1XX N ROSILLO"
+		},
+		{
+		"reportNumber":"SAPD18131755",
+		"charge":"BURG HAB-INTENT COMMIT ASSAULT",
+		"DTG":"Jun 23, 2018 3:00 AM",
+		"address":"12XX CENTER ST"
+		},
+		{
+		"reportNumber":"SAPD18131713",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 23, 2018 2:30 AM",
+		"address":"6XX E MARKET ST"
+		},
+		{
+		"reportNumber":"SAPD18131798",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 23, 2018 2:00 AM",
+		"address":"13XX W MARTIN ST"
+		},
+		{
+		"reportNumber":"SAPD18131694",
+		"charge":"ROBBERY INDIVIDUAL",
+		"DTG":"Jun 23, 2018 1:00 AM",
+		"address":"2XX W COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18132296",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 23, 2018 12:20 AM",
+		"address":"14XX N MAIN AVE"
+		},
+		{
+		"reportNumber":"SAPD18132246",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 23, 2018 12:00 AM",
+		"address":"12XX W CESAR CHAVEZ BLVD"
+		},
+		{
+		"reportNumber":"SAPD18131789",
+		"charge":"SEXUAL ASSAULT",
+		"DTG":"Jun 23, 2018 12:00 AM",
+		"address":"1XX 9TH ST"
+		},
+		{
+		"reportNumber":"SAPD18131600",
+		"charge":"ROBBERY INDIVIDUAL",
+		"DTG":"Jun 22, 2018 10:56 PM",
+		"address":"6XX CERALVO ST"
+		},
+		{
+		"reportNumber":"SAPD18131759",
+		"charge":"BURG BLDG W-INTENT COMMIT THEFT",
+		"DTG":"Jun 22, 2018 10:00 PM",
+		"address":"9XX NOLAN ST"
+		},
+		{
+		"reportNumber":"SAPD18135061",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 22, 2018 9:00 PM",
+		"address":"9XX N PINE ST"
+		},
+		{
+		"reportNumber":"SAPD18132828",
+		"charge":"BURGLARY HABITATION-NO FORCE",
+		"DTG":"Jun 22, 2018 8:00 PM",
+		"address":"6XX S SAN"
+		},
+		{
+		"reportNumber":"SAPD18131763",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 22, 2018 8:00 PM",
+		"address":"1XX E EVERGREEN ST"
+		},
+		{
+		"reportNumber":"SAPD18131585",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 22, 2018 8:00 PM",
+		"address":"3XX ENRIQUE M BARRERA PKWY"
+		},
+		{
+		"reportNumber":"SAPD18131442",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 22, 2018 6:15 PM",
+		"address":"7XX N ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18134132",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 22, 2018 5:00 PM",
+		"address":"3XX PEARL PKWY"
+		},
+		{
+		"reportNumber":"SAPD18131286",
+		"charge":"ROBBERY INDIVIDUAL",
+		"DTG":"Jun 22, 2018 2:57 PM",
+		"address":"1XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18131210",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 22, 2018 1:00 PM",
+		"address":"4XX N NEW BRAUNFELS AVE"
+		},
+		{
+		"reportNumber":"SAPD18135850",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 22, 2018 12:00 PM",
+		"address":"3XX N SAN JACINTO ST"
+		},
+		{
+		"reportNumber":"SAPD18131193",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 22, 2018 12:00 PM",
+		"address":"4XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18131094",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 22, 2018 11:26 AM",
+		"address":"8XX PASO HONDO ST"
+		},
+		{
+		"reportNumber":"SAPD18131310",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 22, 2018 11:00 AM",
+		"address":"13XX RIVAS ST"
+		},
+		{
+		"reportNumber":"SAPD18131324",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 22, 2018 10:45 AM",
+		"address":"2XX BROADWAY"
+		},
+		{
+		"reportNumber":"SAPD18131502",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 22, 2018 9:00 AM",
+		"address":"4XX SANTOS ST"
+		},
+		{
+		"reportNumber":"SAPD18131297",
+		"charge":"THEFT $2,500 TO < $30,000 (ATT)",
+		"DTG":"Jun 22, 2018 8:00 AM",
+		"address":"1XX 9TH ST"
+		},
+		{
+		"reportNumber":"SAPD18130955",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 22, 2018 5:40 AM",
+		"address":"5XX S PINE ST"
+		},
+		{
+		"reportNumber":"SAPD18130933",
+		"charge":"THEFT OF SERVICE UNDER $100",
+		"DTG":"Jun 22, 2018 3:30 AM",
+		"address":"9XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18130987",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 22, 2018 2:30 AM",
+		"address":"16XX GUADALUPE ST"
+		},
+		{
+		"reportNumber":"SAPD18130961",
+		"charge":"THEFT PERSON",
+		"DTG":"Jun 22, 2018 12:30 AM",
+		"address":"1XX COLLEGE ST"
+		},
+		{
+		"reportNumber":"SAPD18131125",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 22, 2018 12:01 AM",
+		"address":"23XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18131033",
+		"charge":"SEXUAL ASSAULT",
+		"DTG":"Jun 22, 2018 12:00 AM",
+		"address":"9XX W HOUSTON ST"
+		},
+		{
+		"reportNumber":"SAPD18131209",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 21, 2018 8:30 PM",
+		"address":"4XX W MARKET ST"
+		},
+		{
+		"reportNumber":"SAPD18130638",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 21, 2018 5:39 PM",
+		"address":"6XX ENRIQUE M BARRERA PKWY"
+		},
+		{
+		"reportNumber":"SAPD18130581",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 21, 2018 5:12 PM",
+		"address":"6XX ENRIQUE M BARRERA PKWY"
+		},
+		{
+		"reportNumber":"SAPD18130541",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 21, 2018 4:50 PM",
+		"address":"8XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18130577",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 21, 2018 4:15 PM",
+		"address":"1XX N ST MARYS ST"
+		},
+		{
+		"reportNumber":"SAPD18133443",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 21, 2018 2:19 PM",
+		"address":"10XX DAWSON ST"
+		},
+		{
+		"reportNumber":"SAPD18130533",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 21, 2018 2:00 PM",
+		"address":"1XX BUFORD ALLEY"
+		},
+		{
+		"reportNumber":"SAPD18130722",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 21, 2018 11:00 AM",
+		"address":"1XX W CROCKETT ST"
+		},
+		{
+		"reportNumber":"SAPD18130237",
+		"charge":"THEFT OF SERVICE UNDER $100",
+		"DTG":"Jun 21, 2018 9:00 AM",
+		"address":"1XX PRODUCE ROW"
+		},
+		{
+		"reportNumber":"SAPD18130700",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 21, 2018 7:30 AM",
+		"address":"5XX S NUECES"
+		},
+		{
+		"reportNumber":"SAPD18130038",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 20, 2018 11:30 PM",
+		"address":"4XX SOLEDAD ST"
+		},
+		{
+		"reportNumber":"SAPD18130377",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 20, 2018 10:00 PM",
+		"address":"3XX S TRINITY ST"
+		},
+		{
+		"reportNumber":"SAPD18133290",
+		"charge":"SEXUAL ASSAULT",
+		"DTG":"Jun 20, 2018 9:00 PM",
+		"address":"3XX BLK W MARKET ST"
+		},
+		{
+		"reportNumber":"SAPD18129917",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 20, 2018 7:55 PM",
+		"address":"7XX N ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18130142",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 20, 2018 7:45 PM",
+		"address":"2XX E HOUSTON ST"
+		},
+		{
+		"reportNumber":"SAPD18129785",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 20, 2018 5:15 PM",
+		"address":"18XX ARBOR PLACE"
+		},
+		{
+		"reportNumber":"SAPD18129660",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 20, 2018 3:09 PM",
+		"address":"3XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18129582",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 20, 2018 1:00 PM",
+		"address":"10XX S PINTO ST"
+		},
+		{
+		"reportNumber":"SAPD18130510",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 20, 2018 12:30 PM",
+		"address":"5XX W EUCLID AVE"
+		},
+		{
+		"reportNumber":"SAPD18129438",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 20, 2018 9:40 AM",
+		"address":"1XX ALAMO PLAZA"
+		},
+		{
+		"reportNumber":"SAPD18130131",
+		"charge":"MURDER/19.02 PC/F1",
+		"DTG":"Jun 20, 2018 12:00 AM",
+		"address":"24XX CHIHUAHUA ST"
+		},
+		{
+		"reportNumber":"SAPD18129364",
+		"charge":"THEFT $2,500 TO < $30,000",
+		"DTG":"Jun 20, 2018 12:00 AM",
+		"address":"5XX SAN PEDRO AVE"
+		},
+		{
+		"reportNumber":"SAPD18129198",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 19, 2018 8:30 PM",
+		"address":"7XX S ALAMO ST"
+		},
+		{
+		"reportNumber":"SAPD18129061",
+		"charge":"THEFT OF SERVICE UNDER $100",
+		"DTG":"Jun 19, 2018 4:00 PM",
+		"address":"3XX BARGAS"
+		},
+		{
+		"reportNumber":"SAPD18128892",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 19, 2018 3:00 PM",
+		"address":"5XX CENTER ST"
+		},
+		{
+		"reportNumber":"SAPD18128859",
+		"charge":"THEFT UNDER $2,500 ENHANCED",
+		"DTG":"Jun 19, 2018 2:37 PM",
+		"address":"18XX S ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18129105",
+		"charge":"BURGLARY HABITATION-NO FORCE",
+		"DTG":"Jun 19, 2018 1:00 PM",
+		"address":"2XX ALBERT ST"
+		},
+		{
+		"reportNumber":"SAPD18128785",
+		"charge":"ROBBERY BUSINESS",
+		"DTG":"Jun 19, 2018 12:56 PM",
+		"address":"7XX MERIDA ST"
+		},
+		{
+		"reportNumber":"SAPD18134364",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 19, 2018 12:00 PM",
+		"address":"10XX RIVAS ST"
+		},
+		{
+		"reportNumber":"SAPD18128794",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 19, 2018 11:30 AM",
+		"address":"5XX W EUCLID AVE"
+		},
+		{
+		"reportNumber":"SAPD18130683",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 19, 2018 10:37 AM",
+		"address":"6XX E GUENTHER ST"
+		},
+		{
+		"reportNumber":"SAPD18128688",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 19, 2018 10:20 AM",
+		"address":"21XX E HOUSTON ST"
+		},
+		{
+		"reportNumber":"SAPD18130814",
+		"charge":"THEFT FIREARM",
+		"DTG":"Jun 19, 2018 9:30 AM",
+		"address":"4XX BONHAM"
+		},
+		{
+		"reportNumber":"SAPD18134240",
+		"charge":"THEFT $2,500 TO < $30,000",
+		"DTG":"Jun 19, 2018 9:00 AM",
+		"address":"5XX HAYS ST"
+		},
+		{
+		"reportNumber":"SAPD18133626",
+		"charge":"THEFT $30,000 TO < $150,000",
+		"DTG":"Jun 19, 2018 8:26 AM",
+		"address":"18XX BROADWAY"
+		},
+		{
+		"reportNumber":"SAPD18128527",
+		"charge":"SEXUAL ASSAULT",
+		"DTG":"Jun 19, 2018 3:30 AM",
+		"address":"3XX BARGAS"
+		},
+		{
+		"reportNumber":"SAPD18128973",
+		"charge":"THEFT OF SERVICE UNDER $100",
+		"DTG":"Jun 19, 2018 12:00 AM",
+		"address":"13XX S LAREDO ST"
+		},
+		{
+		"reportNumber":"SAPD18128998",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 18, 2018 11:00 PM",
+		"address":"7XX N SAN"
+		},
+		{
+		"reportNumber":"SAPD18128399",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 18, 2018 9:59 PM",
+		"address":"5XX RIVER WALK"
+		},
+		{
+		"reportNumber":"SAPD18128590",
+		"charge":"BURGLARY BUILDING-INTENT THEFT/FELONY",
+		"DTG":"Jun 18, 2018 9:53 PM",
+		"address":"15XX S ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18128316",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 18, 2018 7:42 PM",
+		"address":"14XX RIVAS ST"
+		},
+		{
+		"reportNumber":"SAPD18128332",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 18, 2018 6:15 PM",
+		"address":"6XX N PRESA ST"
+		},
+		{
+		"reportNumber":"SAPD18128165",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 18, 2018 3:30 PM",
+		"address":"1XX RIVER WALK"
+		},
+		{
+		"reportNumber":"SAPD18128009",
+		"charge":"BURGLARY BUILDING-INTENT THEFT/FELONY",
+		"DTG":"Jun 18, 2018 2:38 PM",
+		"address":"21XX S LAREDO ST"
+		},
+		{
+		"reportNumber":"SAPD18128091",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 18, 2018 2:00 PM",
+		"address":"3XX AVENUE E"
+		},
+		{
+		"reportNumber":"SAPD18127918",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 18, 2018 12:41 PM",
+		"address":"18XX S ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18127769",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 18, 2018 8:30 AM",
+		"address":"5XX W CEVALLOS ST"
+		},
+		{
+		"reportNumber":"SAPD18128181",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 18, 2018 8:00 AM",
+		"address":"6XX BURNET ST"
+		},
+		{
+		"reportNumber":"SAPD18128000",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 18, 2018 2:00 AM",
+		"address":"34XX W MARTIN ST"
+		},
+		{
+		"reportNumber":"SAPD18127818",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 18, 2018 1:13 AM",
+		"address":"15XX NOLAN ST"
+		},
+		{
+		"reportNumber":"SAPD18127748",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 17, 2018 11:00 PM",
+		"address":"4XX SANTOS ST"
+		},
+		{
+		"reportNumber":"SAPD18127849",
+		"charge":"BURG BLDG W-INTENT COMMIT THEFT",
+		"DTG":"Jun 17, 2018 10:00 PM",
+		"address":"7XX PORTER ST"
+		},
+		{
+		"reportNumber":"SAPD18127425",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 17, 2018 7:26 PM",
+		"address":"2XX RIVER WALK"
+		},
+		{
+		"reportNumber":"SAPD18127397",
+		"charge":"ROBBERY INDIVIDUAL",
+		"DTG":"Jun 17, 2018 6:45 PM",
+		"address":"12XX N FRIO ST"
+		},
+		{
+		"reportNumber":"SAPD18127394",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 17, 2018 6:45 PM",
+		"address":"8XX SAN PEDRO AVE"
+		},
+		{
+		"reportNumber":"SAPD18127342",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 17, 2018 5:00 PM",
+		"address":"3XX SAN PEDRO AVE"
+		},
+		{
+		"reportNumber":"SAPD18129927",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 17, 2018 2:30 PM",
+		"address":"5XX S PINE ST"
+		},
+		{
+		"reportNumber":"SAPD18127231",
+		"charge":"ROBBERY BUSINESS",
+		"DTG":"Jun 17, 2018 2:19 PM",
+		"address":"31XX W MARTIN ST"
+		},
+		{
+		"reportNumber":"SAPD18127466",
+		"charge":"SEXUAL ASSAULT",
+		"DTG":"Jun 17, 2018 12:00 PM",
+		"address":"13XX MCCULLOUGH AVE"
+		},
+		{
+		"reportNumber":"SAPD18127118",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 17, 2018 10:00 AM",
+		"address":"8XX N ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18127956",
+		"charge":"BURGLARY HABITATION-NO FORCE",
+		"DTG":"Jun 17, 2018 8:00 AM",
+		"address":"9XX S CIBOLO ST"
+		},
+		{
+		"reportNumber":"SAPD18127160",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 17, 2018 3:30 AM",
+		"address":"CROCKETT/NAVARRO"
+		},
+		{
+		"reportNumber":"SAPD18126959",
+		"charge":"THEFT $2,500 TO < $30,000",
+		"DTG":"Jun 17, 2018 12:03 AM",
+		"address":"10XX E HOUSTON ST"
+		},
+		{
+		"reportNumber":"SAPD18127335",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 17, 2018 12:00 AM",
+		"address":"2XX COLLEGE ST"
+		},
+		{
+		"reportNumber":"SAPD18127001",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 16, 2018 6:00 PM",
+		"address":"8XX E CARSON ST"
+		},
+		{
+		"reportNumber":"SAPD18126773",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 16, 2018 5:40 PM",
+		"address":"14XX S HAMILTON AVE"
+		},
+		{
+		"reportNumber":"SAPD18134047",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 16, 2018 5:00 PM",
+		"address":"20XX S ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18127173",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 16, 2018 3:30 PM",
+		"address":"8XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18126569",
+		"charge":"THEFT $2,500 TO < $30,000",
+		"DTG":"Jun 16, 2018 1:00 PM",
+		"address":"1XX BOWIE ST"
+		},
+		{
+		"reportNumber":"SAPD18126562",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 16, 2018 12:30 PM",
+		"address":"E HOUSTON ST & N ALAMO ST"
+		},
+		{
+		"reportNumber":"SAPD18127209",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 16, 2018 12:00 PM",
+		"address":"9XX S ALAMO ST"
+		},
+		{
+		"reportNumber":"SAPD18126485",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 16, 2018 10:23 AM",
+		"address":"4XX N NEW BRAUNFELS AVE"
+		},
+		{
+		"reportNumber":"SAPD18129429",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 16, 2018 10:00 AM",
+		"address":"18XX BROADWAY"
+		},
+		{
+		"reportNumber":"SAPD18126420",
+		"charge":"THEFT OF SERVICE $100 TO < $750",
+		"DTG":"Jun 16, 2018 3:00 AM",
+		"address":"3XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18126365",
+		"charge":"THEFT OF SERVICE UNDER $100",
+		"DTG":"Jun 16, 2018 2:45 AM",
+		"address":"9XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18126346",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 16, 2018 2:39 AM",
+		"address":"3XX E TRAVIS ST"
+		},
+		{
+		"reportNumber":"SAPD18126334",
+		"charge":"AGG ROBBERY INDIVIDUAL",
+		"DTG":"Jun 16, 2018 2:00 AM",
+		"address":"5XX W CESAR CHAVEZ BLVD"
+		},
+		{
+		"reportNumber":"SAPD18126294",
+		"charge":"AGG ROBBERY INDIVIDUAL-VEHICLE",
+		"DTG":"Jun 15, 2018 11:40 PM",
+		"address":"16XX N ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18126496",
+		"charge":"BURG COIN-OP MACHINE",
+		"DTG":"Jun 15, 2018 10:00 PM",
+		"address":"8XX N FRIO ST"
+		},
+		{
+		"reportNumber":"SAPD18126460",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 15, 2018 10:00 PM",
+		"address":"5XX LAMAR ST"
+		},
+		{
+		"reportNumber":"SAPD18126099",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 15, 2018 8:03 PM",
+		"address":"7XX N ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18128388",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 15, 2018 6:00 PM",
+		"address":"3XX PEARL PKWY"
+		},
+		{
+		"reportNumber":"SAPD18125959",
+		"charge":"ROBBERY INDIVIDUAL",
+		"DTG":"Jun 15, 2018 4:30 PM",
+		"address":"1XX N MESQUITE ST"
+		},
+		{
+		"reportNumber":"SAPD18127926",
+		"charge":"THEFT $2,500 TO < $30,000",
+		"DTG":"Jun 15, 2018 3:00 PM",
+		"address":"22XX IH"
+		},
+		{
+		"reportNumber":"SAPD18125762",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 15, 2018 11:20 AM",
+		"address":"1XX N ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18125602",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 15, 2018 9:30 AM",
+		"address":"3XX E HOUSTON ST"
+		},
+		{
+		"reportNumber":"SAPD18126113",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 15, 2018 8:00 AM",
+		"address":"6XX VIRGINIA BLVD"
+		},
+		{
+		"reportNumber":"SAPD18126626",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 15, 2018 8:00 AM",
+		"address":"1XX PAUL ST"
+		},
+		{
+		"reportNumber":"SAPD18125558",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 15, 2018 7:30 AM",
+		"address":"3XX E HOUSTON ST"
+		},
+		{
+		"reportNumber":"SAPD18125597",
+		"charge":"BURG BLDG W-INTENT COMMIT THEFT",
+		"DTG":"Jun 15, 2018 6:00 AM",
+		"address":"11XX SAN FERNANDO ST"
+		},
+		{
+		"reportNumber":"SAPD18125479",
+		"charge":"AGG ROBBERY INDIVIDUAL",
+		"DTG":"Jun 15, 2018 4:42 AM",
+		"address":"1XX LOSOYA"
+		},
+		{
+		"reportNumber":"SAPD18125322",
+		"charge":"THEFT UNDER $2,500 ENHANCED",
+		"DTG":"Jun 14, 2018 10:23 PM",
+		"address":"5XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18125288",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 14, 2018 8:00 PM",
+		"address":"1XX SPRUCE ST"
+		},
+		{
+		"reportNumber":"SAPD18129435",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 14, 2018 6:00 PM",
+		"address":"3XX MARSHALL ST"
+		},
+		{
+		"reportNumber":"SAPD18124972",
+		"charge":"SEXUAL ASSAULT",
+		"DTG":"Jun 14, 2018 2:57 PM",
+		"address":"3XX N SANTA"
+		},
+		{
+		"reportNumber":"SAPD18124954",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 14, 2018 2:09 PM",
+		"address":"6XX ENRIQUE M BARRERA PKWY"
+		},
+		{
+		"reportNumber":"SAPD18124887",
+		"charge":"THEFT $1,500 TO <$10,000 (CARGO)",
+		"DTG":"Jun 14, 2018 1:06 PM",
+		"address":"5XX S FRIO ST"
+		},
+		{
+		"reportNumber":"SAPD18125299",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 14, 2018 12:30 PM",
+		"address":"3XX N ALAMO ST"
+		},
+		{
+		"reportNumber":"SAPD18125456",
+		"charge":"ROBBERY INDIVIDUAL",
+		"DTG":"Jun 14, 2018 12:00 PM",
+		"address":"1XX N ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18125881",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 14, 2018 12:00 PM",
+		"address":"10XX S PRESA ST"
+		},
+		{
+		"reportNumber":"SAPD18124808",
+		"charge":"THEFT OF SERVICE UNDER $100",
+		"DTG":"Jun 14, 2018 11:03 AM",
+		"address":"5XX RIVERWALK"
+		},
+		{
+		"reportNumber":"SAPD18124982",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 14, 2018 11:00 AM",
+		"address":"5XX N SANTA"
+		},
+		{
+		"reportNumber":"SAPD18124774",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 14, 2018 10:04 AM",
+		"address":"5XX W CEVALLOS ST"
+		},
+		{
+		"reportNumber":"SAPD18124995",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 14, 2018 10:00 AM",
+		"address":"16XX S NAVIDAD"
+		},
+		{
+		"reportNumber":"SAPD18124724",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 14, 2018 9:14 AM",
+		"address":"2XX E HOUSTON ST"
+		},
+		{
+		"reportNumber":"SAPD18124574",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 14, 2018 12:41 AM",
+		"address":"3XX SAN PEDRO AVE"
+		},
+		{
+		"reportNumber":"SAPD18126488",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 14, 2018 12:01 AM",
+		"address":"5XX S ALAMO ST"
+		},
+		{
+		"reportNumber":"SAPD18124546",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 13, 2018 11:20 PM",
+		"address":"1XX S ST MARYS ST"
+		},
+		{
+		"reportNumber":"SAPD18124506",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 13, 2018 11:00 PM",
+		"address":"6XX ENRIQUE M BARRERA PKWY"
+		},
+		{
+		"reportNumber":"SAPD18124573",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 13, 2018 9:30 PM",
+		"address":"2XX N PECOS LA"
+		},
+		{
+		"reportNumber":"SAPD18124208",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 13, 2018 4:41 PM",
+		"address":"9XX LAMAR ST"
+		},
+		{
+		"reportNumber":"SAPD18124371",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 13, 2018 12:00 PM",
+		"address":"10XX N FRIO ST"
+		},
+		{
+		"reportNumber":"SAPD18124001",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 13, 2018 11:30 AM",
+		"address":"3XX E HOUSTON ST"
+		},
+		{
+		"reportNumber":"SAPD18124095",
+		"charge":"BURG HAB-INT COM FEL-NO FORCE",
+		"DTG":"Jun 13, 2018 11:00 AM",
+		"address":"30XX SAN LUIS ST"
+		},
+		{
+		"reportNumber":"SAPD18124291",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 13, 2018 7:00 AM",
+		"address":"6XX S COLORADO ST"
+		},
+		{
+		"reportNumber":"SAPD18123791",
+		"charge":"THEFT PERSON",
+		"DTG":"Jun 13, 2018 2:30 AM",
+		"address":"2XX E MARKET ST"
+		},
+		{
+		"reportNumber":"SAPD18123701",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 12, 2018 9:44 PM",
+		"address":"15XX SALTILLO ST"
+		},
+		{
+		"reportNumber":"SAPD18125119",
+		"charge":"BURGLARY HABITATION-NO FORCE",
+		"DTG":"Jun 12, 2018 9:30 PM",
+		"address":"7XX N SAN"
+		},
+		{
+		"reportNumber":"SAPD18123645",
+		"charge":"THEFT OF SERVICE UNDER $100",
+		"DTG":"Jun 12, 2018 9:30 PM",
+		"address":"8XX W COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18123628",
+		"charge":"THEFT PERSON",
+		"DTG":"Jun 12, 2018 9:06 PM",
+		"address":"3XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18123582",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 12, 2018 8:31 PM",
+		"address":"19XX W HOUSTON ST"
+		},
+		{
+		"reportNumber":"SAPD18123420",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 12, 2018 5:40 PM",
+		"address":"2XX S ALAMO ST"
+		},
+		{
+		"reportNumber":"SAPD18123670",
+		"charge":"THEFT $30,000 TO < $150,000 VEHICLE",
+		"DTG":"Jun 12, 2018 5:30 PM",
+		"address":"2XX N ALAMO ST"
+		},
+		{
+		"reportNumber":"SAPD18123394",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 12, 2018 5:08 PM",
+		"address":"1XX S BOWIE ST"
+		},
+		{
+		"reportNumber":"SAPD18124821",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 12, 2018 3:00 PM",
+		"address":"8XX E PARK AVE"
+		},
+		{
+		"reportNumber":"SAPD18124026",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 12, 2018 1:00 PM",
+		"address":"4XX 3RD ST"
+		},
+		{
+		"reportNumber":"SAPD18123178",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 12, 2018 12:20 PM",
+		"address":"2XX ENRIQUE M BARRERA PKWY"
+		},
+		{
+		"reportNumber":"SAPD18122993",
+		"charge":"THEFT $2,500 TO < $30,000",
+		"DTG":"Jun 12, 2018 7:51 AM",
+		"address":"13XX MCCULLOUGH AVE"
+		},
+		{
+		"reportNumber":"SAPD18122945",
+		"charge":"AGG ROBBERY INDIVIDUAL",
+		"DTG":"Jun 12, 2018 3:40 AM",
+		"address":"15XX BLK TAMPICO ST"
+		},
+		{
+		"reportNumber":"SAPD18123072",
+		"charge":"BURGLARY BUILDING-INTENT THEFT/FELONY",
+		"DTG":"Jun 12, 2018 12:01 AM",
+		"address":"2XX S HACKBERRY ST"
+		},
+		{
+		"reportNumber":"SAPD18123065",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 12, 2018 12:00 AM",
+		"address":"4XX SAN"
+		},
+		{
+		"reportNumber":"SAPD18124122",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 11, 2018 11:24 PM",
+		"address":"12XX BROADWAY"
+		},
+		{
+		"reportNumber":"SAPD18122810",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 11, 2018 10:00 PM",
+		"address":"13XX LAMAR ST"
+		},
+		{
+		"reportNumber":"SAPD18123083",
+		"charge":"THEFT $2,500 TO < $30,000",
+		"DTG":"Jun 11, 2018 8:00 PM",
+		"address":"3XX LABOR ST"
+		},
+		{
+		"reportNumber":"SAPD18122654",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 11, 2018 6:00 PM",
+		"address":"E HOUSTON AVE & N NEW BRAUNFELS ST"
+		},
+		{
+		"reportNumber":"SAPD18122553",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 11, 2018 5:04 PM",
+		"address":"1XX MONTANA ST"
+		},
+		{
+		"reportNumber":"SAPD18122704",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 11, 2018 3:00 PM",
+		"address":"9XX N MAIN AVE"
+		},
+		{
+		"reportNumber":"SAPD18122464",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 11, 2018 2:50 PM",
+		"address":"9XX N NAVIDAD"
+		},
+		{
+		"reportNumber":"SAPD18122378",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 11, 2018 12:30 PM",
+		"address":"1XX BOWIE ST"
+		},
+		{
+		"reportNumber":"SAPD18128881",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 11, 2018 12:00 PM",
+		"address":"12XX E HOUSTON ST"
+		},
+		{
+		"reportNumber":"SAPD18122284",
+		"charge":"THEFT ALUM/BRONZE/COPPER <$20,000",
+		"DTG":"Jun 11, 2018 11:02 AM",
+		"address":"61XX ENRIQUE M BARRERA PKWY"
+		},
+		{
+		"reportNumber":"SAPD18122758",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 11, 2018 10:00 AM",
+		"address":"5XX N PALMETTO ST"
+		},
+		{
+		"reportNumber":"SAPD18122203",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 11, 2018 8:50 AM",
+		"address":"1XX MAIN PLAZA"
+		},
+		{
+		"reportNumber":"SAPD18122221",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 11, 2018 7:45 AM",
+		"address":"7XX N BRAZOS ST"
+		},
+		{
+		"reportNumber":"SAPD18122115",
+		"charge":"MURDER/19.02 PC/F1",
+		"DTG":"Jun 11, 2018 4:10 AM",
+		"address":"4XX MERCEDES ST"
+		},
+		{
+		"reportNumber":"SAPD18122097",
+		"charge":"THEFT OF SERVICE UNDER $100",
+		"DTG":"Jun 11, 2018 2:21 AM",
+		"address":"14XX N MAIN AVE"
+		},
+		{
+		"reportNumber":"SAPD18122335",
+		"charge":"ROBBERY INDIVIDUAL",
+		"DTG":"Jun 11, 2018 1:30 AM",
+		"address":"3XX N ST MARYS ST"
+		},
+		{
+		"reportNumber":"SAPD18122180",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 11, 2018 12:51 AM",
+		"address":"6XX ENRIQUE M BARRERA PKWY"
+		},
+		{
+		"reportNumber":"SAPD18122508",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 11, 2018 12:45 AM",
+		"address":"8XX S MITTMAN ST"
+		},
+		{
+		"reportNumber":"SAPD18121994",
+		"charge":"AGG ROBBERY BUSINESS",
+		"DTG":"Jun 10, 2018 11:09 PM",
+		"address":"9XX N HACKBERRY ST"
+		},
+		{
+		"reportNumber":"SAPD18121985",
+		"charge":"THEFT UNDER $2,500 ENHANCED",
+		"DTG":"Jun 10, 2018 10:40 PM",
+		"address":"18XX S ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18121943",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 10, 2018 8:20 PM",
+		"address":"11XX LAMAR ST"
+		},
+		{
+		"reportNumber":"SAPD18121835",
+		"charge":"THEFT OF SERVICE UNDER $100",
+		"DTG":"Jun 10, 2018 7:00 PM",
+		"address":"5XX RUIZ ST"
+		},
+		{
+		"reportNumber":"SAPD18121807",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 10, 2018 5:50 PM",
+		"address":"8XX N ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18121774",
+		"charge":"THEFT UNDER $2,500 ENHANCED",
+		"DTG":"Jun 10, 2018 5:39 PM",
+		"address":"5XX S FLORES ST"
+		},
+		{
+		"reportNumber":"SAPD18121757",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 10, 2018 5:04 PM",
+		"address":"16XX N ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18124827",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 10, 2018 5:00 PM",
+		"address":"2XX DWYER AVE"
+		},
+		{
+		"reportNumber":"SAPD18121817",
+		"charge":"THEFT $30,000 TO < $150,000 VEHICLE",
+		"DTG":"Jun 10, 2018 5:00 PM",
+		"address":"1XX HOEFGEN AVE"
+		},
+		{
+		"reportNumber":"SAPD18121638",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 10, 2018 1:57 PM",
+		"address":"S ZARZAMORA ST & CERALVO ST"
+		},
+		{
+		"reportNumber":"SAPD18121554",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 10, 2018 10:00 AM",
+		"address":"6XX SOLEDAD ST"
+		},
+		{
+		"reportNumber":"SAPD18121486",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 10, 2018 7:16 AM",
+		"address":"2XX W COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18121471",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 10, 2018 4:30 AM",
+		"address":"9XX N MAIN AVE"
+		},
+		{
+		"reportNumber":"SAPD18123949",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 10, 2018 4:00 AM",
+		"address":"18XX N ST MARYS ST"
+		},
+		{
+		"reportNumber":"SAPD18121565",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 10, 2018 3:00 AM",
+		"address":"16XX EL PASO ST"
+		},
+		{
+		"reportNumber":"SAPD18121429",
+		"charge":"ROBBERY INDIVIDUAL",
+		"DTG":"Jun 10, 2018 2:47 AM",
+		"address":"2XX E HOUSTON ST"
+		},
+		{
+		"reportNumber":"SAPD18121630",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 10, 2018 2:00 AM",
+		"address":"7XX MENCHACA ST"
+		},
+		{
+		"reportNumber":"SAPD18121460",
+		"charge":"THEFT OF SERVICE UNDER $100",
+		"DTG":"Jun 10, 2018 1:00 AM",
+		"address":"9XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18121458",
+		"charge":"THEFT OF SERVICE UNDER $100",
+		"DTG":"Jun 10, 2018 12:30 AM",
+		"address":"9XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18122824",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 10, 2018 12:01 AM",
+		"address":"4XX SANTOS ST"
+		},
+		{
+		"reportNumber":"SAPD18121282",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 09, 2018 11:14 PM",
+		"address":"6XX ENRIQUE M BARRERA PKWY"
+		},
+		{
+		"reportNumber":"SAPD18121248",
+		"charge":"THEFT OF SERVICE UNDER $100",
+		"DTG":"Jun 09, 2018 10:30 PM",
+		"address":"16XX N ST MARYS ST"
+		},
+		{
+		"reportNumber":"SAPD18121221",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 09, 2018 9:45 PM",
+		"address":"1XX LOSOYA"
+		},
+		{
+		"reportNumber":"SAPD18121211",
+		"charge":"THEFT $2,500 TO < $30,000",
+		"DTG":"Jun 09, 2018 9:36 PM",
+		"address":"4XX N SAN"
+		},
+		{
+		"reportNumber":"SAPD18121202",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 09, 2018 9:01 PM",
+		"address":"15XX SALTILLO ST"
+		},
+		{
+		"reportNumber":"SAPD18121546",
+		"charge":"BURGLARY BUILDING-NO FORCE",
+		"DTG":"Jun 09, 2018 7:00 PM",
+		"address":"17XX E CROCKETT ST"
+		},
+		{
+		"reportNumber":"SAPD18121099",
+		"charge":"KIDNAPPING",
+		"DTG":"Jun 09, 2018 6:15 PM",
+		"address":"3XX BLK JACKSON ST"
+		},
+		{
+		"reportNumber":"SAPD18122026",
+		"charge":"SEXUAL ASSAULT",
+		"DTG":"Jun 09, 2018 5:30 PM",
+		"address":"5XX S FRIO ST"
+		},
+		{
+		"reportNumber":"SAPD18121028",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 09, 2018 4:50 PM",
+		"address":"2XX BLK ALAMO PLAZA"
+		},
+		{
+		"reportNumber":"SAPD18120973",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 09, 2018 3:25 PM",
+		"address":"1XX ALAMO PLAZA"
+		},
+		{
+		"reportNumber":"SAPD18122186",
+		"charge":"THEFT $2,500 TO < $30,000",
+		"DTG":"Jun 09, 2018 12:00 PM",
+		"address":"6XX LEIGH ST"
+		},
+		{
+		"reportNumber":"SAPD18120796",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 09, 2018 8:35 AM",
+		"address":"4XX N NEW BRAUNFELS AVE"
+		},
+		{
+		"reportNumber":"SAPD18122544",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 09, 2018 5:00 AM",
+		"address":"1XX DREISS"
+		},
+		{
+		"reportNumber":"SAPD18120936",
+		"charge":"BURGLARY BUILDING-INTENT THEFT/FELONY",
+		"DTG":"Jun 09, 2018 2:00 AM",
+		"address":"1XX BROOKLYN AVE"
+		},
+		{
+		"reportNumber":"SAPD18120892",
+		"charge":"THEFT PERSON",
+		"DTG":"Jun 09, 2018 1:30 AM",
+		"address":"3XX PEACOCK ALLEY"
+		},
+		{
+		"reportNumber":"SAPD18120711",
+		"charge":"BURGLARY HABITATION-NO FORCE",
+		"DTG":"Jun 09, 2018 12:30 AM",
+		"address":"1XX LEXINGTON AVE"
+		},
+		{
+		"reportNumber":"SAPD18120974",
+		"charge":"ROBBERY INDIVIDUAL",
+		"DTG":"Jun 08, 2018 9:30 PM",
+		"address":"1XX ALAMO PLAZA"
+		},
+		{
+		"reportNumber":"SAPD18120544",
+		"charge":"ROBBERY INDIVIDUAL",
+		"DTG":"Jun 08, 2018 9:30 PM",
+		"address":"7XX W HOUSTON ST"
+		},
+		{
+		"reportNumber":"SAPD18120498",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 08, 2018 6:30 PM",
+		"address":"2XX W COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18122275",
+		"charge":"THEFT $2,500 TO < $30,000",
+		"DTG":"Jun 08, 2018 6:00 PM",
+		"address":"6XX ST"
+		},
+		{
+		"reportNumber":"SAPD18123032",
+		"charge":"BURG BLDG W-INTENT COMMIT THEFT",
+		"DTG":"Jun 08, 2018 5:00 PM",
+		"address":"4XX MICKLEJOHN WALK"
+		},
+		{
+		"reportNumber":"SAPD18120226",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 08, 2018 1:50 PM",
+		"address":"8XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18119994",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 08, 2018 10:30 AM",
+		"address":"4XX N NEW BRAUNFELS AVE"
+		},
+		{
+		"reportNumber":"SAPD18120485",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 08, 2018 7:00 AM",
+		"address":"1XX N FLORES ST"
+		},
+		{
+		"reportNumber":"SAPD18122153",
+		"charge":"BURGLARY BUILDING-INTENT THEFT/FELONY",
+		"DTG":"Jun 08, 2018 5:30 AM",
+		"address":"3XX ROUNDS ST"
+		},
+		{
+		"reportNumber":"SAPD18120595",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 07, 2018 10:30 PM",
+		"address":"1XX MONTANA ST"
+		},
+		{
+		"reportNumber":"SAPD18119679",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 07, 2018 9:00 PM",
+		"address":"8XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18121338",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 07, 2018 9:00 PM",
+		"address":"11XX S ST MARYS ST"
+		},
+		{
+		"reportNumber":"SAPD18119473",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 07, 2018 5:54 PM",
+		"address":"6XX ENRIQUE M BARRERA PKWY"
+		},
+		{
+		"reportNumber":"SAPD18119419",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 07, 2018 4:35 PM",
+		"address":"E COMMERCE ST & NAVARRO ST"
+		},
+		{
+		"reportNumber":"SAPD18119344",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 07, 2018 3:00 PM",
+		"address":"HAYS AVE & N NEW BRAUNFELS ST"
+		},
+		{
+		"reportNumber":"SAPD18119159",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 07, 2018 11:00 AM",
+		"address":"8XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18119153",
+		"charge":"THEFT $100 TO <750-ELDERLY",
+		"DTG":"Jun 07, 2018 10:25 AM",
+		"address":"4XX EL PASO ST"
+		},
+		{
+		"reportNumber":"SAPD18122178",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 07, 2018 8:30 AM",
+		"address":"8XX E GRAYSON ST"
+		},
+		{
+		"reportNumber":"SAPD18119018",
+		"charge":"ROBBERY BUSINESS",
+		"DTG":"Jun 07, 2018 7:15 AM",
+		"address":"12XX S ALAMO ST"
+		},
+		{
+		"reportNumber":"SAPD18118963",
+		"charge":"THEFT OF SERVICE UNDER $100",
+		"DTG":"Jun 07, 2018 3:00 AM",
+		"address":"3XX SAN PEDRO AVE"
+		},
+		{
+		"reportNumber":"SAPD18119317",
+		"charge":"THEFT OF SERVICE $100 TO < $750",
+		"DTG":"Jun 07, 2018 3:00 AM",
+		"address":"4XX BONHAM"
+		},
+		{
+		"reportNumber":"SAPD18119648",
+		"charge":"THEFT $2,500 TO < $30,000",
+		"DTG":"Jun 06, 2018 11:00 PM",
+		"address":"4XX BLUE"
+		},
+		{
+		"reportNumber":"SAPD18118815",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 06, 2018 9:13 PM",
+		"address":"3XX SAN PEDRO AVE"
+		},
+		{
+		"reportNumber":"SAPD18118598",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 06, 2018 3:20 PM",
+		"address":"3XX PEARL PKWY"
+		},
+		{
+		"reportNumber":"SAPD18118487",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 06, 2018 3:00 PM",
+		"address":"19XX S SAN"
+		},
+		{
+		"reportNumber":"SAPD18118743",
+		"charge":"BURG HAB-INTENT COMMIT FEL-FORCE",
+		"DTG":"Jun 06, 2018 2:45 PM",
+		"address":"3XX W POPLAR ST"
+		},
+		{
+		"reportNumber":"SAPD18118505",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 06, 2018 2:28 PM",
+		"address":"3XX ALAMO PLAZA"
+		},
+		{
+		"reportNumber":"SAPD18118485",
+		"charge":"THEFT $2,500 TO < $30,000",
+		"DTG":"Jun 06, 2018 2:15 PM",
+		"address":"1XX BOWIE ST"
+		},
+		{
+		"reportNumber":"SAPD18118457",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 06, 2018 12:40 PM",
+		"address":"16XX S LAREDO ST"
+		},
+		{
+		"reportNumber":"SAPD18118265",
+		"charge":"THEFT OF SERVICE UNDER $100",
+		"DTG":"Jun 06, 2018 9:00 AM",
+		"address":"9XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18118859",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 06, 2018 7:00 AM",
+		"address":"21XX LEAL ST"
+		},
+		{
+		"reportNumber":"SAPD18118237",
+		"charge":"AGG ROBBERY INDIVIDUAL",
+		"DTG":"Jun 06, 2018 5:00 AM",
+		"address":"8XX N NEW BRAUNFELS AVE"
+		},
+		{
+		"reportNumber":"SAPD18118146",
+		"charge":"SEXUAL ASSAULT",
+		"DTG":"Jun 06, 2018 12:30 AM",
+		"address":"2XX N PECOS LA"
+		},
+		{
+		"reportNumber":"SAPD18120841",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 06, 2018 12:00 AM",
+		"address":"1XX LEXINGTON AVE"
+		},
+		{
+		"reportNumber":"SAPD18118039",
+		"charge":"AGG ROBBERY INDIVIDUAL",
+		"DTG":"Jun 05, 2018 11:00 PM",
+		"address":"1XX FAIRFAX"
+		},
+		{
+		"reportNumber":"SAPD18117984",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 05, 2018 8:40 PM",
+		"address":"31XX COLIMA ST"
+		},
+		{
+		"reportNumber":"SAPD18118229",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 05, 2018 8:00 PM",
+		"address":"3XX E CEVALLOS ST"
+		},
+		{
+		"reportNumber":"SAPD18117924",
+		"charge":"THEFT OF SERVICE UNDER $100",
+		"DTG":"Jun 05, 2018 7:52 PM",
+		"address":"7XX E CESAR CHAVEZ BLVD"
+		},
+		{
+		"reportNumber":"SAPD18117969",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 05, 2018 6:30 PM",
+		"address":"8XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18118386",
+		"charge":"BURGLARY BUILDING-INTENT THEFT/FELONY",
+		"DTG":"Jun 05, 2018 5:30 PM",
+		"address":"11XX S ST MARYS ST"
+		},
+		{
+		"reportNumber":"SAPD18118377",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 05, 2018 5:00 PM",
+		"address":"10XX GUADALUPE YBARRA ST"
+		},
+		{
+		"reportNumber":"SAPD18119253",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 05, 2018 3:23 PM",
+		"address":"8XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18117738",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 05, 2018 1:35 PM",
+		"address":"9XX N MAIN AVE"
+		},
+		{
+		"reportNumber":"SAPD18118005",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 05, 2018 12:30 PM",
+		"address":"1XX S ST MARYS ST"
+		},
+		{
+		"reportNumber":"SAPD18120422",
+		"charge":"SEXUAL ASSAULT - CHILD",
+		"DTG":"Jun 05, 2018 10:00 AM",
+		"address":"3XX S SANTA"
+		},
+		{
+		"reportNumber":"SAPD18120745",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 05, 2018 10:00 AM",
+		"address":"3XX MASON ST"
+		},
+		{
+		"reportNumber":"SAPD18118158",
+		"charge":"THEFT ALUM/BRONZE/COPPER <$20,000",
+		"DTG":"Jun 05, 2018 12:00 AM",
+		"address":"7XX RIVER WALK"
+		},
+		{
+		"reportNumber":"SAPD18117567",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 04, 2018 11:00 PM",
+		"address":"1XX W JONES AVE"
+		},
+		{
+		"reportNumber":"SAPD18117979",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 04, 2018 10:00 PM",
+		"address":"8XX LAMAR ST"
+		},
+		{
+		"reportNumber":"SAPD18120476",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 04, 2018 7:00 PM",
+		"address":"8XX E COMMERCE ST"
+		},
+		{
+		"reportNumber":"SAPD18117056",
+		"charge":"BURGLARY HABITATION-NO FORCE",
+		"DTG":"Jun 04, 2018 6:50 PM",
+		"address":"3XX PIEDMONT AVE"
+		},
+		{
+		"reportNumber":"SAPD18117403",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 04, 2018 6:00 PM",
+		"address":"3XX MASON ST"
+		},
+		{
+		"reportNumber":"SAPD18116862",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 04, 2018 4:01 PM",
+		"address":"16XX N ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18116730",
+		"charge":"THEFT FIREARM",
+		"DTG":"Jun 04, 2018 2:11 PM",
+		"address":"3XX W CESAR CHAVEZ BLVD"
+		},
+		{
+		"reportNumber":"SAPD18116822",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 04, 2018 2:00 PM",
+		"address":"3XX PIEDMONT AVE"
+		},
+		{
+		"reportNumber":"SAPD18117011",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 04, 2018 11:00 AM",
+		"address":"9XX N MAIN AVE"
+		},
+		{
+		"reportNumber":"SAPD18116601",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 04, 2018 10:45 AM",
+		"address":"18XX S ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18120868",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 04, 2018 8:00 AM",
+		"address":"1XX BLUEBONNET ST"
+		},
+		{
+		"reportNumber":"SAPD18117499",
+		"charge":"BURG HAB INTENT THEFT/FELONY",
+		"DTG":"Jun 03, 2018 9:00 PM",
+		"address":"7XX S SAN"
+		},
+		{
+		"reportNumber":"SAPD18116348",
+		"charge":"BURGLARY HABITATION-NO FORCE",
+		"DTG":"Jun 03, 2018 9:00 PM",
+		"address":"8XX E PARK AVE"
+		},
+		{
+		"reportNumber":"SAPD18116738",
+		"charge":"BURG HAB-INTENT COMMIT FEL-FORCE",
+		"DTG":"Jun 03, 2018 8:37 PM",
+		"address":"11XX VERA CRUZ ST"
+		},
+		{
+		"reportNumber":"SAPD18116238",
+		"charge":"THEFT $2,500 TO < $30,000 VEHICLE",
+		"DTG":"Jun 03, 2018 5:00 PM",
+		"address":"AVENUE ST & 3RD E"
+		},
+		{
+		"reportNumber":"SAPD18117309",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 03, 2018 5:00 PM",
+		"address":"3XX SHARER"
+		},
+		{
+		"reportNumber":"SAPD18116118",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 03, 2018 4:29 PM",
+		"address":"3XX SHARER"
+		},
+		{
+		"reportNumber":"SAPD18116108",
+		"charge":"THEFT UNDER $100",
+		"DTG":"Jun 03, 2018 4:25 PM",
+		"address":"15XX N NEW BRAUNFELS AVE"
+		},
+		{
+		"reportNumber":"SAPD18122801",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 03, 2018 2:30 PM",
+		"address":"1XX E CROCKETT ST"
+		},
+		{
+		"reportNumber":"SAPD18116712",
+		"charge":"THEFT $2,500 TO < $30,000",
+		"DTG":"Jun 03, 2018 12:00 PM",
+		"address":"16XX N ZARZAMORA ST"
+		},
+		{
+		"reportNumber":"SAPD18116110",
+		"charge":"THEFT $750 TO < $2,500",
+		"DTG":"Jun 03, 2018 11:51 AM",
+		"address":"2XX BROADWAY"
+		},
+		{
+		"reportNumber":"SAPD18116512",
+		"charge":"THEFT $100 TO < $750",
+		"DTG":"Jun 03, 2018 11:00 AM",
+		"address":"7XX S FRIO ST"
+		}
+	]
+}
