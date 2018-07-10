@@ -1,0 +1,4048 @@
+{"type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4887975,29.4250416 ]
+      },
+      "properties": {
+        "address":"100 E CROCKETT ST San Antonio TX",
+        "crime":0,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5050744,29.4163765 ]
+      },
+      "properties": {
+        "address":"1000 S FRIO ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.493073,29.421736 ]
+      },
+      "properties": {
+        "address":"200 DWYER AVE San Antonio TX",
+        "crime":2,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.491515,29.424514 ]
+      },
+      "properties": {
+        "address":"100 S ST MARYS ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.572429,29.4268176 ]
+      },
+      "properties": {
+        "address":"600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4890499,29.4414637 ]
+      },
+      "properties": {
+        "address":"500 E LAUREL ST San Antonio TX",
+        "crime":4,
+        "weight":"9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.572429,29.4268176 ]
+      },
+      "properties": {
+        "address":"600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4861841,29.4220518 ]
+      },
+      "properties": {
+        "address":"200 E MARKET ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4933158,29.4286216 ]
+      },
+      "properties": {
+        "address":"100 E PECAN ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.505692,29.41242 ]
+      },
+      "properties": {
+        "address":"1300 S LAREDO ST San Antonio TX",
+        "crime":6,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.486484,29.4276555 ]
+      },
+      "properties": {
+        "address":"200 N ALAMO ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4830042,29.4236649 ]
+      },
+      "properties": {
+        "address":"300 BLUM San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5063072,29.4357065 ]
+      },
+      "properties": {
+        "address":"1000 N FRIO ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.572429,29.4268176 ]
+      },
+      "properties": {
+        "address":"600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5142112,29.4287598 ]
+      },
+      "properties": {
+        "address":"1800 W TRAVIS ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5116944,29.4307196 ]
+      },
+      "properties": {
+        "address":"1800 W MARTIN ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5196561,29.4270869 ]
+      },
+      "properties": {
+        "address":"2200 W COMMERCE ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5351993,29.4176629 ]
+      },
+      "properties": {
+        "address":"2100 SANTIAGO ST San Antonio TX",
+        "crime":7,
+        "weight":"10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4589996,29.4258861 ]
+      },
+      "properties": {
+        "address":"400 GULF ST San Antonio TX",
+        "crime":8,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4589996,29.4258861 ]
+      },
+      "properties": {
+        "address":"400 GULF ST San Antonio TX",
+        "crime":8,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5361145,29.4111199 ]
+      },
+      "properties": {
+        "address":"1600 DROUGHT WAY San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.456436,29.4279211 ]
+      },
+      "properties": {
+        "address":"400 BLUEBONNET ST San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4884785,29.4245207 ]
+      },
+      "properties": {
+        "address":"500 BLK RIVER WALK San Antonio TX",
+        "crime":6,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5259455,29.4342494 ]
+      },
+      "properties": {
+        "address":"700 N ZARZAMORA ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.531519,29.4285602 ]
+      },
+      "properties": {
+        "address":"3200 W COMMERCE ST San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4612458,29.4118608 ]
+      },
+      "properties": {
+        "address":"100 DILWORTH ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4686218,29.4133178 ]
+      },
+      "properties": {
+        "address":"700 MARTIN LUTHER KING DR San Antonio TX",
+        "crime":2,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5278884,29.4206874 ]
+      },
+      "properties": {
+        "address":"800 S ZARZAMORA ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4732496,29.4224598 ]
+      },
+      "properties": {
+        "address":"600 CENTER ST San Antonio TX",
+        "crime":0,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5103019,29.4327845 ]
+      },
+      "properties": {
+        "address":"700 N COLORADO ST San Antonio TX",
+        "crime":10,
+        "weight":"2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4989918,29.4406511 ]
+      },
+      "properties": {
+        "address":"800 SAN PEDRO AVE San Antonio TX",
+        "crime":11,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4864764,29.4265097 ]
+      },
+      "properties": {
+        "address":"700 E HOUSTON ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4969125,29.4349146 ]
+      },
+      "properties": {
+        "address":"500 W ELMIRA ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.471753,29.443153 ]
+      },
+      "properties": {
+        "address":"800 E GRAYSON ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4717689,29.423757 ]
+      },
+      "properties": {
+        "address":"1100 E CROCKETT ST San Antonio TX",
+        "crime":10,
+        "weight":"2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.486365,29.428514 ]
+      },
+      "properties": {
+        "address":"3RD ST N ALAMO ST San Antonio TX",
+        "crime":11,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4571143,29.4262767 ]
+      },
+      "properties": {
+        "address":"1700 DAWSON ST San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4982804,29.4401452 ]
+      },
+      "properties": {
+        "address":"300 E HOUSTON ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4879895,29.4344233 ]
+      },
+      "properties": {
+        "address":"700 MCCULLOUGH AVE San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4911626,29.4263446 ]
+      },
+      "properties": {
+        "address":"200 E HOUSTON ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4710151,29.4133096 ]
+      },
+      "properties": {
+        "address":"300 SPRUCE ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4956915,29.4251309 ]
+      },
+      "properties": {
+        "address":"200 W COMMERCE ST San Antonio TX",
+        "crime":12,
+        "weight":"6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4950339,29.4227414 ]
+      },
+      "properties": {
+        "address":"100 W NUEVA San Antonio TX",
+        "crime":13,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4818889,29.4216799 ]
+      },
+      "properties": {
+        "address":"900 W COMMERCE ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4913049,29.4293298 ]
+      },
+      "properties": {
+        "address":"600 N ST MARYS ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4855392,29.4232377 ]
+      },
+      "properties": {
+        "address":"800 E COMMERCE ST San Antonio TX",
+        "crime":14,
+        "weight":"3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4694188,29.5572005 ]
+      },
+      "properties": {
+        "address":"400 BLUE San Antonio TX",
+        "crime":11,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4984389,29.4199914 ]
+      },
+      "properties": {
+        "address":"600 S SANTA San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5256978,29.428035 ]
+      },
+      "properties": {
+        "address":"100 N ROSILLO San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4932305,29.4242672 ]
+      },
+      "properties": {
+        "address":"100 MAIN PLAZA San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5223452,29.4190672 ]
+      },
+      "properties": {
+        "address":"900 S CIBOLO ST San Antonio TX",
+        "crime":2,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.525835,29.437301 ]
+      },
+      "properties": {
+        "address":"1000 N ZARZAMORA ST San Antonio TX",
+        "crime":14,
+        "weight":"3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.495678,29.4212305 ]
+      },
+      "properties": {
+        "address":"300 S FLORES ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5122609,29.4208035 ]
+      },
+      "properties": {
+        "address":"300 TULIPAN WALK San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5061685,29.411024 ]
+      },
+      "properties": {
+        "address":"500 W CEVALLOS ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4747219,29.421176 ]
+      },
+      "properties": {
+        "address":"100 PASO HONDO ST San Antonio TX",
+        "crime":14,
+        "weight":"3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4747219,29.421176 ]
+      },
+      "properties": {
+        "address":"100 PASO HONDO ST San Antonio TX",
+        "crime":14,
+        "weight":"3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4911001,29.4248421 ]
+      },
+      "properties": {
+        "address":"200 RIVER WALK San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4880048,29.4264983 ]
+      },
+      "properties": {
+        "address":"100 LOSOYA San Antonio TX",
+        "crime":15,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4982804,29.4401452 ]
+      },
+      "properties": {
+        "address":"300 E HOUSTON ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5256978,29.428035 ]
+      },
+      "properties": {
+        "address":"100 N ROSILLO San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5324963,29.440268 ]
+      },
+      "properties": {
+        "address":"1400 RIVAS ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4905063,29.4302638 ]
+      },
+      "properties": {
+        "address":"700 N ST MARYS ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4643679,29.4389368 ]
+      },
+      "properties": {
+        "address":"300 PIERCE San Antonio TX",
+        "crime":16,
+        "weight":"3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4937541,29.4264433 ]
+      },
+      "properties": {
+        "address":"100 E HOUSTON ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5273661,29.4066424 ]
+      },
+      "properties": {
+        "address":"600 CERALVO ST San Antonio TX",
+        "crime":2,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4702528,29.412005 ]
+      },
+      "properties": {
+        "address":"IOWA ST S PINE ST San Antonio TX",
+        "crime":7,
+        "weight":"10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4791762,29.411353 ]
+      },
+      "properties": {
+        "address":"100 LUDWIG San Antonio TX",
+        "crime":17,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4564391,29.4274054 ]
+      },
+      "properties": {
+        "address":"1900 NOLAN ST San Antonio TX",
+        "crime":11,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4980247,29.441721 ]
+      },
+      "properties": {
+        "address":"400 W LAUREL ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4959329,29.436404 ]
+      },
+      "properties": {
+        "address":"300 SAN PEDRO AVE San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4945363,29.4340702 ]
+      },
+      "properties": {
+        "address":"100 SAN PEDRO AVE San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4855392,29.4232377 ]
+      },
+      "properties": {
+        "address":"800 E COMMERCE ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4982804,29.4401452 ]
+      },
+      "properties": {
+        "address":"300 E HOUSTON ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.491515,29.424514 ]
+      },
+      "properties": {
+        "address":"100 S ST MARYS ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.48806,29.411269 ]
+      },
+      "properties": {
+        "address":"1200 S ST MARYS ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4855392,29.4232377 ]
+      },
+      "properties": {
+        "address":"800 E COMMERCE ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4963365,29.419469 ]
+      },
+      "properties": {
+        "address":"500 S FLORES ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4589842,29.41851 ]
+      },
+      "properties": {
+        "address":"1500 MONTANA ST San Antonio TX",
+        "crime":18,
+        "weight":"z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5256978,29.428035 ]
+      },
+      "properties": {
+        "address":"100 N ROSILLO San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.462552,29.422097 ]
+      },
+      "properties": {
+        "address":"1200 CENTER ST San Antonio TX",
+        "crime":19,
+        "weight":"9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4843063,29.4220024 ]
+      },
+      "properties": {
+        "address":"600 E MARKET ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5051757,29.4299049 ]
+      },
+      "properties": {
+        "address":"1300 W MARTIN ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4956915,29.4251309 ]
+      },
+      "properties": {
+        "address":"200 W COMMERCE ST San Antonio TX",
+        "crime":4,
+        "weight":"9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4942017,29.4417306 ]
+      },
+      "properties": {
+        "address":"1400 N MAIN AVE San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5107049,29.4222376 ]
+      },
+      "properties": {
+        "address":"1200 W CESAR CHAVEZ BLVD San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4835819,29.4354551 ]
+      },
+      "properties": {
+        "address":"100 9TH ST San Antonio TX",
+        "crime":20,
+        "weight":"10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5273661,29.4066424 ]
+      },
+      "properties": {
+        "address":"600 CERALVO ST San Antonio TX",
+        "crime":4,
+        "weight":"9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4700832,29.4274321 ]
+      },
+      "properties": {
+        "address":"900 NOLAN ST San Antonio TX",
+        "crime":2,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.47025,29.4301945 ]
+      },
+      "properties": {
+        "address":"900 N PINE ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4982896,29.4200725 ]
+      },
+      "properties": {
+        "address":"600 S SAN San Antonio TX",
+        "crime":18,
+        "weight":"z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4940205,29.4427829 ]
+      },
+      "properties": {
+        "address":"100 E EVERGREEN ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5661853,29.4292811 ]
+      },
+      "properties": {
+        "address":"300 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5259455,29.4342494 ]
+      },
+      "properties": {
+        "address":"700 N ZARZAMORA ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4791909,29.4421644 ]
+      },
+      "properties": {
+        "address":"300 PEARL PKWY San Antonio TX",
+        "crime":11,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4912105,29.4241793 ]
+      },
+      "properties": {
+        "address":"100 E COMMERCE ST San Antonio TX",
+        "crime":4,
+        "weight":"9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4607497,29.4234339 ]
+      },
+      "properties": {
+        "address":"400 N NEW BRAUNFELS AVE San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.51536,29.4288758 ]
+      },
+      "properties": {
+        "address":"300 N SAN JACINTO ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4890325,29.4239763 ]
+      },
+      "properties": {
+        "address":"400 E COMMERCE ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4640598,29.4211378 ]
+      },
+      "properties": {
+        "address":"800 PASO HONDO ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5301383,29.4400557 ]
+      },
+      "properties": {
+        "address":"1300 RIVAS ST San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4875593,29.4276199 ]
+      },
+      "properties": {
+        "address":"200 BROADWAY San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4822308,29.4139559 ]
+      },
+      "properties": {
+        "address":"400 SANTOS ST San Antonio TX",
+        "crime":11,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4835819,29.4354551 ]
+      },
+      "properties": {
+        "address":"100 9TH ST San Antonio TX",
+        "crime":21,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4700616,29.4145898 ]
+      },
+      "properties": {
+        "address":"500 S PINE ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4828317,29.4223384 ]
+      },
+      "properties": {
+        "address":"900 E COMMERCE ST San Antonio TX",
+        "crime":6,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.517862,29.418689 ]
+      },
+      "properties": {
+        "address":"1600 GUADALUPE ST San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4913254,29.4258642 ]
+      },
+      "properties": {
+        "address":"100 COLLEGE ST San Antonio TX",
+        "crime":22,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4589906,29.4194513 ]
+      },
+      "properties": {
+        "address":"2300 E COMMERCE ST San Antonio TX",
+        "crime":11,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.504007,29.426679 ]
+      },
+      "properties": {
+        "address":"900 W HOUSTON ST San Antonio TX",
+        "crime":20,
+        "weight":"10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.490069,29.423488 ]
+      },
+      "properties": {
+        "address":"400 W MARKET ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.572429,29.4268176 ]
+      },
+      "properties": {
+        "address":"600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.572429,29.4268176 ]
+      },
+      "properties": {
+        "address":"600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4855392,29.4232377 ]
+      },
+      "properties": {
+        "address":"800 E COMMERCE ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4915121,29.4245237 ]
+      },
+      "properties": {
+        "address":"100 N ST MARYS ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4678494,29.4261515 ]
+      },
+      "properties": {
+        "address":"1000 DAWSON ST San Antonio TX",
+        "crime":11,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4671806,29.4320724 ]
+      },
+      "properties": {
+        "address":"100 BUFORD ALLEY San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4888187,29.4250393 ]
+      },
+      "properties": {
+        "address":"100 W CROCKETT ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4981449,29.4250243 ]
+      },
+      "properties": {
+        "address":"100 PRODUCE ROW San Antonio TX",
+        "crime":6,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5195051,29.4231389 ]
+      },
+      "properties": {
+        "address":"500 S NUECES San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4932914,29.4279802 ]
+      },
+      "properties": {
+        "address":"400 SOLEDAD ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5181134,29.4251743 ]
+      },
+      "properties": {
+        "address":"300 S TRINITY ST San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4893286,29.4233276 ]
+      },
+      "properties": {
+        "address":"300 BLK W MARKET ST San Antonio TX",
+        "crime":20,
+        "weight":"10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5259455,29.4342494 ]
+      },
+      "properties": {
+        "address":"700 N ZARZAMORA ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4911626,29.4263446 ]
+      },
+      "properties": {
+        "address":"200 E HOUSTON ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5338286,29.4380092 ]
+      },
+      "properties": {
+        "address":"1800 ARBOR PLACE San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4897559,29.423899 ]
+      },
+      "properties": {
+        "address":"300 E COMMERCE ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5180951,29.4175661 ]
+      },
+      "properties": {
+        "address":"1000 S PINTO ST San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4972685,29.4364701 ]
+      },
+      "properties": {
+        "address":"500 W EUCLID AVE San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4871077,29.4239023 ]
+      },
+      "properties": {
+        "address":"100 ALAMO PLAZA San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5317078,29.4166644 ]
+      },
+      "properties": {
+        "address":"2400 CHIHUAHUA ST San Antonio TX",
+        "crime":23,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4975137,29.4378305 ]
+      },
+      "properties": {
+        "address":"500 SAN PEDRO AVE San Antonio TX",
+        "crime":10,
+        "weight":"2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4880783,29.4168829 ]
+      },
+      "properties": {
+        "address":"700 S ALAMO ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4504109,29.4091966 ]
+      },
+      "properties": {
+        "address":"300 BARGAS San Antonio TX",
+        "crime":6,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4747269,29.4224655 ]
+      },
+      "properties": {
+        "address":"500 CENTER ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5295544,29.4079252 ]
+      },
+      "properties": {
+        "address":"1800 S ZARZAMORA ST San Antonio TX",
+        "crime":24,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5231432,29.4410474 ]
+      },
+      "properties": {
+        "address":"200 ALBERT ST San Antonio TX",
+        "crime":18,
+        "weight":"z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5294544,29.4090033 ]
+      },
+      "properties": {
+        "address":"700 MERIDA ST San Antonio TX",
+        "crime":12,
+        "weight":"6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5233053,29.439628 ]
+      },
+      "properties": {
+        "address":"1000 RIVAS ST San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4972685,29.4364701 ]
+      },
+      "properties": {
+        "address":"500 W EUCLID AVE San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.492709,29.4088567 ]
+      },
+      "properties": {
+        "address":"600 E GUENTHER ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.3904603,29.4234701 ]
+      },
+      "properties": {
+        "address":"2100 E HOUSTON ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4845413,29.4260839 ]
+      },
+      "properties": {
+        "address":"400 BONHAM San Antonio TX",
+        "crime":17,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4747252,29.430184 ]
+      },
+      "properties": {
+        "address":"500 HAYS ST San Antonio TX",
+        "crime":10,
+        "weight":"2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4763428,29.4426502 ]
+      },
+      "properties": {
+        "address":"1800 BROADWAY San Antonio TX",
+        "crime":25,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4504109,29.4091966 ]
+      },
+      "properties": {
+        "address":"300 BARGAS San Antonio TX",
+        "crime":20,
+        "weight":"10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.505692,29.41242 ]
+      },
+      "properties": {
+        "address":"1300 S LAREDO ST San Antonio TX",
+        "crime":6,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4908545,29.4301442 ]
+      },
+      "properties": {
+        "address":"700 N SAN San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4884785,29.4245207 ]
+      },
+      "properties": {
+        "address":"500 RIVER WALK San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.528719,29.4127417 ]
+      },
+      "properties": {
+        "address":"1500 S ZARZAMORA ST San Antonio TX",
+        "crime":14,
+        "weight":"3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5324963,29.440268 ]
+      },
+      "properties": {
+        "address":"1400 RIVAS ST San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4885997,29.4260639 ]
+      },
+      "properties": {
+        "address":"600 N PRESA ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4924701,29.4218247 ]
+      },
+      "properties": {
+        "address":"100 RIVER WALK San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5152234,29.412083 ]
+      },
+      "properties": {
+        "address":"2100 S LAREDO ST San Antonio TX",
+        "crime":14,
+        "weight":"3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4847181,29.4272583 ]
+      },
+      "properties": {
+        "address":"300 AVENUE E San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5295544,29.4079252 ]
+      },
+      "properties": {
+        "address":"1800 S ZARZAMORA ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5061685,29.411024 ]
+      },
+      "properties": {
+        "address":"500 W CEVALLOS ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4747193,29.4289421 ]
+      },
+      "properties": {
+        "address":"600 BURNET ST San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5298823,29.4323876 ]
+      },
+      "properties": {
+        "address":"3400 W MARTIN ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4621496,29.4275909 ]
+      },
+      "properties": {
+        "address":"1500 NOLAN ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4822308,29.4139559 ]
+      },
+      "properties": {
+        "address":"400 SANTOS ST San Antonio TX",
+        "crime":11,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4565771,29.4057154 ]
+      },
+      "properties": {
+        "address":"700 PORTER ST San Antonio TX",
+        "crime":2,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4911001,29.4248421 ]
+      },
+      "properties": {
+        "address":"200 RIVER WALK San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5060601,29.4378445 ]
+      },
+      "properties": {
+        "address":"1200 N FRIO ST San Antonio TX",
+        "crime":4,
+        "weight":"9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4989918,29.4406511 ]
+      },
+      "properties": {
+        "address":"800 SAN PEDRO AVE San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4959329,29.436404 ]
+      },
+      "properties": {
+        "address":"300 SAN PEDRO AVE San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4700616,29.4145898 ]
+      },
+      "properties": {
+        "address":"500 S PINE ST San Antonio TX",
+        "crime":11,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.526457,29.432074 ]
+      },
+      "properties": {
+        "address":"3100 W MARTIN ST San Antonio TX",
+        "crime":12,
+        "weight":"6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4918466,29.4406539 ]
+      },
+      "properties": {
+        "address":"1300 MCCULLOUGH AVE San Antonio TX",
+        "crime":20,
+        "weight":"10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5260681,29.4353316 ]
+      },
+      "properties": {
+        "address":"800 N ZARZAMORA ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5223452,29.4190672 ]
+      },
+      "properties": {
+        "address":"900 S CIBOLO ST San Antonio TX",
+        "crime":18,
+        "weight":"z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4896891,29.4249548 ]
+      },
+      "properties": {
+        "address":"CROCKETT/NAVARRO San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4820752,29.4252766 ]
+      },
+      "properties": {
+        "address":"1000 E HOUSTON ST San Antonio TX",
+        "crime":10,
+        "weight":"2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4897149,29.4258637 ]
+      },
+      "properties": {
+        "address":"200 COLLEGE ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4643597,29.4415789 ]
+      },
+      "properties": {
+        "address":"800 E CARSON ST San Antonio TX",
+        "crime":11,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5332698,29.4147517 ]
+      },
+      "properties": {
+        "address":"1400 S HAMILTON AVE San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5299425,29.4049806 ]
+      },
+      "properties": {
+        "address":"2000 S ZARZAMORA ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4855392,29.4232377 ]
+      },
+      "properties": {
+        "address":"800 E COMMERCE ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4832786,29.4227512 ]
+      },
+      "properties": {
+        "address":"100 BOWIE ST San Antonio TX",
+        "crime":10,
+        "weight":"2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.486799,29.426536 ]
+      },
+      "properties": {
+        "address":"E HOUSTON ST N ALAMO ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4895075,29.4156243 ]
+      },
+      "properties": {
+        "address":"900 S ALAMO ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4607497,29.4234339 ]
+      },
+      "properties": {
+        "address":"400 N NEW BRAUNFELS AVE San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4763428,29.4426502 ]
+      },
+      "properties": {
+        "address":"1800 BROADWAY San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4897559,29.423899 ]
+      },
+      "properties": {
+        "address":"300 E COMMERCE ST San Antonio TX",
+        "crime":0,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4828317,29.4223384 ]
+      },
+      "properties": {
+        "address":"900 E COMMERCE ST San Antonio TX",
+        "crime":6,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4890913,29.4272491 ]
+      },
+      "properties": {
+        "address":"300 E TRAVIS ST San Antonio TX",
+        "crime":11,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5033069,29.4226733 ]
+      },
+      "properties": {
+        "address":"500 W CESAR CHAVEZ BLVD San Antonio TX",
+        "crime":7,
+        "weight":"10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5250507,29.443973 ]
+      },
+      "properties": {
+        "address":"1600 N ZARZAMORA ST San Antonio TX",
+        "crime":26,
+        "weight":"9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5050758,29.4330708 ]
+      },
+      "properties": {
+        "address":"800 N FRIO ST San Antonio TX",
+        "crime":27,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4732472,29.4314162 ]
+      },
+      "properties": {
+        "address":"500 LAMAR ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5259455,29.4342494 ]
+      },
+      "properties": {
+        "address":"700 N ZARZAMORA ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4791909,29.4421644 ]
+      },
+      "properties": {
+        "address":"300 PEARL PKWY San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4747308,29.420877 ]
+      },
+      "properties": {
+        "address":"100 N MESQUITE ST San Antonio TX",
+        "crime":4,
+        "weight":"9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4900971,29.6100632 ]
+      },
+      "properties": {
+        "address":"2200 IH San Antonio TX",
+        "crime":10,
+        "weight":"2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5269228,29.4281373 ]
+      },
+      "properties": {
+        "address":"100 N ZARZAMORA ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4982804,29.4401452 ]
+      },
+      "properties": {
+        "address":"300 E HOUSTON ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4732514,29.4106964 ]
+      },
+      "properties": {
+        "address":"600 VIRGINIA BLVD San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4702256,29.4152699 ]
+      },
+      "properties": {
+        "address":"100 PAUL ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4982804,29.4401452 ]
+      },
+      "properties": {
+        "address":"300 E HOUSTON ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.511854,29.4202991 ]
+      },
+      "properties": {
+        "address":"1100 SAN FERNANDO ST San Antonio TX",
+        "crime":2,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4880048,29.4264983 ]
+      },
+      "properties": {
+        "address":"100 LOSOYA San Antonio TX",
+        "crime":7,
+        "weight":"10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4880022,29.4237848 ]
+      },
+      "properties": {
+        "address":"500 E COMMERCE ST San Antonio TX",
+        "crime":24,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4710022,29.4159109 ]
+      },
+      "properties": {
+        "address":"100 SPRUCE ST San Antonio TX",
+        "crime":11,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4980637,29.4375005 ]
+      },
+      "properties": {
+        "address":"300 MARSHALL ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5344425,29.4675579 ]
+      },
+      "properties": {
+        "address":"300 N SANTA San Antonio TX",
+        "crime":20,
+        "weight":"10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.572429,29.4268176 ]
+      },
+      "properties": {
+        "address":"600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5043663,29.4216988 ]
+      },
+      "properties": {
+        "address":"500 S FRIO ST San Antonio TX",
+        "crime":28,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.486052,29.428179 ]
+      },
+      "properties": {
+        "address":"300 N ALAMO ST San Antonio TX",
+        "crime":11,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5269228,29.4281373 ]
+      },
+      "properties": {
+        "address":"100 N ZARZAMORA ST San Antonio TX",
+        "crime":4,
+        "weight":"9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4595316,29.3483472 ]
+      },
+      "properties": {
+        "address":"1000 S PRESA ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4884785,29.4245207 ]
+      },
+      "properties": {
+        "address":"500 RIVERWALK San Antonio TX",
+        "crime":6,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.496908,29.42852 ]
+      },
+      "properties": {
+        "address":"500 N SANTA San Antonio TX",
+        "crime":11,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5061685,29.411024 ]
+      },
+      "properties": {
+        "address":"500 W CEVALLOS ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5244436,29.4118433 ]
+      },
+      "properties": {
+        "address":"1600 S NAVIDAD San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4911626,29.4263446 ]
+      },
+      "properties": {
+        "address":"200 E HOUSTON ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4959329,29.436404 ]
+      },
+      "properties": {
+        "address":"300 SAN PEDRO AVE San Antonio TX",
+        "crime":11,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4879679,29.4190296 ]
+      },
+      "properties": {
+        "address":"500 S ALAMO ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.491515,29.424514 ]
+      },
+      "properties": {
+        "address":"100 S ST MARYS ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.572429,29.4268176 ]
+      },
+      "properties": {
+        "address":"600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5023,29.427377 ]
+      },
+      "properties": {
+        "address":"200 N PECOS LA San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4672304,29.4314417 ]
+      },
+      "properties": {
+        "address":"900 LAMAR ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5063072,29.4357065 ]
+      },
+      "properties": {
+        "address":"1000 N FRIO ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4982804,29.4401452 ]
+      },
+      "properties": {
+        "address":"300 E HOUSTON ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5333278,29.4234349 ]
+      },
+      "properties": {
+        "address":"3000 SAN LUIS ST San Antonio TX",
+        "crime":29,
+        "weight":"5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5116075,29.4210727 ]
+      },
+      "properties": {
+        "address":"600 S COLORADO ST San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4861841,29.4220518 ]
+      },
+      "properties": {
+        "address":"200 E MARKET ST San Antonio TX",
+        "crime":22,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5374279,29.4104276 ]
+      },
+      "properties": {
+        "address":"1500 SALTILLO ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4908545,29.4301442 ]
+      },
+      "properties": {
+        "address":"700 N SAN San Antonio TX",
+        "crime":18,
+        "weight":"z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5027592,29.4256666 ]
+      },
+      "properties": {
+        "address":"800 W COMMERCE ST San Antonio TX",
+        "crime":6,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4897559,29.423899 ]
+      },
+      "properties": {
+        "address":"300 E COMMERCE ST San Antonio TX",
+        "crime":22,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5154779,29.4279873 ]
+      },
+      "properties": {
+        "address":"1900 W HOUSTON ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4877193,29.4226564 ]
+      },
+      "properties": {
+        "address":"200 S ALAMO ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.486484,29.4276555 ]
+      },
+      "properties": {
+        "address":"200 N ALAMO ST San Antonio TX",
+        "crime":30,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4832786,29.4227512 ]
+      },
+      "properties": {
+        "address":"100 S BOWIE ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4844808,29.4425232 ]
+      },
+      "properties": {
+        "address":"800 E PARK AVE San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4849432,29.4276559 ]
+      },
+      "properties": {
+        "address":"400 3RD ST San Antonio TX",
+        "crime":11,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5631626,29.4309765 ]
+      },
+      "properties": {
+        "address":"200 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4918466,29.4406539 ]
+      },
+      "properties": {
+        "address":"1300 MCCULLOUGH AVE San Antonio TX",
+        "crime":10,
+        "weight":"2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5217633,29.4147983 ]
+      },
+      "properties": {
+        "address":"1500 BLK TAMPICO ST San Antonio TX",
+        "crime":7,
+        "weight":"10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4732464,29.4191766 ]
+      },
+      "properties": {
+        "address":"200 S HACKBERRY ST San Antonio TX",
+        "crime":14,
+        "weight":"3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.582015,29.549271 ]
+      },
+      "properties": {
+        "address":"400 SAN San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4790217,29.4366866 ]
+      },
+      "properties": {
+        "address":"1200 BROADWAY San Antonio TX",
+        "crime":11,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.461045,29.4314685 ]
+      },
+      "properties": {
+        "address":"1300 LAMAR ST San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4823958,29.4134616 ]
+      },
+      "properties": {
+        "address":"300 LABOR ST San Antonio TX",
+        "crime":10,
+        "weight":"2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4627107,29.4247418 ]
+      },
+      "properties": {
+        "address":"E HOUSTON AVE N NEW BRAUNFELS ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4787559,29.4168707 ]
+      },
+      "properties": {
+        "address":"100 MONTANA ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4933362,29.436833 ]
+      },
+      "properties": {
+        "address":"900 N MAIN AVE San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5212305,29.4360015 ]
+      },
+      "properties": {
+        "address":"900 N NAVIDAD San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4832786,29.4227512 ]
+      },
+      "properties": {
+        "address":"100 BOWIE ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.479083,29.4249367 ]
+      },
+      "properties": {
+        "address":"1200 E HOUSTON ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.6088118,29.4114561 ]
+      },
+      "properties": {
+        "address":"6100 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime":31,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4656618,29.4250951 ]
+      },
+      "properties": {
+        "address":"500 N PALMETTO ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4932305,29.4242672 ]
+      },
+      "properties": {
+        "address":"100 MAIN PLAZA San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5125714,29.4330317 ]
+      },
+      "properties": {
+        "address":"700 N BRAZOS ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5218213,29.4047887 ]
+      },
+      "properties": {
+        "address":"400 MERCEDES ST San Antonio TX",
+        "crime":23,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4942017,29.4417306 ]
+      },
+      "properties": {
+        "address":"1400 N MAIN AVE San Antonio TX",
+        "crime":6,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4913359,29.4264769 ]
+      },
+      "properties": {
+        "address":"300 N ST MARYS ST San Antonio TX",
+        "crime":4,
+        "weight":"9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.572429,29.4268176 ]
+      },
+      "properties": {
+        "address":"600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4545326,29.4121177 ]
+      },
+      "properties": {
+        "address":"800 S MITTMAN ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4730727,29.4302304 ]
+      },
+      "properties": {
+        "address":"900 N HACKBERRY ST San Antonio TX",
+        "crime":32,
+        "weight":"7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5295544,29.4079252 ]
+      },
+      "properties": {
+        "address":"1800 S ZARZAMORA ST San Antonio TX",
+        "crime":24,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4640709,29.4314625 ]
+      },
+      "properties": {
+        "address":"1100 LAMAR ST San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5078156,29.4347396 ]
+      },
+      "properties": {
+        "address":"500 RUIZ ST San Antonio TX",
+        "crime":6,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5260681,29.4353316 ]
+      },
+      "properties": {
+        "address":"800 N ZARZAMORA ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4963365,29.419469 ]
+      },
+      "properties": {
+        "address":"500 S FLORES ST San Antonio TX",
+        "crime":24,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5250507,29.443973 ]
+      },
+      "properties": {
+        "address":"1600 N ZARZAMORA ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.493073,29.421736 ]
+      },
+      "properties": {
+        "address":"200 DWYER AVE San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4782588,29.4203108 ]
+      },
+      "properties": {
+        "address":"100 HOEFGEN AVE San Antonio TX",
+        "crime":30,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5297058,29.4068571 ]
+      },
+      "properties": {
+        "address":"S ZARZAMORA ST CERALVO ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4929074,29.4324504 ]
+      },
+      "properties": {
+        "address":"600 SOLEDAD ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4956915,29.4251309 ]
+      },
+      "properties": {
+        "address":"200 W COMMERCE ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4933362,29.436833 ]
+      },
+      "properties": {
+        "address":"900 N MAIN AVE San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4858715,29.4408405 ]
+      },
+      "properties": {
+        "address":"1800 N ST MARYS ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5177308,29.4193391 ]
+      },
+      "properties": {
+        "address":"1600 EL PASO ST San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4911626,29.4263446 ]
+      },
+      "properties": {
+        "address":"200 E HOUSTON ST San Antonio TX",
+        "crime":4,
+        "weight":"9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5162404,29.4409764 ]
+      },
+      "properties": {
+        "address":"700 MENCHACA ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4828317,29.4223384 ]
+      },
+      "properties": {
+        "address":"900 E COMMERCE ST San Antonio TX",
+        "crime":6,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4828317,29.4223384 ]
+      },
+      "properties": {
+        "address":"900 E COMMERCE ST San Antonio TX",
+        "crime":6,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4822308,29.4139559 ]
+      },
+      "properties": {
+        "address":"400 SANTOS ST San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.572429,29.4268176 ]
+      },
+      "properties": {
+        "address":"600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4845,29.4389444 ]
+      },
+      "properties": {
+        "address":"1600 N ST MARYS ST San Antonio TX",
+        "crime":6,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4880048,29.4264983 ]
+      },
+      "properties": {
+        "address":"100 LOSOYA San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5026699,29.428696 ]
+      },
+      "properties": {
+        "address":"400 N SAN San Antonio TX",
+        "crime":10,
+        "weight":"2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5374279,29.4104276 ]
+      },
+      "properties": {
+        "address":"1500 SALTILLO ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4589931,29.4233876 ]
+      },
+      "properties": {
+        "address":"1700 E CROCKETT ST San Antonio TX",
+        "crime":16,
+        "weight":"3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.496473,29.435463 ]
+      },
+      "properties": {
+        "address":"300 BLK JACKSON ST San Antonio TX",
+        "crime":33,
+        "weight":"10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5043663,29.4216988 ]
+      },
+      "properties": {
+        "address":"500 S FRIO ST San Antonio TX",
+        "crime":20,
+        "weight":"10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4859535,29.4246277 ]
+      },
+      "properties": {
+        "address":"200 BLK ALAMO PLAZA San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4871077,29.4239023 ]
+      },
+      "properties": {
+        "address":"100 ALAMO PLAZA San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4818901,29.4103182 ]
+      },
+      "properties": {
+        "address":"600 LEIGH ST San Antonio TX",
+        "crime":10,
+        "weight":"2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4607497,29.4234339 ]
+      },
+      "properties": {
+        "address":"400 N NEW BRAUNFELS AVE San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4687671,29.4185187 ]
+      },
+      "properties": {
+        "address":"100 DREISS San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4796973,29.4288814 ]
+      },
+      "properties": {
+        "address":"100 BROOKLYN AVE San Antonio TX",
+        "crime":14,
+        "weight":"3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4897575,29.427021 ]
+      },
+      "properties": {
+        "address":"300 PEACOCK ALLEY San Antonio TX",
+        "crime":22,
+        "weight":"8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.487799,29.4310523 ]
+      },
+      "properties": {
+        "address":"100 LE0INGTON AVE San Antonio TX",
+        "crime":18,
+        "weight":"z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4871077,29.4239023 ]
+      },
+      "properties": {
+        "address":"100 ALAMO PLAZA San Antonio TX",
+        "crime":4,
+        "weight":"9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5020508,29.4266811 ]
+      },
+      "properties": {
+        "address":"700 W HOUSTON ST San Antonio TX",
+        "crime":4,
+        "weight":"9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4956915,29.4251309 ]
+      },
+      "properties": {
+        "address":"200 W COMMERCE ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.483774,29.421719 ]
+      },
+      "properties": {
+        "address":"600 ST San Antonio TX",
+        "crime":10,
+        "weight":"2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5287643,29.4426482 ]
+      },
+      "properties": {
+        "address":"400 MICKLEJOHN WALK San Antonio TX",
+        "crime":2,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4855392,29.4232377 ]
+      },
+      "properties": {
+        "address":"800 E COMMERCE ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4607497,29.4234339 ]
+      },
+      "properties": {
+        "address":"400 N NEW BRAUNFELS AVE San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.494405,29.4256327 ]
+      },
+      "properties": {
+        "address":"100 N FLORES ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5212443,29.4375973 ]
+      },
+      "properties": {
+        "address":"300 ROUNDS ST San Antonio TX",
+        "crime":14,
+        "weight":"3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4787559,29.4168707 ]
+      },
+      "properties": {
+        "address":"100 MONTANA ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4855392,29.4232377 ]
+      },
+      "properties": {
+        "address":"800 E COMMERCE ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4885634,29.4128427 ]
+      },
+      "properties": {
+        "address":"1100 S ST MARYS ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.572429,29.4268176 ]
+      },
+      "properties": {
+        "address":"600 ENRIQUE M BARRERA PKWY San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4898637,29.424163 ]
+      },
+      "properties": {
+        "address":"E COMMERCE ST NAVARRO ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4610562,29.430222 ]
+      },
+      "properties": {
+        "address":"HAYS AVE N NEW BRAUNFELS ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4855392,29.4232377 ]
+      },
+      "properties": {
+        "address":"800 E COMMERCE ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.503608,29.418408 ]
+      },
+      "properties": {
+        "address":"400 EL PASO ST San Antonio TX",
+        "crime":34,
+        "weight":"3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.471753,29.443153 ]
+      },
+      "properties": {
+        "address":"800 E GRAYSON ST San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4932142,29.4115966 ]
+      },
+      "properties": {
+        "address":"1200 S ALAMO ST San Antonio TX",
+        "crime":12,
+        "weight":"6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4959329,29.436404 ]
+      },
+      "properties": {
+        "address":"300 SAN PEDRO AVE San Antonio TX",
+        "crime":6,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4845413,29.4260839 ]
+      },
+      "properties": {
+        "address":"400 BONHAM San Antonio TX",
+        "crime":0,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4694188,29.5572005 ]
+      },
+      "properties": {
+        "address":"400 BLUE San Antonio TX",
+        "crime":10,
+        "weight":"2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4959329,29.436404 ]
+      },
+      "properties": {
+        "address":"300 SAN PEDRO AVE San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4791909,29.4421644 ]
+      },
+      "properties": {
+        "address":"300 PEARL PKWY San Antonio TX",
+        "crime":5,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5225044,29.5176509 ]
+      },
+      "properties": {
+        "address":"1900 S SAN San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4967336,29.4395746 ]
+      },
+      "properties": {
+        "address":"300 W POPLAR ST San Antonio TX",
+        "crime":35,
+        "weight":"7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4860762,29.4257704 ]
+      },
+      "properties": {
+        "address":"300 ALAMO PLAZA San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4832786,29.4227512 ]
+      },
+      "properties": {
+        "address":"100 BOWIE ST San Antonio TX",
+        "crime":10,
+        "weight":"2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5093741,29.4113834 ]
+      },
+      "properties": {
+        "address":"1600 S LAREDO ST San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4828317,29.4223384 ]
+      },
+      "properties": {
+        "address":"900 E COMMERCE ST San Antonio TX",
+        "crime":6,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5352314,29.4361416 ]
+      },
+      "properties": {
+        "address":"2100 LEAL ST San Antonio TX",
+        "crime":9,
+        "weight":"0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4608306,29.4290082 ]
+      },
+      "properties": {
+        "address":"800 N NEW BRAUNFELS AVE San Antonio TX",
+        "crime":7,
+        "weight":"10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5023,29.427377 ]
+      },
+      "properties": {
+        "address":"200 N PECOS LA San Antonio TX",
+        "crime":20,
+        "weight":"10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.487799,29.4310523 ]
+      },
+      "properties": {
+        "address":"100 LE0INGTON AVE San Antonio TX",
+        "crime":3,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4936282,29.4241219 ]
+      },
+      "properties": {
+        "address":"100 FAIRFA0 San Antonio TX",
+        "crime":7,
+        "weight":"10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.537329,29.4194374 ]
+      },
+      "properties": {
+        "address":"3100 COLIMA ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4978751,29.4076474 ]
+      },
+      "properties": {
+        "address":"300 E CEVALLOS ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.485429,29.4174083 ]
+      },
+      "properties": {
+        "address":"700 E CESAR CHAVEZ BLVD San Antonio TX",
+        "crime":6,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4855392,29.4232377 ]
+      },
+      "properties": {
+        "address":"800 E COMMERCE ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4885634,29.4128427 ]
+      },
+      "properties": {
+        "address":"1100 S ST MARYS ST San Antonio TX",
+        "crime":14,
+        "weight":"3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.5133632,29.4172379 ]
+      },
+      "properties": {
+        "address":"1000 GUADALUPE YBARRA ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [ -98.4855392,29.4232377 ]
+      },
+      "properties": {
+        "address":"800 E COMMERCE ST San Antonio TX",
+        "crime":1,
+        "weight":"1"
+      }
+    }
+  ]
+}

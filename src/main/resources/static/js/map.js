@@ -166,6 +166,9 @@ function initialize() {
     setLocationLayers(bothLayer, '/json/bothGeo.json');
     setLocationLayers(barLayer, '/json/barsGeo.json');
     setLocationLayers(restaurantLayer, '/json/restaurantsGeo.json');
+
+
+
 //function to convert json to geojson
 //     function createGeoJson(filepath, featureListName) {
 //         console.log("Starting up");
