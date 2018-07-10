@@ -21,13 +21,13 @@
             <div class="card shadows">
                 <div class="card-body">
                     <a href="#">Reviews</a>
-                    <ul>
-                        <li th:each="review : ${reviews}"><a th:href="@{/reviews/{reviewId}/detail(reviewId=${review.id})}"><span th:text="${review.title}"></span></a></li>
-                    </ul>
-                    <a href="#">Favorites</a>
-                    <ul>
-                        <li th:each="favorite : ${favorites}"><a th:href="@{/reviews/{id}(id=${favorite.getyelpid()})}"><span th:text="${favorite.name}"></span></a></li>
-                    </ul>
+                    <!--<ul>-->
+                        <!--<li th:each="review : ${reviews}"><a th:href="@{/reviews/{reviewId}/detail(reviewId=${review.id})}"><span th:text="${review.title}"></span></a></li>-->
+                    <!--</ul>-->
+                    <!--<a href="#">Favorites</a>-->
+                    <!--<ul>-->
+                        <!--<li th:each="favorite : ${favorites}"><a th:href="@{/reviews/{id}(id=${favorite.getyelpid()})}"><span th:text="${favorite.name}"></span></a></li>-->
+                    <!--</ul>-->
                 </div>
             </div>
 

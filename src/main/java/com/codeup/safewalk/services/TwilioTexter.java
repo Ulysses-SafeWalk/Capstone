@@ -25,10 +25,6 @@ public class TwilioTexter {
     @Value("${twilio.account-fromnumber}")
     private String fromNumber;
 
-
-
-
-
         public void go(String toNumber,String username, String address){
 
             Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
