@@ -72,6 +72,10 @@ body, html {
     margin-top: 100px;
 }
 
+.user-profile{
+    margin-left: 10px;
+}
+
 .buttons {
     background-color: #00b07b;
 }
