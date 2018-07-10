@@ -48,13 +48,13 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content card shadows">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="profileLabel">Profile Information</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
+                            <h5 class="modal-title" id="profileLabel">Profile Information</h5>
                             <div class="modal-body card-body">
 
-                                <form th:action="@{/profile}" method="POST" th:object="${user}">
+                                <form th:action="@{/editProfile/{id}}" method="POST" th:object="${user}">
                                     <div class="form-group">
                                         <label for="firstName">
                                             First Name
@@ -98,10 +98,10 @@
                                     </div>
 
                                     <div class="modal-footer">
-                                            <button type="button" class="btn btn-block buttons text-white" data-dismiss="modal">
+                                            <button type="button" class="btn btn-block text-white logout" data-dismiss="modal">
                                                 Close
                                             </button>
-                                            <button type="submit" class="btn btn-primary">
+                                            <button type="submit" class="btn buttons text-white">
                                                 Save changes
                                             </button>
                                     </div>
