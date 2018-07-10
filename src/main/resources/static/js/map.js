@@ -206,7 +206,31 @@ function initialize() {
     setLocationLayers(barLayer, '/json/barsGeo.json');
     setLocationLayers(restaurantLayer, '/json/restaurantsGeo.json');
 
+//function to convert json to heatmapData
 
+    let heatMapData = [];
+
+    var jsonRequest = $.get('/json/crimeGeo.json');
+    jsonRequest.done(function(response){
+        console.log(response.features);
+        let crimes = response.features;
+        for (var i = 0; i < crimes.length; i++){
+            let mylat = parseFloat(crimes[i].geometry.coordinates[1]);
+            let mylong = parseFloat(crimes[i].geometry.coordinates[0]);
+            // console.log(parseFloat(lat), parseFloat(long));
+            heatMapData.push({location: new google.maps.LatLng(mylat, mylong), weight: parseInt(crimes[i].properties.weight)})
+        }
+        return heatMapData;
+    });
+        console.log(heatMapData);
+
+    // var heatMapData = [
+    //
+    // ]
+    // var heatmap = new google.maps.visualization.HeatmapLayer({
+    //     data: heatMapData
+    // });
+    // heatmap.setMap(map);
 //function to convert json to geojson
 //     function createGeoJson(filepath, featureListName) {
 //         console.log("Starting up");
