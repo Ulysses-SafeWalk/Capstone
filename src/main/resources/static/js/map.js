@@ -61,6 +61,24 @@ function initialize() {
         },
         both: {
             icon: "/img/terrace.png"
+        },
+        BURGLARY: {
+            icon: "/img/burglary.png"
+        },
+        KIDNAPPING: {
+            icon: "/img/kidnap.png"
+        },
+        MURDER: {
+            icon: "/img/murder.png"
+        },
+        ROBBERY: {
+            icon: "/img/robbery.png"
+        },
+        SEXASSAULT: {
+            icon: "/img/assault.png"
+        },
+        THEFT: {
+            icon: "/img/theft.png"
         }
     };
 
@@ -119,11 +137,25 @@ function initialize() {
     facilitiesLayer.setStyle(facilitiesStyling);
     facilitiesLayer.setMap(map);
 
+    //crime layer
+    let crimeLayer = new google.maps.Data();
+    crimeLayer.loadGeoJson('/json/crimeGeo.json');
+    let crimeStyling = function(feature) {
+        let StyleOptions = {
+            icon : Icons[feature.getProperty('crime')].icon
+        };
+        return StyleOptions;
+    };
+    crimeLayer.setStyle(crimeStyling);
+    crimeLayer.setMap(map);
+
+
 
     //location layers
     let bothLayer = new google.maps.Data();
     let barLayer = new google.maps.Data();
     let restaurantLayer = new google.maps.Data();
+
 
     //create layer toggle
     $('#facilitiesLayer').change(function(){
@@ -131,6 +163,13 @@ function initialize() {
             facilitiesLayer.setStyle(facilitiesStyling)
         } else {
             facilitiesLayer.setStyle({visible: false})
+        }
+    });
+    $('#crimeLayer').change(function(){
+        if($(this).is(':checked')){
+            crimeLayer.setStyle(crimeStyling)
+        } else {
+            crimeLayer.setStyle({visible: false})
         }
     });
     $('#bothLayer').change(function(){
@@ -166,6 +205,8 @@ function initialize() {
     setLocationLayers(bothLayer, '/json/bothGeo.json');
     setLocationLayers(barLayer, '/json/barsGeo.json');
     setLocationLayers(restaurantLayer, '/json/restaurantsGeo.json');
+
+
 //function to convert json to geojson
 //     function createGeoJson(filepath, featureListName) {
 //         console.log("Starting up");

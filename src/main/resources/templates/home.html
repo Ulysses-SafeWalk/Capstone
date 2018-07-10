@@ -22,15 +22,11 @@
                 <div class="card-body">
                     <a href="#">Reviews</a>
                     <ul>
-                        <li>Review 1</li>
-                        <li>Review 2</li>
-                        <li>Review 3</li>
+                        <li th:each="review : ${reviews}"><a th:href="@{/reviews/{reviewId}/detail(reviewId=${review.id})}"><span th:text="${review.title}"></span></a></li>
                     </ul>
                     <a href="#">Favorites</a>
                     <ul>
-                        <li>Favorite 1</li>
-                        <li>Favorite 2</li>
-                        <li>Favorite 3</li>
+                        <li th:each="favorite : ${favorites}"><a th:href="@{/reviews/{id}(id=${favorite.getyelpid()})}"><span th:text="${favorite.name}"></span></a></li>
                     </ul>
                 </div>
             </div>
@@ -106,6 +102,7 @@
                                 <div class="card-body">
                                     <ul class="list-group">
                                       <li class="list-group-item"><label for="facilitiesLayer"><input name="facilities" type="checkbox" id="facilitiesLayer" checked="checked"/>Police and Fire Stations</label></li>
+                                      <li class="list-group-item"><label for="crimeLayer"><input name="crime" type="checkbox" id="crimeLayer"/>Crime</label></li>
                                       <li class="list-group-item"><label for="bothLayer"><input name="both" type="checkbox" id="bothLayer" />Restaurant/Bar locations</label></li>
                                       <li class="list-group-item"><label for="restaurantLayer"><input name="restaurants" type="checkbox" id="restaurantLayer" />Restaurants</label></li>
                                       <li class="list-group-item"><label for="barLayer"><input name="bars" type="checkbox" id="barLayer" />Bars</label></li>
