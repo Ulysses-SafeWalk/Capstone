@@ -1,23 +1,11 @@
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
-<head th:replace="fragments :: head(${'Your reviews'})" />
+<head th:replace="fragments :: head(${'View Review Detail'})" />
 <body>
 <nav th:replace="fragments :: navbar" />
 
 <div class="form-container">
-    <h1 th:if="${! reviews.isEmpty()}">Here are all your reviews!</h1>
-    <h1 th:if="${reviews.isEmpty()}">You have not written any reviews yet.</h1>
 
-    <div class="row">
-        <form class="col-12">
-            <div class="form-group">
-                <label for="search">Search</label>
-                <input class="form-control" id="search" type="text" name="search" th:value="${searchTerm}" />
-            </div>
-        </form>
-    </div>
-
-    <div th:each="review : ${reviews}">
         <div class="container">
             <div class="card">
                 <div class="card-body">
@@ -32,8 +20,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
 </div>
 
 <th:block th:replace="fragments :: scripts" />

@@ -26,7 +26,7 @@ public class ReviewController {
         this.locationRepository = locationRepository;
     }
 
-    // Brings up individual reviews
+    // Brings up users reviews
     @GetMapping("/reviews")
     public String index(Model view, @RequestParam(name = "search", required = false) String searchTerm) {
         // if there's a search term, show results for that search
@@ -48,13 +48,21 @@ public class ReviewController {
 
     // This method returns all reviews for an individual location
     @GetMapping("/reviews/{id}")
-    public String showDetails(@PathVariable String id, Model view) {
+    public String showReviewsForLocation(@PathVariable String id, Model view) {
         Location location = locationRepository.findByYelpid(id);
         System.out.println(location.getId());
         List<Review> locationReviews = reviewService.findByLocationId(location.getId());
         view.addAttribute("location", location);
         view.addAttribute("reviews", locationReviews);
         return "reviews/location";
+    }
+
+    //shows single review
+    @GetMapping("/reviews/{reviewId}/detail")
+    public String showDetail(@PathVariable long reviewId, Model view){
+        Review review = reviewService.findOne(reviewId);
+        view.addAttribute("review", review);
+        return "reviews/detail";
     }
 
     // Getting review edit page for 1 review
