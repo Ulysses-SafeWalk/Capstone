@@ -3,10 +3,10 @@
 <head th:replace="fragments :: head(${'Posts index page'})" />
 <body>
 <nav th:replace="fragments :: navbar" />
-<div class="container">
 
+<div class="form-container">
     <h1 th:if="${! reviews.isEmpty()}">Here are all your reviews!</h1>
-    <h1 th:if="${reviews.isEmpty()}">Sorry, no results found!</h1>
+    <h1 th:if="${reviews.isEmpty()}">You have not written any reviews yet.</h1>
 
     <div class="row">
         <form class="col-12">
@@ -21,8 +21,12 @@
         <div class="container">
             <div class="card">
                 <div class="card-body">
-                    <h3 class="card-title"><a th:href="@{/reviews/{id}(id=${review.id})}"><span th:text="${review.title}"></span></a></h3>
-                    <p class="card-text"><span th:text="${review.body}"></span></p>
+                    <h3 class="card-title"><span th:text="${review.title}"/></h3>
+                    <div class="card-text">
+                        <p><span th:text="${review.body}"/></p>
+                        <p>Overall rating: <span th:text="${review.overall_rating}"/>/5</p>
+                    </div>
+                    <p>View all reviews for: <a th:href="@{/reviews/{name}(name=${review.location})}"><span th:text="${review.location}"/></a></p>
                     <a th:href="@{/reviews/{id}/edit(id=${review.id})}" class="card-link">Edit Post</a>
                     <a th:href="@{/reviews/{id}/delete(id=${review.id})}" class="card-link">Delete Post</a>
                 </div>

@@ -10,9 +10,28 @@ public class Location {
     @GeneratedValue
     private long id;
     @Column(nullable = false, unique = true)
+    private String yelpid;
+    @Column(nullable = false)
     private String name;
-    @Column(nullable = false, unique = true)
-    private String address;
+    @Column(nullable = false)
+    private String category;
+    @Column(nullable = false)
+    private String yelpcategory;
+    @Column(nullable = false)
+    private String latitude;
+    @Column(nullable = false)
+    private String longitude;
+
+
+    public Location(String yelpid, String name, String category, String yelpcategory, String latitude, String longitude) {
+        this.yelpid = yelpid;
+        this.name = name;
+        this.category = category;
+        this.yelpcategory = yelpcategory;
+        this.latitude = latitude;
+        this.longitude = longitude;
+
+    }
 
     @OneToMany(mappedBy = "location")
     private List<Review> reviews;
@@ -27,10 +46,6 @@ public class Location {
 
     public Location() {};
 
-    public Location(String name, String address) {
-        this.name = name;
-        this.address = address;
-    };
 
     public long getId() {
         return id;
@@ -48,12 +63,45 @@ public class Location {
         this.name = name;
     }
 
-    public String getAddress() {
-        return address;
+    public String getyelpid() {
+        return yelpid;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setyelpid(String yelpid) {
+        this.yelpid = yelpid;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public String getyelpcategory() {
+        return yelpcategory;
+    }
+
+    public void setyelpcategory(String yelpcategory) {
+        this.yelpcategory = yelpcategory;
+    }
+
+
+    public String getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(String latitude) {
+        this.latitude = latitude;
+    }
+
+    public String getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(String longitude) {
+        this.longitude = longitude;
     }
 
     public List<Review> getReviews() {
@@ -71,4 +119,6 @@ public class Location {
     public void setUserFavorites(List<User> userFavorites) {
         this.userFavorites = userFavorites;
     }
+
+
 }

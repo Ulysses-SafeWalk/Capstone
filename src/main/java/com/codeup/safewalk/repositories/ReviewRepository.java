@@ -1,5 +1,6 @@
 package com.codeup.safewalk.repositories;
 
+import com.codeup.safewalk.models.Location;
 import com.codeup.safewalk.models.Review;
 import com.codeup.safewalk.models.User;
 import org.springframework.data.jpa.repository.Query;
@@ -18,4 +19,5 @@ public interface ReviewRepository extends CrudRepository<Review, Long> {
 
     @Query(nativeQuery = true, value = "SELECT * FROM reviews WHERE title LIKE ?1 OR body LIKE ?1")
     List<Review> search(String searchTerm);
+
 }

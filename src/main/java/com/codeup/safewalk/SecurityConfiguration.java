@@ -55,7 +55,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                         "/reviews/{id}",
                         "reviews/{id}/edit",
                         "reviews/create",
-                        "reviews/{id}/delete"
+                        "reviews/{id}/delete",
+                        "/favorites/{name}"
                 )
                 .authenticated()
         ;

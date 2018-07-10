@@ -1,6 +1,8 @@
 package com.codeup.safewalk.controllers;
 
+import com.codeup.safewalk.models.Location;
 import com.codeup.safewalk.models.Review;
+import com.codeup.safewalk.repositories.LocationRepository;
 import com.codeup.safewalk.services.ReviewService;
 import com.codeup.safewalk.repositories.UserRepository;
 import org.springframework.stereotype.Controller;
@@ -14,12 +16,14 @@ public class ReviewController {
 
     private ReviewService reviewService;
     private UserRepository userRepository;
+    private LocationRepository locationRepository;
 
     // PostController constructor
     // Dependency Injection
-    public ReviewController(ReviewService reviewService, UserRepository userRepository) {
+    public ReviewController(ReviewService reviewService, UserRepository userRepository, LocationRepository locationRepository) {
         this.userRepository = userRepository;
         this.reviewService = reviewService;
+        this.locationRepository = locationRepository;
     }
 
     // Brings up individual reviews
@@ -44,8 +48,11 @@ public class ReviewController {
 
     // This method returns all reviews for an individual location
     @GetMapping("/reviews/{id}")
-    public String showDetails(@PathVariable long id, Model view) {
-        List<Review> locationReviews = reviewService.findByLocationId(id);
+    public String showDetails(@PathVariable String id, Model view) {
+        Location location = locationRepository.findByYelpid(id);
+        System.out.println(location.getId());
+        List<Review> locationReviews = reviewService.findByLocationId(location.getId());
+        view.addAttribute("location", location);
         view.addAttribute("reviews", locationReviews);
         return "reviews/location";
     }
@@ -53,29 +60,39 @@ public class ReviewController {
     // Getting review edit page for 1 review
     @GetMapping("/reviews/{id}/edit") // Review id
     public String edit(@PathVariable long id, Model view) {
-        view.addAttribute("review", reviewService.findOne(id));
+        Review review = reviewService.findOne(id);
+        System.out.println("review id is: " + id);
+        view.addAttribute("review", review);
         return "reviews/edit";
     }
 
     // Updating an individual review
     @PostMapping("/reviews/{id}/edit")
     public String updateReview(@PathVariable long id, @ModelAttribute Review review) {
-        reviewService.save(review);
+        Review editedReview = reviewService.findOne(id);
+        Location location = editedReview.getLocation();
+        int averageRating = reviewService.getOverallReview(review);
+        review.setOverall_rating(averageRating);
+        reviewService.save(review, location);
         return "redirect:/reviews";
     }
 
     // Go to create an individual review
-    @GetMapping("/reviews/create")
-    public String getCreatePage(Model view) {
-        // pass a new post to the view
+    @GetMapping("/reviews/{id}/create")
+    public String getCreatePage(@PathVariable long id, Model view) {
+        view.addAttribute("location", locationRepository.findById(id));
         view.addAttribute("review", new Review());
         return "reviews/create";
     }
 
     // Create review and return to location review page
-    @PostMapping("/reviews/create")
-    public String createReview(@ModelAttribute Review review) {
-        reviewService.save(review);
+    @PostMapping("/reviews/{id}/create")
+    public String createReview(@PathVariable long id, @ModelAttribute Review review) {
+        Location location = locationRepository.findById(id);
+        System.out.println(location.getName());
+        int averageRating = reviewService.getOverallReview(review);
+        review.setOverall_rating(averageRating);
+        reviewService.save(review, location);
         return "redirect:/reviews";
     }
 

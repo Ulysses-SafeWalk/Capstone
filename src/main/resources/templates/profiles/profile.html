@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head th:replace="fragments :: head(${'Profile'})" />
+<body>
+<nav th:replace="fragments :: navbar" />
+
+<div class="form-container">
+    <h1>Welcome, </h1>
+
+        <div th:include="fragments :: logo"></div>
+
+        <div class="card shadows">
+            <div class="card-body">
+                <h1 class="text-center">Profile Information</h1>
+
+                <form th:action="@{/editProfile/{id}}" method="POST" th:object="${user}">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <span th:text="${user.first_name}" class="form-control" id="firstName" />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <span th:text="${user.last_name}" class="form-control" id="lastName" />
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneNumber">Phone Number <br/></label>
+                        <span th:text="${user.phone_number}" class="form-control" id="phoneNumber"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <span th:text="${user.username}" class="form-control" id="username" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <span th:text="${user.email}" class="form-control" id="email" />
+                    </div>
+                    <!--<div class="form-group">-->
+                        <!--<label for="password">Password</label>-->
+                        <!--<span th:text="${user.password}" class="form-control" id="password" type="password" />-->
+                    <!--</div>-->
+                    <div>
+                        <a th:href="@{/editProfile/{id}/edit(id=${user.id})}" class="card-link btn btn-block buttons text-white">
+                            Edit
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <th:block th:replace="fragments :: scripts"/>
+
+    <h3>Manage your <a th:href="@{/templates/reviews}">reviews</a></h3>
+
+</div>
+
+<th:block th:replace="fragments :: scripts" />
+
+</body>
+</html>

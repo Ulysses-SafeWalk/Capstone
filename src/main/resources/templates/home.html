@@ -4,29 +4,131 @@
 <body>
 <nav th:replace="fragments :: navbar" />
 
-<div class="home-main">
-    <h1>SafeWalk!</h1>
-    <br />
-    <h2>This is the home page!</h2>
-
-    <h3>Leave a <a th:href="@{/reviews/create}">review</a></h3>
 
 
-    <div id="map-canvas"></div>
+<div class="row d-flex ml-auto">
+    <div class="col-3 d-none d-lg-block">
 
-    <h4>Locations:</h4>
+        <div th:include="fragments :: logo2"></div>
 
-    <div th:each="location : ${locations}">
-        <a th:href="@{/reviews/{id}(id=${location.id})}"><span th:text="${location.name}"></span></a>
+            <div class="card shadows">
+                <div class="card-body">
+                    <h3>Welcome User!</h3>
+                    <p>San Antonio, Texas</p>
+                </div>
+            </div>
+
+            <div class="card shadows">
+                <div class="card-body">
+                    <a href="#">Reviews</a>
+                    <ul>
+                        <li>Review 1</li>
+                        <li>Review 2</li>
+                        <li>Review 3</li>
+                    </ul>
+                    <a href="#">Favorites</a>
+                    <ul>
+                        <li>Favorite 1</li>
+                        <li>Favorite 2</li>
+                        <li>Favorite 3</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="card shadows">
+                <div class="card-body m-auto">
+                    <a href="#" class="btn buttons text-white mb-3" id="moovit">Transit with Moovit</a><br />
+                    <a href="#" class="btn logout text-white mb-3">Logout</a>
+                </div>
+            </div>
+    </div>
+
+        <!--Mobile View elements that don't appear w lg and xl screens-->
+        <div class="form-group d-flex d-lg-none d-xl-none btn-fixed">
+            <div class="btns-div ml-auto">
+                <a class="d-block btn-lg mb-4 form-control shadows" href="/profile" role="button" id="profile">
+                    Profile
+                </a>
+            </div>
+
+            <div class="btns-div ml-auto">
+                <a class="d-block btn-lg mb-4 form-control shadows" href="#" role="button" id="uber">
+                    Uber
+                </a>
+            </div>
+
+            <div class="btns-div ml-auto">
+                <a class="d-block btn-lg mb-4 form-control shadows" href="#" role="button" id="lyft">
+                    Lyft
+                </a>
+            </div>
+
+            <div class="btns-div ml-auto">
+                <a class="d-block btn-lg mb-4 form-control shadows" href="#" role="button" id="moovit2">
+                    Moovit
+                </a>
+            </div>
+        </div>
+
+    <div id="map-canvas" class="container-flex float-left col shadows align-self-stretch mr-auto"></div>
+
+
+    <div class="mr-auto col-8 nav-legend">
+        <div class="d-flex card shadows align-self-stretch">
+            <ul class="nav nav-tabs" id="mapTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="legend-tab" data-toggle="tab" href="#legend" role="tab" aria-controls="legend" aria-selected="true">
+                        Legend
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="layers-tab" data-toggle="tab" href="#layers" role="tab" aria-controls="layers" aria-selected="true">
+                        Layer Selection
+                    </a>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="legend" role="tabpanel" aria-labelledby="legend-tab">
+                    <div class="card bg-light">
+                        <div class="card-header">
+                            <h3>Here is the legend</h3>
+                            <div class="card-body"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="layers" role="tabpanel" aria-labelledby="layers-tab">
+                    <div class="card bg-light">
+                        <div class="card-header">
+                            <h3>Here are the layers</h3>
+                                <div class="card-body">
+                                    <ul class="list-group">
+                                      <li class="list-group-item"><label for="facilitiesLayer"><input name="facilities" type="checkbox" id="facilitiesLayer" checked="checked"/>Police and Fire Stations</label></li>
+                                      <li class="list-group-item"><label for="bothLayer"><input name="both" type="checkbox" id="bothLayer" />Restaurant/Bar locations</label></li>
+                                      <li class="list-group-item"><label for="restaurantLayer"><input name="restaurants" type="checkbox" id="restaurantLayer" />Restaurants</label></li>
+                                      <li class="list-group-item"><label for="barLayer"><input name="bars" type="checkbox" id="barLayer" />Bars</label></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
     </div>
 </div>
+
+<div id="one"></div>
+
 
 
 
 <th:block th:replace="fragments :: scripts" />
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5523VMyf7HwSUCog4fCxZsze1lDaMP-I"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5523VMyf7HwSUCog4fCxZsze1lDaMP-I&amp;libraries=places"></script>
 <script type="text/javascript" th:src="@{/js/map.js}"></script>
+<script type="text/javascript" th:src="@{/js/moovit.js}"></script>
 
 </body>
 </html>
