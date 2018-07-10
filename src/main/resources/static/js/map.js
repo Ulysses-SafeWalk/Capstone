@@ -72,7 +72,7 @@ function initialize() {
             let locationID = event.feature.getProperty('yelpID');
             console.log(locationID);
             let htmlContent = "<p>" + name + "</p>" +
-                "<form name='reviews' action='/reviews/" + name + "' method='get'>" +
+                "<form name='reviews' action='/reviews/" + locationID + "' method='get'>" +
                 "<button>User Safety Reviews</button>" + "</form>" +
                 "<button id='"+ locationID +"'>Add to Favorites</button>" +
                 "<form name='yelp' target='_blank' action='https://yelp.com/biz/" + locationID + "' method='get'>" +
@@ -89,13 +89,13 @@ function initialize() {
         });
 
     }
-        function enableFavoritesButton(locationID, name) {
+        function enableFavoritesButton(locationID) {
             // google.maps.event.addListener(infowindow, 'domready', function () {
                 document.getElementById(locationID).addEventListener("click", function (e) {
                     e.preventDefault();
                     console.log("clicked!");
-                    console.log(name);
-                    $.get("/favorites/" + name)
+                    console.log(locationID);
+                    $.get("/favorites/" + locationID)
                         .done(function (data) {
                             console.log(data)
                         })

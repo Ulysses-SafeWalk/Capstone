@@ -10,24 +10,24 @@ public class Location {
     @GeneratedValue
     private long id;
     @Column(nullable = false, unique = true)
-    private String yelp_id;
+    private String yelpid;
     @Column(nullable = false)
     private String name;
     @Column(nullable = false)
     private String category;
     @Column(nullable = false)
-    private String yelp_category;
+    private String yelpcategory;
     @Column(nullable = false)
     private String latitude;
     @Column(nullable = false)
     private String longitude;
 
 
-    public Location(String yelp_id, String name, String category, String yelp_category, String latitude, String longitude) {
-        this.yelp_id = yelp_id;
+    public Location(String yelpid, String name, String category, String yelpcategory, String latitude, String longitude) {
+        this.yelpid = yelpid;
         this.name = name;
         this.category = category;
-        this.yelp_category = yelp_category;
+        this.yelpcategory = yelpcategory;
         this.latitude = latitude;
         this.longitude = longitude;
 
@@ -63,12 +63,12 @@ public class Location {
         this.name = name;
     }
 
-    public String getYelp_id() {
-        return yelp_id;
+    public String getyelpid() {
+        return yelpid;
     }
 
-    public void setYelp_id(String yelp_id) {
-        this.yelp_id = yelp_id;
+    public void setyelpid(String yelpid) {
+        this.yelpid = yelpid;
     }
 
     public String getCategory() {
@@ -79,12 +79,12 @@ public class Location {
         this.category = category;
     }
 
-    public String getYelp_category() {
-        return yelp_category;
+    public String getyelpcategory() {
+        return yelpcategory;
     }
 
-    public void setYelp_category(String yelp_category) {
-        this.yelp_category = yelp_category;
+    public void setyelpcategory(String yelpcategory) {
+        this.yelpcategory = yelpcategory;
     }
 
 
