@@ -19,4 +19,5 @@ public interface ReviewRepository extends CrudRepository<Review, Long> {
 
     @Query(nativeQuery = true, value = "SELECT * FROM reviews WHERE title LIKE ?1 OR body LIKE ?1")
     List<Review> search(String searchTerm);
+
 }
