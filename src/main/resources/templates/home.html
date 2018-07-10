@@ -27,10 +27,8 @@
                         <li>Review 3</li>
                     </ul>
                     <a href="#">Favorites</a>
-                    <ul>
-                        <li>Favorite 1</li>
-                        <li>Favorite 2</li>
-                        <li>Favorite 3</li>
+                    <ul th:each="favorite : ${favorites}">
+                        <li><span th:text="${favorite.name}"></span></li>
                     </ul>
                 </div>
             </div>
