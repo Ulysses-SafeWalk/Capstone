@@ -146,7 +146,7 @@ function initialize() {
         };
         return StyleOptions;
     };
-    crimeLayer.setStyle(crimeStyling);
+    crimeLayer.setStyle({visible:false});
     crimeLayer.setMap(map);
 
 
@@ -225,12 +225,15 @@ function initialize() {
         console.log(heatMapData);
 
     // var heatMapData = [
-    //
-    // ]
-    // var heatmap = new google.maps.visualization.HeatmapLayer({
-    //     data: heatMapData
-    // });
-    // heatmap.setMap(map);
+    //     {location: new google.maps.LatLng(29.4361416,-98.5352314), weight: 1},
+    //     {location: new google.maps.LatLng(29.4327845,-98.5103019), weight: 500},
+    //     {location: new google.maps.LatLng(29.423757,-98.4717689), weight: 1000}
+    // ];
+
+    var heatmap = new google.maps.visualization.HeatmapLayer({
+        data: heatMapData
+    });
+    heatmap.setMap(map);
 //function to convert json to geojson
 //     function createGeoJson(filepath, featureListName) {
 //         console.log("Starting up");
