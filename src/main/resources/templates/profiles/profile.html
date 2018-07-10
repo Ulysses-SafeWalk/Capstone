@@ -48,10 +48,10 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content card shadows">
                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
-                            <h5 class="modal-title" id="profileLabel">Profile Information</h5>
+                            <h5 class="modal-title mr-auto" id="profileLabel">Profile Information</h5>
                             <div class="modal-body card-body">
 
                                 <form th:action="@{/editProfile/{id}}" method="POST" th:object="${user}">
