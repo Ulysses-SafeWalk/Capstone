@@ -99,7 +99,7 @@ body, html {
 }
 
 #moovit2 {
-    position:fixede;
+    position:fixed;
           margin-right: 25%;
           margin-top: 40%;
 }

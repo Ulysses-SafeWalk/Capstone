@@ -51,8 +51,8 @@ public class UserController {
     //add get/post for user to edit their profile
 
     @PostMapping("/profile/{id}/edit")
-    public String editProfile(@PathVariable long id, @ModelAttribute User user) {
-        userService.save(user);
+    public String editProfile( @ModelAttribute User user) {
+        users.save(user);
         return "redirect:/profile";
     }
 
