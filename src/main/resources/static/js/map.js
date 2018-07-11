@@ -231,7 +231,8 @@ function initialize() {
     // ];
 
     var heatmap = new google.maps.visualization.HeatmapLayer({
-        data: heatMapData
+        data: heatMapData,
+        radius: 10
     });
     heatmap.setMap(map);
 //function to convert json to geojson
