@@ -49,10 +49,7 @@ public class ReviewService {
         return reviewRepository.findByUser(user);
     }
 
-    public List<Review> threeReviews() {
-        User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        User user = userRepository.findById(sessionUser.getId());
-
+    public List<Review> threeReviews(User user) {
         return reviewRepository.threeReviews(user.getId());
     }
 

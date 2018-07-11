@@ -23,9 +23,7 @@ public class LocationService {
     public Location findById(long id){ return locationRepository.findById(id);}
     public Location findByName(String name){ return locationRepository.findByName(name);}
     public Location findByYelpid(String id){ return locationRepository.findByYelpid(id);}
-    public List<Location> threeFavorites(){
-        User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        User user = userService.findById(sessionUser.getId());
+    public List<Location> threeFavorites(User user){
         return locationRepository.threeFavorites(user.getId());
     }
 }

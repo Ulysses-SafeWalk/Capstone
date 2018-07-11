@@ -15,13 +15,13 @@ import java.util.List;
 public class ReviewController {
 
     private ReviewService reviewService;
-    private UserRepository userRepository;
+    private UserRepository users;
     private LocationRepository locationRepository;
 
     // PostController constructor
     // Dependency Injection
     public ReviewController(ReviewService reviewService, UserRepository userRepository, LocationRepository locationRepository) {
-        this.userRepository = userRepository;
+        this.users = userRepository;
         this.reviewService = reviewService;
         this.locationRepository = locationRepository;
     }

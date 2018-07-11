@@ -24,14 +24,14 @@ public class HomeController {
     @GetMapping("/")
     public String showHomePage(Model view) {
         User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        System.out.println(sessionUser);
         if(sessionUser != null) {
             User user = users.findById(sessionUser.getId());
             view.addAttribute("user", user);
-            view.addAttribute("favorites", locationService.threeFavorites());
-            view.addAttribute("reviews", reviewService.threeReviews());
+            view.addAttribute("favorites", locationService.threeFavorites(user));
+            view.addAttribute("reviews", reviewService.threeReviews(user));
         }
-            return "home";
+        return "home";
+
     }
 
 }
