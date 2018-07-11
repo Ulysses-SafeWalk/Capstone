@@ -62,6 +62,9 @@ function initialize() {
         both: {
             icon: "/img/terrace.png"
         },
+        family: {
+            icon: "/img/playground.png"
+        },
         BURGLARY: {
             icon: "/img/burglary.png"
         },
@@ -155,6 +158,7 @@ function initialize() {
     let bothLayer = new google.maps.Data();
     let barLayer = new google.maps.Data();
     let restaurantLayer = new google.maps.Data();
+    let familyLayer = new google.maps.Data();
 
 
     //create layer toggle
@@ -193,6 +197,13 @@ function initialize() {
             restaurantLayer.setStyle({visible: false})
         }
     });
+    $('#familyLayer').change(function(){
+        if($(this).is(':checked')){
+            familyLayer.setStyle({icon: Icons["family"].icon})
+        } else {
+            familyLayer.setStyle({visible: false})
+        }
+    });
 
     function setLocationLayers(layerName, filepath) {
         layerName.loadGeoJson(filepath);
@@ -205,6 +216,7 @@ function initialize() {
     setLocationLayers(bothLayer, '/json/bothGeo.json');
     setLocationLayers(barLayer, '/json/barsGeo.json');
     setLocationLayers(restaurantLayer, '/json/restaurantsGeo.json');
+    setLocationLayers(familyLayer, '/json/familyGeo.json');
 
 //function to convert json to heatmapData
 
