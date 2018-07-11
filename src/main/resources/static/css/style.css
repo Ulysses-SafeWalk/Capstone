@@ -80,38 +80,28 @@ body, html {
     background-color: #00b07b;
 }
 
-#btns-div{
-    width: 75px;
-    height: 150px;
-    margin-right: 10px;
-}
-
-.btns-fixed{
-    position: fixed;
-}
-
 #profile {
    position: fixed;
-       left: 10px;
-       top: 100px;
+       margin-right: 25%;
+       margin-top: 10%;
 }
 
 #uber {
     position: fixed;
-        left: 10px;
-        top: 200px;
+        margin-right: 25%;
+        margin-top: 20%;
 }
 
 #lyft {
     position: fixed;
-        left: 10px;
-        top: 300px;
+         margin-right: 25%;
+         margin-top: 30%;
 }
 
-#moovit {
-    position: fixed;
-        left: 10px;
-        top: 400px;
+#moovit2 {
+    position:fixed;
+          margin-right: 25%;
+          margin-top: 40%;
 }
 
 .logout {
@@ -153,6 +143,16 @@ body, html {
     position: absolute;
     margin-left: 35%;
     margin-top: 58%;
+}
+
+.safety-btns {
+    position: absolute;
+        margin-right: 35%;
+        margin-top: 58%;
+}
+
+.safe{
+    background-color: #42a5f5;
 }
 
 
