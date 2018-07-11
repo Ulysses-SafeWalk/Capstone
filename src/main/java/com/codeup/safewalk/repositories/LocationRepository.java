@@ -14,7 +14,7 @@ public interface LocationRepository extends CrudRepository<Location, Long> {
     Location findByName(String name);
     Location findByYelpid(String id);
 
-    @Query(nativeQuery = true, value = "SELECT * FROM locations l JOIN user_location ul ON l.id = ul.location_id WHERE ul.user_id = ?1 LIMIT 3")
+    @Query(nativeQuery = true, value = "SELECT * FROM locations l JOIN user_location ul ON l.id = ul.location_id WHERE ul.user_id = ?1 ORDER BY id DESC LIMIT 3")
     List<Location> threeFavorites(long id);
 
 }
