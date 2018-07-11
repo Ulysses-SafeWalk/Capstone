@@ -13,14 +13,19 @@
 
             <div class="card shadows">
                 <div class="card-body">
-                    <h3>Welcome User!</h3>
-                    <!--<a href="/profile" th:text="${user.username}">!-->
+                    <!-- Logged in user: show this -->
+                    <h3 th:if="${user} != null">Welcome <a th:href="@{/profiles}" th:text="${user.username}">!</a></h3>
+
+                    <!--Not logged in user: show this-->
+                    <h3 th:else>Welcome!</h3>
                     <p>San Antonio, Texas</p>
                 </div>
             </div>
 
             <div class="card shadows">
                 <div class="card-body">
+                    <!-- Logged in user: show this -->
+                    <span th:if="${user} != null">
                     <a href="#">Reviews</a>
                     <ul>
                         <li th:each="review : ${reviews}"><a th:href="@{/reviews/{reviewId}/detail(reviewId=${review.id})}"><span th:text="${review.title}"></span></a></li>
@@ -29,14 +34,37 @@
                     <ul>
                         <li th:each="favorite : ${favorites}"><a th:href="@{/reviews/{id}(id=${favorite.getyelpid()})}"><span th:text="${favorite.name}"></span></a></li>
                     </ul>
+                        </span>
+
+                    <!--Not logged in user: show this-->
+                    <span th:if="${user} == null">
+                        <h4>A Logged In User has access to:</h4>
+                        <ul>
+                            <li>Safety Reviews by Location</li>
+                            <li>Emergency Alert Buttons</li>
+                            <li>Location Ratings</li>
+                            <li>Create Reviews</li>
+                            <li>Save Favorite Locations</li>
+                        </ul>
+                    </span>
+
                 </div>
             </div>
 
 
             <div class="card shadows">
                 <div class="card-body m-auto">
-                    <a href="#" class="btn buttons text-white text-center mb-3" id="moovit">Transit with Moovit</a><br />
-                    <a href="#" class="btn logout text-white text-center mb-3">Logout</a>
+                    <!-- Logged in user: show this -->
+                    <span th:if="${user} != null">
+                        <a href="#" class="d-block btn buttons text-white text-center mb-3" id="moovit">Moovit</a><br />
+                        <a href="#" class="d-block btn logout text-white text-center mb-3">Logout</a>
+                    </span>
+
+                    <!--Not logged in user: show this-->
+                    <span th:if="${user} == null">
+                        <a href="#" class="d-block btn-lg mb-4 shadows safe text-white text-center">Sign Up</a>
+                        <a href="#" class="d-block btn buttons text-white text-center mb-3">Login</a>
+                    </span>
                 </div>
             </div>
     </div>
@@ -109,7 +137,8 @@
             </div>
         </div>
 
-        <div class="col-3 safety-btns">
+            <!-- Logged in user: show this -->
+        <div class="col-3 safety-btns" th:if="${user} != null">
             <a class="d-block btn-lg mb-4 shadows safe text-white text-center" href="#" role="button" id="safe">
                 Safe Now
             </a>
