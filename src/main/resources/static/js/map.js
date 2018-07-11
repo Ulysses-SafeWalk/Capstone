@@ -306,7 +306,6 @@ function initialize() {
     setLocationLayers(familyLayer, '/json/familyGeo.json');
 
 //function to convert json to heatmapData
-
     let heatMapData = [];
 
     var jsonRequest = $.get('/json/crimeGeo.json');
