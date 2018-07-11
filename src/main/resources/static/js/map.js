@@ -320,13 +320,20 @@ function initialize() {
         }
         return heatMapData;
     });
-        console.log(heatMapData);
+    console.log(heatMapData);
 
     var heatmap = new google.maps.visualization.HeatmapLayer({
         data: heatMapData,
         radius: 10
     });
-    heatmap.setMap(map);
+$('#heatmapLayer').change(function(){
+    if($(this).is(':checked')){
+        heatmap.setMap(map);
+    } else {
+        heatmap.setMap(null);
+    }
+})
+
 //function to convert json to geojson
 //     function createGeoJson(filepath, featureListName) {
 //         console.log("Starting up");
