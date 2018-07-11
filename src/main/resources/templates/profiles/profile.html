@@ -13,7 +13,8 @@
             <div class="card-body">
                 <h3 class="text-center">Profile Information</h3>
 
-                <div th:action="@{/editProfile/{id}}" method="POST" th:object="${user}">
+                <div th:object="${user}">
+                    <input type="hidden" id="id1" th:value="${user.id}" />
                     <div class="user-profile">
                         <label for="firstName"><strong>First Name: </strong></label>
                         <span th:text="${user.first_name}" class="text-center" id="firstName" /><br />
@@ -33,10 +34,8 @@
                     <div class="user-profile">
                         <label for="email"><strong>Email: </strong></label>
                         <span th:text="${user.email}" class="text-center" id="email" /><br />
-                        <button class="btn btn-block buttons" data-toggle="modal" data-target="#profileModal">
-                            <a th:href="@{/editProfile/{id}/edit(id=${user.id})}" class="card-link text-white">
+                        <button class="btn btn-block buttons card-link text-white" data-toggle="modal" data-target="#profileModal">
                                 Edit Profile
-                            </a>
                         </button>
                     </div>
                 </div>
@@ -52,9 +51,11 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                             <h5 class="modal-title mr-auto" id="profileLabel">Profile Information</h5>
+
                             <div class="modal-body card-body">
 
-                                <form th:action="@{/editProfile/{id}}" method="POST" th:object="${user}">
+                                <form th:action="@{/profile/{id}/edit(id=${user.id})}" method="POST" th:object="${user}">
+                                    <input type="hidden" id="id" th:value="${user.id}" />
                                     <div class="form-group">
                                         <label for="firstName">
                                             First Name
@@ -111,6 +112,7 @@
                 </div>
             </div>
         </div>
+</div>
 
     <th:block th:replace="fragments :: scripts"/>
 
