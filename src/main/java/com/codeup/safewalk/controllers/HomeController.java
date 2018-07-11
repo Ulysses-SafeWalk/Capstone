@@ -4,6 +4,8 @@ import com.codeup.safewalk.models.User;
 import com.codeup.safewalk.repositories.UserRepository;
 import com.codeup.safewalk.services.LocationService;
 import com.codeup.safewalk.services.ReviewService;
+import org.springframework.security.authentication.AnonymousAuthenticationToken;
+import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -23,8 +25,9 @@ public class HomeController {
 
     @GetMapping("/")
     public String showHomePage(Model view) {
-        User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        if(sessionUser != null) {
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        if (!(auth instanceof AnonymousAuthenticationToken)) {
+            User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
             User user = users.findById(sessionUser.getId());
             view.addAttribute("user", user);
             view.addAttribute("favorites", locationService.threeFavorites(user));

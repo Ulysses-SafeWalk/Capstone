@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml" lang="en">
 <head th:replace="fragments :: head(${'Welcome!'})" />
 <body>
 <nav th:replace="fragments :: navbar" />
@@ -14,10 +14,12 @@
             <div class="card shadows">
                 <div class="card-body">
                     <!-- Logged in user: show this -->
-                    <h3 th:if="${user} != null">Welcome <a th:href="@{/profiles}" th:text="${user.username}">!</a></h3>
+                    <h3 th:if="${user} != null">Welcome <a th:href="@{/profile}" th:text="${user.username}"></a>!</h3>
+                    <h3 th:if="${user} == null">Welcome!</h3>
+                    <!--<h3 sec:authorize="isAuthenticated()">Welcome <a th:href="@{/profile}" th:text="${user.username}"></a>!</h3>-->
+                    <!--<h3 sec:authorize="!isAuthenticated()">Welcome!</h3>-->
 
                     <!--Not logged in user: show this-->
-                    <h3 th:else>Welcome!</h3>
                     <p>San Antonio, Texas</p>
                 </div>
             </div>
@@ -26,15 +28,15 @@
                 <div class="card-body">
                     <!-- Logged in user: show this -->
                     <span th:if="${user} != null">
-                    <a href="#">Reviews</a>
-                    <ul>
-                        <li th:each="review : ${reviews}"><a th:href="@{/reviews/{reviewId}/detail(reviewId=${review.id})}"><span th:text="${review.title}"></span></a></li>
-                    </ul>
-                    <a href="#">Favorites</a>
-                    <ul>
-                        <li th:each="favorite : ${favorites}"><a th:href="@{/reviews/{id}(id=${favorite.getyelpid()})}"><span th:text="${favorite.name}"></span></a></li>
-                    </ul>
-                        </span>
+                        <a href="#">Reviews</a>
+                        <ul>
+                            <li th:each="review : ${reviews}"><a th:href="@{/reviews/{reviewId}/detail(reviewId=${review.id})}"><span th:text="${review.title}"></span></a></li>
+                        </ul>
+                        <a href="#">Favorites</a>
+                        <ul>
+                            <li th:each="favorite : ${favorites}"><a th:href="@{/reviews/{id}(id=${favorite.getyelpid()})}"><span th:text="${favorite.name}"></span></a></li>
+                        </ul>
+                    </span>
 
                     <!--Not logged in user: show this-->
                     <span th:if="${user} == null">
@@ -62,8 +64,8 @@
 
                     <!--Not logged in user: show this-->
                     <span th:if="${user} == null">
-                        <a href="#" class="d-block btn-lg mb-4 shadows safe text-white text-center">Sign Up</a>
-                        <a href="#" class="d-block btn buttons text-white text-center mb-3">Login</a>
+                        <a th:href="@{/register}" class="d-block btn-lg mb-4 shadows safe text-white text-center">Sign Up</a>
+                        <a th:href="@{/login}" class="d-block btn buttons text-white text-center mb-3">Login</a>
                     </span>
                 </div>
             </div>
@@ -149,7 +151,6 @@
                 Feel Unsafe!
             </a>
         </div>
-
 
 </div>
 
