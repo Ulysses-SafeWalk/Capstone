@@ -10,14 +10,14 @@
 
         <h1 class="text-center">Log In</h1>
 
+
+        <div class="card-body">
         <div th:if="${param.error}">
             Invalid Username or Password.
         </div>
         <div th:if="${param.logout}">
             You have been logged out.
         </div>
-
-        <div class="card-body">
             <div class="form-group">
                 <label for="username">Username</label>
                 <input class="form-control" id="username" name="username" type="text" />
