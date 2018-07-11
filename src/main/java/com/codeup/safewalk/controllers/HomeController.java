@@ -17,12 +17,10 @@ import java.util.HashMap;
 @Controller
 public class HomeController {
     final LocationService locationService;
-    final UserService userService;
     final ReviewService reviewService;
 
-    HomeController(LocationService locationService, UserService userService, ReviewService reviewService){
+    HomeController(LocationService locationService, ReviewService reviewService){
         this.locationService = locationService;
-        this.userService = userService;
         this.reviewService = reviewService;
     }
 
