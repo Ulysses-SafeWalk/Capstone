@@ -93,6 +93,16 @@
 			<artifactId>geogson-core</artifactId>
 			<version>1.2.21</version>
 		</dependency>
+		<dependency>
+			<groupId>com.google.maps</groupId>
+			<artifactId>google-maps-services</artifactId>
+			<version>0.2.9</version>
+		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>org.slf4j</groupId>-->
+			<!--<artifactId>slf4j-nop</artifactId>-->
+			<!--<version>1.7.25</version>-->
+		<!--</dependency>-->
 	</dependencies>
 
 	<build>
