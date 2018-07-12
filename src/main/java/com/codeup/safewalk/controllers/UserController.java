@@ -56,15 +56,16 @@ public class UserController {
         return "redirect:/profile";
     }
 
-    @GetMapping("/profile/{id}/updatePassword")
-    public String getPasswordUpdateForm(@PathVariable long id, Model view){
-        User currentUser = users.findById(id);
+    @GetMapping("/profile/updatePassword")
+    public String getPasswordUpdateForm(Model view){
+        User currentUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        User user = users.findById(currentUser.getId());
         view.addAttribute("userPasswordUpdate", currentUser);
         System.out.println(currentUser.getUsername());
         return "users/password";
     }
 
-    @PostMapping("/profile/{id}/updatePassword")
+    @PostMapping("/profile/updatePassword")
     public String updatePassword(@PathVariable long id, Model view, Errors errors, @RequestParam String oldPassword, @RequestParam String newPassword, @RequestParam String confirmPassword){
         User currentUser = users.findById(id);
         if(!passwordEncoder.matches(currentUser.getPassword(), oldPassword)) {
