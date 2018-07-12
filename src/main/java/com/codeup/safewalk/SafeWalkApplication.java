@@ -9,6 +9,13 @@ import static org.springframework.boot.SpringApplication.*;
 public class SafeWalkApplication {
 
 	public static void main(String[] args) {
-		run(SafeWalkApplication.class, args);
+//		run(SafeWalkApplication.class, args);
+
+
+
+		TwilioTexter.getToNumber();
+
+
+
 	}
 }
