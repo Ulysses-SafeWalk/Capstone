@@ -92,13 +92,6 @@
                                             <input class="form-control" id="emailB" th:value="${user.email}" th:field="*{email}" />
                                         </div>
 
-                                        <div class="form-group">
-                                            <label for="passwordB">
-                                                Password
-                                            </label>
-                                            <input class="form-control" id="passwordB" type="password" th:value="${user.password}" th:field="*{password}" />
-                                        </div>
-
                                         <div class="modal-footer">
                                                 <button type="button" class="btn btn-block text-white logout" data-dismiss="modal">
                                                     Close
@@ -113,6 +106,16 @@
                     </div>
                 </div>
             </div>
+    </div>
+
+    <!-- Password card with link-->
+    <div class="card shadows">
+        <div th:action="@{/profile/updatePassword}" th:method="POST">
+            <label for="password">
+                Update password
+            </label>
+            <input class="form-control" id="password" type="password" th:value="${user.password}" th:field="*{password}" />
+        </div>
     </div>
 
     <!--User contact info & modal-->
