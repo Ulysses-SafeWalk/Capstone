@@ -1,26 +1,36 @@
 package com.codeup.safewalk.controllers;
 
+import com.codeup.safewalk.models.Contact;
+import com.codeup.safewalk.models.TwilioData;
 import com.codeup.safewalk.models.User;
+import com.codeup.safewalk.repositories.ContactRepository;
 import com.codeup.safewalk.repositories.UserRepository;
 import com.codeup.safewalk.services.LocationService;
 import com.codeup.safewalk.services.ReviewService;
+import com.codeup.safewalk.services.TwilioTexter;
 import org.springframework.security.authentication.AnonymousAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @Controller
 public class HomeController {
     final LocationService locationService;
     final ReviewService reviewService;
     final UserRepository users;
+    final ContactRepository contacts;
+    TwilioTexter texter;
 
-    HomeController(LocationService locationService, ReviewService reviewService, UserRepository users){
+    HomeController(LocationService locationService, ReviewService reviewService, UserRepository users, TwilioTexter texter, ContactRepository contacts){
         this.locationService = locationService;
         this.reviewService = reviewService;
         this.users = users;
+        this.texter = texter;
+        this.contacts = contacts;
     }
 
     @GetMapping("/")
@@ -35,6 +45,21 @@ public class HomeController {
             view.addAttribute("reviews", reviewService.threeReviews(user));
         }
         return "home";
+
+    }
+    @PostMapping("/")
+    @RequestMapping("/")
+    public void fireButtons(@RequestBody TwilioData data){
+        User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        User user = users.findById(sessionUser.getId());
+
+        System.out.println(data.getButtonType());
+        System.out.println(data.getLatitude());
+        System.out.println(data.getLongitude());
+
+
+        texter.go(data.getLatitude(), data.getLongitude(), user, data.getButtonType());
+
     }
 
 }
