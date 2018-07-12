@@ -64,15 +64,6 @@ public class TwilioTexter {
         /*userRepository.findById(sessionUser.getId());*/
 //        List<Contact> number = contactRepository.findContactByUser_Id(1);
 
-        
-            System.out.println(thing.get(0).getPhoneNumber());
-
-
-
-
-
-
-
 
     }
 
