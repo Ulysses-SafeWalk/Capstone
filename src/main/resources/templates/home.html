@@ -58,14 +58,14 @@
                 <div class="card-body m-auto">
                     <!-- Logged in user: show this -->
                     <span th:if="${user} != null">
-                        <a href="#" class="d-block btn buttons text-white text-center mb-3" id="moovit">Moovit</a><br />
-                        <a href="#" class="d-block btn logout text-white text-center mb-3">Logout</a>
+                        <a href="#" class="d-block btn buttons text-white text-center mb-3 shadows" id="moovit">Moovit</a><br />
+                        <a href="#" class="d-block btn logout text-white text-center mb-3 shadows">Logout</a>
                     </span>
 
                     <!--Not logged in user: show this-->
                     <span th:if="${user} == null">
                         <a th:href="@{/register}" class="d-block btn-lg mb-4 shadows safe text-white text-center">Sign Up</a>
-                        <a th:href="@{/login}" class="d-block btn buttons text-white text-center mb-3">Login</a>
+                        <a th:href="@{/login}" class="d-block btn buttons shadows text-white text-center mb-3">Login</a>
                     </span>
                 </div>
             </div>
