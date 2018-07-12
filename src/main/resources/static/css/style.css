@@ -57,7 +57,7 @@ body, html {
     background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-top: 100px;
     width: 250px;
-    height: 100px;
+    height: 80px;
 }
 
 .logo-main {
@@ -65,7 +65,7 @@ body, html {
     background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 250px;
-    height: 100px;
+    height: 80px;
 }
 
 .forms {
@@ -153,6 +153,11 @@ body, html {
 
 .safe{
     background-color: #42a5f5;
+}
+
+.nav-bckgrnd{
+    background-color: #c8d3d7;
+    margin-bottom: 10px;
 }
 
 
