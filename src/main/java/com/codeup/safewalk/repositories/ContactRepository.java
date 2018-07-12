@@ -10,7 +10,7 @@ import java.util.List;
 public interface ContactRepository extends CrudRepository<Contact, Long> {
 
 
-      List<Contact> findByUser(User user);
+    List<Contact> findByUser(User user);
 
 //    @Query(nativeQuery = true, value = "SELECT * FROM contacts WHERE user_id = ?")
     List<Contact> findByUser_Id(long user_id);
