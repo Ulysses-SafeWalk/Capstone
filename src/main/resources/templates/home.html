@@ -58,8 +58,10 @@
                 <div class="card-body m-auto">
                     <!-- Logged in user: show this -->
                     <span th:if="${user} != null">
-                        <a href="#" class="d-block btn buttons text-white text-center mb-3" id="moovit">Moovit</a><br />
-                        <a href="#" class="d-block btn logout text-white text-center mb-3">Logout</a>
+                        <a href="#" class="d-block btn buttons text-white text-center" id="moovit">Moovit</a><br />
+                        <form th:action="@{/logout}" th:method="review">
+                            <button class="d-block btn logout text-white text-center mb-3">Logout</button>
+                        </form>
                     </span>
 
                     <!--Not logged in user: show this-->
