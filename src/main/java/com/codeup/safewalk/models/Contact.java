@@ -43,6 +43,13 @@ public class Contact {
         this.phone_number = phone_number;
     }
 
+//    public Contact(String first_name, String last_name, String phone_number, User user_id){
+//        this.first_name = first_name;
+//        this.last_name = last_name;
+//        this.phone_number = phone_number;
+//        this.user_id = user_id;
+//    }
+
     public void setId() { this.id = id; }
 
     public long getId() { return id; }
