@@ -68,24 +68,10 @@ public class UserController {
     public String updatePassword(@PathVariable long id, Model view, Errors errors, @RequestParam String oldPassword, @RequestParam String newPassword, @RequestParam String confirmPassword){
         User currentUser = users.findById(id);
         if(!passwordEncoder.matches(currentUser.getPassword(), oldPassword)) {
-            errors.rejectValue(
-                    "password",
-                    "userNewPassword.password.user.password",
-                    "Invalid Password"
-            );
+            System.out.println("passwords don't match");
         }
         if(!newPassword.equals(confirmPassword)){
-            System.out.println("new passwords don't match");
-            errors.rejectValue(
-                    "password",
-                    "userNewPassword.password.user.password",
-                    "New passwords do not match"
-            );
-        }
-        if(errors.hasErrors()){
-            view.addAttribute("errors", errors);
-            view.addAttribute("user", currentUser);
-            return "users/password";
+            System.out.println("New passwords don't match");
         }
         view.addAttribute("user", currentUser);
         currentUser.setPassword(passwordEncoder.encode((newPassword)));
