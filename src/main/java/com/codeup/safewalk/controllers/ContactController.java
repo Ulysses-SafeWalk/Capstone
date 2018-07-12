@@ -20,20 +20,20 @@ public class ContactController {
         this.contacts = contacts;
     }
 
-    // Get individual profile based on session user
-    @GetMapping("/profile")
-    public String getProfilePage( Model view){
-        User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        User user = users.findById(sessionUser.getId());
-        view.addAttribute("user", user);
-        return "profiles/profile";
-    }
-
-    //add get/post for user to edit their profile
-
-    @PostMapping("/profile/{id}/edit")
-    public String editProfile( @ModelAttribute User user) {
-        users.save(user);
-        return "redirect:/profile";
-    }
+//    // Get individual profile based on session user
+//    @GetMapping("/profile")
+//    public String getProfilePage( Model view){
+//        User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+//        User user = users.findById(sessionUser.getId());
+//        view.addAttribute("user", user);
+//        return "profiles/profile";
+//    }
+//
+//    //add get/post for user to edit their profile
+//
+//    @PostMapping("/profile/{id}/edit")
+//    public String editProfile( @ModelAttribute User user) {
+//        users.save(user);
+//        return "redirect:/profile";
+//    }
 }
