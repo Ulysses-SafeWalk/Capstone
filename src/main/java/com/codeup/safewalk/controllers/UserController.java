@@ -56,5 +56,19 @@ public class UserController {
         return "redirect:/profile";
     }
 
+    @GetMapping("/profile/{id}/password")
+    public String getPasswordUpdateForm(@PathVariable long id, Model view){
+        User user = users.findById(id);
+        view.addAttribute("user", user);
+        return "users/password";
+    }
+
+    @PostMapping("/profile/{id}/password")
+    public String updatePassword(@PathVariable long id, Model view){
+        User user = users.findById(id);
+        view.addAttribute("user", user);
+        return "profiles/profile";
+    }
+
 
 }

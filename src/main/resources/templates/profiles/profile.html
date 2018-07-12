@@ -98,6 +98,8 @@
                                         <input class="form-control" id="password" type="password" th:value="${user.password}" th:field="*{password}" />
                                     </div>
 
+                                    <a th:href="@{/profile/{id}/password(id=${user.id})}">Change your Password</a>
+
                                     <div class="modal-footer">
                                             <button type="button" class="btn btn-block text-white logout" data-dismiss="modal">
                                                 Close
