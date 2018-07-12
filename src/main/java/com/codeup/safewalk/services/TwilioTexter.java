@@ -23,6 +23,7 @@ import java.util.List;
 public class TwilioTexter {
     private static  UserRepository userRepository;
     private final ContactRepository contactRepository;
+    private UserRepository users;
 
     public TwilioTexter(UserRepository userRepository, ContactRepository contactRepository) {
         this.userRepository = userRepository;
@@ -56,29 +57,49 @@ public class TwilioTexter {
         return "Address not found";
     }
 
-    public static void getToNumber(){
+    private List<Contact> getToNumber(){
 
-//        User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        //User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        //userRepository.findById(sessionUser.getId());
 
+        //todo: change this to find by id, and set it up to pass an id
+        User user = userRepository.first();
 
-        /*userRepository.findById(sessionUser.getId());*/
-//        List<Contact> number = contactRepository.findContactByUser_Id(1);
-
-
+        return contactRepository.findByUser(user);
     }
 
-    public void go(String toNumber,String username, String lat, String lng){
+    public void go(String lat, String lng, User user, String messageType){
+//        User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+//        User user = users.findById(sessionUser.getId());
+
+        String userName = user.getFirst_name() + " " + user.getLast_name();
+
+        List<Contact> numberList = getToNumber();
 
         String address = reverseGeocode(lat, lng);
 
-        Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
+        String text = "";
 
-        Message message = Message
-                .creator(new PhoneNumber(toNumber), // to
-                        new PhoneNumber(fromNumber), // from
-                                "Hello this is a SafeWalk emergency message " + username +
-                                " has sent an alert. Their last definable location is " + address +
-                                "you might want to see to that" )
-                .create();
+        if (messageType.equalsIgnoreCase("1")){
+            text = "Hello this is a message from Safewalk " + userName + " is now safe. good job";
+        }else if (messageType.equalsIgnoreCase("0")){
+            text =
+                    "Hello this is a SafeWalk emergency message " + userName +
+                            " has sent an alert. Their last definable location is " + address +
+                            " you might want to see to that";
+        }
+
+        for (Contact number : numberList) {
+            String toNumber = number.getPhoneNumber();
+
+            Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
+
+            Message message = Message
+                    .creator(new PhoneNumber(toNumber), // to
+                            new PhoneNumber(fromNumber), // from
+                            text)
+                    .create();
+
+        }
     }
 }
