@@ -9,10 +9,10 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.validation.Errors;
+import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
 
 @Controller
 public class UserController {
@@ -53,6 +53,30 @@ public class UserController {
     @PostMapping("/profile/{id}/edit")
     public String editProfile( @ModelAttribute User user) {
         users.save(user);
+        return "redirect:/profile";
+    }
+
+    @GetMapping("/profile/updatePassword")
+    public String getPasswordUpdateForm(Model view){
+        User currentUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        User user = users.findById(currentUser.getId());
+        view.addAttribute("userPasswordUpdate", currentUser);
+        System.out.println(currentUser.getUsername());
+        return "users/password";
+    }
+
+    @PostMapping("/profile/updatePassword")
+    public String updatePassword(@PathVariable long id, Model view, Errors errors, @RequestParam String oldPassword, @RequestParam String newPassword, @RequestParam String confirmPassword){
+        User currentUser = users.findById(id);
+        if(!passwordEncoder.matches(currentUser.getPassword(), oldPassword)) {
+            System.out.println("passwords don't match");
+        }
+        if(!newPassword.equals(confirmPassword)){
+            System.out.println("New passwords don't match");
+        }
+        view.addAttribute("user", currentUser);
+        currentUser.setPassword(passwordEncoder.encode((newPassword)));
+        users.save(currentUser);
         return "redirect:/profile";
     }
 

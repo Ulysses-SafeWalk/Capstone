@@ -92,6 +92,8 @@
                                                 </label>
                                                 <input class="form-control" id="emailB" th:value="${user.email}" th:field="*{email}" />
                                             </div>
+                                          
+                                          <a th:href="@{/profile/updatePassword}">Change your Password</a>
 
                                             <div class="modal-footer">
                                                     <button type="button" class="btn btn-block text-white logout" data-dismiss="modal">
@@ -244,12 +246,17 @@
                                         <input class="form-control" id="firstName3a"  th:field="*{first_name}" placeholder="Contact 3: First Name"/>
                                     </div>
 
+
+
+                                    
+
                                     <div class="form-group">
                                         <label for="lastName3a">
                                             Last Name
                                         </label>
                                         <input class="form-control" id="lastName3a" th:field="*{last_name}" placeholder="Contact 3: Last Name"/>
                                     </div>
+
 
                                     <div class="form-group">
                                         <label for="phoneNumber3a">

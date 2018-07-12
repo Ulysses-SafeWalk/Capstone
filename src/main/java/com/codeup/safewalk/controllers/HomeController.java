@@ -39,11 +39,13 @@ public class HomeController {
         if (!(auth instanceof AnonymousAuthenticationToken)) {
             User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
             User user = users.findById(sessionUser.getId());
+            System.out.println(user);
             view.addAttribute("user", user);
             view.addAttribute("favorites", locationService.threeFavorites(user));
             view.addAttribute("reviews", reviewService.threeReviews(user));
         }
         return "home";
+
     }
     @PostMapping("/")
     @RequestMapping("/")
@@ -57,6 +59,7 @@ public class HomeController {
 
 
         texter.go(data.getLatitude(), data.getLongitude(), user, data.getButtonType());
+
     }
 
 }
