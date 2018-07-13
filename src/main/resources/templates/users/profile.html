@@ -6,7 +6,6 @@
 
 <div class="container">
     <div class="card-columns">
-        <!--<div class="form-container">-->
             <h2>Welcome <span th:text="${user.username}">!</span></h2>
 
                 <div th:include="fragments :: logo2"></div>
@@ -124,6 +123,7 @@
                     <h3 class="text-center">Contacts</h3>
                     <div>
                         <p th:if="${!contacts.isEmpty()}">Contact List</p>
+                        <p>Add another <a th:href="@{/contacts/{id}/create(id=${user.id})}">here.</a> (Limit three)</p>
                         <div th:each="contact : ${contacts}">
                             <div class="card">
                                 <div class="card-body">
@@ -132,8 +132,8 @@
                                         <p><span th:text="${contact.phoneNumber}"/></p>
                                     </div>
                                     <!--launch modal to edit-->
-                                    <a href="#" class="card-link">Edit Post</a>
-                                    <a th:href="@{/contacts/{id}/delete(id=${contact.id})}" class="card-link">Delete Post</a>
+                                    <a href="#" class="card-link">Edit Contact</a>
+                                    <a th:href="@{/contacts/{id}/delete(id=${contact.id})}" class="card-link">Delete Contact</a>
                                 </div>
                             </div>
                         </div>
@@ -240,7 +240,6 @@
                         <p>Manage your favorites <a th:href="@{/favorites/{id}/edit(id=${user.id})}">here</a></p>
                     </div>
             </div>
-        <!--</div>-->
     </div>
 </div>
 
