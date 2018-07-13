@@ -9,12 +9,14 @@ import com.codeup.safewalk.services.LocationService;
 import com.codeup.safewalk.services.ReviewService;
 import com.codeup.safewalk.services.TwilioTexter;
 import org.springframework.security.authentication.AnonymousAuthenticationToken;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 @Controller
@@ -47,19 +49,27 @@ public class HomeController {
         return "home";
 
     }
-    @PostMapping("/")
-    @RequestMapping("/")
-    public void fireButtons(@RequestBody TwilioData data){
+
+
+
+    @PostMapping(value="/")
+    @ResponseBody
+    public  void  fireButtons(
+                            @RequestParam(name = "latitude") String latitude,
+                            @RequestParam(name = "longitude") String longitude,
+                            @RequestParam(name = "buttonType") String buttonType
+    ){
+        System.out.println("do literally anything");
+
         User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         User user = users.findById(sessionUser.getId());
 
-        System.out.println(data.getButtonType());
-        System.out.println(data.getLatitude());
-        System.out.println(data.getLongitude());
 
+        System.out.println("latitude " + latitude);
+        System.out.println("longitude " + longitude);
+        System.out.println("button type " + buttonType);
 
-        texter.go(data.getLatitude(), data.getLongitude(), user, data.getButtonType());
-
+        texter.go(latitude, longitude, user, buttonType);
     }
 
 }
