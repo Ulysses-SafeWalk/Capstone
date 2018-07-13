@@ -43,19 +43,23 @@ public class Contact {
         this.phone_number = phone_number;
     }
 
-    public void setId() { this.id = id; }
+    public void setId(long id) { this.id = id; }
 
     public long getId() { return id; }
 
-    public void setFirstName() { this.first_name = first_name; }
+    public void setFirstName(String first_name) { this.first_name = first_name; }
 
     public String getFirstName() { return first_name; }
 
-    public void setLastName() { this.last_name = last_name; }
+    public void setLastName(String last_name) { this.last_name = last_name; }
 
     public String getLastName() { return last_name; }
 
-    public void setPhoneNumber() { this.phone_number = phone_number; }
+    public void setPhoneNumber(String phone_number) { this.phone_number = phone_number; }
 
     public String getPhoneNumber() { return phone_number; }
+
+    public void setUser(User user) { this.user = user; }
+
+    public User getUser() { return user;}
 }

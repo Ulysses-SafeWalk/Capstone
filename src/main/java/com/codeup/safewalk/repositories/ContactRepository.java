@@ -9,10 +9,12 @@ import java.util.List;
 
 public interface ContactRepository extends CrudRepository<Contact, Long> {
 
-
     List<Contact> findByUser(User user);
 
     List<Contact> findByUser_Id(long user_id);
+
+    @Query(nativeQuery = true, value = "SELECT * FROM contacts WHERE user_id = ?1 LIMIT 3")
+    List<Contact> findAllFromUser(long user_id);
 
 }
 
