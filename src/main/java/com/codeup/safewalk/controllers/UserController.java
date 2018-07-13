@@ -1,8 +1,6 @@
 package com.codeup.safewalk.controllers;
 
 import com.codeup.safewalk.models.Contact;
-import com.codeup.safewalk.models.Location;
-import com.codeup.safewalk.models.Review;
 import com.codeup.safewalk.models.User;
 import com.codeup.safewalk.repositories.ContactRepository;
 import com.codeup.safewalk.repositories.UserRepository;
@@ -11,10 +9,8 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
 import java.util.List;
 
 @Controller
@@ -57,7 +53,7 @@ public class UserController {
         contacts = contactRepository.findByUser_Id(sessionUser.getId());
         view.addAttribute("contacts", contacts);
         view.addAttribute("user", user);
-        return "profiles/profile";
+        return "users/profile";
     }
 
     //add get/post for user to edit their profile

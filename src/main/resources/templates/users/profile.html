@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head th:replace="fragments :: head(${'Profile'})" />
+<body>
+<nav th:replace="fragments :: navbar" />
+
+<!--<div class="container">-->
+    <div class="card-columns">
+            <h2>Welcome <span th:text="${user.username}">!</span></h2>
+                <!--<div class="form-container">-->
+
+                    <div class="card shadows">
+                     <div th:include="fragments :: logo2"></div>
+                        <div class="card-body">
+                            <h3 class="text-center">Profile Information</h3>
+
+                            <div th:object="${user}">
+                                <input type="hidden" id="idA" th:value="${user.id}" />
+                                <div class="user-profile">
+                                    <label for="firstNameA"><strong>First Name: </strong></label>
+                                    <span th:text="${user.first_name}" class="text-center" id="firstNameA" /><br />
+                                </div>
+                                <div class="user-profile">
+                                    <label for="lastNameA"><strong>Last Name: </strong></label>
+                                    <span th:text="${user.last_name}" class="text-center" id="lastNameA" /><br />
+                                </div>
+                                <div class="user-profile">
+                                    <label for="phoneNumberA"><strong>Phone Number: </strong></label>
+                                    <span th:text="${user.phone_number}" class="text-center" id="phoneNumberA"/><br />
+                                </div>
+                                <div class="user-profile">
+                                    <label for="usernameA"><strong>Username: </strong></label>
+                                    <span th:text="${user.username}" class="text-center" id="usernameA" /><br />
+                                </div>
+                                <div class="user-profile">
+                                    <label for="emailA"><strong>Email: </strong></label>
+                                    <span th:text="${user.email}" class="text-center" id="emailA" /><br />
+                                    <button class="btn btn-block buttons card-link text-white" data-toggle="modal" data-target="#profileModal">
+                                            Edit Profile
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!--</div>-->
+
+                <!--Modal: User Profile-->
+                <div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content card shadows">
+                            <div class="modal-header">
+                                <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button><br />
+                                    <h3 class="modal-title mr-auto" id="profileLabel">Profile Information</h3>
+
+                                    <div class="modal-body card-body">
+
+                                        <form th:action="@{/profile/{id}/edit(id=${user.id})}" th:method="POST" th:object="${user}">
+                                            <input type="hidden" id="idB" th:value="${user.id}" />
+                                            <div class="form-group">
+                                                <label for="firstNameB">
+                                                    First Name
+                                                </label>
+                                                <input class="form-control" id="firstNameB"  th:field="*{first_name}" />
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="lastNameB">
+                                                    Last Name
+                                                </label>
+                                                <input class="form-control" id="lastNameB" th:field="*{last_name}" />
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="phoneNumberB">
+                                                    Phone Number
+                                                </label>
+                                                <input class="form-control" id="phoneNumberB" th:field="*{phone_number}" th:placeholder="${user.phone_number}"/>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="usernameB">
+                                                    Username
+                                                </label>
+                                                <input class="form-control" id="usernameB" th:value="${user.username}" th:field="*{username}" />
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="emailB">
+                                                    Email
+                                                </label>
+                                                <input class="form-control" id="emailB" th:value="${user.email}" th:field="*{email}" />
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                    <button type="button" class="btn btn-block text-white logout" data-dismiss="modal">
+                                                        Close
+                                                    </button>
+                                                    <button type="submit" class="btn buttons text-white">
+                                                        Save changes
+                                                    </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        <!-- Password card with link-->
+                <div class="card shadows" th:object="${user}">
+            <div class="card-body">
+                <label>
+                    <h3 class="text-center">Password</h3>
+                </label>
+                    <p>Update password <a th:href="@{/profile/updatePassword}" th:object="${user}">here</a></p>
+            </div>
+        </div>
+
+        <!--User contact info-->
+                <div class="card shadows">
+                <div class="card-body">
+                    <h3 class="text-center">Contacts</h3>
+                    <div>
+                        <p th:if="${!contacts.isEmpty()}">Contact List                        <p>Add another <a th:href="@{/contacts/{id}/create(id=${user.id})}">here.</a> (Limit three)</p>
+                        </p>
+                        <div th:each="contact : ${contacts}">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-title"><span th:text="${contact.firstName}"/> <span th:text="${contact.lastName}"></span></h3>
+                                    <div class="card-text">
+                                        <p><span th:text="${contact.phoneNumber}"/></p>
+                                    </div>
+                                    <!--launch modal to edit-->
+                                    <a href="#" class="card-link">Edit Contact</a>
+                                    <a th:href="@{/contacts/{id}/delete(id=${contact.id})}" class="card-link">Delete Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                        <p th:if="${contacts.isEmpty()}">Sorry, no contacts yet. <br/>Add a contact <a th:href="@{/contacts/{id}/create(id=${user.id})}">here.</a></p>
+                    </div>
+                </div>
+                            <!--<button type="submit" class="btn btn-block buttons card-link text-white" data-toggle="modal" data-target="#contactModal">-->
+                                <!--Edit Contacts-->
+                            <!--</button>-->
+            </div>
+
+
+            <!--Modal: Contacts-->
+            <!--<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">-->
+                <!--<div class="modal-dialog" role="document">-->
+                    <!--<div class="modal-content card shadows">-->
+                        <!--<div class="modal-header">-->
+                            <!--<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">-->
+                                <!--<span aria-hidden="true">&times;</span>-->
+                            <!--</button><br />-->
+                            <!--<h3 class="modal-title text-center" id="contactLabel">Emergency Contacts</h3>-->
+
+                            <!--<div class="modal-body card-body">-->
+                                <!--<form th:action="@{/contacts/{id}/edit(id=${user.id})}" th:method="POST" th:object="${contacts}">-->
+                                    <!--<div th:if="${contacts.isEmpty()}">-->
+                                        <!--<div class="form-group">-->
+                                            <!--<label for="firstName">-->
+                                                <!--First Name-->
+                                            <!--</label>-->
+                                            <!--<input class="form-control" id="firstName"  th:field="*{contacts.first_name}" />-->
+                                        <!--</div>-->
+
+                                        <!--<div class="form-group">-->
+                                            <!--<label for="lastName">-->
+                                                <!--Last Name-->
+                                            <!--</label>-->
+                                            <!--<input class="form-control" id="lastName" th:field="*{contacts.last_name}" />-->
+                                        <!--</div>-->
+
+                                        <!--<div class="form-group">-->
+                                            <!--<label for="phoneNumber">-->
+                                                <!--Phone Number-->
+                                            <!--</label>-->
+                                            <!--<input class="form-control" id="phoneNumber" th:field="*{contacts.phone_number}"/>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+
+                                    <!--&lt;!&ndash;<div th:if="${!contacts.isEmpty()}">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;<div th:each="contact : ${contacts}">&ndash;&gt;-->
+                                                <!--&lt;!&ndash;<div class="card shadows">&ndash;&gt;-->
+                                                    <!--&lt;!&ndash;<div class="card-body">&ndash;&gt;-->
+                                                        <!--&lt;!&ndash;<div class="form-group">&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;<label>&ndash;&gt;-->
+                                                                <!--&lt;!&ndash;First Name&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;</label>&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;<p th:text="${contacts.first_name}"></p>&ndash;&gt;-->
+                                                        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+                                                        <!--&lt;!&ndash;<div class="form-group">&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;<label>&ndash;&gt;-->
+                                                                <!--&lt;!&ndash;Last Name&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;</label>&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;<p th:text="${contacts.last_name}"></p>&ndash;&gt;-->
+                                                        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+                                                        <!--&lt;!&ndash;<div class="form-group">&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;<label>&ndash;&gt;-->
+                                                                <!--&lt;!&ndash;Phone Number&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;</label>&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;<span th:text="${contacts.phone_number}"/>&ndash;&gt;-->
+                                                        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                                                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                                                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+                                    <!--&lt;!&ndash;Modal Buttons&ndash;&gt;-->
+                                    <!--<div class="modal-footer">-->
+                                        <!--<button type="button" class="btn btn-block text-white logout" data-dismiss="modal">-->
+                                            <!--Close-->
+                                        <!--</button>-->
+                                        <!--<button type="submit" class="btn buttons text-white">-->
+                                            <!--Save changes-->
+                                        <!--</button>-->
+                                    <!--</div>-->
+                                <!--</form>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+
+
+            <div class="card shadows">
+                 <h3 class="card-title text-center">Location Reviews</h3>
+                    <div class="card-body">
+                        <p>Manage your reviews <a th:href="@{/reviews}">here</a></p>
+                    </div>
+            </div>
+
+            <div class="card shadows">
+                <h3 class="card-title text-center">Location Favorites</h3>
+                    <div class="card-body">
+                        <p>Manage your favorites <a th:href="@{/favorites/{id}/edit(id=${user.id})}">here</a></p>
+                    </div>
+            </div>
+    </div>
+<!--</div>-->
+
+
+<th:block th:replace="fragments :: scripts" />
+
+</body>
+</html>
