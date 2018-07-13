@@ -126,7 +126,7 @@
                 <div class="card-body">
                     <h3 class="text-center">Contacts</h3>
 
-                    <div th:object="${user}">
+                    <div th:action="@{/contacts/{id}/edit(id=${user.id})}" th:method="GET" th:object="${user}">
                         <!-- 1st Contact -->
                         <input type="hidden" id="contactId1" th:value="${user.id}" />
                         <div class="user-profile">
@@ -171,7 +171,7 @@
                             <label for="phoneNumber3"><strong>Phone Number: </strong></label>
                             <span th:text="${user.phone_number}" class="text-center" id="phoneNumber3"/><br />
                         </div><br />
-                            <button class="btn btn-block buttons card-link text-white" data-toggle="modal" data-target="#contactModal">
+                            <button type="submit" class="btn btn-block buttons card-link text-white" data-toggle="modal" data-target="#contactModal">
                                 Edit Contacts
                             </button>
                         </div>
@@ -190,21 +190,21 @@
 
                             <div class="modal-body card-body">
 
-                                <form th:action="@{/contacts/{id}/edit(id=${user.id})}" th:method="POST" th:object="${user}">
+                                <form th:action="@{/contacts/{id}/edit(id=${user.id})}" th:method="POST" th:object="${contacts}">
                                     <!-- 1st Contact -->
-                                    <input type="hidden" id="contactId1a" th:value="${user.id}" />
+                                    <input type="hidden" id="contactId1a" th:value="${contacts.id}" />
                                     <div class="form-group">
                                         <label for="firstName1a">
                                             First Name
                                         </label>
-                                        <input class="form-control" id="firstName1a"  th:field="*{first_name}" placeholder="Contact 1: First Name"/>
+                                        <input class="form-control" id="firstName1a"  th:field="*{first_name}" placeholder="${contacts.first_name}"/>
                                     </div>
 
                                     <div class="form-group">
                                         <label for="lastName1a">
                                             Last Name
                                         </label>
-                                        <input class="form-control" id="lastName1a" th:field="*{last_name}" placeholder="Contact 1: Last Name"/>
+                                        <input class="form-control" id="lastName1a" th:field="*{last_name}" placeholder="${contacts.last_name}"/>
                                     </div>
 
                                     <div class="form-group">
@@ -246,17 +246,12 @@
                                         <input class="form-control" id="firstName3a"  th:field="*{first_name}" placeholder="Contact 3: First Name"/>
                                     </div>
 
-
-
-                                    
-
                                     <div class="form-group">
                                         <label for="lastName3a">
                                             Last Name
                                         </label>
                                         <input class="form-control" id="lastName3a" th:field="*{last_name}" placeholder="Contact 3: Last Name"/>
                                     </div>
-
 
                                     <div class="form-group">
                                         <label for="phoneNumber3a">

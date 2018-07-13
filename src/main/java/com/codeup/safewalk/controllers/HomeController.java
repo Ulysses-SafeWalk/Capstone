@@ -49,9 +49,6 @@ public class HomeController {
         }
         return "home";
 
-    }
-
-
 
     @PostMapping(value="/")
     @ResponseBody
