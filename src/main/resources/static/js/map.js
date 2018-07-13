@@ -120,6 +120,7 @@ function initialize() {
                     console.log(locationID);
                     $(this).toggleClass('liked');
                     $('.fav-text').text('Added to favorites');
+                    $('.button-like').prop('disabled', true);
                     $('.heart-checkbox').css('background-color', 'red');
                     $.get("/favorites/" + locationID)
                         .done(function (data) {
