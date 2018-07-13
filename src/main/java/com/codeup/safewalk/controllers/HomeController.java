@@ -35,7 +35,6 @@ public class HomeController {
         this.contacts = contacts;
     }
 
-
     @GetMapping("/")
     public String showHomePage(Model view) {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
@@ -48,7 +47,7 @@ public class HomeController {
             view.addAttribute("reviews", reviewService.threeReviews(user));
         }
         return "home";
-
+    }
 
     @PostMapping(value="/")
     @ResponseBody
@@ -57,17 +56,9 @@ public class HomeController {
                             @RequestParam(name = "longitude") String longitude,
                             @RequestParam(name = "buttonType") String buttonType
     ){
-        System.out.println("do literally anything");
-
         User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         User user = users.findById(sessionUser.getId());
 
-
-        System.out.println("latitude " + latitude);
-        System.out.println("longitude " + longitude);
-        System.out.println("button type " + buttonType);
-
         texter.go(latitude, longitude, user, buttonType);
     }
-
 }
