@@ -18,5 +18,7 @@ public interface ContactRepository extends CrudRepository<Contact, Long> {
 
     Contact save(Contact contact);
 
+    void delete(long id);
+
 }
 

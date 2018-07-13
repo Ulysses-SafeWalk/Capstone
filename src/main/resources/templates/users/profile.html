@@ -6,7 +6,7 @@
 
 <div class="container">
     <div class="card-columns">
-        <div class="form-container">
+        <!--<div class="form-container">-->
             <h2>Welcome <span th:text="${user.username}">!</span></h2>
 
                 <div th:include="fragments :: logo2"></div>
@@ -107,10 +107,9 @@
                         </div>
                     </div>
                 </div>
-        </div>
 
         <!-- Password card with link-->
-        <div class="card shadows" th:object="${user}">
+                <div class="card shadows" th:object="${user}">
             <div class="card-body">
                 <label>
                     <h3 class="text-center">Password</h3>
@@ -120,16 +119,32 @@
         </div>
 
         <!--User contact info-->
-            <div class="card shadows">
+                <div class="card shadows">
                 <div class="card-body">
                     <h3 class="text-center">Contacts</h3>
-                        <p th:if="${!contacts.isEmpty()}">Contact List. <br/>Add up to 3 for emergencies</p>
-                        <p th:if="${contacts.isEmpty()}">Sorry, no contacts yet. <br/>Add a contact <a th:href="@{/contacts/{id}/create(id=${user.id})}">here.</a></p>
-                            <button type="submit" class="btn btn-block buttons card-link text-white" data-toggle="modal" data-target="#contactModal">
-                                Edit Contacts
-                            </button>
+                    <div>
+                        <p th:if="${!contacts.isEmpty()}">Contact List</p>
+                        <div th:each="contact : ${contacts}">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-title"><span th:text="${contact.firstName}"/> <span th:text="${contact.lastName}"></span></h3>
+                                    <div class="card-text">
+                                        <p><span th:text="${contact.phoneNumber}"/></p>
+                                    </div>
+                                    <!--launch modal to edit-->
+                                    <a href="#" class="card-link">Edit Post</a>
+                                    <a th:href="@{/contacts/{id}/delete(id=${contact.id})}" class="card-link">Delete Post</a>
+                                </div>
+                            </div>
                         </div>
+                        <p th:if="${contacts.isEmpty()}">Sorry, no contacts yet. <br/>Add a contact <a th:href="@{/contacts/{id}/create(id=${user.id})}">here.</a></p>
                     </div>
+                </div>
+                            <!--<button type="submit" class="btn btn-block buttons card-link text-white" data-toggle="modal" data-target="#contactModal">-->
+                                <!--Edit Contacts-->
+                            <!--</button>-->
+            </div>
+
 
             <!--Modal: Contacts-->
             <!--<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">-->
@@ -225,6 +240,7 @@
                         <p>Manage your favorites <a th:href="@{/favorites/{id}/edit(id=${user.id})}">here</a></p>
                     </div>
             </div>
+        <!--</div>-->
     </div>
 </div>
 

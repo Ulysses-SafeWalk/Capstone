@@ -34,8 +34,18 @@ public class ContactController {
     @PostMapping("/contacts/{id}/create")
     public String createContact(@PathVariable long id, @ModelAttribute Contact contact){
         User user = users.findById(id);
+        String number = contact.getPhoneNumber();
+        String countryCode = "+1";
+        String formattedNumber = countryCode.concat(number);
+        contact.setPhoneNumber(formattedNumber);
         contact.setUser(user);
         contactRepository.save(contact);
+        return "redirect:/profile";
+    }
+
+    @GetMapping("/contacts/{id}/delete") // Contact ID
+    public String delete(@PathVariable long id) {
+        contactRepository.delete(id);
         return "redirect:/profile";
     }
 
