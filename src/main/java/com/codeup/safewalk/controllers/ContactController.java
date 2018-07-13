@@ -41,4 +41,5 @@ public class ContactController {
         contactRepository.save(contacts);
         return "redirect:/profile";
     }
+
 }
