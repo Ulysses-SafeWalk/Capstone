@@ -142,7 +142,6 @@
                             <h3 class="modal-title text-center" id="contactLabel">Emergency Contacts</h3>
 
                             <div class="modal-body card-body">
-
                                 <form th:action="@{/contacts/{id}/edit(id=${user.id})}" th:method="POST" th:object="${contacts}">
                                     <div th:if="${contacts.isEmpty()}">
                                         <div class="form-group">
@@ -216,7 +215,7 @@
             <div class="card shadows">
                  <h3 class="card-title text-center">Location Reviews</h3>
                     <div class="card-body">
-                        <p>Manage your reviews <a th:href="@{/reviews/{id}/edit(id=${user.id})}">here</a></p>
+                        <p>Manage your reviews <a th:href="@{/reviews}">here</a></p>
                     </div>
             </div>
 

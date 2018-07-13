@@ -20,6 +20,7 @@ public class ContactController {
     private ContactRepository contactRepository;
 
     public ContactController(UserRepository users, ContactRepository contactRepository){
+        this.users = users;
         this.contactRepository = contactRepository;
     }
 

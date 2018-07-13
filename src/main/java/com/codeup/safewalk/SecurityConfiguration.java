@@ -42,7 +42,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 /* Logout configuration */
                 .and()
                 .logout()
-                .logoutSuccessUrl("/login?logout")
+                .logoutSuccessUrl("/")
                 .and()
                 .authorizeRequests()
                 .antMatchers("/") // anyone can see the home page
