@@ -60,7 +60,7 @@ function initialize() {
             icon: "/img/bar_cocktail.png"
         },
         both: {
-            icon: "/img/terrace.png"
+            icon: "/img/both.png"
         },
         family: {
             icon: "/img/playground.png"

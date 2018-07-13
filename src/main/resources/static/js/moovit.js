@@ -2,16 +2,15 @@
 
 (function () {
 
-    $('#moovit', '#moovit2').click(function(event) {
-        let crd = window.SafeWalkGeo.position;
-        let latitude = crd.latitude;
-        let longitude = crd.longitude;
-        let METRO_ID = latitude + "_" + longitude;
-        console.log(METRO_ID);
-        window.location = `www.moovitapp.com/tripplan?customerId=<ID>&metroId=${METRO_ID}`;
+    $('#moovit').click(function(event) {
+        let ID = 6468;
+        window.location = `https://moovit.com/?customerId=${ID}&metroId=1544&lang=en`;
     });
 
-    // https://www..moovitapp.com/tripplan?customerId=<ID>&metroId=<METRO_ID>&lang=<LANG_CODE>&to=<DISPLAY ADDRESS>&tll=<LAT_LON>
+    $('#moovit2').click(function(event) {
+        let ID = 6468;
+        window.location = `https://moovit.com/?customerId=${ID}&metroId=1544&lang=en`;
+    });
 
     $('#uber').click(function(event) {
         let geocoder = new google.maps.Geocoder;
