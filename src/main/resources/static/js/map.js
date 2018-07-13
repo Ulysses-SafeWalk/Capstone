@@ -93,8 +93,9 @@ function initialize() {
             let locationID = event.feature.getProperty('yelpID');
             let htmlContent = "<p>" + name + "</p>" +
                 "<form name='reviews' action='/reviews/" + locationID + "' method='get'>" +
-                "<button>User Safety Reviews</button>" + "</form>" +
-                "<button id='"+ locationID +"'>Add to Favorites</button>" +
+                "<button>User Safety Reviews</button>" + "</form>" + "<br/>" +
+                "<button class='glyphicon glyphicon-heart' id='"+ locationID +"'></button>" +
+                // "<div class='fav-btn'>Add to Favorites<span class='favme dashicons dashicons-heart' id='" + locationID + "'></span>" +
                 "<form name='yelp' target='_blank' action='https://yelp.com/biz/" + locationID + "' method='get'>" +
                 "<button>Yelp Reviews</button>" + "</form>";
             infowindow.setContent(htmlContent);
