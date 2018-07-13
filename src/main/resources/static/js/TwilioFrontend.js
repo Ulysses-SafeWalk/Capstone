@@ -1,5 +1,4 @@
 
-
 $('#emergency').click(function() {
     let geocoder = new google.maps.Geocoder;
     let crd = window.SafeWalkGeo.position;
@@ -12,8 +11,7 @@ $('#emergency').click(function() {
                     buttonType: buttonType
         }, function(){
             console.log("data sent");
-        },
-        )});
+        },)});
 
 $('#safe').click(function() {
     let latitude = 37.3320;
@@ -24,5 +22,4 @@ $('#safe').click(function() {
             buttonType: buttonType
         }, function(){
             console.log("data sent");
-        },
-    )});
+        },)});

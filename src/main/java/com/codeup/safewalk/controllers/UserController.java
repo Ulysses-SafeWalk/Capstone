@@ -49,9 +49,13 @@ public class UserController {
 
     // Get individual profile based on session user
     @GetMapping("/profile")
-    public String getProfilePage( Model view){
+    public String getProfilePage(Model view){
         User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         User user = users.findById(sessionUser.getId());
+
+        List<Contact> contacts;
+        contacts = contactRepository.findByUser_Id(sessionUser.getId());
+        view.addAttribute("contacts", contacts);
         view.addAttribute("user", user);
         return "profiles/profile";
     }
