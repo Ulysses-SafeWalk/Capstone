@@ -35,6 +35,7 @@ public class HomeController {
         this.contacts = contacts;
     }
 
+
     @GetMapping("/")
     public String showHomePage(Model view) {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
