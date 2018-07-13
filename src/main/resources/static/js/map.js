@@ -94,8 +94,11 @@ function initialize() {
             let htmlContent = "<p>" + name + "</p>" +
                 "<form name='reviews' action='/reviews/" + locationID + "' method='get'>" +
                 "<button>User Safety Reviews</button>" + "</form>" + "<br/>" +
-                "<button class='glyphicon glyphicon-heart' id='"+ locationID +"'></button>" +
+                // "<button class='glyphicon glyphicon-heart' id='"+ locationID +"'></button>" +
                 // "<div class='fav-btn'>Add to Favorites<span class='favme dashicons dashicons-heart' id='" + locationID + "'></span>" +
+                "<button class='btn btn-sm button-like' id='" + locationID + "'>" +
+                "<i class='fa fa-heart'></i>" +
+                "<span class='fav-text'>Add to favorites</span></button>" +
                 "<form name='yelp' target='_blank' action='https://yelp.com/biz/" + locationID + "' method='get'>" +
                 "<button>Yelp Reviews</button>" + "</form>";
             infowindow.setContent(htmlContent);
@@ -115,6 +118,9 @@ function initialize() {
                     e.preventDefault();
                     console.log("clicked!");
                     console.log(locationID);
+                    $(this).toggleClass('liked');
+                    $('.fav-text').text('Added to favorites');
+                    $('.heart-checkbox').css('background-color', 'red');
                     $.get("/favorites/" + locationID)
                         .done(function (data) {
                             console.log(data)
