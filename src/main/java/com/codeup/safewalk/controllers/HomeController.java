@@ -47,19 +47,20 @@ public class HomeController {
         return "home";
 
     }
-    @PostMapping("/")
-    @RequestMapping("/")
-    public void fireButtons(@RequestBody TwilioData data){
-        User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        User user = users.findById(sessionUser.getId());
 
-        System.out.println(data.getButtonType());
-        System.out.println(data.getLatitude());
-        System.out.println(data.getLongitude());
-
-
-        texter.go(data.getLatitude(), data.getLongitude(), user, data.getButtonType());
-
-    }
+//    @PostMapping("/")
+//    @RequestMapping("/")
+//    public void fireButtons(@RequestBody TwilioData data){
+//        User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+//        User user = users.findById(sessionUser.getId());
+//
+//        System.out.println(data.getButtonType());
+//        System.out.println(data.getLatitude());
+//        System.out.println(data.getLongitude());
+//
+//
+//        texter.go(data.getLatitude(), data.getLongitude(), user, data.getButtonType());
+//
+//    }
 
 }
