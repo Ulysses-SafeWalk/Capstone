@@ -4,44 +4,45 @@
 <body>
 <nav th:replace="fragments :: navbar" />
 
-<div class="container">
+<!--<div class="container">-->
     <div class="card-columns">
             <h2>Welcome <span th:text="${user.username}">!</span></h2>
+                <!--<div class="form-container">-->
 
-                <div th:include="fragments :: logo2"></div>
+                    <div class="card shadows">
+                     <div th:include="fragments :: logo2"></div>
+                        <div class="card-body">
+                            <h3 class="text-center">Profile Information</h3>
 
-                <div class="card shadows">
-                    <div class="card-body">
-                        <h3 class="text-center">Profile Information</h3>
-
-                        <div th:object="${user}">
-                            <input type="hidden" id="idA" th:value="${user.id}" />
-                            <div class="user-profile">
-                                <label for="firstNameA"><strong>First Name: </strong></label>
-                                <span th:text="${user.first_name}" class="text-center" id="firstNameA" /><br />
-                            </div>
-                            <div class="user-profile">
-                                <label for="lastNameA"><strong>Last Name: </strong></label>
-                                <span th:text="${user.last_name}" class="text-center" id="lastNameA" /><br />
-                            </div>
-                            <div class="user-profile">
-                                <label for="phoneNumberA"><strong>Phone Number: </strong></label>
-                                <span th:text="${user.phone_number}" class="text-center" id="phoneNumberA"/><br />
-                            </div>
-                            <div class="user-profile">
-                                <label for="usernameA"><strong>Username: </strong></label>
-                                <span th:text="${user.username}" class="text-center" id="usernameA" /><br />
-                            </div>
-                            <div class="user-profile">
-                                <label for="emailA"><strong>Email: </strong></label>
-                                <span th:text="${user.email}" class="text-center" id="emailA" /><br />
-                                <button class="btn btn-block buttons card-link text-white" data-toggle="modal" data-target="#profileModal">
-                                        Edit Profile
-                                </button>
+                            <div th:object="${user}">
+                                <input type="hidden" id="idA" th:value="${user.id}" />
+                                <div class="user-profile">
+                                    <label for="firstNameA"><strong>First Name: </strong></label>
+                                    <span th:text="${user.first_name}" class="text-center" id="firstNameA" /><br />
+                                </div>
+                                <div class="user-profile">
+                                    <label for="lastNameA"><strong>Last Name: </strong></label>
+                                    <span th:text="${user.last_name}" class="text-center" id="lastNameA" /><br />
+                                </div>
+                                <div class="user-profile">
+                                    <label for="phoneNumberA"><strong>Phone Number: </strong></label>
+                                    <span th:text="${user.phone_number}" class="text-center" id="phoneNumberA"/><br />
+                                </div>
+                                <div class="user-profile">
+                                    <label for="usernameA"><strong>Username: </strong></label>
+                                    <span th:text="${user.username}" class="text-center" id="usernameA" /><br />
+                                </div>
+                                <div class="user-profile">
+                                    <label for="emailA"><strong>Email: </strong></label>
+                                    <span th:text="${user.email}" class="text-center" id="emailA" /><br />
+                                    <button class="btn btn-block buttons card-link text-white" data-toggle="modal" data-target="#profileModal">
+                                            Edit Profile
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                <!--</div>-->
 
                 <!--Modal: User Profile-->
                 <div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel" aria-hidden="true">
@@ -122,8 +123,8 @@
                 <div class="card-body">
                     <h3 class="text-center">Contacts</h3>
                     <div>
-                        <p th:if="${!contacts.isEmpty()}">Contact List</p>
-                        <p>Add another <a th:href="@{/contacts/{id}/create(id=${user.id})}">here.</a> (Limit three)</p>
+                        <p th:if="${!contacts.isEmpty()}">Contact List                        <p>Add another <a th:href="@{/contacts/{id}/create(id=${user.id})}">here.</a> (Limit three)</p>
+                        </p>
                         <div th:each="contact : ${contacts}">
                             <div class="card">
                                 <div class="card-body">
@@ -241,7 +242,7 @@
                     </div>
             </div>
     </div>
-</div>
+<!--</div>-->
 
 
 <th:block th:replace="fragments :: scripts" />
