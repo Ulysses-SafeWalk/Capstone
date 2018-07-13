@@ -371,6 +371,12 @@ $('#heatmapLayer').change(function(){
         map.fitBounds(bounds);
     });
 
+    $('.dropdown-menu').on({
+        "click": function(e){
+            e.stopPropagation();
+        }
+    });
+
 //function to convert json to geojson
 //     function createGeoJson(filepath, featureListName) {
 //         console.log("Starting up");
