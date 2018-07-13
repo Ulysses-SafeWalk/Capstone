@@ -1,6 +1,5 @@
 package com.codeup.safewalk.services;
 
-
 import com.codeup.safewalk.models.Contact;
 import com.codeup.safewalk.models.User;
 import com.codeup.safewalk.repositories.ContactRepository;
@@ -17,7 +16,6 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
 
 @Service
 public class TwilioTexter {
@@ -53,32 +51,14 @@ public class TwilioTexter {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
         return "Address not found";
     }
 
-    private List<Contact> getToNumber(){
-
-        //User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        //userRepository.findById(sessionUser.getId());
-
-        //todo: change this to find by id, and set it up to pass an id
-        User user = userRepository.first();
-
-        return contactRepository.findByUser(user);
-    }
-
     public void go(String lat, String lng, User user, String messageType){
-//        User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-//        User user = users.findById(sessionUser.getId());
-
 
         String userName = user.getFirst_name() + " " + user.getLast_name();
-
-        List<Contact> numberList = getToNumber();
-
+        List<Contact> numberList = contactRepository.findByUser(user);
         String address = reverseGeocode(lat, lng);
-
         String text = "";
 
         if (messageType.equalsIgnoreCase("1")){
@@ -95,14 +75,11 @@ public class TwilioTexter {
 
             Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
 
-
-
             Message message = Message
                     .creator(new PhoneNumber(toNumber), // to
                             new PhoneNumber(fromNumber), // from
                             text)
                     .create();
-
         }
     }
 }
