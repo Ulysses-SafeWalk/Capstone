@@ -80,6 +80,7 @@ public class TwilioTexter {
                             new PhoneNumber(fromNumber), // from
                             text)
                     .create();
+            System.out.println("message to " + toNumber + " sent");
         }
     }
 }
