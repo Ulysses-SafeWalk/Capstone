@@ -16,5 +16,7 @@ public interface ContactRepository extends CrudRepository<Contact, Long> {
     @Query(nativeQuery = true, value = "SELECT * FROM contacts WHERE user_id = ?1 LIMIT 3")
     List<Contact> findAllFromUser(long user_id);
 
+    Contact save(Contact contact);
+
 }
 

@@ -124,7 +124,7 @@
                 <div class="card-body">
                     <h3 class="text-center">Contacts</h3>
                         <p th:if="${!contacts.isEmpty()}">Contact List. <br/>Add up to 3 for emergencies</p>
-                        <p th:if="${contacts.isEmpty()}">Sorry, no contacts yet. <br/>Add the first contact</p>
+                        <p th:if="${contacts.isEmpty()}">Sorry, no contacts yet. <br/>Add a contact <a th:href="@{/contacts/{id}/create(id=${user.id})}">here.</a></p>
                             <button type="submit" class="btn btn-block buttons card-link text-white" data-toggle="modal" data-target="#contactModal">
                                 Edit Contacts
                             </button>
@@ -132,84 +132,84 @@
                     </div>
 
             <!--Modal: Contacts-->
-            <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content card shadows">
-                        <div class="modal-header">
-                            <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button><br />
-                            <h3 class="modal-title text-center" id="contactLabel">Emergency Contacts</h3>
+            <!--<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">-->
+                <!--<div class="modal-dialog" role="document">-->
+                    <!--<div class="modal-content card shadows">-->
+                        <!--<div class="modal-header">-->
+                            <!--<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">-->
+                                <!--<span aria-hidden="true">&times;</span>-->
+                            <!--</button><br />-->
+                            <!--<h3 class="modal-title text-center" id="contactLabel">Emergency Contacts</h3>-->
 
-                            <div class="modal-body card-body">
-                                <form th:action="@{/contacts/{id}/edit(id=${user.id})}" th:method="POST" th:object="${contacts}">
-                                    <div th:if="${contacts.isEmpty()}">
-                                        <div class="form-group">
-                                            <label for="firstName">
-                                                First Name
-                                            </label>
-                                            <input class="form-control" id="firstName"  th:field="*{contacts.first_name}" />
-                                        </div>
+                            <!--<div class="modal-body card-body">-->
+                                <!--<form th:action="@{/contacts/{id}/edit(id=${user.id})}" th:method="POST" th:object="${contacts}">-->
+                                    <!--<div th:if="${contacts.isEmpty()}">-->
+                                        <!--<div class="form-group">-->
+                                            <!--<label for="firstName">-->
+                                                <!--First Name-->
+                                            <!--</label>-->
+                                            <!--<input class="form-control" id="firstName"  th:field="*{contacts.first_name}" />-->
+                                        <!--</div>-->
 
-                                        <div class="form-group">
-                                            <label for="lastName">
-                                                Last Name
-                                            </label>
-                                            <input class="form-control" id="lastName" th:field="*{contacts.last_name}" />
-                                        </div>
+                                        <!--<div class="form-group">-->
+                                            <!--<label for="lastName">-->
+                                                <!--Last Name-->
+                                            <!--</label>-->
+                                            <!--<input class="form-control" id="lastName" th:field="*{contacts.last_name}" />-->
+                                        <!--</div>-->
 
-                                        <div class="form-group">
-                                            <label for="phoneNumber">
-                                                Phone Number
-                                            </label>
-                                            <input class="form-control" id="phoneNumber" th:field="*{contacts.phone_number}"/>
-                                        </div>
-                                    </div>
+                                        <!--<div class="form-group">-->
+                                            <!--<label for="phoneNumber">-->
+                                                <!--Phone Number-->
+                                            <!--</label>-->
+                                            <!--<input class="form-control" id="phoneNumber" th:field="*{contacts.phone_number}"/>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
 
-                                    <div th:if="${!contacts.isEmpty()}">
-                                        <div th:each="contact : ${contacts}">
-                                                <div class="card shadows">
-                                                    <div class="card-body">
-                                                        <div class="form-group">
-                                                            <label>
-                                                                First Name
-                                                            </label>
-                                                            <p th:text="${contacts.first_name}"></p>
-                                                        </div>
+                                    <!--&lt;!&ndash;<div th:if="${!contacts.isEmpty()}">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;<div th:each="contact : ${contacts}">&ndash;&gt;-->
+                                                <!--&lt;!&ndash;<div class="card shadows">&ndash;&gt;-->
+                                                    <!--&lt;!&ndash;<div class="card-body">&ndash;&gt;-->
+                                                        <!--&lt;!&ndash;<div class="form-group">&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;<label>&ndash;&gt;-->
+                                                                <!--&lt;!&ndash;First Name&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;</label>&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;<p th:text="${contacts.first_name}"></p>&ndash;&gt;-->
+                                                        <!--&lt;!&ndash;</div>&ndash;&gt;-->
 
-                                                        <div class="form-group">
-                                                            <label>
-                                                                Last Name
-                                                            </label>
-                                                            <p th:text="${contacts.last_name}"></p>
-                                                        </div>
+                                                        <!--&lt;!&ndash;<div class="form-group">&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;<label>&ndash;&gt;-->
+                                                                <!--&lt;!&ndash;Last Name&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;</label>&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;<p th:text="${contacts.last_name}"></p>&ndash;&gt;-->
+                                                        <!--&lt;!&ndash;</div>&ndash;&gt;-->
 
-                                                        <div class="form-group">
-                                                            <label>
-                                                                Phone Number
-                                                            </label>
-                                                            <span th:text="${contacts.phone_number}"/>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                    </div>
+                                                        <!--&lt;!&ndash;<div class="form-group">&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;<label>&ndash;&gt;-->
+                                                                <!--&lt;!&ndash;Phone Number&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;</label>&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;<span th:text="${contacts.phone_number}"/>&ndash;&gt;-->
+                                                        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                                                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                                                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
 
-                                    <!--Modal Buttons-->
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-block text-white logout" data-dismiss="modal">
-                                            Close
-                                        </button>
-                                        <button type="submit" class="btn buttons text-white">
-                                            Save changes
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                                    <!--&lt;!&ndash;Modal Buttons&ndash;&gt;-->
+                                    <!--<div class="modal-footer">-->
+                                        <!--<button type="button" class="btn btn-block text-white logout" data-dismiss="modal">-->
+                                            <!--Close-->
+                                        <!--</button>-->
+                                        <!--<button type="submit" class="btn buttons text-white">-->
+                                            <!--Save changes-->
+                                        <!--</button>-->
+                                    <!--</div>-->
+                                <!--</form>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
 
 
             <div class="card shadows">
