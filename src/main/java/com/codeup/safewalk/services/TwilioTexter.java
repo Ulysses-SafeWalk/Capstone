@@ -72,6 +72,7 @@ public class TwilioTexter {
 //        User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
 //        User user = users.findById(sessionUser.getId());
 
+
         String userName = user.getFirst_name() + " " + user.getLast_name();
 
         List<Contact> numberList = getToNumber();
@@ -93,6 +94,8 @@ public class TwilioTexter {
             String toNumber = number.getPhoneNumber();
 
             Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
+
+
 
             Message message = Message
                     .creator(new PhoneNumber(toNumber), // to
