@@ -1,6 +1,7 @@
 package com.codeup.safewalk.controllers;
 
 import com.codeup.safewalk.models.Contact;
+import com.codeup.safewalk.models.Review;
 import com.codeup.safewalk.models.User;
 import com.codeup.safewalk.repositories.ContactRepository;
 import com.codeup.safewalk.repositories.UserRepository;
@@ -16,30 +17,16 @@ import java.util.List;
 
 @Controller
 public class ContactController {
-   private UserRepository users;
     private ContactRepository contactRepository;
-    private Contact contact;
 
-    public ContactController(UserRepository users, ContactRepository contactRepository, Contact contact){
-        this.users = users;
+    public ContactController(UserRepository users, ContactRepository contactRepository){
         this.contactRepository = contactRepository;
-        this.contact = contact;
     }
-
-    // Get individual profile on Register page
-    @GetMapping("/contacts/{id}/")
-    public String getUserContacts(Model view, @PathVariable long id){
-        List<Contact> contacts = contactRepository.findByUser_Id(id);
-        view.addAttribute("contacts", contacts);
-        return "profiles/profile";
-    }
-
-    //add get/post for user to edit their profile
 
     @PostMapping("/contacts/{id}/edit")
     public String editContacts( @ModelAttribute List<Contact> contacts) {
         contactRepository.save(contacts);
-        return "redirect:/profile";
+        return "profiles/profile";
     }
 
 }

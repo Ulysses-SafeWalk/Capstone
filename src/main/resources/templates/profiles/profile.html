@@ -92,8 +92,6 @@
                                                 </label>
                                                 <input class="form-control" id="emailB" th:value="${user.email}" th:field="*{email}" />
                                             </div>
-                                          
-                                          <a th:href="@{/profile/updatePassword}">Change your Password</a>
 
                                             <div class="modal-footer">
                                                     <button type="button" class="btn btn-block text-white logout" data-dismiss="modal">
@@ -125,58 +123,13 @@
             <div class="card shadows">
                 <div class="card-body">
                     <h3 class="text-center">Contacts</h3>
-
-                    <div th:action="@{/contacts/{id}/edit(id=${user.id})}" th:method="GET" th:object="${user}">
-                        <!-- 1st Contact -->
-                        <input type="hidden" id="contactId1" th:value="${user.id}" />
-                        <div class="user-profile">
-                            <label for="firstName1"><strong>First Name: </strong></label>
-                            <span th:text="${user.first_name}" class="text-center" id="firstName1" /><br />
-                        </div>
-                        <div class="user-profile">
-                            <label for="lastName1"><strong>Last Name: </strong></label>
-                            <span th:text="${user.last_name}" class="text-center" id="lastName1" /><br />
-                        </div>
-                        <div class="user-profile">
-                            <label for="phoneNumber1"><strong>Phone Number: </strong></label>
-                            <span th:text="${user.phone_number}" class="text-center" id="phoneNumber1"/><br />
-                        </div><br />
-
-                        <!-- 2nd Contact -->
-                        <input type="hidden" id="contactId2" th:value="${user.id}" />
-                        <div class="user-profile">
-                            <label for="firstName2"><strong>First Name: </strong></label>
-                            <span th:text="${user.first_name}" class="text-center" id="firstName2" /><br />
-                        </div>
-                        <div class="user-profile">
-                            <label for="lastName2"><strong>Last Name: </strong></label>
-                            <span th:text="${user.last_name}" class="text-center" id="lastName2" /><br />
-                        </div>
-                        <div class="user-profile">
-                            <label for="phoneNumber2"><strong>Phone Number: </strong></label>
-                            <span th:text="${user.phone_number}" class="text-center" id="phoneNumber2"/><br />
-                        </div><br />
-
-                        <!-- 3rd Contact -->
-                        <input type="hidden" id="contactId3" th:value="${user.id}" />
-                        <div class="user-profile">
-                            <label for="firstName3"><strong>First Name: </strong></label>
-                            <span th:text="${user.first_name}" class="text-center" id="firstName3" /><br />
-                        </div>
-                        <div class="user-profile">
-                            <label for="lastName3"><strong>Last Name: </strong></label>
-                            <span th:text="${user.last_name}" class="text-center" id="lastName3" /><br />
-                        </div>
-                        <div class="user-profile">
-                            <label for="phoneNumber3"><strong>Phone Number: </strong></label>
-                            <span th:text="${user.phone_number}" class="text-center" id="phoneNumber3"/><br />
-                        </div><br />
+                        <p th:if="${!contacts.isEmpty()}">Contact List. <br/>Add up to 3 for emergencies</p>
+                        <p th:if="${contacts.isEmpty()}">Sorry, no contacts yet. <br/>Add the first contact</p>
                             <button type="submit" class="btn btn-block buttons card-link text-white" data-toggle="modal" data-target="#contactModal">
                                 Edit Contacts
                             </button>
                         </div>
                     </div>
-                </div>
 
             <!--Modal: Contacts-->
             <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
@@ -186,79 +139,62 @@
                             <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button><br />
-                            <h3 class="modal-title text-center" id="contactLabel">Contacts</h3>
+                            <h3 class="modal-title text-center" id="contactLabel">Emergency Contacts</h3>
 
                             <div class="modal-body card-body">
 
                                 <form th:action="@{/contacts/{id}/edit(id=${user.id})}" th:method="POST" th:object="${contacts}">
-                                    <!-- 1st Contact -->
-                                    <input type="hidden" id="contactId1a" th:value="${contacts.id}" />
-                                    <div class="form-group">
-                                        <label for="firstName1a">
-                                            First Name
-                                        </label>
-                                        <input class="form-control" id="firstName1a"  th:field="*{first_name}" placeholder="${contacts.first_name}"/>
+                                    <div th:if="${contacts.isEmpty()}">
+                                        <div class="form-group">
+                                            <label for="firstName">
+                                                First Name
+                                            </label>
+                                            <input class="form-control" id="firstName"  th:field="*{contacts.first_name}" />
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="lastName">
+                                                Last Name
+                                            </label>
+                                            <input class="form-control" id="lastName" th:field="*{contacts.last_name}" />
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="phoneNumber">
+                                                Phone Number
+                                            </label>
+                                            <input class="form-control" id="phoneNumber" th:field="*{contacts.phone_number}"/>
+                                        </div>
                                     </div>
 
-                                    <div class="form-group">
-                                        <label for="lastName1a">
-                                            Last Name
-                                        </label>
-                                        <input class="form-control" id="lastName1a" th:field="*{last_name}" placeholder="${contacts.last_name}"/>
+                                    <div th:if="${!contacts.isEmpty()}">
+                                        <div th:each="contact : ${contacts}">
+                                                <div class="card shadows">
+                                                    <div class="card-body">
+                                                        <div class="form-group">
+                                                            <label>
+                                                                First Name
+                                                            </label>
+                                                            <p th:text="${contacts.first_name}"></p>
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label>
+                                                                Last Name
+                                                            </label>
+                                                            <p th:text="${contacts.last_name}"></p>
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label>
+                                                                Phone Number
+                                                            </label>
+                                                            <span th:text="${contacts.phone_number}"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                     </div>
-
-                                    <div class="form-group">
-                                        <label for="phoneNumber1a">
-                                            Phone Number
-                                        </label>
-                                        <input class="form-control" id="phoneNumber1a" th:field="*{phone_number}" placeholder="Contact 1: Number"/>
-                                    </div><br />
-
-                                    <!-- 2nd Contact -->
-                                    <input type="hidden" id="contactId2a" th:value="${user.id}" />
-                                    <div class="form-group">
-                                        <label for="firstName2a">
-                                            First Name
-                                        </label>
-                                        <input class="form-control" id="firstName2a"  th:field="*{first_name}" placeholder="Contact 2: First Name"/>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="lastName2a">
-                                            Last Name
-                                        </label>
-                                        <input class="form-control" id="lastName2a" th:field="*{last_name}" placeholder="Contact 2: Last Name"/>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="phoneNumber2a">
-                                            Phone Number
-                                        </label>
-                                        <input class="form-control" id="phoneNumber2a" th:field="*{phone_number}" placeholder="Contact 2: Number"/>
-                                    </div><br />
-
-                                    <!-- 3rd Contact -->
-                                    <input type="hidden" id="contactId3a" th:value="${user.id}" />
-                                    <div class="form-group">
-                                        <label for="firstName3a">
-                                            First Name
-                                        </label>
-                                        <input class="form-control" id="firstName3a"  th:field="*{first_name}" placeholder="Contact 3: First Name"/>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="lastName3a">
-                                            Last Name
-                                        </label>
-                                        <input class="form-control" id="lastName3a" th:field="*{last_name}" placeholder="Contact 3: Last Name"/>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="phoneNumber3a">
-                                            Phone Number
-                                        </label>
-                                        <input class="form-control" id="phoneNumber3a" th:field="*{phone_number}" placeholder="Contact 3: Number"/>
-                                    </div><br />
 
                                     <!--Modal Buttons-->
                                     <div class="modal-footer">
@@ -292,12 +228,6 @@
             </div>
     </div>
 </div>
-
-
-
-
-
-
 
 
 <th:block th:replace="fragments :: scripts" />
