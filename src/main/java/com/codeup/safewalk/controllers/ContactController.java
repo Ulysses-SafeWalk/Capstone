@@ -18,12 +18,10 @@ import java.util.List;
 public class ContactController {
    private UserRepository users;
     private ContactRepository contactRepository;
-    private Contact contact;
 
-    public ContactController(UserRepository users, ContactRepository contactRepository, Contact contact){
+    public ContactController(UserRepository users, ContactRepository contactRepository){
         this.users = users;
         this.contactRepository = contactRepository;
-        this.contact = contact;
     }
 
     // Get individual profile on Register page

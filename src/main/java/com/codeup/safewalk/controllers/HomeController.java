@@ -48,7 +48,7 @@ public class HomeController {
             view.addAttribute("reviews", reviewService.threeReviews(user));
         }
         return "home";
-
+    }
 
     @PostMapping(value="/")
     @ResponseBody

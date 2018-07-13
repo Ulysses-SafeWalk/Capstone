@@ -80,9 +80,9 @@ public class UserController {
         if(!newPassword.equals(confirmPassword)){
             System.out.println("New passwords don't match");
         }
-        view.addAttribute("user", currentUser);
-        currentUser.setPassword(passwordEncoder.encode((newPassword)));
-        users.save(currentUser);
+        view.addAttribute("user", user);
+        user.setPassword(passwordEncoder.encode((newPassword)));
+        users.save(user);
         return "redirect:/profile";
     }
 
