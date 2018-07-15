@@ -32,24 +32,29 @@
 
 <nav th:fragment="navbar">
     <div class="navbar form-inline shadows nav-bckgrnd">
+            <div class="navbar-brand">
+                <h3 class="text-white">
+                    <span class="badge badge-pill">SafeWalk</span>
+                </h3>
+            </div>
             <div>
                 <form th:action="@{/}" th:method="GET">
-                    <button class="btn-link btn text-white justify-left" style="margin-top: 8px">Home</button>
+                    <button class="btn-link btn text-white justify-left" style="margin-top: 8px"><h5>Home</h5></button>
                 </form>
             </div>
             <div>
                 <form th:action="@{/profile}" th:method="GET">
-                    <button class="btn-link btn text-white justify-left" style="margin-top: 8px">Profile</button>
+                    <button class="btn-link btn text-white justify-left" style="margin-top: 8px"><h5>Profile</h5></button>
                 </form>
             </div>
             <div>
                 <form th:action="@{/logout}" th:method="review">
-                    <button class="btn-link btn text-white justify-left" style="margin-top: 8px">Logout</button>
+                    <button class="btn-link btn text-white justify-left" style="margin-top: 8px"><h5>Logout</h5></button>
                 </form>
             </div>
             <div>
                 <form th:action="@{/aboutus}" th:method="GET">
-                    <button class="btn-link btn text-white justify-left" style="margin-top: 8px">About us</button>
+                    <button class="btn-link btn text-white justify-left" style="margin-top: 8px"><h5>About us</h5></button>
                 </form>
             </div>
     </div>
