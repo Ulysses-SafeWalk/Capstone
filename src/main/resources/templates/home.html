@@ -28,7 +28,7 @@
                         <ul>
                             <li th:each="review : ${reviews}"><a th:href="@{/reviews/{reviewId}/detail(reviewId=${review.id})}"><span th:text="${review.title}"></span></a></li>
                         </ul>
-                        <a th:href="@{/favorites/{id}/index(id=${user.id})}">Favorites</a>
+                        <a th:href="@{/favorites/index}">Favorites</a>
                         <ul>
                             <li th:each="favorite : ${favorites}"><a th:href="@{/reviews/{id}(id=${favorite.getyelpid()})}"><span th:text="${favorite.name}"></span></a></li>
                         </ul>
