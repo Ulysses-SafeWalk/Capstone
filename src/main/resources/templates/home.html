@@ -69,63 +69,78 @@
             </div>
     </div>
 
-    <!--Mobile View elements that don't appear w lg and xl screens-->
-    <div class="col-2 d-lg-none d-xl-none">
-            <a class="d-block btn-lg mb-4 shadows buttons text-white text-center align-middle" href="/profile" role="button" id="profile">
-                Profile
-            </a>
-
-            <a class="d-block btn-lg mb-4 shadows text-white text-center align-middle" href="#" role="button" id="uber">
-                UBER
-            </a>
-
-            <a class="d-block btn-lg mb-4 shadows text-center align-middle" href="#" role="button" id="lyft">
-                <h4><strong>Lyft</strong></h4>
-            </a>
-
-            <a class="d-block btn-lg mb-4 shadows buttons text-center align-middle" href="#" role="button" id="moovit2">
-                moovit
-            </a>
+    <div class="col d-lg-none logo-mobile">
+        <h1 class="text-center text-white pt-3">SafeWalk</h1>
     </div>
 
-            <!-- Logged in user: show this -->
-        <div class="col-2 safety-btns" th:if="${user} != null">
-            <a class="d-block btn-lg mb-4 shadows safe text-white text-center form-inline" href="#" role="button" id="safe">
-                Safe Now
-            </a>
-            <a class="d-block btn-lg mb-4 shadows unsafe text-white text-center form-inline" href="#" role="button"
-               id="emergency">
-                NOT Safe!
-            </a>
+    <div class="col-lg mx-auto pl-0">
+        <!--Mobile View elements that don't appear w lg and xl screens-->
+        <div class="d-lg-none">
+         <!--Logged in user: show this-->
+            <div class="safety-btns" th:if="${user} != null">
+                <a class="d-block btn-lg shadows text-white text-center align-middle logo-color" href="/profile" role="button" id="profile">
+                Profile
+                </a>
+
+                <a class="d-block btn-lg shadows text-white text-center align-middle" href="#" role="button" id="uber">
+                    <img src="/img/uber.png" alt="Uber" style="height: 80px; width: 80px"/>
+                </a>
+
+                <a class="d-block btn-lg shadows text-center align-middle" href="#" role="button" id="lyft">
+                <!--<h4><strong>Lyft</strong></h4>-->
+                    <img id="lyft-btn" src="/img/Lyft-Logo-Square.png" alt="Lyft" style="height: 84px; width: 84px; border-radius: 20px"/>
+                </a>
+
+                <a class="d-block btn-lg shadows buttons text-center align-middle" href="#" role="button" id="moovit2">
+                moovit
+                </a>
+
+                <a class="d-block btn-lg shadows safe text-white text-center form-inline" href="#" role="button" id="safe">
+                    Safe Now
+                </a>
+                <a class="d-block btn-lg mb-4 shadows unsafe text-white text-center form-inline" href="#" role="button"
+                   id="emergency">
+                    NOT Safe!
+                </a>
+            </div>
+            <!--Not logged in user: show this-->
+            <span th:if="${user} == null" class="form-inline">
+                <a id="register-btn" th:href="@{/register}" class="d-block btn-lg mb-4 mt-4 shadows safe text-white text-center">Register</a>
+                <a id="login-btn" th:href="@{/login}" class="d-block btn-lg mb-4 mt-4 buttons shadows text-white text-center ">Login</a>
+            </span>
         </div>
 
-    <div class="col-9">
-        <div id="floating-legend" class="btn-group">
-            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Legend
-            </button>
-            <div class="dropdown-menu dropdown-menu-right" style="background-color: transparent; border: none">
-                <img class="mx-auto" src="/img/legend.png" style="width:280px; height:256px"  alt="legend"/>
+            <div id="floating-legend" class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Legend
+                </button>
+                <div class="dropdown-menu dropdown-menu-right" style="background-color: transparent; border: none">
+                    <img class="mx-auto" src="/img/legend.png" style="width:280px; height:256px"  alt="legend"/>
+                </div>
             </div>
-        </div>
-        <div id="floating-layers" class="btn-group dropup">
-            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Layer Selection
-            </button>
-            <div class="dropdown-menu dropdown-menu-right" style="background-color: transparent; border: none">
-                <ul>
-                    <li class="list-group-item layers"><input name="facilities" type="checkbox" id="facilitiesLayer" checked="checked"/><label for="facilitiesLayer"> Police and Fire Stations</label></li>
-                    <li class="list-group-item layers"><input name="heatmap" type="checkbox" id="heatmapLayer" /><label for="heatmapLayer"> Crime Heatmap</label></li>
-                    <li class="list-group-item layers"><input name="crime" type="checkbox" id="crimeLayer"/><label for="crimeLayer"> Crime</label></li>
-                    <li class="list-group-item layers"><input name="both" type="checkbox" id="bothLayer" /><label for="bothLayer"> Restaurants/Bars</label></li>
-                    <li class="list-group-item layers"><input name="restaurants" type="checkbox" id="restaurantLayer" /><label for="restaurantLayer"> Restaurants</label></li>
-                    <li class="list-group-item layers"><input name="bars" type="checkbox" id="barLayer" /><label for="barLayer"> Bars</label></li>
-                    <li class="list-group-item layers"><input name="family" type="checkbox" id="familyLayer" /><label for="familyLayer"> Family friendly locations</label></li>
-                </ul>
+            <div id="floating-layers" class="btn-group dropup">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Layer Selection
+                </button>
+                <div class="dropdown-menu dropdown-menu-right" style="background-color: transparent; border: none">
+                    <ul>
+                        <li class="list-group-item layers"><input name="facilities" type="checkbox" id="facilitiesLayer" checked="checked"/><label for="facilitiesLayer"> Police and Fire Stations</label></li>
+                        <li class="list-group-item layers"><input name="heatmap" type="checkbox" id="heatmapLayer" /><label for="heatmapLayer"> Crime Heatmap</label></li>
+                        <li class="list-group-item layers"><input name="crime" type="checkbox" id="crimeLayer"/><label for="crimeLayer"> Crime</label></li>
+                        <li class="list-group-item layers"><input name="both" type="checkbox" id="bothLayer" /><label for="bothLayer"> Restaurants/Bars</label></li>
+                        <li class="list-group-item layers"><input name="restaurants" type="checkbox" id="restaurantLayer" /><label for="restaurantLayer"> Restaurants</label></li>
+                        <li class="list-group-item layers"><input name="bars" type="checkbox" id="barLayer" /><label for="barLayer"> Bars</label></li>
+                        <li class="list-group-item layers"><input name="family" type="checkbox" id="familyLayer" /><label for="familyLayer"> Family friendly locations</label></li>
+                    </ul>
+                </div>
             </div>
-        </div>
         <input id="pac-input" class="controls" type="text" placeholder="Search Box"/>
-        <div id="map-canvas" class="container-flex float-left col shadows align-self-stretch mr-auto"></div>
+        <div id="map-canvas" class="container-flex shadows align-self-stretch mx-auto"></div>
+    </div>
+    <div th:if="${user} != null" class="col d-lg-none logout-mobile">
+        <p class="text-center mt-2">
+            <a class="text-white text-center" th:href="@{/logout}">Logout</a>
+        </p>
     </div>
 
 </div>
