@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #home {
@@ -52,20 +53,24 @@ body, html {
 }
 
 .logo {
-    background: #11998e;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #11998e; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-top: 100px;
     width: 250px;
     height: 80px;
+    /*font-family: 'Courgette', cursive;*/
+    /*font-family: 'Combo', cursive;*/
+    font-family: 'Original Surfer', cursive;
 }
-
 .logo-main {
     background: #11998e;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 250px;
     height: 80px;
+    font-family: 'Original Surfer', cursive;
+
 }
 
 .logo-mobile {
@@ -76,6 +81,8 @@ body, html {
     width:100%;
     align-content: center;
     margin: auto;
+    font-family: 'Original Surfer', cursive;
+
 }
 
 .logo-color {

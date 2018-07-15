@@ -7,13 +7,13 @@
 <body style="background-color: black">
     <th:block th:switch="${error}">
         <div th:case="'Not Found'">
-            <h1>Page not found!</h1>
+            <h1 class="text-center text-white">Page not found!</h1>
             <div style="margin: auto; width: 50%; border">
                 <img src="img/404.jpg" alt="dog" />
             </div>
         </div>
         <div th:case="'Forbidden'">
-            <h1>You don't have permission to view this page.</h1>
+            <h1 class="text-center text-white">You don't have permission to view this page.</h1>
             <div style="margin: auto; width: 50%; border">
                 <img src="img/403.jpg" alt="dog" />
             </div>
