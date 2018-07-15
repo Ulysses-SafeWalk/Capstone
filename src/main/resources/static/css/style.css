@@ -78,6 +78,12 @@ body, html {
     margin: auto;
 }
 
+.logo-color {
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .forms {
     margin-top: 100px;
 }
@@ -91,9 +97,6 @@ body, html {
 }
 
 #profile {
-    background: #11998e;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: absolute;
     top: 55px;
     left: 10px;
@@ -396,10 +399,98 @@ body, html {
     color: #fefefe;
 }
 
-/*.profile-main {*/
-    /*max-width: 95%;*/
-    /*margin: 0 auto;*/
-/*}*/
+#safe {
+    position: absolute;
+    top: 580px;
+    left: 20%;
+    z-index: 5;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+    height: 76px;
+    width:  76px;
+    border-radius: 50px;
+}
+
+#emergency {
+    position: absolute;
+    top: 580px;
+    left: 80%;
+    z-index: 5;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+    height: 76px;
+    width:  76px;
+    border-radius: 50px;
+
+}
+
+.profile-main {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px){
+    #safe{
+        position: absolute;
+        top: 440px;
+        left: 10px;
+        z-index: 5;
+        padding: 0;
+    }
+
+    #emergency{
+        position: absolute;
+        top: 525px;
+        left: 10px;
+        z-index: 5;
+        padding: 0;
+    }
+
+    #register-btn{
+        position: absolute;
+        top: 35px;
+        left: 10px;
+        z-index: 5;
+        height: 50px;
+        width:  100px;
+        border-radius: 10px;
+    }
+
+    #login-btn{
+        position: absolute;
+        top: 95px;
+        left: 10px;
+        z-index: 5;
+        height: 50px;
+        width:  100px;
+        border-radius: 10px;
+    }
+}
+
+.logout-mobile {
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 40px;
+    width:100%;
+    align-content: center;
+    margin: auto;
+}
+
+.reviews {
+    display: block;
+    margin: 20px;
+}
+
+
+
+
 
 
 
