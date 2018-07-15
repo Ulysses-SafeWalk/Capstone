@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head th:replace="fragments :: head(${'About the Developers'})" />
+<style>
+    /*main {*/
+        /*background-image: url("../img/san_antonio_map.jpg");*/
+    /*}*/
+</style>
+<body>
+<nav th:replace="fragments :: navbar" />
+<main style="background-image: url("../img/san_antonio_map.jpg")">
+
+</main>
+
+<!--<div class="map-background">-->
+    <!--<img src="img/san_antonio_map.jpg" alt="San Antonio"/>-->
+<!--</div>-->
+
+<th:block th:replace="fragments :: scripts" />
+
+</body>
+</html>

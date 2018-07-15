@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title th:text="'Oops, ' + ${error}"></title>
+</head>
+<body style="background-color: black">
+    <th:block th:switch="${error}">
+        <div th:case="'Not Found'">
+            <h1>Page not found!</h1>
+            <div style="margin: auto; width: 50%; border">
+                <img src="img/404.jpg" alt="dog" />
+            </div>
+        </div>
+        <div th:case="'Forbidden'">
+            <h1>You don't have permission to view this page.</h1>
+            <div style="margin: auto; width: 50%; border">
+                <img src="img/403.jpg" alt="dog" />
+            </div>
+        </div>
+    </th:block>
+
+</body>
+</html>

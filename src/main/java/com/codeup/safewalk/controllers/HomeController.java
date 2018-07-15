@@ -49,6 +49,11 @@ public class HomeController {
         return "home";
     }
 
+    @GetMapping("/aboutus")
+    public String aboutTheDevelopers(){
+        return "developers";
+    }
+
     @PostMapping(value="/")
     @ResponseBody
     public  void  fireButtons(
@@ -61,4 +66,6 @@ public class HomeController {
 
         texter.go(latitude, longitude, user, buttonType);
     }
+
+
 }

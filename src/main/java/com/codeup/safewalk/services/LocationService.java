@@ -26,4 +26,5 @@ public class LocationService {
     public List<Location> threeFavorites(User user){
         return locationRepository.threeFavorites(user.getId());
     }
+    public List<Location> allFavorites(User user) { return locationRepository.allFavorites(user.getId());}
 }
