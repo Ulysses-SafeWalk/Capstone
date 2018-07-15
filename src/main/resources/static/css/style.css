@@ -120,6 +120,11 @@ body, html {
     padding: 25px 0px;
 }
 
+.moovit1{
+    background-color: #000000;
+        color:  #f5532f;
+}
+
 .logout {
     background-color: #939da0;
 }
@@ -163,10 +168,18 @@ body, html {
 
 .safety-btns {
     position: absolute;
-        margin-right: 35%;
-        margin-top: 50%;
+        margin-right: 25%;
+        margin-top: 45%;
     height: 76px;
         width:  115px;
+}
+
+.left-btns{
+    margin-right: 25px;
+}
+
+.unsafe{
+    background-color: #f5532f;
 }
 
 .safe{
@@ -174,8 +187,8 @@ body, html {
 }
 
 .nav-bckgrnd{
-    background-color: #c8d3d7;
-    margin-bottom: 10px;
+    background-color: #42a5f5;
+    margin-bottom: 20px;
 }
 
 .pac-card {
