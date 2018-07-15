@@ -198,13 +198,13 @@
 
 
             <div class="card shadows">
-                    <div class="card-body">
-                        <h3 class="card-title text-center">Location Reviews</h3>
-                        <ul>
-                            <li th:each="review : ${reviews}"><a th:href="@{/reviews/{reviewId}/detail(reviewId=${review.id})}"><span th:text="${review.title}"></span></a></li>
-                        </ul>
-                        <p><a th:href="@{/reviews}" class="btn-lg buttons shadows text-white text-center">Manage Reviews</a></p>
-                    </div>
+                <div class="card-body">
+                    <h3 class="card-title text-center">Location Reviews</h3>
+                    <ul>
+                        <li th:each="review : ${reviews}"><a th:href="@{/reviews/{reviewId}/detail(reviewId=${review.id})}"><span th:text="${review.title}"></span></a></li>
+                    </ul>
+                    <p><a th:href="@{/reviews}" class="btn-lg buttons shadows text-white text-center">Manage Reviews</a></p>
+                </div>
             </div>
 
             <div class="card shadows">
