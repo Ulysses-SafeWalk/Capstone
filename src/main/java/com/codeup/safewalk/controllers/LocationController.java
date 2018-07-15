@@ -1,11 +1,13 @@
 package com.codeup.safewalk.controllers;
 
 import com.codeup.safewalk.models.Location;
+import com.codeup.safewalk.models.Review;
 import com.codeup.safewalk.models.User;
 import com.codeup.safewalk.repositories.UserRepository;
 import com.codeup.safewalk.services.LocationService;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -43,4 +45,14 @@ public class LocationController {
 
         return "added to favorites";
     }
+
+    @GetMapping("/favorites/{id}/index")
+    public String viewAllFavorites(@PathVariable long id, Model view){
+        User user = userRepository.findById(id);
+        List<Location> favorites = locationService.allFavorites(user);
+
+        view.addAttribute("favorites", favorites);
+        return "locations/index";
+    }
+
 }
