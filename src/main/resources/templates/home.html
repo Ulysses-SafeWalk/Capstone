@@ -69,29 +69,31 @@
             </div>
     </div>
 
-    <!--Mobile View elements that don't appear w lg and xl screens-->
-    <!--<div class="col-2 d-lg-none d-xl-none">-->
-            <!--<a class="d-block btn-lg mb-4 shadows buttons text-white text-center align-middle" href="/profile" role="button" id="profile">-->
-                <!--Profile-->
-            <!--</a>-->
-
-            <!--<a class="d-block btn-lg mb-4 shadows text-white text-center align-middle" href="#" role="button" id="uber">-->
-                <!--UBER-->
-            <!--</a>-->
-
-            <!--<a class="d-block btn-lg mb-4 shadows text-center align-middle" href="#" role="button" id="lyft">-->
-                <!--<h4><strong>Lyft</strong></h4>-->
-            <!--</a>-->
-
-            <!--<a class="d-block btn-lg mb-4 shadows buttons text-center align-middle" href="#" role="button" id="moovit2">-->
-                <!--moovit-->
-            <!--</a>-->
-    <!--</div>-->
     <div class="col d-lg-none logo-mobile">
         <h1 class="text-center text-white pt-3">SafeWalk</h1>
     </div>
 
     <div class="col-md mx-auto pl-0">
+        <!--Mobile View elements that don't appear w lg and xl screens-->
+        <div class="d-lg-none">
+            <a class="d-block btn-lg shadows text-white text-center align-middle" href="/profile" role="button" id="profile">
+            Profile
+            </a>
+
+            <a class="d-block btn-lg shadows text-white text-center align-middle" href="#" role="button" id="uber">
+                <img src="/img/uber.png" alt="Uber" style="height: 80px; width: 80px"/>
+            </a>
+
+            <a class="d-block btn-lg shadows text-center align-middle" href="#" role="button" id="lyft">
+            <!--<h4><strong>Lyft</strong></h4>-->
+                <img id="lyft-btn" src="/img/Lyft-Logo-Square.png" alt="Lyft" style="height: 84px; width: 84px; border-radius: 20px"/>
+            </a>
+
+            <a class="d-block btn-lg shadows buttons text-center align-middle" href="#" role="button" id="moovit2">
+            moovit
+            </a>
+        </div>
+
         <!-- Logged in user: show this -->
         <!--<div class="safety-btns" th:if="${user} != null">-->
             <!--<a class="d-block btn-lg mb-4 shadows safe text-white text-center form-inline" href="#" role="button" id="safe">-->
