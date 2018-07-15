@@ -68,6 +68,16 @@ body, html {
     height: 80px;
 }
 
+.logo-mobile {
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 80px;
+    width:100%;
+    align-content: center;
+    margin: auto;
+}
+
 .forms {
     margin-top: 100px;
 }
@@ -155,9 +165,9 @@ body, html {
 
 #map-canvas{
     position: relative;
-    margin-right: 20px;
+    /*margin-right: 20px;*/
     width: 100%;
-    height: 95vh;
+    height: 100vh;
 }
 
 .nav-legend {
@@ -166,13 +176,13 @@ body, html {
     margin-top: 58%;
 }
 
-.safety-btns {
-    position: absolute;
-        margin-right: 25%;
-        margin-top: 45%;
-    height: 76px;
-        width:  115px;
-}
+/*.safety-btns {*/
+    /*position: absolute;*/
+        /*margin-right: 25%;*/
+        /*margin-top: 45%;*/
+    /*height: 76px;*/
+        /*width:  115px;*/
+/*}*/
 
 .left-btns{
     margin-right: 25px;
@@ -227,7 +237,8 @@ body, html {
     padding: 0 11px 0 13px;
     text-overflow: ellipsis;
     width: 280px;
-    margin-top: 10px;
+    margin-top: 18px;
+    margin-left: 5px;
     border: solid 2px #00b07b;
 
 }
@@ -250,7 +261,7 @@ body, html {
 #floating-legend {
     position: absolute;
     top: 5px;
-    right: 50px;
+    right: 20px;
     z-index: 5;
     padding: 5px;
     text-align: center;
@@ -261,8 +272,8 @@ body, html {
 
 #floating-layers {
     position: absolute;
-    top: 600px;
-    right: 50px;
+    bottom: 5px;
+    right: 20px;
     z-index: 5;
     padding: 5px;
     text-align: center;
@@ -270,6 +281,38 @@ body, html {
     line-height: 30px;
     padding-left: 10px;
 }
+
+#safe {
+    position: absolute;
+    top: 580px;
+    left: 20%;
+    z-index: 5;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+    height: 76px;
+    width:  76px;
+    border-radius: 50px;
+}
+
+#emergency {
+    position: absolute;
+    top: 580px;
+    left: 80%;
+    z-index: 5;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+    height: 76px;
+    width:  76px;
+    border-radius: 50px;
+
+}
+
 
 .layers {
     font-family: 'Barlow', sans-serif;
@@ -348,10 +391,10 @@ body, html {
     color: #fefefe;
 }
 
-.profile-main {
-    max-width: 95%;
-    margin: 0 auto;
-}
+/*.profile-main {*/
+    /*max-width: 95%;*/
+    /*margin: 0 auto;*/
+/*}*/
 
 
 
