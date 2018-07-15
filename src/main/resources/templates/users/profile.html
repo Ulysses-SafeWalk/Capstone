@@ -81,14 +81,14 @@
                                                 <label for="usernameB">
                                                     Username
                                                 </label>
-                                                <input class="form-control" id="usernameB" th:value="${user.username}" th:field="*{username}" />
+                                                <input class="form-control" id="usernameB" th:field="*{username}" th:placeholder="${user.username}" />
                                             </div>
 
                                             <div class="form-group">
                                                 <label for="emailB">
                                                     Email
                                                 </label>
-                                                <input class="form-control" id="emailB" th:value="${user.email}" th:field="*{email}" />
+                                                <input class="form-control" id="emailB" th:field="*{email}" th:placeholder="${user.email}" />
                                             </div>
 
                                             <div class="modal-footer">
@@ -146,55 +146,55 @@
 
 
             <!--Modal: Contacts-->
-            <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content card shadows">
-                        <div class="modal-header">
-                            <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button><br />
-                            <h3 class="modal-title text-center" id="contactLabel">Edit Contact</h3>
+            <!--<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">-->
+                <!--<div class="modal-dialog" role="document">-->
+                    <!--<div class="modal-content card shadows">-->
+                        <!--<div class="modal-header">-->
+                            <!--<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">-->
+                                <!--<span aria-hidden="true">&times;</span>-->
+                            <!--</button><br />-->
+                            <!--<h3 class="modal-title text-center" id="contactLabel">Edit Contact</h3>-->
 
-                            <div class="modal-body card-body">
-                                <form th:action="@{/contacts/{id}/edit(id=${user.id})}" th:method="POST" th:object="${contacts}">
-                                    <div th:if="${contacts.isEmpty()}">
-                                        <div class="form-group">
-                                            <label for="firstName">
-                                                First Name
-                                            </label>
-                                            <input class="form-control" id="firstName"  th:field="*{contacts.first_name}" />
-                                        </div>
+                            <!--<div th:if="${!contacts.isEmpty()}">-->
+                                <!--<div class="modal-body card-body">-->
+                                    <!--<form th:action="@{/contacts/edit}" th:method="POST" th:object="${contact}">-->
+                                            <!--<div class="form-group">-->
+                                                <!--<label for="firstName">-->
+                                                    <!--First Name-->
+                                                <!--</label>-->
+                                                <!--<input class="form-control" id="firstName"  th:value="${contact.first_name}" />-->
+                                            <!--</div>-->
 
-                                        <div class="form-group">
-                                            <label for="lastName">
-                                                Last Name
-                                            </label>
-                                            <input class="form-control" id="lastName" th:field="*{contacts.last_name}" />
-                                        </div>
+                                            <!--<div class="form-group">-->
+                                                <!--<label for="lastName">-->
+                                                    <!--Last Name-->
+                                                <!--</label>-->
+                                                <!--<input class="form-control" id="lastName" th:value="${contact.last_name}" />-->
+                                            <!--</div>-->
 
-                                        <div class="form-group">
-                                            <label for="phoneNumber">
-                                                Phone Number
-                                            </label>
-                                            <input class="form-control" id="phoneNumber" th:field="*{contacts.phone_number}"/>
-                                        </div>
-                                    </div>
+                                            <!--<div class="form-group">-->
+                                                <!--<label for="phoneNumber">-->
+                                                    <!--Phone Number-->
+                                                <!--</label>-->
+                                                <!--<input class="form-control" id="phoneNumber" th:value="${contact.phone_number}"/>-->
+                                            <!--</div>-->
 
-                                    <!--Modal Buttons-->
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-block text-white logout" data-dismiss="modal">
-                                            Close
-                                        </button>
-                                        <button type="submit" class="btn buttons text-white">
-                                            Save changes
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                                        <!--&lt;!&ndash;Modal Buttons&ndash;&gt;-->
+                                        <!--<div class="modal-footer">-->
+                                            <!--<button type="button" class="btn btn-block text-white logout" data-dismiss="modal">-->
+                                                <!--Close-->
+                                            <!--</button>-->
+                                            <!--<button type="submit" class="btn buttons text-white">-->
+                                                <!--Save changes-->
+                                            <!--</button>-->
+                                        <!--</div>-->
+                                    <!--</form>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
 
 
             <div class="card shadows">
