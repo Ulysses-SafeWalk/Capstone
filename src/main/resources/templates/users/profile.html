@@ -231,14 +231,20 @@
             <div class="card shadows">
                  <h3 class="card-title text-center">Location Reviews</h3>
                     <div class="card-body">
-                        <p>Manage your reviews <a th:href="@{/reviews}">here</a></p>
+                        <ul>
+                            <li th:each="review : ${reviews}"><a th:href="@{/reviews/{reviewId}/detail(reviewId=${review.id})}"><span th:text="${review.title}"></span></a></li>
+                        </ul>
+                        <p>Manage all of your reviews <a th:href="@{/reviews}">here</a></p>
                     </div>
             </div>
 
             <div class="card shadows">
                 <h3 class="card-title text-center">Location Favorites</h3>
                     <div class="card-body">
-                        <p>Manage your favorites <a th:href="@{/favorites/{id}/edit(id=${user.id})}">here</a></p>
+                        <ul>
+                            <li th:each="favorite : ${favorites}"><a th:href="@{/reviews/{id}(id=${favorite.getyelpid()})}"><span th:text="${favorite.name}"></span></a></li>
+                        </ul>
+                        <p>Manage all of your favorites <a th:href="@{/favorites/{id}/edit(id=${user.id})}">here</a></p>
                     </div>
             </div>
     </div>
