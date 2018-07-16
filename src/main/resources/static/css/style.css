@@ -297,38 +297,6 @@ body, html {
 }
 
 
-#safe {
-    position: absolute;
-    top: 580px;
-    left: 20%;
-    z-index: 5;
-    padding: 5px;
-    text-align: center;
-    font-family: 'Roboto','sans-serif';
-    line-height: 30px;
-    padding-left: 10px;
-    height: 76px;
-    width:  76px;
-    border-radius: 50px;
-}
-
-#emergency {
-    position: absolute;
-    top: 580px;
-    left: 80%;
-    z-index: 5;
-    padding: 5px;
-    text-align: center;
-    font-family: 'Roboto','sans-serif';
-    line-height: 30px;
-    padding-left: 10px;
-    height: 76px;
-    width:  76px;
-    border-radius: 50px;
-
-}
-
-
 .layers {
     font-family: 'Barlow', sans-serif;
     font-size: 12px;
@@ -408,14 +376,13 @@ body, html {
 
 #safe {
     position: absolute;
-    top: 580px;
-    left: 20%;
+    bottom: 5px;
+    left: 20px;
     z-index: 5;
-    padding: 5px;
+    /*padding: 5px;*/
     text-align: center;
-    font-family: 'Roboto','sans-serif';
-    line-height: 30px;
-    padding-left: 10px;
+    line-height: 1;
+    /*padding-left: 10px;*/
     height: 76px;
     width:  76px;
     border-radius: 50px;
@@ -423,14 +390,14 @@ body, html {
 
 #emergency {
     position: absolute;
-    top: 580px;
-    left: 80%;
+    bottom: 5px;
+    left: 110px;
     z-index: 5;
-    padding: 5px;
+    vertical-align: middle;
+    /*padding: 5px;*/
     text-align: center;
-    font-family: 'Roboto','sans-serif';
-    line-height: 30px;
-    padding-left: 10px;
+    line-height: 1;
+    /*padding-left: 10px;*/
     height: 76px;
     width:  76px;
     border-radius: 50px;

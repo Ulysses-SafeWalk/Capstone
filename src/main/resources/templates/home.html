@@ -94,14 +94,6 @@
                 <a class="d-block btn-lg shadows buttons text-center align-middle" href="#" role="button" id="moovit2">
                 moovit
                 </a>
-
-                <a class="d-block btn-lg shadows safe text-white text-center form-inline" href="#" role="button" id="safe">
-                    Safe Now
-                </a>
-                <a class="d-block btn-lg mb-4 shadows unsafe text-white text-center form-inline" href="#" role="button"
-                   id="emergency">
-                    NOT Safe!
-                </a>
             </div>
             <!--Not logged in user: show this-->
             <span th:if="${user} == null" class="form-inline">
@@ -109,6 +101,15 @@
                 <a id="login-btn" th:href="@{/login}" class="d-block btn-lg mb-4 mt-4 buttons shadows text-white text-center ">Login</a>
             </span>
         </div>
+            <div th:if="${user} != null">
+                <a class="d-block btn-lg shadows safe text-white text-center form-inline" href="#" role="button" id="safe">
+                    Safe Now
+                </a>
+                <a class="d-block btn-lg shadows unsafe text-white text-center form-inline" href="#" role="button"
+                   id="emergency">
+                    NOT Safe!
+                </a>
+            </div>
 
             <div id="floating-legend" class="btn-group">
                 <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
