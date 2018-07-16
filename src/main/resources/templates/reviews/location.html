@@ -4,10 +4,13 @@
 <body>
 <nav th:replace="fragments :: navbar" />
 <div class="container">
-    <h1 th:if="${! reviews.isEmpty()}">Here are the reviews for <span th:text="${location.name}"/>. <br/>Add a new <a th:href="@{/reviews/{id}/create(id=${location.id})}">Review</a></h1>
-    <h1 th:if="${reviews.isEmpty()}">Sorry, no results found for <span th:text="${location.name}"/>. <br/>Add the first <a th:href="@{/reviews/{id}/create(id=${location.id})}">Review</a></h1>
+    <h3 th:if="${! reviews.isEmpty()}" class="mb-4 text-center">Reviews for <br /><span th:text="${location.name}"/>. <br/>
+        <a th:href="@{/reviews/{id}/create(id=${location.id})}" class="btn-lg shadows buttons text-white text-center mb-4">Add Review</a></h3>
+    <h3 th:if="${reviews.isEmpty()}" class="mb-4 text-center">No results found for <br /><span th:text="${location.name}"/>. <br/>
+        <a th:href="@{/reviews/{id}/create(id=${location.id})}" class="btn-lg shadows buttons text-white text-center mb-4">Add Review</a></h3>
+
     <div class="row">
-        <form class="col-12">
+        <form class="col-4">
             <div class="form-group">
                 <label for="search">Search</label>
                 <input class="form-control" id="search" type="text" name="search" th:value="${searchTerm}" />
@@ -15,9 +18,9 @@
         </form>
     </div>
 
-    <div th:each="review : ${reviews}">
-        <div class="container">
-            <div class="card">
+    <div class="card-columns">
+        <div th:each="review : ${reviews}">
+            <div class="card shadows">
                 <div class="card-body">
                     <h3 class="card-title"><span th:text="${review.title}"></span></h3>
                     <p class="card-text"><span th:text="${review.body}"></span></p>
