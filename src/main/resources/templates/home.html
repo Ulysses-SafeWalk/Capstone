@@ -82,25 +82,17 @@
                 Profile
                 </a>
 
-                <a class="d-block btn-lg shadows text-white text-center align-middle" href="#" role="button" id="uber">
+                <a class="d-block btn-lg text-white text-center align-middle" href="#" role="button" id="uber">
                     <img src="/img/uber.png" alt="Uber" style="height: 80px; width: 80px"/>
                 </a>
 
-                <a class="d-block btn-lg shadows text-center align-middle" href="#" role="button" id="lyft">
+                <a class="d-block btn-lg text-center align-middle" href="#" role="button" id="lyft">
                 <!--<h4><strong>Lyft</strong></h4>-->
                     <img id="lyft-btn" src="/img/Lyft-Logo-Square.png" alt="Lyft" style="height: 84px; width: 84px; border-radius: 20px"/>
                 </a>
 
                 <a class="d-block btn-lg shadows buttons text-center align-middle text-white" href="#" role="button" id="moovit2">
                 moovit
-                </a>
-
-                <a class="d-block btn-lg shadows safe text-white text-center form-inline" href="#" role="button" id="safe">
-                    Safe Now
-                </a>
-                <a class="d-block btn-lg mb-4 shadows unsafe text-white text-center form-inline" href="#" role="button"
-                   id="emergency">
-                    NOT Safe!
                 </a>
             </div>
             <!--Not logged in user: show this-->
@@ -109,6 +101,7 @@
                 <a id="login-btn" th:href="@{/login}" class="d-block btn-lg mb-4 mt-4 buttons shadows text-white text-center ">Login</a>
             </span>
         </div>
+
 
             <div id="floating-legend" class="btn-group">
                 <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -136,6 +129,15 @@
             </div>
         <input id="pac-input" class="controls" type="text" placeholder="Search Box"/>
         <div id="map-canvas" class="container-flex shadows align-self-stretch mx-auto"></div>
+    </div>
+    <div th:if="${user} != null">
+        <a class="d-block btn-lg text-white text-center form-inline" href="#" role="button" id="safe">
+            <img src="/img/safe.png" alt="safe" />
+        </a>
+        <a class="d-block btn-lg text-white text-center form-inline" href="#" role="button"
+           id="emergency">
+            <img src="/img/alert.png" alt="alert" />
+        </a>
     </div>
     <div th:if="${user} != null" class="col d-lg-none logout-mobile">
         <p class="text-center mt-2">
