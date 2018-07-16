@@ -108,6 +108,18 @@ body, html {
     margin-left: 10px;
 }
 
+.search-box{
+    margin-left: 20px;
+}
+
+.profile-font{
+    font-size: 1.3em;
+}
+
+.profile-header-font{
+    font-size: 1em;
+}
+
 .buttons {
     background-color: #00b07b;
 }
@@ -144,17 +156,14 @@ body, html {
     top: 325px;
     left: 10px;
     z-index: 5;
-    background-color: #000000;
-    color:  #f5532f;
     height: 80px;
     width:  80px;
     padding: 25px 0px;
     border-radius: 20px;
 }
 
-.moovit1{
+.moovit{
     background-color: #000000;
-        color:  #f5532f;
 }
 
 .logout {
@@ -190,13 +199,6 @@ body, html {
     margin-top: 58%;
 }
 
-/*.safety-btns {*/
-    /*position: absolute;*/
-        /*margin-right: 25%;*/
-        /*margin-top: 45%;*/
-    /*height: 76px;*/
-        /*width:  115px;*/
-/*}*/
 
 .left-btns{
     margin-right: 25px;
