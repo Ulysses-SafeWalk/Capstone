@@ -69,9 +69,8 @@ public class UserController {
     }
 
     //add get/post for user to edit their profile
-
     @PostMapping("/profile/{id}/edit")
-    public String editProfile( @ModelAttribute User editedUser) {
+    public String editProfile(@ModelAttribute User editedUser) {
         User currentUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         User user = users.findById(currentUser.getId());
         String password = user.getPassword();

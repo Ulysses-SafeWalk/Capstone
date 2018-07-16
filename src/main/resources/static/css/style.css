@@ -107,6 +107,14 @@ body, html {
     margin-left: 10px;
 }
 
+.profile-font{
+    font-size: 1.3em;
+}
+
+.profile-header-font{
+    font-size: 1em;
+}
+
 .buttons {
     background-color: #00b07b;
 }
@@ -144,7 +152,6 @@ body, html {
     left: 10px;
     z-index: 5;
     background-color: #000000;
-    color:  #f5532f;
     height: 80px;
     width:  80px;
     padding: 25px 0px;
@@ -153,7 +160,6 @@ body, html {
 
 .moovit1{
     background-color: #000000;
-        color:  #f5532f;
 }
 
 .logout {
