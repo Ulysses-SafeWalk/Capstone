@@ -4,32 +4,32 @@
 <body>
 <nav th:replace="fragments :: navbar" />
 
-<div class="profile-main">
-    <h3 class="text-center" th:if="${! reviews.isEmpty()}">Your reviews!</h3>
+<div class="container">
+    <h3 class="text-center" th:if="${! reviews.isEmpty()}">Your Reviews!</h3>
     <h3 class="text-center" th:if="${reviews.isEmpty()}">You have not written any reviews yet.</h3>
 
-    <div class="row">
-        <form class="col-12">
-            <div class="form-group">
-                <label for="search">Search</label>
-                <input class="form-control" id="search" type="text" name="search" th:value="${searchTerm}" />
-            </div>
-        </form>
-    </div>
+        <div class="row">
+            <form class="col-4 search-box">
+                <div class="form-group">
+                    <label for="search">Search</label>
+                    <input class="form-control" id="search" type="text" name="search" th:value="${searchTerm}" />
+                </div>
+            </form>
+        </div>
 
     <div class="card-columns">
         <div th:each="review : ${reviews}">
-            <div class="card reviews shadows">
-                <div class="card-body">
-                    <h3 class="card-title"><span th:text="${review.title}"/></h3>
-                    <div class="card-text">
-                        <p><span th:text="${review.body}"/></p>
-                        <p>Overall rating: <span th:text="${review.overall_rating}"/>/5</p>
+            <div class="card shadows">
+                    <div class="card-body">
+                        <h3 class="card-title"><span th:text="${review.title}"/></h3>
+                        <div class="card-text">
+                            <p><span th:text="${review.body}"/></p>
+                            <p>Overall rating: <span th:text="${review.overall_rating}"/>/5</p>
+                        </div>
+                        <p>View all reviews for: <a th:href="@{/reviews/{id}(id=${review.location.getyelpid()})}"><span th:text="${review.location.name}"/></a></p>
+                            <a th:href="@{/reviews/{id}/edit(id=${review.id})}" class="card-link">Edit Post</a>
+                            <a th:href="@{/reviews/{id}/delete(id=${review.id})}" class="card-link">Delete Post</a>
                     </div>
-                    <p>View all reviews for: <a th:href="@{/reviews/{id}(id=${review.location.getyelpid()})}"><span th:text="${review.location.name}"/></a></p>
-                    <a th:href="@{/reviews/{id}/edit(id=${review.id})}" class="card-link">Edit Post</a>
-                    <a th:href="@{/reviews/{id}/delete(id=${review.id})}" class="card-link">Delete Post</a>
-                </div>
             </div>
         </div>
     </div>

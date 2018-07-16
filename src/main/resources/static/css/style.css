@@ -107,6 +107,10 @@ body, html {
     margin-left: 10px;
 }
 
+.search-box{
+    margin-left: 20px;
+}
+
 .profile-font{
     font-size: 1.3em;
 }
@@ -198,10 +202,6 @@ body, html {
 .left-btns{
     margin-right: 25px;
 }
-
-/*.unsafe{*/
-    /*background-color: #f5532f;*/
-/*}*/
 
 .safe{
     background-color: #42a5f5;
