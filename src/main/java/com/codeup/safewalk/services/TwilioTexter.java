@@ -76,6 +76,7 @@ public class TwilioTexter {
 
         for (Contact number : numberList) {
             String toNumber = number.getPhoneNumber();
+            System.out.println(toNumber);
 
             Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
 
