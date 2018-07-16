@@ -98,9 +98,7 @@ function initialize() {
                 "<button class='mx-auto d-block btn btn-sm infowin-btn btn-outline-danger' id='" + locationID + "'>" +
                 "<i class='fa fa-heart'></i>" +
                 "<span class='fav-text'>Add to favorites</span></button>" +
-                // "<form name='yelp' target='_blank' action='https://yelp.com/biz/" + locationID + "' method='get'>" +
-                // "<button class='btn btn-sm' >Yelp Reviews</button>" + "</form>";
-                "<div><a class='shadows infowin-btn' target='_blank' href='https://yelp.com/biz/" + locationID + "'>" +
+                "<div class='zoom'><a target='_blank' href='https://yelp.com/biz/" + locationID + "'>" +
                 "<img class='mx-auto d-block' src='../img/yelp.png' alt='yelp'/></a></div></div>";
             infowindow.setContent(htmlContent);
 

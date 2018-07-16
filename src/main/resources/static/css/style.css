@@ -201,13 +201,13 @@ body, html {
     margin-right: 25px;
 }
 
-/*.unsafe{*/
-    /*background-color: #f5532f;*/
-/*}*/
+.unsafe{
+    background-color: #f5532f;
+}
 
-/*.safe{*/
-    /*background-color: #42a5f5;*/
-/*}*/
+.safe{
+    background-color: #42a5f5;
+}
 
 .nav-bckgrnd{
     background-color: #42a5f5;
@@ -437,6 +437,15 @@ body, html {
 
 .myinfo-window {
     align-content: center;
+}
+
+.zoom {
+    transition: transform .2s;
+    padding: 4px;
+}
+
+.zoom:hover {
+   transform: scale(1.1);
 }
 
 
