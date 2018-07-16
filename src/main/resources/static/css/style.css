@@ -303,77 +303,6 @@ body, html {
     width: 200px;
 }
 
-/*.button-like {*/
-    /*border: 2px solid #8a8a8a;*/
-    /*background-color: transparent;*/
-    /*text-decoration: none;*/
-    /*padding: 1rem;*/
-    /*position: relative;*/
-    /*vertical-align: middle;*/
-    /*text-align: center;*/
-    /*display: inline-block;*/
-    /*border-radius: 3rem;*/
-    /*color: #8a8a8a;*/
-    /*transition: all ease 0.4s;*/
-/*}*/
-
-.button-like span {
-    bottom: 10px;
-}
-
-.button-like .fa,
-.button-like span {
-    transition: all ease 0.4s;
-}
-
-.button-like:focus {
-    background-color: transparent;
-}
-
-.button-like:focus .fa,
-.button-like:focus span {
-    color: #8a8a8a;
-}
-
-.button-like:hover {
-    border-color: #cc4b37;
-    background-color: transparent;
-}
-
-.button-like:hover .fa,
-.button-like:hover span {
-    color: #cc4b37;
-}
-
-.liked {
-    background-color: #cc4b37;
-    border-color: #cc4b37;
-}
-
-.liked .fa,
-.liked span {
-    color: #fefefe;
-}
-
-.liked:focus {
-    background-color: #cc4b37;
-}
-
-.liked:focus .fa,
-.liked:focus span {
-    color: #fefefe;
-}
-
-.liked:hover {
-    background-color: #cc4b37;
-    border-color: #cc4b37;
-}
-
-.liked:hover .fa,
-.liked:hover span {
-    color: #fefefe;
-}
-
 #safe {
     position: absolute;
     bottom: 20px;
@@ -488,8 +417,27 @@ body, html {
     width:  300px;
 }
 
+.review-btn{
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px solid #00b07b;
+    color: white;
+}
 
+.review-btn:hover {
+    background: rgba(0,0,0,0);
+    color: #00b07b;
+    box-shadow: inset 0 0 0 2px #00b07b;
+}
 
+.infowin-btn{
+    margin-bottom: 4px;
+}
+
+.myinfo-window {
+    align-content: center;
+}
 
 
 
