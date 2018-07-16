@@ -1,5 +1,7 @@
 /*dark red: #950007*/
-/*dark green: #00b07b*/
+/*.somthing{*/
+    /*darkgreen: #00b07b;*/
+/*}*/
 /*dark grey: #939da0*/
 
 /*light red: #d60007*/
@@ -16,9 +18,8 @@ body, html {
 }
 
 .rating {
-    float: left;
     height: 46px;
-    padding: 0 10px;
+    padding-right: 105px;
 }
 
 .rating:not(:checked) > input {
@@ -201,6 +202,10 @@ body, html {
 
 .left-btns{
     margin-right: 25px;
+}
+
+.unsafe{
+    background-color: #f5532f;
 }
 
 .safe{
@@ -388,31 +393,26 @@ body, html {
     filter: grayscale(100%);
 }
 
+#about-us {
+    background-image: url("../img/old_sa.jpg");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #jenn {
-    position: absolute;
-    top: 150px;
-    left: 5%;
-    z-index: 5;
-    height: 300px;
-    width:  300px;
+    max-width: 80%;
 }
 
 #wayne {
-    position: absolute;
-    top: 150px;
-    left: 36%;
-    z-index: 5;
-    height: 300px;
-    width:  300px;
+    max-width: 80%;
 }
 
 #emily {
-    position: absolute;
-    top: 150px;
-    left: 67%;
-    z-index: 5;
-    height: 300px;
-    width:  300px;
+    max-width: 80%;
 }
 
 .review-btn{
@@ -437,7 +437,34 @@ body, html {
     align-content: center;
 }
 
+.zoom {
+    transition: transform .2s;
+    padding: 4px;
+}
 
+.zoom:hover {
+   transform: scale(1.1);
+}
+
+.infowin-title {
+    font-weight: bold;
+    color: #4E75CA;
+}
+
+li {
+    list-style-image: url("../img/arrow.png");
+}
+
+.review-card {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.vert-space {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 
 

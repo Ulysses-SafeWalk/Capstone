@@ -10,11 +10,52 @@
 
 <nav th:replace="fragments :: navbar"></nav>
 
-<main>
-    <img id="sa-map" src="../img/old_sa.jpg" alt="map"/>
-    <div id="jenn"><img src="../img/Jennifer.png" alt="Jennifer"/></div>
-    <div id="wayne"><img src="../img/Nathaniel.png" alt="Nathaniel"/></div>
-    <div id="emily"><img src="../img/Emily.png" alt="Emily"/></div>
+<main class="row" id="about-us">
+    <div class='col'>
+        <img class="mx-auto d-block mt-2 shadows" src="../img/Jennifer.png" alt="Jennifer" id="jenn"/>
+        <div class="card mx-3 d-block shadows">
+            <div class="card-body">
+                <div class="row">
+                    <p class="text-center mx-2">I am a tenacious and avid problem solver who thrives under intense pressure. Data, programming, and solving problems make me happy because I am analytical, logical, highly organized and exceptionally detail-oriented. I am curious, always asking questions, and pushing for new innovative ways to accomplish tasks.</p>
+                </div>
+                <div class="row">
+                    <div class="col"><img class="mx-auto d-block" src="../img/linkedin.png" alt="Linkedin"/></div>
+                    <div class="col"><img class="mx-auto d-block" src="../img/github.png" alt="github"/></div>
+                    <div class="col"><img class="mx-auto d-block" src="../img/email.png" alt="email"/></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='col'>
+        <img class="mx-auto d-block mt-2 shadows" src="../img/Nathaniel.png" alt="Nathaniel" id="wayne"/>
+        <div class="card mx-3 d-block shadows">
+            <div class="card-body">
+                <div class="row">
+                    <p class="text-center mx-2">I'm really awesome at all the things!</p>
+                </div>
+                <div class="row">
+                    <div class="col"><img class="mx-auto d-block" src="../img/linkedin.png" alt="Linkedin"/></div>
+                    <div class="col"><img class="mx-auto d-block" src="../img/github.png" alt="github"/></div>
+                    <div class="col"><img class="mx-auto d-block" src="../img/email.png" alt="email"/></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='col'>
+        <img class="mx-auto d-block mt-2 shadows" src="../img/Emily.png" alt="Emily" id="emily"/>
+        <div class="card mx-3 d-block shadows">
+            <div class="card-body">
+                <div class="row">
+                  <p class="text-center mx-2">As a meticulous and dedicated problem solver, I am an advocate for creating solutions to any obstacle that I encounter. In software development, I have found a field that perfectly merges my experience and knowledge of working with large amounts of data with the technology that makes it navigable.</p>
+                </div>
+                <div class="row">
+                    <div class="col"><img class="mx-auto d-block" src="../img/linkedin.png" alt="Linkedin"/></div>
+                    <div class="col"><img class="mx-auto d-block" src="../img/github.png" alt="github"/></div>
+                    <div class="col"><img class="mx-auto d-block" src="../img/email.png" alt="email"/></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 <!--<div class="map-background">-->
     <!--<img src="img/san_antonio_map.jpg" alt="San Antonio"/>-->
