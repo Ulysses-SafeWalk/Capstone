@@ -33,34 +33,22 @@
 
 <nav th:fragment="navbar">
     <div class="navbar form-inline shadows nav-bckgrnd">
-            <div class="navbar-brand">
-                <!--<h3 class="text-white">-->
-                    <!--<span class="badge badge-pill">SafeWalk</span>-->
-                <!--</h3>-->
-                <form th:action="@{/}" th:method="GET">
-                    <button class="btn-link btn text-white justify-left" style="font-family: 'Original Surfer', cursive; margin-top: 8px"><h5>SafeWalk</h5></button>
-                </form>
-            </div>
-            <!--<div>-->
-                <!--<form th:action="@{/}" th:method="GET">-->
-                    <!--<button class="btn-link btn text-white justify-left" style="font-family: 'Original Surfer', cursive; margin-top: 8px"><h5>SafeWalk</h5></button>-->
-                <!--</form>-->
-            <!--</div>-->
-            <div>
-                <form th:action="@{/profile}" th:method="GET">
-                    <button class="btn-link btn text-white justify-left" style="margin-top: 8px"><h5>Profile</h5></button>
-                </form>
-            </div>
-            <div>
-                <form th:action="@{/logout}" th:method="review">
-                    <button class="btn-link btn text-white justify-left" style="margin-top: 8px"><h5>Logout</h5></button>
-                </form>
-            </div>
-            <div>
-                <form th:action="@{/aboutus}" th:method="GET">
-                    <button class="btn-link btn text-white justify-left" style="margin-top: 8px"><h5>About us</h5></button>
-                </form>
-            </div>
+        <a class="navbar-brand text-white justify-left" th:href="@{/}" style="font-family: 'Original Surfer', cursive; margin-top: 8px">SafeWalk</a>
+        <div>
+            <form th:action="@{/profile}" th:method="GET">
+                <button class="btn-link btn text-white justify-left" style="margin-top: 8px"><h5>Profile</h5></button>
+            </form>
+        </div>
+        <div>
+            <form th:action="@{/logout}" th:method="review">
+                <button class="btn-link btn text-white justify-left" style="margin-top: 8px"><h5>Logout</h5></button>
+            </form>
+        </div>
+        <div>
+            <form th:action="@{/aboutus}" th:method="GET">
+                <button class="btn-link btn text-white justify-left" style="margin-top: 8px"><h5>About us</h5></button>
+            </form>
+        </div>
     </div>
 </nav>
 
