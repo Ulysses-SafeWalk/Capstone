@@ -2,16 +2,20 @@
 <html xmlns:th="http://www.thymeleaf.org" lang="en">
 <head th:replace="fragments :: head(${'About the Developers'})" />
 <style>
-    /*main {*/
-        /*background-image: url("../img/san_antonio_map.jpg");*/
-    /*}*/
+    body {
+        background-color: #D8D8D8;
+    }
 </style>
 <body>
-<nav th:replace="fragments :: navbar" />
-<main style="background-image: url("../img/san_antonio_map.jpg")">
 
+<nav th:replace="fragments :: navbar"></nav>
+
+<main>
+    <img id="sa-map" src="../img/old_sa.jpg" alt="map"/>
+    <div id="jenn"><img src="../img/Jennifer.png" alt="Jennifer"/></div>
+    <div id="wayne"><img src="../img/Nathaniel.png" alt="Nathaniel"/></div>
+    <div id="emily"><img src="../img/Emily.png" alt="Emily"/></div>
 </main>
-
 <!--<div class="map-background">-->
     <!--<img src="img/san_antonio_map.jpg" alt="San Antonio"/>-->
 <!--</div>-->
