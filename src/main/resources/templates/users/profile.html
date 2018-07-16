@@ -54,7 +54,7 @@
 
                                     <div class="modal-body card-body">
 
-                                        <form th:action="@{/profile/edit(id=${user.id})}" th:method="POST" th:object="${user}">
+                                        <form th:action="@{/profile/{id}/edit(id=${user.id})}" th:method="POST" th:object="${user}">
                                             <input type="hidden" id="idB" th:value="${user.id}" />
                                             <div class="form-group">
                                                 <label for="firstNameB">
@@ -88,7 +88,7 @@
                                                 <label for="emailB">
                                                     Email
                                                 </label>
-                                                <input class="form-control" id="emailB" th:field="*{email}" />
+                                                <input class="form-control" type="email" id="emailB" th:field="*{email}" />
                                             </div>
 
                                             <div class="modal-footer">

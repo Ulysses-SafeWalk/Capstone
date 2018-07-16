@@ -5,8 +5,8 @@
 <nav th:replace="fragments :: navbar" />
 
 <div class="profile-main">
-    <h1 class="text-center" th:if="${! reviews.isEmpty()}">Here are all your reviews!</h1>
-    <h1 class="text-center" th:if="${reviews.isEmpty()}">You have not written any reviews yet.</h1>
+    <h3 class="text-center" th:if="${! reviews.isEmpty()}">Your reviews!</h3>
+    <h3 class="text-center" th:if="${reviews.isEmpty()}">You have not written any reviews yet.</h3>
 
     <div class="row">
         <form class="col-12">
@@ -17,7 +17,8 @@
         </form>
     </div>
 
-    <div th:each="review : ${reviews}">
+    <div class="card-columns">
+        <div th:each="review : ${reviews}">
             <div class="card reviews shadows">
                 <div class="card-body">
                     <h3 class="card-title"><span th:text="${review.title}"/></h3>
@@ -30,6 +31,7 @@
                     <a th:href="@{/reviews/{id}/delete(id=${review.id})}" class="card-link">Delete Post</a>
                 </div>
             </div>
+        </div>
     </div>
 
 </div>

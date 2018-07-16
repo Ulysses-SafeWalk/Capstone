@@ -151,14 +151,13 @@ body, html {
     top: 325px;
     left: 10px;
     z-index: 5;
-    background-color: #000000;
     height: 80px;
     width:  80px;
     padding: 25px 0px;
     border-radius: 20px;
 }
 
-.moovit1{
+.moovit{
     background-color: #000000;
 }
 
@@ -195,13 +194,6 @@ body, html {
     margin-top: 58%;
 }
 
-/*.safety-btns {*/
-    /*position: absolute;*/
-        /*margin-right: 25%;*/
-        /*margin-top: 45%;*/
-    /*height: 76px;*/
-        /*width:  115px;*/
-/*}*/
 
 .left-btns{
     margin-right: 25px;
@@ -211,9 +203,9 @@ body, html {
     /*background-color: #f5532f;*/
 /*}*/
 
-/*.safe{*/
-    /*background-color: #42a5f5;*/
-/*}*/
+.safe{
+    background-color: #42a5f5;
+}
 
 .nav-bckgrnd{
     background-color: #42a5f5;
