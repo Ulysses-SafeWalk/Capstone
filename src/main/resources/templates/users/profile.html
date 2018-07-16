@@ -16,24 +16,24 @@
                             <div th:object="${user}">
                                 <input type="hidden" id="idA" th:value="${user.id}" />
                                 <div class="user-profile">
-                                    <label for="firstNameA"><strong>First Name: </strong></label>
-                                    <span th:text="${user.first_name}" class="text-center" id="firstNameA" /><br />
+                                    <label for="usernameA" class="profile-header-font"><strong>Username: </strong></label>
+                                    <p><span th:text="${user.username}" class="text-center profile-font" id="usernameA" /></p>
                                 </div>
                                 <div class="user-profile">
-                                    <label for="lastNameA"><strong>Last Name: </strong></label>
-                                    <span th:text="${user.last_name}" class="text-center" id="lastNameA" /><br />
+                                    <label for="firstNameA" class="profile-header-font"><strong>First Name: </strong></label>
+                                    <p><span th:text="${user.first_name}" class="text-center profile-font" id="firstNameA" /></p>
                                 </div>
                                 <div class="user-profile">
-                                    <label for="phoneNumberA"><strong>Phone Number: </strong></label>
-                                    <span th:text="${user.phone_number}" class="text-center" id="phoneNumberA"/><br />
+                                    <label for="lastNameA" class="profile-header-font"><strong>Last Name: </strong></label>
+                                    <p><span th:text="${user.last_name}" class="text-center profile-font" id="lastNameA" /></p>
                                 </div>
                                 <div class="user-profile">
-                                    <label for="usernameA"><strong>Username: </strong></label>
-                                    <span th:text="${user.username}" class="text-center" id="usernameA" /><br />
+                                    <label for="phoneNumberA" class="profile-header-font"><strong>Phone Number: </strong></label>
+                                    <p><span th:text="${user.phone_number}" class="text-center profile-font" id="phoneNumberA"/></p>
                                 </div>
                                 <div class="user-profile">
-                                    <label for="emailA"><strong>Email: </strong></label>
-                                    <span th:text="${user.email}" class="text-center" id="emailA" /><br />
+                                    <label for="emailA" class="profile-header-font"><strong>Email: </strong></label>
+                                    <p><span th:text="${user.email}" class="text-center profile-font" id="emailA" /></p>
                                     <button class="btn btn-lg buttons card-link text-white shadows" data-toggle="modal" data-target="#profileModal">
                                             Edit Profile
                                     </button>
@@ -54,7 +54,7 @@
 
                                     <div class="modal-body card-body">
 
-                                        <form th:action="@{/profile/{id}/edit(id=${user.id})}" th:method="POST" th:object="${user}">
+                                        <form th:action="@{/profile/edit(id=${user.id})}" th:method="POST" th:object="${user}">
                                             <input type="hidden" id="idB" th:value="${user.id}" />
                                             <div class="form-group">
                                                 <label for="firstNameB">
@@ -74,21 +74,21 @@
                                                 <label for="phoneNumberB">
                                                     Phone Number
                                                 </label>
-                                                <input class="form-control" id="phoneNumberB" th:field="*{phone_number}" th:placeholder="${user.phone_number}"/>
+                                                <input class="form-control" id="phoneNumberB" th:field="*{phone_number}" />
                                             </div>
 
                                             <div class="form-group">
                                                 <label for="usernameB">
                                                     Username
                                                 </label>
-                                                <input class="form-control" id="usernameB" th:field="*{username}" th:placeholder="${user.username}" />
+                                                <input class="form-control" id="usernameB" th:field="*{username}" />
                                             </div>
 
                                             <div class="form-group">
                                                 <label for="emailB">
                                                     Email
                                                 </label>
-                                                <input class="form-control" id="emailB" th:field="*{email}" th:placeholder="${user.email}" />
+                                                <input class="form-control" id="emailB" th:field="*{email}" />
                                             </div>
 
                                             <div class="modal-footer">
@@ -119,8 +119,8 @@
                 <div class="card-body">
                     <h3 class="text-center">Contacts</h3>
                     <div>
-                        <p th:if="${!contacts.isEmpty()}">Contact List
-                        <p><a th:href="@{/contacts/{id}/create(id=${user.id})}" class="btn-lg shadows buttons text-white text-center">Add</a> another contact. (Limit three)</p>
+                        <p th:if="${!contacts.isEmpty()}">
+                        <p><a th:href="@{/contacts/{id}/create(id=${user.id})}" class="btn-lg shadows buttons text-white text-center">Add Contact</a> (Limit three)</p>
                         </p>
                         <div th:each="contact : ${contacts}">
                             <div class="card">
