@@ -201,13 +201,13 @@ body, html {
     margin-right: 25px;
 }
 
-.unsafe{
-    background-color: #f5532f;
-}
+/*.unsafe{*/
+    /*background-color: #f5532f;*/
+/*}*/
 
-.safe{
-    background-color: #42a5f5;
-}
+/*.safe{*/
+    /*background-color: #42a5f5;*/
+/*}*/
 
 .nav-bckgrnd{
     background-color: #42a5f5;
@@ -376,31 +376,21 @@ body, html {
 
 #safe {
     position: absolute;
-    bottom: 5px;
-    left: 20px;
+    bottom: 20px;
+    left: 64px;
     z-index: 5;
     /*padding: 5px;*/
-    text-align: center;
-    line-height: 1;
     /*padding-left: 10px;*/
-    height: 76px;
-    width:  76px;
-    border-radius: 50px;
 }
 
 #emergency {
     position: absolute;
-    bottom: 5px;
-    left: 110px;
+    bottom: 20px;
+    left: 184px;
     z-index: 5;
     vertical-align: middle;
     /*padding: 5px;*/
-    text-align: center;
-    line-height: 1;
     /*padding-left: 10px;*/
-    height: 76px;
-    width:  76px;
-    border-radius: 50px;
 
 }
 
@@ -414,16 +404,16 @@ body, html {
 @media (max-width: 768px){
     #safe{
         position: absolute;
-        top: 440px;
-        left: 10px;
+        top: 535px;
+        left: 8px;
         z-index: 5;
         padding: 0;
     }
 
     #emergency{
         position: absolute;
-        top: 525px;
-        left: 10px;
+        top: 635px;
+        left: 8px;
         z-index: 5;
         padding: 0;
     }
@@ -497,6 +487,7 @@ body, html {
     height: 300px;
     width:  300px;
 }
+
 
 
 
