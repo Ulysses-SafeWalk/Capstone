@@ -61,6 +61,11 @@ public class HomeController {
                             @RequestParam(name = "longitude") String longitude,
                             @RequestParam(name = "buttonType") String buttonType
     ){
+
+        System.out.println("homecontroller");
+        System.out.println(latitude);
+        System.out.println(longitude);
+        System.out.println(buttonType);
         User sessionUser = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         User user = users.findById(sessionUser.getId());
 

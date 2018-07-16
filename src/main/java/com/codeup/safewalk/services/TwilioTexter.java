@@ -60,6 +60,10 @@ public class TwilioTexter {
         List<Contact> numberList = contactRepository.findByUser(user);
         String address = reverseGeocode(lat, lng);
         String text = "";
+        System.out.println("teilioTexter");
+        System.out.println(lat);
+        System.out.println(lng);
+        System.out.println(messageType);
 
         if (messageType.equalsIgnoreCase("1")){
             text = "Hello this is a message from Safewalk " + userName + " is now safe. good job";
