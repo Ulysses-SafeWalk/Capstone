@@ -6,7 +6,11 @@ $('#emergency').click(function() {
     let longitude = parseFloat(crd.longitude);
     let buttonType = "0";
 
-        $.post("/",{latitude: latitude,
+    console.log(latitude);
+    console.log(longitude);
+    console.log(buttonType);
+
+    $.post("/",{latitude: latitude,
                     longitude: longitude,
                     buttonType: buttonType
         }, function(){
