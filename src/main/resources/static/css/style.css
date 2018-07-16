@@ -1,3 +1,11 @@
+/*dark red: #950007*/
+/*dark green: #00b07b*/
+/*dark grey: #939da0*/
+
+/*light red: #d60007*/
+/*light green: #00e9ad*/
+/*light grey: #c8d3d7*/
+
 body, html {
     height: 100%;
     font-family: 'Source Sans Pro', sans-serif;
@@ -161,14 +169,6 @@ body, html {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-
-/*dark red: #950007*/
-/*dark green: #00b07b*/
-/*dark grey: #939da0*/
-
-/*light red: #d60007*/
-/*light green: #00e9ad*/
-/*light grey: #c8d3d7*/
 
 .home-main{
     text-align: center;
