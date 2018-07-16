@@ -79,7 +79,6 @@ body, html {
     width: 250px;
     height: 80px;
     font-family: 'Original Surfer', cursive;
-
 }
 
 .logo-mobile {
@@ -91,7 +90,6 @@ body, html {
     align-content: center;
     margin: auto;
     font-family: 'Original Surfer', cursive;
-
 }
 
 .logo-color {
@@ -113,11 +111,12 @@ body, html {
 }
 
 .profile-font{
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 .profile-header-font{
-    font-size: 1em;
+    font-size: 1.2em;
+    color: #00b07b;
 }
 
 .buttons {
