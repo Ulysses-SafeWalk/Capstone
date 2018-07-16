@@ -287,7 +287,7 @@ INSERT INTO locations (yelpid,name,category,yelpcategory,latitude,longitude) VAL
   ('S806G5SCO_U_85CMty_EOg','Don Carbon','restaurant','Mexican','29.44421','-98.51314'),
   ('riVVD8QumqDiTgJ1W338QA','Don Jose Mexican Cafe','restaurant','Seafood','29.374812782092','-98.5046681276992'),
   ('zf9vcO6vs5thk0Fv0cFXyw','Dona Kika\'s Tacos & Gorditas','restaurant','Food Trucks','29.42458','-98.49461'),
-  ('XFoJUCUscDalUdTR4N8LHQ','Dorćol Distilling Company','bar','Breweries','29.4058326','-98.5024071'),
+  ('XFoJUCUscDalUdTR4N8LHQ','Dorcol Distilling Company','bar','Breweries','29.4058326','-98.5024071'),
   ('VnIuCqHc4fqN05Tvhq2ENQ','Dorrego\'s','both','Argentine','29.42623','-98.4917399'),
   ('mE8oeT-264q0MRKhVo7j8A','Dough Pizzeria Napoletana','bar','Pizza','29.5193312819173','-98.5075014576721'),
   ('Oa54yT00o8cNPeVEj_BOEQ','Dough Pizzeria Napoletana','restaurant','Pizza','29.41873','-98.48802'),
@@ -1414,5 +1414,5 @@ INSERT INTO locations (yelpid,name,category,yelpcategory,latitude,longitude) VAL
   ('NRssnSd9f4L2vMhoUS6VKA','Ramis Pizza','family','Pizza','29.54498','-98.41191'),
   ('seC7Jfy4NxMhQ8E7bgc5gg','Puerto Vallarta Seafood','family','Mexican','29.5450483','-98.4107326'),
   ('6Wp_VVG9yeCpkrRTT_cF3A','Long John Silver\'s','family','Seafood','29.54587','-98.50999'),
-  ('FyydTPV_X5Ix-u9jEWD6Zg','Cousins Maine Lobster - San Antonio','family','Food Trucks','29.61316','-98.59902'),
-  ('BtHwfl3yqk2F5R-PAjYqFw','Lone Star Float House & Grill','family','Rafting/Kayaking','29.78542','-98.15208');
+  ('FyydTPV_X5Ix-u9jEWD6Zg','Cousins Maine Lobster - San Antonio','family','Food Trucks','29.61316','-98.59902');
+#   ('BtHwfl3yqk2F5R-PAjYqFw','Lone Star Float House & Grill','family','Rafting/Kayaking','29.78542','-98.15208');

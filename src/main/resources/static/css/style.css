@@ -11,6 +11,13 @@ body, html {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+a {
+    color: black;
+}
+a:hover {
+    color: #4d90fe;
+}
+
 #home {
  background-color: #939da0;
 }
