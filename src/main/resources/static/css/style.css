@@ -1,5 +1,14 @@
+/*dark red: #950007*/
+/*dark green: #00b07b*/
+/*dark grey: #939da0*/
+
+/*light red: #d60007*/
+/*light green: #00e9ad*/
+/*light grey: #c8d3d7*/
+
 body, html {
     height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #home {
@@ -52,20 +61,42 @@ body, html {
 }
 
 .logo {
-    background: #11998e;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #11998e; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-top: 100px;
     width: 250px;
     height: 80px;
+    /*font-family: 'Courgette', cursive;*/
+    /*font-family: 'Combo', cursive;*/
+    font-family: 'Original Surfer', cursive;
 }
-
 .logo-main {
     background: #11998e;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 250px;
     height: 80px;
+    font-family: 'Original Surfer', cursive;
+
+}
+
+.logo-mobile {
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 80px;
+    width:100%;
+    align-content: center;
+    margin: auto;
+    font-family: 'Original Surfer', cursive;
+
+}
+
+.logo-color {
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .forms {
@@ -81,27 +112,48 @@ body, html {
 }
 
 #profile {
-   position: fixed;
-       margin-right: 25%;
-       margin-top: 10%;
+    position: absolute;
+    top: 55px;
+    left: 10px;
+    z-index: 5;
+    height: 80px;
+    width:  80px;
+    padding: 25px 0px;
+    border-radius: 20px;
 }
 
 #uber {
-    position: fixed;
-        margin-right: 25%;
-        margin-top: 20%;
+    position: absolute;
+    top: 145px;
+    left: 10px;
+    z-index: 5;
+    padding: 0px;
 }
 
 #lyft {
-    position: fixed;
-         margin-right: 25%;
-         margin-top: 30%;
+    position: absolute;
+    top: 235px;
+    left: 10px;
+    z-index: 5;
+    padding: 0px;
 }
 
 #moovit2 {
-    position:fixed;
-          margin-right: 25%;
-          margin-top: 40%;
+    position: absolute;
+    top: 325px;
+    left: 10px;
+    z-index: 5;
+    background-color: #000000;
+    color:  #f5532f;
+    height: 80px;
+    width:  80px;
+    padding: 25px 0px;
+    border-radius: 20px;
+}
+
+.moovit1{
+    background-color: #000000;
+        color:  #f5532f;
 }
 
 .logout {
@@ -118,14 +170,6 @@ body, html {
 }
 
 
-/*dark red: #950007*/
-/*dark green: #00b07b*/
-/*dark grey: #939da0*/
-
-/*light red: #d60007*/
-/*light green: #00e9ad*/
-/*light grey: #c8d3d7*/
-
 .home-main{
     text-align: center;
     margin:auto;
@@ -134,9 +178,9 @@ body, html {
 
 #map-canvas{
     position: relative;
-    margin-right: 20px;
+    /*margin-right: 20px;*/
     width: 100%;
-    height: 95vh;
+    height: 100vh;
 }
 
 .nav-legend {
@@ -145,10 +189,20 @@ body, html {
     margin-top: 58%;
 }
 
-.safety-btns {
-    position: absolute;
-        margin-right: 35%;
-        margin-top: 58%;
+/*.safety-btns {*/
+    /*position: absolute;*/
+        /*margin-right: 25%;*/
+        /*margin-top: 45%;*/
+    /*height: 76px;*/
+        /*width:  115px;*/
+/*}*/
+
+.left-btns{
+    margin-right: 25px;
+}
+
+.unsafe{
+    background-color: #f5532f;
 }
 
 .safe{
@@ -156,8 +210,8 @@ body, html {
 }
 
 .nav-bckgrnd{
-    background-color: #c8d3d7;
-    margin-bottom: 10px;
+    background-color: #42a5f5;
+    /*margin-bottom: 20px;*/
 }
 
 .pac-card {
@@ -196,7 +250,9 @@ body, html {
     padding: 0 11px 0 13px;
     text-overflow: ellipsis;
     width: 280px;
-    margin-top: 10px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
     border: solid 2px #00b07b;
 
 }
@@ -219,7 +275,7 @@ body, html {
 #floating-legend {
     position: absolute;
     top: 5px;
-    right: 50px;
+    right: 20px;
     z-index: 5;
     padding: 5px;
     text-align: center;
@@ -230,8 +286,8 @@ body, html {
 
 #floating-layers {
     position: absolute;
-    top: 600px;
-    right: 50px;
+    bottom: 5px;
+    right: 20px;
     z-index: 5;
     padding: 5px;
     text-align: center;
@@ -239,6 +295,7 @@ body, html {
     line-height: 30px;
     padding-left: 10px;
 }
+
 
 .layers {
     font-family: 'Barlow', sans-serif;
@@ -316,6 +373,135 @@ body, html {
 .liked:hover span {
     color: #fefefe;
 }
+
+#safe {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    z-index: 5;
+    /*padding: 5px;*/
+    text-align: center;
+    line-height: 1;
+    /*padding-left: 10px;*/
+    height: 76px;
+    width:  76px;
+    border-radius: 50px;
+}
+
+#emergency {
+    position: absolute;
+    bottom: 5px;
+    left: 110px;
+    z-index: 5;
+    vertical-align: middle;
+    /*padding: 5px;*/
+    text-align: center;
+    line-height: 1;
+    /*padding-left: 10px;*/
+    height: 76px;
+    width:  76px;
+    border-radius: 50px;
+
+}
+
+.profile-main {
+    max-width: 95%;
+    max-height: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px){
+    #safe{
+        position: absolute;
+        top: 440px;
+        left: 10px;
+        z-index: 5;
+        padding: 0;
+    }
+
+    #emergency{
+        position: absolute;
+        top: 525px;
+        left: 10px;
+        z-index: 5;
+        padding: 0;
+    }
+
+    #register-btn{
+        position: absolute;
+        top: 35px;
+        left: 10px;
+        z-index: 5;
+        height: 50px;
+        width:  100px;
+        border-radius: 10px;
+    }
+
+    #login-btn{
+        position: absolute;
+        top: 95px;
+        left: 10px;
+        z-index: 5;
+        height: 50px;
+        width:  100px;
+        border-radius: 10px;
+    }
+}
+
+.logout-mobile {
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 40px;
+    width:100%;
+    align-content: center;
+    margin: auto;
+}
+
+.reviews {
+    display: block;
+    margin: 20px;
+}
+
+#sa-map {
+    width: 100%;
+    height: 100vh;
+    opacity: 0.5;
+    filter: grayscale(100%);
+}
+
+#jenn {
+    position: absolute;
+    top: 150px;
+    left: 5%;
+    z-index: 5;
+    height: 300px;
+    width:  300px;
+}
+
+#wayne {
+    position: absolute;
+    top: 150px;
+    left: 36%;
+    z-index: 5;
+    height: 300px;
+    width:  300px;
+}
+
+#emily {
+    position: absolute;
+    top: 150px;
+    left: 67%;
+    z-index: 5;
+    height: 300px;
+    width:  300px;
+}
+
+
+
+
+
 
 
 

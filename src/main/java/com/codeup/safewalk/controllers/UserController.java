@@ -1,9 +1,13 @@
 package com.codeup.safewalk.controllers;
 
 import com.codeup.safewalk.models.Contact;
+import com.codeup.safewalk.models.Location;
+import com.codeup.safewalk.models.Review;
 import com.codeup.safewalk.models.User;
 import com.codeup.safewalk.repositories.ContactRepository;
 import com.codeup.safewalk.repositories.UserRepository;
+import com.codeup.safewalk.services.LocationService;
+import com.codeup.safewalk.services.ReviewService;
 import com.codeup.safewalk.services.UserService;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -19,11 +23,15 @@ public class UserController {
     private UserRepository users;
     private PasswordEncoder passwordEncoder;
     private ContactRepository contactRepository;
+    final ReviewService reviewService;
+    final LocationService locationService;
 
-    public UserController(UserRepository users, PasswordEncoder passwordEncoder, ContactRepository contactRepository) {
+    public UserController(UserRepository users, PasswordEncoder passwordEncoder, ContactRepository contactRepository, ReviewService reviewService, LocationService locationService) {
         this.users = users;
         this.passwordEncoder = passwordEncoder;
         this.contactRepository = contactRepository;
+        this.reviewService = reviewService;
+        this.locationService = locationService;
     }
 
     @GetMapping("/register")
@@ -50,7 +58,11 @@ public class UserController {
         User user = users.findById(sessionUser.getId());
 
         List<Contact> contacts;
-        contacts = contactRepository.findByUser_Id(sessionUser.getId());
+        contacts = contactRepository.findByUser_Id(user.getId());
+        List<Review> threeReviews = reviewService.threeReviews(user);
+        List<Location> favorites = locationService.threeFavorites(user);
+        view.addAttribute("reviews", threeReviews);
+        view.addAttribute("favorites", favorites);
         view.addAttribute("contacts", contacts);
         view.addAttribute("user", user);
         return "users/profile";

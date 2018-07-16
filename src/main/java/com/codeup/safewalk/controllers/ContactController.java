@@ -51,10 +51,10 @@ public class ContactController {
 
 
 
-//    @PostMapping("/contacts/{id}/edit")
-//    public String editContacts( @ModelAttribute List<Contact> contacts) {
-//        contactRepository.save(contacts);
-//        return "users/profile";
-//    }
+    @PostMapping("/contacts/edit")
+    public String editContacts(@ModelAttribute Contact contact) {
+        contactRepository.save(contact);
+        return "users/profile";
+    }
 
 }

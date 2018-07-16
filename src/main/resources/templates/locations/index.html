@@ -1,0 +1,24 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments :: head(${'Your reviews'})" />
+<body>
+<nav th:replace="fragments :: navbar" />
+
+<div class="profile-main">
+    <h1 class="text-center" th:if="${! favorites.isEmpty()}">Here are your favorites!</h1>
+    <h1 class="text-center" th:if="${favorites.isEmpty()}">You have not selected any favorites yet.</h1>
+    <div class="card-columns">
+        <div th:each="favorite : ${favorites}">
+            <div class="card fav-cards shadows">
+                <div class="card-body">
+                    <h3 class="card-title"><a th:href="@{/reviews/{id}(id=${favorite.getyelpid()})}"><span th:text="${favorite.name}"></span></a></h3>
+                    <a th:href="@{/favorites/{yelpid}/delete(yelpid=${favorite.getyelpid()})}">Remove from Favorites</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<th:block th:replace="fragments :: scripts" />
+</body>
+</html>
