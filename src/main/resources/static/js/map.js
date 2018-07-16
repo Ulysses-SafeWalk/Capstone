@@ -92,16 +92,16 @@ function initialize() {
         layerName.addListener('click', function (event) {
             let name = event.feature.getProperty('name');
             let locationID = event.feature.getProperty('yelpID');
-            let htmlContent = "<p>" + name + "</p>" +
+            let htmlContent = "<div class='flex-container'><p class='text-center'>" + name + "</p>"  +
                 "<form name='reviews' action='/reviews/" + locationID + "' method='get'>" +
-                "<button class='btn btn-sm' >User Safety Reviews</button>" + "</form>" +
-                // "<button class='glyphicon glyphicon-heart' id='"+ locationID +"'></button>" +
-                // "<div class='fav-btn'>Add to Favorites<span class='favme dashicons dashicons-heart' id='" + locationID + "'></span>" +
-                "<button class='btn btn-sm button-like' id='" + locationID + "'>" +
+                "<button class='mx-auto d-block btn btn-sm review-btn infowin-btn' >User Safety Reviews</button>" + "</form>" +
+                "<button class='mx-auto d-block btn btn-sm infowin-btn btn-outline-danger' id='" + locationID + "'>" +
                 "<i class='fa fa-heart'></i>" +
                 "<span class='fav-text'>Add to favorites</span></button>" +
-                "<form name='yelp' target='_blank' action='https://yelp.com/biz/" + locationID + "' method='get'>" +
-                "<button class='btn btn-sm' >Yelp Reviews</button>" + "</form>";
+                // "<form name='yelp' target='_blank' action='https://yelp.com/biz/" + locationID + "' method='get'>" +
+                // "<button class='btn btn-sm' >Yelp Reviews</button>" + "</form>";
+                "<div><a class='shadows infowin-btn' target='_blank' href='https://yelp.com/biz/" + locationID + "'>" +
+                "<img class='mx-auto d-block' src='../img/yelp.png' alt='yelp'/></a></div></div>";
             infowindow.setContent(htmlContent);
 
             setTimeout(function(){
