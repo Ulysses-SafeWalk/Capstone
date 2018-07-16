@@ -16,9 +16,8 @@ body, html {
 }
 
 .rating {
-    float: left;
     height: 46px;
-    padding: 0 10px;
+    padding-right: 105px;
 }
 
 .rating:not(:checked) > input {
@@ -448,7 +447,19 @@ body, html {
    transform: scale(1.1);
 }
 
+.infowin-title {
+    font-weight: bold;
+    color: #4E75CA;
+}
 
+li {
+    list-style-image: url("../img/arrow.png");
+}
+
+.review-card {
+    max-width: 50%;
+    margin: 0 auto;
+}
 
 
 

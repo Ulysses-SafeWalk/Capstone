@@ -92,7 +92,7 @@ function initialize() {
         layerName.addListener('click', function (event) {
             let name = event.feature.getProperty('name');
             let locationID = event.feature.getProperty('yelpID');
-            let htmlContent = "<div class='flex-container'><p class='text-center'>" + name + "</p>"  +
+            let htmlContent = "<div class='flex-container'><p class='text-center infowin-title'>" + name + "</p>"  +
                 "<form name='reviews' action='/reviews/" + locationID + "' method='get'>" +
                 "<button class='mx-auto d-block btn btn-sm review-btn infowin-btn' >User Safety Reviews</button>" + "</form>" +
                 "<button class='mx-auto d-block btn btn-sm infowin-btn btn-outline-danger' id='" + locationID + "'>" +
