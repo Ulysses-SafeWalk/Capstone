@@ -22,6 +22,6 @@ public interface ContactRepository extends CrudRepository<Contact, Long> {
 
     void delete(long id);
 
-
+//thin
 }
 
