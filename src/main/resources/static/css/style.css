@@ -14,10 +14,10 @@ body, html {
 }
 
 a {
-    color: black;
+    color: #4d90fe;
 }
 a:hover {
-    color: #4d90fe;
+    color: black;
 }
 
 #home {

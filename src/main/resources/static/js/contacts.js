@@ -3,8 +3,8 @@
 (function () {
 
     $('#submit').click(function (event) {
-        $('#firstName').val($('#contactFirst').valueOf());
-        $('#lastName').val($('#contactLast').valueOf());
-        $('#phoneNumber').val($('#contactNumber').valueOf());
+        $('#firstName').val($('#contactFirst').val());
+        $('#lastName').val($('#contactLast').val());
+        $('#phoneNumber').val($('#contactNumber').val());
     });
 })();
