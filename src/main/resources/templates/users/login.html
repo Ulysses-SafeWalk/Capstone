@@ -27,15 +27,15 @@
                 <input class="form-control" id="password" name="password" type="password" />
             </div>
             <div>
+            <div>
+                <h6 class="text-center" style="color: darkgrey; font-style:italic">New user? Create an account <a th:href="@{/register}">here.</a></h6>
+            </div>
                 <input type="submit" class="btn btn-block buttons text-white" value="Log In" />
             </div>
         </div>
     </form>
     <br/>
     <br/>
-    <div class="card shadows">
-        <h4 class="text-center">New user? Create an account <a th:href="@{/register}">here.</a></h4>
-    </div>
 </div>
 
 <th:block th:replace="fragments :: scripts"/>
