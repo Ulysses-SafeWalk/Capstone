@@ -115,7 +115,7 @@
         </div>
 
         <!--User contact info-->
-                <div class="card shadows">
+            <div class="card shadows">
                 <div class="card-body">
                     <h3 class="text-center">Contacts</h3>
                     <div>
@@ -125,9 +125,9 @@
                         <div th:each="contact : ${contacts}">
                             <div class="card">
                                 <div class="card-body">
-                                    <h3 class="card-title"><span th:text="${contact.firstName}"/> <span th:text="${contact.lastName}"></span></h3>
+                                    <h3 class="card-title"><span id="contactFirst" th:text="${contact.firstName}"/> <span id="contactLast" th:text="${contact.lastName}"></span></h3>
                                     <div class="card-text">
-                                        <p><span th:text="${contact.phoneNumber}"/></p>
+                                        <p><span id="contactNumber" th:text="${contact.phoneNumber}"/></p>
                                     </div>
                                     <!--launch modal to edit-->
                                     <span th:if="${user} != null" class="form-inline">
@@ -160,21 +160,21 @@
                                                 <label for="firstName">
                                                     First Name
                                                 </label>
-                                                <input class="form-control" id="firstName"  th:value="${contacts.first_name}" />
+                                                <input class="form-control" id="firstName"  />
                                             </div>
 
                                             <div class="form-group">
                                                 <label for="lastName">
                                                     Last Name
                                                 </label>
-                                                <input class="form-control" id="lastName" th:value="${contacts.last_name}" />
+                                                <input class="form-control" id="lastName" />
                                             </div>
 
                                             <div class="form-group">
                                                 <label for="phoneNumber">
                                                     Phone Number
                                                 </label>
-                                                <input class="form-control" id="phoneNumber" th:value="${contacts.phone_number}"/>
+                                                <input class="form-control" id="phoneNumber"/>
                                             </div>
 
                                         <!--Modal Buttons-->
