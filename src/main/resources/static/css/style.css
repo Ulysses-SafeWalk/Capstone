@@ -396,12 +396,20 @@ body, html {
 #about-us {
     background-image: url("../img/old_sa.jpg");
 
-    height: 100%;
+    /*height: 100%;*/
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: repeat-y;
+
 }
+
+/*@media (max-width: 768px){*/
+    /*#about-us {*/
+        /*background-repeat: repeat-y;*/
+    /*}*/
+/*}*/
 
 #jenn {
     max-width: 80%;
