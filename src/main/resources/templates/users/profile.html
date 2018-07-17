@@ -120,7 +120,7 @@
                     <h3 class="text-center">Contacts</h3>
                     <div>
                         <p th:if="${!contacts.isEmpty()}">
-                        <p><a th:href="@{/contacts/{id}/create(id=${user.id})}" class="btn-lg shadows buttons text-white text-center">Add Contact</a> (Limit three)</p>
+                        <p><a th:href="@{/contacts/{id}/create(id=${user.id})}" class="btn-lg shadows buttons text-white text-center">Add Contact</a></p>
                         </p>
                         <div th:each="contact : ${contacts}">
                             <div class="card">

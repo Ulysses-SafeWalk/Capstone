@@ -174,9 +174,9 @@ body, html {
     transition: 0.3s;
 }
 
-.shadows:hover {  /* On mouse-over, add a deeper shadow */
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
+/*.shadows:hover {  /* On mouse-over, add a deeper shadow */
+    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);*/
+/*}*/
 
 
 .home-main{
