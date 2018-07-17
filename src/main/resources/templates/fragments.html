@@ -33,20 +33,20 @@
 
 <nav th:fragment="navbar">
     <div class="navbar form-inline shadows nav-bckgrnd">
-        <a class="navbar-brand text-white justify-left" th:href="@{/}" style="font-family: 'Original Surfer', cursive; margin-top: 8px">SafeWalk</a>
+        <a class="navbar-brand text-white profile-font" th:href="@{/}" style="font-family: 'Original Surfer', cursive; margin-top: 8px">SafeWalk</a>
         <div>
             <form th:action="@{/profile}" th:method="GET">
-                <button class="btn-link btn text-white justify-left" style="margin-top: 8px"><h5>Profile</h5></button>
+                <button class="btn-link btn text-white" style="margin-top: 8px"><h5>Profile</h5></button>
             </form>
         </div>
         <div>
             <form th:action="@{/logout}" th:method="review">
-                <button class="btn-link btn text-white justify-left" style="margin-top: 8px"><h5>Logout</h5></button>
+                <button class="btn-link btn text-white" style="margin-top: 8px"><h5>Logout</h5></button>
             </form>
         </div>
         <div>
             <form th:action="@{/aboutus}" th:method="GET">
-                <button class="btn-link btn text-white justify-left" style="margin-top: 8px"><h5>About us</h5></button>
+                <button class="btn-link btn text-white" style="margin-top: 8px"><h5>About us</h5></button>
             </form>
         </div>
     </div>
