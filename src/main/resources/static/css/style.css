@@ -481,6 +481,18 @@ li {
     justify-content: space-between;
 }
 
+.click-btn{
+    transition: transform .2s;
+}
+
+.click-btn:hover {
+    transform: scale(1.1);
+}
+
+.click-btn:active {
+    transform: translateY(4px);
+}
+
 
 
 

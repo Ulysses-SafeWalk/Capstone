@@ -9,7 +9,7 @@ function initialize() {
     let codeup = new google.maps.LatLng(29.426709, -98.489604);
 
     let mapOptions = {
-        zoom: 14,
+        zoom: 17,
         center: codeup,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         disableDefaultUI: true
@@ -22,6 +22,9 @@ function initialize() {
         icon: "/img/codeup_map_icon.png",
         map: map
     });
+
+    map.setOptions({minZoom: 12, maxZoom: 20});
+
 
 
     //get users current position
@@ -38,6 +41,7 @@ function initialize() {
                 position: myLocation,
                 map: map,
                 animation: google.maps.Animation.DROP,
+                icon: "/img/user-marker.png"
             })
         }, function(error){
             alert("Something went wrong");
@@ -45,6 +49,7 @@ function initialize() {
         });
 
     }
+
 
     //establish icon library
     let Icons = {
@@ -249,8 +254,20 @@ function initialize() {
     let bothLayer = new google.maps.Data();
     let barLayer = new google.maps.Data();
     let restaurantLayer = new google.maps.Data();
-    let familyLayer = new google.maps.Data();
 
+
+    //family layer
+    let familyLayer = new google.maps.Data();
+    familyLayer.loadGeoJson('/json/familyGeo.json');
+    let familyStyling = function(feature) {
+        let familyStyleOptions = {
+            icon: Icons["family"].icon
+        };
+        return familyStyleOptions;
+    };
+    familyLayer.setStyle(familyStyling);
+    familyLayer.setMap(map);
+    createInfoWindows(familyLayer);
 
     //create layer toggle
     $('#facilitiesLayer').change(function(){
@@ -307,7 +324,9 @@ function initialize() {
     setLocationLayers(bothLayer, '/json/bothGeo.json');
     setLocationLayers(barLayer, '/json/barsGeo.json');
     setLocationLayers(restaurantLayer, '/json/restaurantsGeo.json');
-    setLocationLayers(familyLayer, '/json/familyGeo.json');
+    // setLocationLayers(familyLayer, '/json/familyGeo.json');
+
+
 
 //function to convert json to heatmapData
     let heatMapData = [];
