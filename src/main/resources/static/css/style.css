@@ -406,7 +406,6 @@ a:hover {
     /*height: 100%;*/
 
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     background-repeat: repeat-y;
 
@@ -493,6 +492,13 @@ li {
     transform: translateY(4px);
 }
 
+.repository {
+    background-color: #C9C9C9;
+}
+
+/*.dev-col {*/
+    /*height: 100%*/
+/*}*/
 
 
 
