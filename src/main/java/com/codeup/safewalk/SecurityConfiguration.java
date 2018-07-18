@@ -45,7 +45,10 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .logoutSuccessUrl("/")
                 .and()
                 .authorizeRequests()
-                .antMatchers("/") // anyone can see the home page
+                .antMatchers(
+                        "/"
+
+                ) // anyone can see the home page
                 .permitAll()
                 /* Pages that require authentication */
                 .and()
@@ -58,6 +61,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                         "reviews/create",
                         "reviews/{id}/delete",
                         "/favorites/{name}"
+
                 )
                 .authenticated()
         ;
