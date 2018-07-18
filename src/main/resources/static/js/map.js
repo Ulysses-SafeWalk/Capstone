@@ -151,7 +151,7 @@ function initialize() {
 
     //crime layer
     let crimeLayer = new google.maps.Data();
-    crimeLayer.loadGeoJson('/json/crimeGeo.json');
+    crimeLayer.loadGeoJson('/json/crimeGeo18Jul.json');
     let crimeStyling = function(feature) {
         let StyleOptions = {
             icon : Icons[feature.getProperty('crime')].icon
@@ -163,6 +163,7 @@ function initialize() {
     crimeLayer.addListener('click', function (event) {
         let crime = event.feature.getProperty('crimeCode');
         let description;
+        let dateTime = event.feature.getProperty('dateTime');
         switch(crime){
             case 0: description = "THEFT OF SERVICE $100 TO < $750";
                 break;
@@ -241,6 +242,7 @@ function initialize() {
         }
         let address = event.feature.getProperty('address');
         let crimeWindow = "<p>" + description + "</p>" +
+            "<p>" + dateTime +  "</p>" +
             "<p>" + address + "</p>";
         infowindow.setContent(crimeWindow);
         infowindow.setPosition(event.feature.getGeometry().get());
@@ -331,7 +333,7 @@ function initialize() {
 //function to convert json to heatmapData
     let heatMapData = [];
 
-    var jsonRequest = $.get('/json/crimeGeo.json');
+    var jsonRequest = $.get('/json/crimeGeo18Jul.json');
     jsonRequest.done(function(response){
         // console.log(response.features);
         let crimes = response.features;
