@@ -45528,6 +45528,594 @@
     "dateTime":"Apr 27, 2018 9:39 AM",
     "crime":"SEXASSAULT"
     }
-  }
+  },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -75.2798175,39.9226975 ]
+       },
+       "properties": {
+         "address":"400 E MAGNOLIA AVE",
+         "crimeCode":1,
+         "weight":1,
+         "dateTime":"Jul 8, 2018 1:30 PM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.4918466,29.4406539 ]
+       },
+       "properties": {
+         "address":"1300 MCCULLOUGH AVE",
+         "crimeCode":1,
+         "weight":1,
+         "dateTime":"Jul 6, 2018 7:30 PM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.4918466,29.4406539 ]
+       },
+       "properties": {
+         "address":"1300 MCCULLOUGH AVE",
+         "crimeCode":1,
+         "weight":1,
+         "dateTime":"Jul 6, 2018 12:00 PM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.471753,29.443153 ]
+       },
+       "properties": {
+         "address":"800 E GRAYSON ST",
+         "crimeCode":1,
+         "weight":1,
+         "dateTime":"7/2/18 2:30:00 PM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.4930386,29.4491371 ]
+       },
+       "properties": {
+         "address":"200 E ASHBY PLACE",
+         "crimeCode":1,
+         "weight":1,
+         "dateTime":"Jul 1, 2018 3:30 PM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.471753,29.443153 ]
+       },
+       "properties": {
+         "address":"800 E GRAYSON ST",
+         "crimeCode":1,
+         "weight":1,
+         "dateTime":"Jun 26, 2018 9:00 PM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.4849747,29.4464512 ]
+       },
+       "properties": {
+         "address":"300 W JOSEPHINE ST",
+         "crimeCode":1,
+         "weight":1,
+         "dateTime":"Jun 25, 2018 3:45 AM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.4918706,29.448106 ]
+       },
+       "properties": {
+         "address":"2000 MCCULLOUGH AVE",
+         "crimeCode":3,
+         "weight":1,
+         "dateTime":"Jul 14, 2018 2:40 AM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.4856799,29.4568465 ]
+       },
+       "properties": {
+         "address":"100 PRINCESS PASS",
+         "crimeCode":3,
+         "weight":1,
+         "dateTime":"Jul 12, 2018 3:45 PM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -118.4738961,34.0307009 ]
+       },
+       "properties": {
+         "address":"2500 BROADWAY",
+         "crimeCode":3,
+         "weight":1,
+         "dateTime":"Jul 12, 2018 8:30 AM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -73.981396,40.7753589 ]
+       },
+       "properties": {
+         "address":"2000 BROADWAY",
+         "crimeCode":3,
+         "weight":1,
+         "dateTime":"Jul 12, 2018 2:30 AM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -79.7395198,40.6048185 ]
+       },
+       "properties": {
+         "address":"100 BRACKENRIDGE AVE",
+         "crimeCode":3,
+         "weight":1,
+         "dateTime":"Jul 9, 2018 6:14 PM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.4811812,29.4442916 ]
+       },
+       "properties": {
+         "address":"100 E GRAYSON ST",
+         "crimeCode":3,
+         "weight":1,
+         "dateTime":"Jul 8, 2018 11:30 AM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.471753,29.443153 ]
+       },
+       "properties": {
+         "address":"800 E GRAYSON ST",
+         "crimeCode":3,
+         "weight":1,
+         "dateTime":"Jul 8, 2018 11:00 AM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.4918583,29.4438874 ]
+       },
+       "properties": {
+         "address":"1600 MCCULLOUGH AVE",
+         "crimeCode":3,
+         "weight":1,
+         "dateTime":"Jul 1, 2018 10:00 AM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -73.981396,40.7753589 ]
+       },
+       "properties": {
+         "address":"2000 BROADWAY",
+         "crimeCode":3,
+         "weight":1,
+         "dateTime":"Jul 1, 2018 4:15 AM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.494756,29.441614 ]
+       },
+       "properties": {
+         "address":"1300 N MAIN AVE",
+         "crimeCode":3,
+         "weight":1,
+         "dateTime":"Jun 30, 2018 10:00 AM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -73.981396,40.7753589 ]
+       },
+       "properties": {
+         "address":"2000 BROADWAY ",
+         "crimeCode":3,
+         "weight":1,
+         "dateTime":"Jun 29, 2018 3:30 AM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -97.7565109,28.4251428 ]
+       },
+       "properties": {
+         "address":"2600 N ST MARYS ST ",
+         "crimeCode":3,
+         "weight":1,
+         "dateTime":"Jun 23, 2018 10:00 PM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.494756,29.441614 ]
+       },
+       "properties": {
+         "address":"1300 N MAIN AVE",
+         "crimeCode":4,
+         "weight":9,
+         "dateTime":"Jun 30, 2018 11:00 PM",
+         "crime":"ROBBERY"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -122.48008,48.7443636 ]
+       },
+       "properties": {
+         "address":"500 E LAUREL ST",
+         "crimeCode":4,
+         "weight":9,
+         "dateTime":"Jun 29, 2018 10:45 PM",
+         "crime":"ROBBERY"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -74.0112629,40.7743595 ]
+       },
+       "properties": {
+         "address":"1200 AVENUE",
+         "crimeCode":5,
+         "weight":1,
+         "dateTime":"Jul 17, 2018 4:00 AM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -117.8680015,33.7569014 ]
+       },
+       "properties": {
+         "address":"1400 N MAIN AVE",
+         "crimeCode":5,
+         "weight":1,
+         "dateTime":"Jul 13, 2018 2:30 AM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -118.4738961,34.0307009 ]
+       },
+       "properties": {
+         "address":"2500 BROADWAY",
+         "crimeCode":5,
+         "weight":1,
+         "dateTime":"Jul 12, 2018 1:00 PM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.4756165,29.4487205 ]
+       },
+       "properties": {
+         "address":"2300 AVENUE",
+         "crimeCode":5,
+         "weight":1,
+         "dateTime":"Jul 2, 2018 1:45 PM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.4811812,29.4442916 ]
+       },
+       "properties": {
+         "address":"100 E GRAYSON ST",
+         "crimeCode":5,
+         "weight":1,
+         "dateTime":"Jul 1, 2018 6:00 PM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -117.8680015,33.7569014 ]
+       },
+       "properties": {
+         "address":"1400 N MAIN AVE",
+         "crimeCode":5,
+         "weight":1,
+         "dateTime":"Jun 23, 2018 12:20 AM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -88.541182,39.1351505 ]
+       },
+       "properties": {
+         "address":"100 E EVERGREEN ST",
+         "crimeCode":5,
+         "weight":1,
+         "dateTime":"Jun 22, 2018 8:00 PM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -122.2606703,37.8205754 ]
+       },
+       "properties": {
+         "address":"3300 BROADWAY",
+         "crimeCode":6,
+         "weight":1,
+         "dateTime":"Jul 10, 2018 2:00 PM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -73.981396,40.7753589 ]
+       },
+       "properties": {
+         "address":"2000 BROADWAY",
+         "crimeCode":6,
+         "weight":1,
+         "dateTime":"Jul 5, 2018 3:50 AM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.4916747,29.4459499 ]
+       },
+       "properties": {
+         "address":"1800 MCCULLOUGH AVE",
+         "crimeCode":10,
+         "weight":2,
+         "dateTime":"Jul 9, 2018 12:19 PM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.4756165,29.4487205 ]
+       },
+       "properties": {
+         "address":"2300 AVENUE",
+         "crimeCode":10,
+         "weight":2,
+         "dateTime":"Jul 5, 2018 6:46 PM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -104.9749609,39.732195 ]
+       },
+       "properties": {
+         "address":"1000 OGDEN ST",
+         "crimeCode":11,
+         "weight":8,
+         "dateTime":"Jul 3, 2018 11:00 PM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.4906284,29.448099 ]
+       },
+       "properties": {
+         "address":"400 E COURTLAND PLACE",
+         "crimeCode":11,
+         "weight":8,
+         "dateTime":"Jun 26, 2018 12:30 AM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.4791909,29.4421644 ]
+       },
+       "properties": {
+         "address":"300 PEARL PKWY",
+         "crimeCode":11,
+         "weight":8,
+         "dateTime":"Jun 22, 2018 5:00 PM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.4859912,29.4480005 ]
+       },
+       "properties": {
+         "address":"700 E ASHBY PLACE",
+         "crimeCode":14,
+         "weight":3,
+         "dateTime":"Jul 13, 2018 7:30 PM",
+         "crime":"BURGLARY"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -76.8893501,38.9157788 ]
+       },
+       "properties": {
+         "address":"900 CAMDEN ST",
+         "crimeCode":16,
+         "weight":3,
+         "dateTime":"Jul 13, 2018 6:00 PM",
+         "crime":"BURGLARY"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.4917902,29.4525389 ]
+       },
+       "properties": {
+         "address":"200 E WOODLAWN AVE",
+         "crimeCode":19,
+         "weight":9,
+         "dateTime":"Jun 26, 2018 9:30 PM",
+         "crime":"BURGLARY"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.4918466,29.4406539 ]
+       },
+       "properties": {
+         "address":"1300 MCCULLOUGH AVE",
+         "crimeCode":20,
+         "weight":10,
+         "dateTime":"Jul 10, 2018 6:00 AM",
+         "crime":"SEXASSAULT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -104.975239,39.7240901 ]
+       },
+       "properties": {
+         "address":"500 OGDEN ST",
+         "crimeCode":21,
+         "weight":1,
+         "dateTime":"Jul 10, 2018 12:30 AM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.4762726,29.4426924 ]
+       },
+       "properties": {
+         "address":"1800 BROADWAY",
+         "crimeCode":25,
+         "weight":1,
+         "dateTime":"Jun 19, 2018 8:26 AM",
+         "crime":"THEFT"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates":  [ -98.4791909,29.4421644 ]
+       },
+       "properties": {
+         "address":"300 PEARL PKWY",
+         "crimeCode":34,
+         "weight":3,
+         "dateTime":"Jul 11, 2018 7:10 AM",
+         "crime":"THEFT"
+       }
+     }
 ]
 }
