@@ -149,6 +149,19 @@ function initialize() {
     facilitiesLayer.setStyle(facilitiesStyling);
     facilitiesLayer.setMap(map);
 
+    //parks layer
+    let parksLayer = new google.maps.Data();
+    parksLayer.loadGeoJson('/json/parks.json');
+    let parksStyling = function(feature) {
+        let StyleOptions = {
+            fillColor: 'green',
+            strokeWeight: 2
+        };
+        return StyleOptions;
+    };
+    parksLayer.setStyle(facilitiesStyling);
+    parksLayer.setMap(map);
+
     //crime layer
     let crimeLayer = new google.maps.Data();
     crimeLayer.loadGeoJson('/json/crimeGeo18Jul.json');
@@ -277,6 +290,13 @@ function initialize() {
             facilitiesLayer.setStyle(facilitiesStyling)
         } else {
             facilitiesLayer.setStyle({visible: false})
+        }
+    });
+    $('#parksLayer').change(function(){
+        if($(this).is(':checked')){
+            parksLayer.setStyle(parksStyling)
+        } else {
+            parksLayer.setStyle({visible: false})
         }
     });
     $('#crimeLayer').change(function(){
