@@ -9,7 +9,7 @@ function initialize() {
     let codeup = new google.maps.LatLng(29.426709, -98.489604);
 
     let mapOptions = {
-        zoom: 14,
+        zoom: 17,
         center: codeup,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         disableDefaultUI: true
@@ -22,6 +22,9 @@ function initialize() {
         icon: "/img/codeup_map_icon.png",
         map: map
     });
+
+    map.setOptions({minZoom: 12, maxZoom: 20});
+
 
 
     //get users current position
@@ -38,6 +41,7 @@ function initialize() {
                 position: myLocation,
                 map: map,
                 animation: google.maps.Animation.DROP,
+                icon: "/img/user-marker.png"
             })
         }, function(error){
             alert("Something went wrong");
@@ -45,6 +49,7 @@ function initialize() {
         });
 
     }
+
 
     //establish icon library
     let Icons = {
@@ -146,7 +151,7 @@ function initialize() {
 
     //crime layer
     let crimeLayer = new google.maps.Data();
-    crimeLayer.loadGeoJson('/json/crimeGeo.json');
+    crimeLayer.loadGeoJson('/json/crimeGeo18Jul.json');
     let crimeStyling = function(feature) {
         let StyleOptions = {
             icon : Icons[feature.getProperty('crime')].icon
@@ -158,6 +163,7 @@ function initialize() {
     crimeLayer.addListener('click', function (event) {
         let crime = event.feature.getProperty('crimeCode');
         let description;
+        let dateTime = event.feature.getProperty('dateTime');
         switch(crime){
             case 0: description = "THEFT OF SERVICE $100 TO < $750";
                 break;
@@ -236,6 +242,7 @@ function initialize() {
         }
         let address = event.feature.getProperty('address');
         let crimeWindow = "<p>" + description + "</p>" +
+            "<p>" + dateTime +  "</p>" +
             "<p>" + address + "</p>";
         infowindow.setContent(crimeWindow);
         infowindow.setPosition(event.feature.getGeometry().get());
@@ -249,8 +256,20 @@ function initialize() {
     let bothLayer = new google.maps.Data();
     let barLayer = new google.maps.Data();
     let restaurantLayer = new google.maps.Data();
-    let familyLayer = new google.maps.Data();
 
+
+    //family layer
+    let familyLayer = new google.maps.Data();
+    familyLayer.loadGeoJson('/json/familyGeo.json');
+    let familyStyling = function(feature) {
+        let familyStyleOptions = {
+            icon: Icons["family"].icon
+        };
+        return familyStyleOptions;
+    };
+    familyLayer.setStyle(familyStyling);
+    familyLayer.setMap(map);
+    createInfoWindows(familyLayer);
 
     //create layer toggle
     $('#facilitiesLayer').change(function(){
@@ -307,12 +326,14 @@ function initialize() {
     setLocationLayers(bothLayer, '/json/bothGeo.json');
     setLocationLayers(barLayer, '/json/barsGeo.json');
     setLocationLayers(restaurantLayer, '/json/restaurantsGeo.json');
-    setLocationLayers(familyLayer, '/json/familyGeo.json');
+    // setLocationLayers(familyLayer, '/json/familyGeo.json');
+
+
 
 //function to convert json to heatmapData
     let heatMapData = [];
 
-    var jsonRequest = $.get('/json/crimeGeo.json');
+    var jsonRequest = $.get('/json/crimeGeo18Jul.json');
     jsonRequest.done(function(response){
         // console.log(response.features);
         let crimes = response.features;

@@ -77,15 +77,15 @@
         <div class="d-lg-none">
          <!--Logged in user: show this-->
             <div class="safety-btns" th:if="${user} != null">
-                <a class="d-block btn-lg shadows text-white text-center align-middle logo-color" href="/profile" role="button" id="profile">
+                <a class="d-block btn-lg shadows text-white text-center align-middle logo-color click-btn" href="/profile" role="button" id="profile">
                 Profile
                 </a>
 
-                <a class="d-block btn-lg text-white text-center align-middle" href="#" role="button" id="uber">
+                <a class="d-block btn-lg text-white text-center align-middle click-btn" href="#" role="button" id="uber">
                     <img src="/img/uber.png" alt="Uber" style="height: 80px; width: 80px"/>
                 </a>
 
-                <a class="d-block btn-lg text-center align-middle" href="#" role="button" id="lyft">
+                <a class="d-block btn-lg text-center align-middle click-btn" href="#" role="button" id="lyft">
 
                     <img id="lyft-btn" src="/img/Lyft-Logo-Square.png" alt="Lyft" style="height: 84px; width: 84px; border-radius: 20px"/>
                 </a>
@@ -122,7 +122,7 @@
                         <li class="list-group-item layers"><input name="both" type="checkbox" id="bothLayer" /><label for="bothLayer"> Restaurants/Bars</label></li>
                         <li class="list-group-item layers"><input name="restaurants" type="checkbox" id="restaurantLayer" /><label for="restaurantLayer"> Restaurants</label></li>
                         <li class="list-group-item layers"><input name="bars" type="checkbox" id="barLayer" /><label for="barLayer"> Bars</label></li>
-                        <li class="list-group-item layers"><input name="family" type="checkbox" id="familyLayer" /><label for="familyLayer"> Family friendly locations</label></li>
+                        <li class="list-group-item layers"><input name="family" type="checkbox" id="familyLayer" checked="checked"/><label for="familyLayer"> Family friendly locations</label></li>
                     </ul>
                 </div>
             </div>
@@ -130,10 +130,10 @@
         <div id="map-canvas" class="container-flex align-self-stretch mx-auto"></div>
     </div>
     <div th:if="${user} != null">
-        <a class="d-block btn-lg text-white text-center form-inline" href="#" role="button" id="safe">
+        <a class="d-block btn-lg text-white text-center form-inline click-btn" href="#" role="button" id="safe">
             <img src="/img/safe.png" alt="safe" />
         </a>
-        <a class="d-block btn-lg text-white text-center form-inline" href="#" role="button"
+        <a class="d-block btn-lg text-white text-center form-inline click-btn" href="#" role="button"
            id="emergency">
             <img src="/img/alert.png" alt="alert" />
         </a>

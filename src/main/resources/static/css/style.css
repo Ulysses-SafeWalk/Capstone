@@ -198,7 +198,8 @@ a:hover {
     position: relative;
     /*margin-right: 20px;*/
     width: 100%;
-    height: 100vh;
+    height: 98vh;
+    border-left: 1px solid transparent;
 }
 
 .nav-legend {
@@ -407,7 +408,6 @@ a:hover {
     /*height: 100%;*/
 
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     background-repeat: repeat-y;
 
@@ -482,6 +482,25 @@ li {
     justify-content: space-between;
 }
 
+.click-btn{
+    transition: transform .2s;
+}
+
+.click-btn:hover {
+    transform: scale(1.1);
+}
+
+.click-btn:active {
+    transform: translateY(4px);
+}
+
+.repository {
+    background-color: #C9C9C9;
+}
+
+/*.dev-col {*/
+    /*height: 100%*/
+/*}*/
 
 
 
