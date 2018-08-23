@@ -158,6 +158,7 @@ a:hover {
 }
 
 #moovit2 {
+    color: #f65430;
     position: absolute;
     top: 325px;
     left: 10px;
@@ -170,6 +171,7 @@ a:hover {
 
 .moovit{
     background-color: #000000;
+    color: #f65430;
 }
 
 .logout {
